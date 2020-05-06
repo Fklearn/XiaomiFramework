@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/dialog_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/fod_authentication_dialog_title" android:textColor="@color/fod_authentication_dialog_title" android:layout_gravity="center_horizontal" android:id="@+id/confirm_fingerprint_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:text="@string/fingerprint_identify_msg"/>
+    <TextView android:textSize="@dimen/fod_authentication_dialog_subtitle" android:textColor="@color/fod_authentication_dialog_title" android:layout_gravity="center_horizontal" android:id="@+id/confirm_fingerprint_view_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.55dp" android:text="@string/confirm_fingerprint_msg" style="?android:attr/textAppearanceMedium"/>
+    <Space android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_dimen_160" android:layout_marginEnd="15dp">
+        <TextView android:textSize="@dimen/fod_authentication_dialog_shift_button" android:textColor="@color/fod_authentication_dialog_title" android:id="@+id/cancel_finger_authenticate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fod_authentication_shift_button"/>
+        <ImageView android:id="@+id/iv_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_right_light" android:layout_marginStart="5dp"/>
+    </LinearLayout>
+</LinearLayout>

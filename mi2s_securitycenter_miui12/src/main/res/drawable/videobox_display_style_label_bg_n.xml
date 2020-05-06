@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/vb_main_second_func_radius_lt" android:topRightRadius="0dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="@dimen/vb_main_second_func_radius_br"/>
+            <solid android:color="@color/color_vb_second_func_label"/>
+        </shape>
+    </item>
+</layer-list>

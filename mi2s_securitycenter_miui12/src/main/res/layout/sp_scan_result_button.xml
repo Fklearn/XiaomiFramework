@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.antivirus.ui.ButtonResultView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingBottom="@dimen/card_layout_line_height_half" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/shape_result_card_border_down" android:layout_width="match_parent" android:layout_height="@dimen/antivirus_view_height">
+        <Button android:id="@+id/button" android:layout_marginTop="@dimen/antivirus_header_padding_bottom" android:layout_marginEnd="@dimen/phone_manage_list_title_pad_lr" android:layout_alignParentEnd="true" style="@style/ResultBlueButtonStyle"/>
+    </RelativeLayout>
+</com.miui.antivirus.ui.ButtonResultView>

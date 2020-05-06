@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="@dimen/card_layout_auto_paste_list_view_margin_se" android:paddingEnd="@dimen/card_layout_auto_paste_list_view_margin_se">
+    <LinearLayout android:background="@drawable/hp_card_bg_no_shadow_top" android:paddingTop="@dimen/phone_manage_title_card_text_margin_top" android:layout_width="match_parent" android:layout_height="@dimen/phone_manage_title_card_height" android:paddingStart="@dimen/phone_manage_list_title_pad_lr" android:paddingEnd="@dimen/phone_manage_list_title_pad_lr">
+        <TextView android:gravity="start" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/PhoneManageTitleStyle"/>
+        <ImageView android:gravity="end" android:id="@+id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_manager_recommend_close_selector"/>
+    </LinearLayout>
+</FrameLayout>

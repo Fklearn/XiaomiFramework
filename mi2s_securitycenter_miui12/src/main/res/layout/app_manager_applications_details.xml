@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/am_scrollview">
+        <androidx.core.widget.NestedScrollView android:id="@+id/am_scrollview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.miui.appmanager.widget.AppDetailTitleView android:id="@+id/am_detail_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:layout_gravity="center" android:id="@+id/am_storage_view" android:background="@drawable/am_card_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:layout_gravity="center" android:id="@+id/am_traffic_view" android:background="@drawable/am_card_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:layout_gravity="center" android:id="@+id/am_power_view" android:background="@drawable/am_card_bg_selector" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <include layout="@layout/app_manager_separation_layout"/>
+                <com.miui.appmanager.widget.AppDetailListTitleView android:id="@+id/am_detail_perm_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailRightSummaryPointView android:id="@+id/am_detail_behavior" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailCheckBoxView android:id="@+id/am_detail_as" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailTextBannerView android:id="@+id/am_global_perm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:id="@+id/am_detail_perm" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:id="@+id/am_hydrid_perm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:id="@+id/am_detail_notify" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:id="@+id/am_detail_net" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:id="@+id/am_detail_keeper" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <include layout="@layout/app_manager_separation_layout"/>
+                <com.miui.appmanager.widget.AppDetailListTitleView android:id="@+id/am_detail_default_title" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailCheckBoxView android:id="@+id/am_full_screen" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailCheckBoxView android:id="@+id/am_thumbnail_blur" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailBannerItemView android:id="@+id/am_potentiaL_app" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.miui.appmanager.widget.AppDetailTextBannerView android:id="@+id/am_detail_default" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <View android:id="@+id/am_empty_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </miuix.springback.view.SpringBackLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/spacing_70"/>
+            <solid android:color="@color/gb_wonderful_record_way_dialog_button_press"/>
+            <size android:height="@dimen/gb_wonderful_moment_dialog_way_button_height"/>
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/spacing_70"/>
+            <solid android:color="@color/gb_wonderful_record_way_dialog_button_normal"/>
+            <size android:height="@dimen/gb_wonderful_moment_dialog_way_button_height"/>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/rl_root_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/actionBar" android:layout_width="match_parent" android:layout_height="@dimen/gb_action_bar_height_land" android:paddingStart="@dimen/view_dimen_42" android:paddingEnd="@dimen/view_dimen_223">
+        <TextView android:textSize="@dimen/text_font_size_46" android:textColor="@color/text_color_aqua" android:gravity="center_vertical" android:id="@+id/ll_reset_clickable_area" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/gb_advance_settings_reset" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="@dimen/text_font_size_46" android:textColor="#9efffe" android:ellipsize="end" android:id="@+id/actionBarTitleTv" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:textDirection="locale" android:layout_marginStart="@dimen/view_dimen_106" android:layout_marginEnd="@dimen/view_dimen_30" android:layout_toStartOf="@+id/ll_reset_clickable_area" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/backBtn" android:layout_width="@dimen/view_dimen_120" android:layout_height="@dimen/view_dimen_120" android:src="@drawable/gb_action_bar_back_light_land_selector" android:scaleType="center" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <View android:id="@+id/divider" android:background="#5c606d" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/actionBar"/>
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/divider" app:scrollableView="@+id/scroll_view">
+        <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="@dimen/view_dimen_106" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_dimen_148" android:paddingEnd="@dimen/view_dimen_215">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/touch_settings" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_22">
+                    <TextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_touch" android:textAllCaps="true" style="@style/GBSettingItemSubtitle"/>
+                    <View android:background="@drawable/gb_settings_divider_land" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_2" android:layout_marginTop="@dimen/view_dimen_32" android:layout_marginStart="-50dp" android:layout_marginEnd="-50dp"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_62" android:minHeight="@dimen/view_dimen_124">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_follow_up" android:layout_weight="325" style="@style/GBSettingItemTitle"/>
+                        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="93"/>
+                        <SeekBar android:id="@+id/seekbar_follow_up" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1003" style="@style/GBSettingSeekBar"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_60" android:minHeight="@dimen/view_dimen_124">
+                        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_finger_up" android:layout_weight="325" style="@style/GBSettingItemTitle"/>
+                        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="93"/>
+                        <SeekBar android:id="@+id/seekbar_finger_up" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1003" style="@style/GBSettingSeekBar"/>
+                    </LinearLayout>
+                    <View android:background="@drawable/gb_settings_divider_land" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_2" android:layout_marginTop="@dimen/view_dimen_38" android:layout_marginStart="-50dp" android:layout_marginEnd="-50dp"/>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/edge_suppression_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_84">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_edge_suppression" style="@style/GBSettingItemTitle"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_7" android:text="@string/gb_advance_settings_edge_suppression_summary" style="@style/GBSettingItemSubtitle"/>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_77" android:minHeight="133dp">
+                            <ImageView android:id="@+id/iv_screen_edge" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/gb_advance_settings_screen_edge_none" android:adjustViewBounds="true" android:layout_weight="418"/>
+                            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="66"/>
+                            <com.miui.gamebooster.widget.FourSwitchSelector android:id="@+id/edgeSwitchSelector" android:layout_width="@dimen/view_dimen_270" android:layout_height="match_parent" app:gbsiOptionAText="@string/gb_advance_settings_edge_gear1" app:gbsiOptionBText="@string/gb_advance_settings_edge_gear2" app:gbsiOptionCText="@string/gb_advance_settings_edge_gear3" app:gbsiOptionDText="@string/gb_advance_settings_edge_gear4"/>
+                            <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="25"/>
+                        </LinearLayout>
+                        <com.miui.gamebooster.view.SeekBarLinearLayout android:orientation="vertical" android:id="@+id/sbll_edge" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_advance_settings_screen_hdr_seektext_margin_top">
+                            <SeekBar android:id="@+id/seekbar_edge_suppression" android:paddingTop="@dimen/gb_advance_settings_screen_hdr_seekbar_padding_top" android:paddingBottom="@dimen/gb_advance_settings_screen_hdr_seekbar_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="300" android:progressDrawable="@drawable/seekbar_bg" android:thumb="@drawable/thumb_bar" android:thumbOffset="@dimen/gb_advance_settings_seekbar_thumb_offset"/>
+                        </com.miui.gamebooster.view.SeekBarLinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/screen_hrd_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_120">
+                    <TextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_screen_display" android:textAllCaps="true" style="@style/GBSettingItemSubtitle"/>
+                    <View android:background="@drawable/gb_settings_divider_land" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_2" android:layout_marginTop="@dimen/view_dimen_32" android:layout_marginStart="-50dp" android:layout_marginEnd="-50dp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/screen_hdr_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_74">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_screen_hdr" style="@style/GBSettingItemTitle"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_7" android:text="@string/gb_advance_settings_screen_hdr_summary" style="@style/GBSettingItemSubtitle"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_70" android:minHeight="139dp">
+                        <ImageView android:id="@+id/iv_screen_hdr" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/gb_advance_settings_screen_hdr_img_normal" android:adjustViewBounds="true" android:layout_weight="418"/>
+                        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="66"/>
+                        <com.miui.gamebooster.widget.FourSwitchSelector android:id="@+id/hdrSwitchSelector" android:layout_width="@dimen/view_dimen_270" android:layout_height="match_parent" android:layout_marginTop="3dp" android:layout_marginBottom="3dp" app:gbsiOptionAText="@string/gb_advance_settings_screen_hdr_gear1" app:gbsiOptionBText="@string/gb_advance_settings_screen_hdr_gear2" app:gbsiOptionCText="@string/gb_advance_settings_screen_hdr_gear3" app:gbsiOptionDText="@string/gb_advance_settings_screen_hdr_gear4"/>
+                        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="25"/>
+                    </LinearLayout>
+                    <com.miui.gamebooster.view.SeekBarLinearLayout android:orientation="vertical" android:id="@+id/sbll_hdr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_advance_settings_screen_hdr_seektext_margin_top">
+                        <SeekBar android:id="@+id/seekbar_screen_hdr" android:paddingTop="@dimen/gb_advance_settings_screen_hdr_seekbar_padding_top" android:paddingBottom="@dimen/gb_advance_settings_screen_hdr_seekbar_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="300" android:progressDrawable="@drawable/seekbar_bg" android:thumb="@drawable/thumb_bar" android:thumbOffset="@dimen/gb_advance_settings_seekbar_thumb_offset"/>
+                    </com.miui.gamebooster.view.SeekBarLinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/vibration_4d_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/gb_settings_divider_land" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_2" android:layout_marginTop="@dimen/view_dimen_96" android:layout_marginStart="-50dp" android:layout_marginEnd="-50dp"/>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/gb_advance_settings_4d_height" android:layout_marginTop="@dimen/view_dimen_45">
+                        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_advance_settings_vibration_4d" style="@style/GBSettingItemTitle"/>
+                            <TextView android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/gb_advance_settings_vibration_4d" style="@style/GBSettingItemSubtitle"/>
+                        </LinearLayout>
+                        <com.miui.gamebooster.widget.SwitchButton android:id="@+id/sb_vibration_4d" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </miuix.springback.view.SpringBackLayout>
+</RelativeLayout>

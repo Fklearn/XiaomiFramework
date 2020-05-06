@@ -1,0 +1,55 @@
+[
+  {
+    "package": "com.tencent.mm",
+    "type": 0,
+    "activity": [
+      "com.tencent.mm.plugin.wallet.pay.ui.WalletPayUI"
+    ]
+  },
+  {
+    "package": "com.tencent.mobileqq",
+    "type": 0,
+    "activity": [
+      "com.tencent.mobileqq.activity.qwallet.SendHbActivity"
+    ]
+  },
+  {
+    "package": "com.jingdong.app.mall",
+    "type": 0,
+    "activity": [
+      "com.jingdong.app.mall.pay.CashierDeskActivity"
+    ]
+  },
+  {
+    "package": "com.mipay.wallet",
+    "type": 1,
+    "activity": [
+      "com.mipay.counter.ui.pay.CounterActivity",
+      "com.mipay.ucashier.ui.CounterActivity",
+      "com.mipay.common.ui.DialogActivity",
+      "com.xiaomi.payment.ui.PaymentCommonActivity"
+    ]
+  },
+  {
+    "package": "com.unionpay",
+    "type": 1,
+    "activity": [
+      "com.unionpay.uppay.PayActivity"
+    ]
+  },
+  {
+    "package": "com.baidu.wallet",
+    "type": 1,
+    "activity": [
+      "com.baidu.wallet.paysdk.ui.PwdPayActivity"
+    ]
+  },
+  {
+    "package": "com.eg.android.AlipayGphone",
+    "type": 1,
+    "activity": [
+      "com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity",
+      "com.alipay.android.app.ui.quickpay.window.MiniPayActivity"
+    ]
+  }
+]

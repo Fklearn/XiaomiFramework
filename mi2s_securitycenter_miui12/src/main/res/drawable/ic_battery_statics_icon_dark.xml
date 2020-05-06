@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/view_dimen_110" android:width="@dimen/view_dimen_110" android:viewportWidth="110" android:viewportHeight="110">
+    <path android:fillColor="#e5e5e5" android:pathData="M0,0h110v110h-110z"/>
+    <path android:fillColor="#000000" android:pathData="M-80,-1683h1080v2340h-1080z"/>
+    <path android:fillColor="#77df6e" android:pathData="M55,110C85.376,110 110,85.376 110,55C110,24.624 85.376,0 55,0C24.624,0 0,24.624 0,55C0,85.376 24.624,110 55,110Z"/>
+    <path android:fillColor="#ffffff" android:pathData="M39.531,44.687C41.43,44.687 42.969,46.226 42.969,48.125V73.333H32.656V48.125C32.656,46.226 34.195,44.687 36.094,44.687H39.531ZM73.906,51.562C75.805,51.562 77.344,53.101 77.344,55V73.333H67.031V55C67.031,53.101 68.57,51.562 70.469,51.562H73.906ZM56.719,28.646C58.617,28.646 60.156,30.185 60.156,32.083V73.333H49.844V32.083C49.844,30.185 51.383,28.646 53.281,28.646H56.719Z" android:fillType="1"/>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scanningbar_listview_divheight">17.3dp</dimen>
+    <dimen name="six_pices_card_item_height">131.94dp</dimen>
+</resources>

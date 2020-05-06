@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:transitionOrdering="together">
+    <transition android:duration="250" class="com.android.internal.transition.EpicenterTranslateClipReveal"/>
+    <fade android:duration="100" android:fromAlpha="0.1" android:toAlpha="1"/>
+</transitionSet>

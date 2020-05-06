@@ -1,0 +1,87 @@
+package com.miui.networkassistant.webapi;
+
+import com.miui.networkassistant.utils.DeviceUtil;
+
+class Constants {
+    static final String JSON_KEY_APP_APPVERSION = "appVersion";
+    static final String JSON_KEY_APP_CARRIER = "carrier";
+    static final String JSON_KEY_APP_CITY = "city";
+    static final String JSON_KEY_APP_DATA_VERSION = "dataVersion";
+    static final String JSON_KEY_APP_DEIVCE = "device";
+    static final String JSON_KEY_APP_DIRECTIVE = "directive";
+    static final String JSON_KEY_APP_DOWNWARD = "downward";
+    static final String JSON_KEY_APP_ICCID = "iccid";
+    static final String JSON_KEY_APP_IMEI = "imei";
+    static final String JSON_KEY_APP_IMSI = "imsi";
+    static final String JSON_KEY_APP_IS_DIFF = "isDiff";
+    static final String JSON_KEY_APP_MESSAGE = "message";
+    static final String JSON_KEY_APP_MIUIVERSION = "miuiVersion";
+    static final String JSON_KEY_APP_OPERTYPE = "spType";
+    static final String JSON_KEY_APP_PHONENUM = "phonenum";
+    static final String JSON_KEY_APP_PRODUCT = "product";
+    static final String JSON_KEY_APP_PROVINCE = "province";
+    static final String JSON_KEY_APP_REGION = "region";
+    static final String JSON_KEY_APP_SEQID = "seqid";
+    static final String JSON_KEY_APP_SMS_REPORT_TYPE = "type";
+    static final String JSON_KEY_APP_TC_RESULT = "result";
+    static final String JSON_KEY_APP_UPWARD = "upward";
+    static final String JSON_KEY_APP_VERSION = "verison";
+    static final String JSON_KEY_APP_VERSIONCODE = "versionCode";
+    static final String JSON_KEY_APP_VERSIONTYPE = "versionType";
+    static final String JSON_KEY_APP_ZIPCODE = "zipCode";
+    static final String JSON_KEY_BILL_REMAINED = "balance";
+    static final String JSON_KEY_CALLTIME_LEFT = "leftCall";
+    static final String JSON_KEY_CALLTIME_TOTAL = "totalCall";
+    static final String JSON_KEY_CITY_CODE = "city";
+    static final String JSON_KEY_MODULE = "module";
+    static final String JSON_KEY_MONTH_DATA_USED = "monthused";
+    static final String JSON_KEY_PROVINCE_CODE = "province";
+    static final String JSON_KEY_RET_BRAND = "brand";
+    static final String JSON_KEY_RET_CODE = "code";
+    static final String JSON_KEY_RET_DESC = "desc";
+    static final String JSON_KEY_RET_IDENTIFY = "identify";
+    static final String JSON_KEY_RET_IDLELEFT = "idleleft";
+    static final String JSON_KEY_RET_IDLEON = "idleon";
+    static final String JSON_KEY_RET_IDLETOTAL = "idletotal";
+    static final String JSON_KEY_RET_INFO = "info";
+    static final String JSON_KEY_RET_ITEMS = "items";
+    static final String JSON_KEY_RET_LEFTFLOW = "leftflow";
+    static final String JSON_KEY_RET_MAXVERSION = "maxVersion";
+    static final String JSON_KEY_RET_OLDAGE = "oldage";
+    static final String JSON_KEY_RET_ONLINEACTIVITYID = "onLineActivityId";
+    static final String JSON_KEY_RET_ORDERTIPS = "orderTip";
+    static final String JSON_KEY_RET_ORDERTYPE = "orderType";
+    static final String JSON_KEY_RET_SEQID = "seqid";
+    static final String JSON_KEY_RET_SP = "sp";
+    static final String JSON_KEY_RET_STATUS = "status";
+    static final String JSON_KEY_RET_TOTALFLOW = "totalflow";
+    static final String JSON_KEY_RET_TRAFFIC_PASS = "miflow";
+    static final String JSON_KEY_SMS_NUMBER = "data";
+    static final long MEGA = 1048576;
+    static final String MODULE_MIUI_VPN_INFOS = "miui_vpn_infos";
+    static final String RETURN_CODE_FEATURE_ONLINE = "0";
+    static final String RETURN_CODE_NOTSUPPORT = "2";
+    static final String RETURN_CODE_OK = "0";
+    static final String RETURN_CODE_OPERATE_FAIL = "3";
+    static final String RETURN_CODE_SERVICE_NOTAVAILABLE = "1";
+    static final String SALT_DATA_USAGE_PURCHASE = "1119a27f-c197-49c2-ab4c-2e0aa53e74b9";
+    static final String SALT_PURCHASE_SMS_NUMBER = "3e68adeb-b164-c212-s332-b0fb4dec6bf9";
+    static final String SALT_QUERY_DATA_USAGE = "14ca47b4-7302-4900-91ef-6a76c65b40cc";
+    static final String SMS_REPORT_VERSION = "1.1";
+    static final int TRAFFIC_STATUS_MAINTENANCE = 2;
+    static final int TRAFFIC_STATUS_NOT_SUPPORT = 1;
+    static final int TRAFFIC_STATUS_SUPPORT = 0;
+    static final String URL_FLOW_QUERY_DATAUSAGE = "https://api.miui.security.xiaomi.com/netassist/flow/queryflow";
+    static final String URL_ORDER_CHECK_PURCHASE_ONLINE = "https://api.miui.security.xiaomi.com/netassist/floworderunity/supportfloworder";
+    private static final String URL_SERVER_ROOT = "https://api.miui.security.xiaomi.com";
+    private static final String URL_SERVER_ROOT2 = (DeviceUtil.IS_INTERNATIONAL_BUILD ? "https://api.sec.intl.miui.com" : "https://api.sec.miui.com");
+    static final String URL_TRAFFIC_CORRECTION_SMS = (URL_SERVER_ROOT2 + "/v1/traffic/report");
+    static final String URL_UPDATE_PURCHASE_SMS_NUMBER = (URL_SERVER_ROOT2 + "/common/whiteList/trafficChargeNum");
+    static final String UUID_API_LEFTFLOW = "5cad8778-cddf-4269-ab73-48007445baa3";
+    static final String UUID_API_TRAFFIC = "5cdd8678-cddf-4269-ab73-48387445bba4";
+    public static final String UUID_CLOUD_CONTROL = "21da76da-224c-2313-ac60-abcd70139283";
+    public static final String apiUrl = (URL_SERVER_ROOT2 + "/common/whiteList/listByModule");
+
+    private Constants() {
+    }
+}

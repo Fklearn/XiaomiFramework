@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/card_bg_no_shadow_selector" android:paddingTop="@dimen/optimizingbar_item_padding_top" android:paddingBottom="@dimen/scan_result_bm_card_pad_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/system_title" layout="@layout/card_layout_scan_result_title"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_container_system" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_bottom_card_item_margin_top"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/scan_result_item_seprate_height" android:paddingStart="@dimen/scan_result_bottom_title_item_margin_l" android:paddingEnd="@dimen/scan_result_bottom_title_item_margin_r">
+        <View android:layout_gravity="bottom" android:background="@color/app_manager_card_separate_line_bg" android:layout_width="match_parent" android:layout_height="@dimen/scan_result_item_line_height" android:layout_marginBottom="@dimen/scan_result_item_seprate_margin_btm"/>
+    </FrameLayout>
+    <include android:id="@+id/cleanup_title" layout="@layout/card_layout_scan_result_title"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_container_cleanup" android:paddingTop="4dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_bottom_card_item_margin_top"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/scan_result_item_seprate_height" android:paddingStart="@dimen/scan_result_bottom_title_item_margin_l" android:paddingEnd="@dimen/scan_result_bottom_title_item_margin_r">
+        <View android:layout_gravity="bottom" android:background="@color/app_manager_card_separate_line_bg" android:layout_width="match_parent" android:layout_height="@dimen/scan_result_item_line_height" android:layout_marginBottom="@dimen/scan_result_item_line_margin_bottom"/>
+    </FrameLayout>
+    <include android:id="@+id/security_title" layout="@layout/card_layout_scan_result_title"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_container_security" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_bottom_card_item_margin_top"/>
+</LinearLayout>

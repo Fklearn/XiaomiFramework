@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/st_msg_stranger_group" android:key="msg_stranger_group">
+        <miuix.preference.DropDownPreference android:title="@string/st_antispam_title_anoy_sms" android:key="key_msg_stranger" app:defaultValue="1" app:entries="@array/st_antispam_handle_methods_normal" app:entryValues="@array/st_antispam_handle_methods_value"/>
+        <miuix.preference.DropDownPreference android:title="@string/st_antispam_title_service_sms" android:key="key_msg_notification" app:defaultValue="1" app:entries="@array/st_antispam_handle_methods_normal" app:entryValues="@array/st_antispam_handle_methods_value"/>
+        <miuix.preference.DropDownPreference android:title="@string/st_antispam_title_mms" android:key="key_msg_mms" app:defaultValue="2" app:entries="@array/st_antispam_handle_methods_mms" app:entryValues="@array/st_antispam_handle_methods_value"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/st_msg_other_group" android:key="other_settings_group">
+        <CheckBoxPreference android:persistent="false" android:title="@string/st_msg_intercept_contacts" android:key="key_msg_contacts"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/st_msg_keyword_group" android:key="keyword_group">
+        <miuix.preference.TextPreference android:title="@string/st_msg_keyword_black" android:key="key_msg_keyword_black"/>
+        <miuix.preference.TextPreference android:title="@string/st_msg_keyword_white" android:key="key_msg_keyword_white"/>
+    </PreferenceCategory>
+</PreferenceScreen>

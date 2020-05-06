@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="oval">
+    <solid android:color="@color/gb_wonderful_record_intro_solid_point_color"/>
+    <size android:height="@dimen/gb_wonderful_intro_manual_solid_point_size" android:width="@dimen/gb_wonderful_intro_manual_solid_point_size"/>
+</shape>

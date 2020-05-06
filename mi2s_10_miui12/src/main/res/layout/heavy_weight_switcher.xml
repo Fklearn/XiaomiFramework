@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceLarge" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/heavy_weight_switcher_title" android:layout_weight="0"/>
+    <TextView android:textAppearance="?attr/textAppearanceMedium" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/heavy_weight_switcher_text" android:layout_weight="0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/switch_old" android:background="@drawable/list_selector_background" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/old_app_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter" android:layout_marginEnd="11dp"/>
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/textAppearanceMedium" android:textStyle="bold" android:id="@+id/old_app_action" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/switch_new" android:background="@drawable/list_selector_background" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="88dp">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/new_app_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter" android:layout_marginEnd="11dp"/>
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?attr/textAppearanceMedium" android:textStyle="bold" android:id="@+id/new_app_action" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:singleLine="true"/>
+            <TextView android:textAppearance="?attr/textAppearanceSmall" android:layout_gravity="center_vertical" android:id="@+id/new_app_description" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

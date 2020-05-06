@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/box_bg" android:padding="13.09dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/gamebox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:gravity="center" android:id="@+id/gb_box_buttonright_container" android:background="@drawable/gamebox_panelbg_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageButton android:id="@+id/gb_box_buttonright" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:src="@drawable/gamebox_right_button"/>
+        </RelativeLayout>
+        <GridView android:gravity="center" android:id="@+id/grid_view" android:padding="13.09dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:horizontalSpacing="19.64dp" android:verticalSpacing="6.55dp" android:stretchMode="columnWidth" android:numColumns="auto_fit"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/gb_box_buttonleft_container" android:background="@drawable/gamebox_panelbg_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageButton android:id="@+id/gb_box_buttonleft" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:src="@drawable/gamebox_left_button"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

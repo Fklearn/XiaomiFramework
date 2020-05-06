@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0x100a000d" android:paddingEnd="0x100a000d">
+    <TextView android:textAppearance="0x100d0058" android:gravity="bottom" android:id="@+id/title" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp"/>
+    <EditText android:textAppearance="0x100d0058" android:id="@+id/label" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="64" android:layout_weight="1" android:inputType="number"/>
+    <TextView android:textAppearance="0x100d005f" android:gravity="center" android:id="@+id/city" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0x100a000d" android:layout_marginBottom="0x100a000d" android:singleLine="true" android:layout_weight="1"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <CheckBox android:layout_gravity="center" android:id="@+id/msg_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <CheckBox android:layout_gravity="center" android:id="@+id/call_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView android:textAppearance="0x100d0058" android:layout_gravity="center_horizontal" android:id="@+id/hint" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

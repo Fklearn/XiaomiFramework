@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.ImageFloatingTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textAppearance="@style/TextAppearance.StatusBar.EventContent" android:ellipsize="end" android:id="@+id/big_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="-2dp" android:maxLines="8" android:singleLine="false" android:layout_weight="1"/>

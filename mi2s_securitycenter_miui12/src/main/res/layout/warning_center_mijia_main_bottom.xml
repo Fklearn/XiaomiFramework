@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/view_dimen_50" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_width="@dimen/view_dimen_160" android:layout_height="@dimen/view_dimen_160" android:src="@drawable/warningcenter_settings_icon_water"/>
+            <TextView android:textSize="@dimen/text_font_size_28" android:textColor="@color/ew_text_gray_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_21" android:text="@string/warningcenter_mijia_devices_1" android:layout_marginStart="@dimen/view_dimen_5" android:layout_marginEnd="@dimen/view_dimen_5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_width="@dimen/view_dimen_160" android:layout_height="@dimen/view_dimen_160" android:src="@drawable/warningcenter_settings_icon_smoke"/>
+            <TextView android:textSize="@dimen/text_font_size_28" android:textColor="@color/ew_text_gray_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_21" android:text="@string/warningcenter_mijia_devices_2" android:layout_marginStart="@dimen/view_dimen_5" android:layout_marginEnd="@dimen/view_dimen_5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_width="@dimen/view_dimen_160" android:layout_height="@dimen/view_dimen_160" android:src="@drawable/warningcenter_settings_icon_gas"/>
+            <TextView android:textSize="@dimen/text_font_size_28" android:textColor="@color/ew_text_gray_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_21" android:text="@string/warningcenter_mijia_devices_3" android:layout_marginStart="@dimen/view_dimen_5" android:layout_marginEnd="@dimen/view_dimen_5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_width="@dimen/view_dimen_160" android:layout_height="@dimen/view_dimen_160" android:src="@drawable/warningcenter_settings_icon_lock"/>
+            <TextView android:textSize="@dimen/text_font_size_28" android:textColor="@color/ew_text_gray_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_21" android:text="@string/warningcenter_mijia_devices_4" android:layout_marginStart="@dimen/view_dimen_5" android:layout_marginEnd="@dimen/view_dimen_5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/ew_text_gray_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_118" android:layout_marginBottom="@dimen/view_dimen_118" android:text="@string/warningcenter_mijia_devices_support_tips" style="@style/HpCardSummaryTextViewStyle"/>
+</LinearLayout>

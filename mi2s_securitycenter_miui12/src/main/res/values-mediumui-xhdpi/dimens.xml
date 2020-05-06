@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_margin_top">0dp</dimen>
+    <dimen name="applock_icon_margin_top">0dp</dimen>
+    <dimen name="applock_icon_margin_top_sc">0dp</dimen>
+    <dimen name="first_use_back_button_alight_top">110dp</dimen>
+    <dimen name="list_item_maxwidth">240dp</dimen>
+</resources>

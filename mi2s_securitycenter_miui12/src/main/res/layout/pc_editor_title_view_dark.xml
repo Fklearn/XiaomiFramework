@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.powercenter.view.PowerCenterEditorTitleView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/title_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:layout_gravity="center_vertical" android:id="@+id/cancel" android:background="0x1002004f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@android:string/cancel" android:layout_marginStart="@dimen/editor_title_button_margin" style="0x100d006a"/>
+    <LinearLayout android:gravity="center" android:id="@+id/title_container" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textColor="@color/pc_textview_color" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/StyleWindowTitleLight"/>
+    </LinearLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@+id/ok" android:background="0x10020051" android:contentDescription="@android:string/ok" android:layout_marginEnd="@dimen/editor_title_button_margin" style="0x100d006b"/>
+</com.miui.powercenter.view.PowerCenterEditorTitleView>

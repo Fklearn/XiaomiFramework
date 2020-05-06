@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_conn_status_title" />
+    <string name="multi_conn_to_same_pdn_not_allowed">Multiple PDN connections for a given APN not allowed -55-.</string>
+    <string name="service_not_subscribed">NOT SUBSCRIBED TO SERVICE -33-.</string>
+    <string name="user_authentication_failed">AUTHENTICATION FAILURE -29-.</string>
+</resources>

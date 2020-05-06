@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miui.view.AutoDisableScreenbuttonsFloatView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_horizontal" android:id="@+id/auto_disable_screenbuttons_float_root" android:background="@drawable/auto_disable_screenbuttons_float_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/auto_disable_screenbuttons_float_icon"/>
+        <TextView android:textSize="13sp" android:textColor="@color/auto_disable_screenbuttons_float_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/auto_disable_screenbuttons_float_text"/>
+    </LinearLayout>
+</miui.view.AutoDisableScreenbuttonsFloatView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.miui.permcenter.settings.model.SloganPreference android:key="key_pm_setting_slogan" app:layout="@layout/pm_model_privacy_slogan"/>
+    <com.miui.permcenter.settings.model.PermissionUseTotalPreference android:key="key_pm_setting_use_total" app:layout="@layout/pm_model_permission_use"/>
+    <CheckBoxPreference android:title="@string/privacy_permission_use_warning" android:key="key_pm_setting_permission_use_warning"/>
+    <com.miui.permcenter.settings.model.TitleValuePreference android:title="@string/privacy_danger_permission_warning" android:key="key_pm_setting_danger_permission_warning" android:summary="@string/privacy_type_open" app:layout="@layout/pm_model_title_value"/>
+    <com.miui.permcenter.settings.model.LayoutButtonPreference android:title="@string/menu_item_about_privacy_title" android:key="key_pm_setting_privacy" app:layout="@layout/pm_model_layout_button"/>
+    <com.miui.permcenter.settings.model.TitleOnlyPreference android:title="@string/privacy_more_info_title" android:key="key_pm_setting_more_info_title" app:layout="@layout/pm_model_title_only"/>
+</PreferenceScreen>

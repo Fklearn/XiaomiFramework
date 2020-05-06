@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/status_bar_latest_event_content" android:background="@drawable/notification_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/notification_template_big_base_common"/>
+</FrameLayout>

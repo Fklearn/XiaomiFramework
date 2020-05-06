@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:textAppearance="0x100d0058" android:textSize="14sp" android:id="@+id/textview_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="numberDecimal" style="0x100d0049"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true" android:drawable="@drawable/pm_setting_selector_contacts_s"/>
+    <item android:state_enabled="false" android:drawable="@drawable/pm_setting_selector_contacts_unable"/>
+    <item android:drawable="@drawable/pm_setting_selector_contacts_n"/>
+</selector>

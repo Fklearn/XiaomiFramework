@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="vertical" android:id="@+id/inner" android:background="@drawable/card_bg_no_shadow_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/result_item_title_margin_top_3" android:paddingBottom="@dimen/result_item_title_margin_top_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+            <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="@dimen/result_item_img_width_ad_4" android:layout_height="@dimen/result_item_img_height_ad_4" android:layout_marginEnd="@dimen/result_item_img_margin_end_4" app:ratioXY="0.69" app:roundCornerRadius="@dimen/result_item_img_radius_4_5">
+                <com.miui.common.customview.AdImageView android:id="@+id/image1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+            </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:gravity="top" android:id="@+id/summary" android:lines="2" style="@style/ResultItemTitleStyle_3"/>
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6dp" android:textAlignment="viewStart" style="@style/ResultBottomPartTestStyle"/>
+                    <TextView android:id="@+id/download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="6dp" style="@style/ResultBottomPartTestStyle"/>
+                    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+                    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <include layout="@layout/adv_close_layout"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

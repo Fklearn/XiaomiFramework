@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_lock_screen_traffic_purchase_enabled">true</bool>
+    <bool name="display_antivirus_Ads">true</bool>
+    <bool name="display_applock_Ads">true</bool>
+    <bool name="display_gamebooster_xunyou">true</bool>
+</resources>

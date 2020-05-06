@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.gamebooster.customview.InCallNotificationView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/in_call_notification" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="75dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <ImageView android:id="@+id/end_call_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/end_call_icon" android:scaleType="fitCenter" android:contentDescription="@string/gb_description_image_button_reject"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#000000" android:ellipsize="marquee" android:id="@+id/caller_name" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/answer_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/answer_icon" android:scaleType="fitCenter" android:contentDescription="@string/gb_description_image_button_answer"/>
+    </LinearLayout>
+</com.miui.gamebooster.customview.InCallNotificationView>

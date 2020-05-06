@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <corners android:radius="@dimen/dp_10dp"/>
+    <padding android:left="@dimen/gb_wonderful_main_page_header_checkbox_padding_left_right" android:top="@dimen/gb_wonderful_main_page_header_checkbox_padding_top_bottom" android:right="@dimen/gb_wonderful_main_page_header_checkbox_padding_left_right" android:bottom="@dimen/gb_wonderful_main_page_header_checkbox_padding_top_bottom"/>
+    <stroke android:width="0.7dp" android:color="@color/gb_wonderful_video_check_all_nomal_color"/>
+</shape>

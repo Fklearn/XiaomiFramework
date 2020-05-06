@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="@dimen/am_details_category_title_height" android:paddingStart="@dimen/am_line_margin_lr" android:paddingEnd="@dimen/am_line_margin_lr">
+    <TextView android:textSize="@dimen/am_search_result_title_size" android:textColor="@color/app_manager_sort_title_color" android:gravity="center_vertical" android:id="@+id/header_title" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true"/>
+</LinearLayout>

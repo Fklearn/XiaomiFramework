@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/miuix_preference_category_gap_height" android:paddingStart="@dimen/miuix_preference_item_padding_start" android:paddingEnd="@dimen/miuix_preference_item_padding_end">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_preference_transparent"/>
+            <size android:height="@dimen/miuix_preference_category_height"/>
+        </shape>
+    </item>
+    <item android:gravity="top" android:left="@dimen/miuix_preference_item_padding_start" android:top="@dimen/miuix_preference_category_divider_gap_height" android:right="@dimen/miuix_preference_item_padding_end" android:bottom="@dimen/miuix_preference_category_divider_gap_height">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/miuix_preference_first_last_divider_line_dark"/>
+            <size android:height="0.7dp"/>
+        </shape>
+    </item>
+</layer-list>

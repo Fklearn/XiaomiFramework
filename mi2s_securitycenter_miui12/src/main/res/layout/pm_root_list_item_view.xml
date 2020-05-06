@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="0x100d004e">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size"/>
+    <TextView android:textAppearance="0x100d005f" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:layout_marginStart="15dp" android:layout_marginEnd="15dp"/>
+    <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@+id/sliding_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/rootView" android:layout_width="match_parent" style="@style/GBSettingItem">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/second_root" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/gb_setting_item_height">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/view_dimen_24" android:paddingBottom="@dimen/view_dimen_24" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GBGuideSettingItemtitle"/>
+            <TextView android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_setting_item_spacing_between_title_and_subtitle" style="@style/GBGuideSettingItemSubtitle"/>
+        </LinearLayout>
+        <com.miui.gamebooster.widget.SwitchButton android:id="@+id/switchBtn" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bottomImg" android:background="@drawable/gb_wifi_settings_bg" android:paddingTop="@dimen/view_dimen_36" android:paddingBottom="@dimen/view_dimen_36" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_dimen_24" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50"/>
+</LinearLayout>

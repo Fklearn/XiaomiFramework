@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="#202020" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/security_permission_validate_warning"/>
+    <Button android:textColor="@android:color/white" android:id="@+id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_security_permission_verify_text"/>
+    <Button android:textColor="@android:color/white" android:id="@+id/open_wifi_settings_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_permission_open_wifi_settings"/>
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+</LinearLayout>

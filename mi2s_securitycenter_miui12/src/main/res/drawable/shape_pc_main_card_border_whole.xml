@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@color/pc_scan_result_card_bg"/>
+    <corners android:topLeftRadius="@dimen/view_dimen_48" android:topRightRadius="@dimen/view_dimen_48" android:bottomLeftRadius="@dimen/view_dimen_48" android:bottomRightRadius="@dimen/view_dimen_48"/>
+    <stroke android:width="1px" android:color="@color/pc_main_card_border_whole_color"/>
+</shape>

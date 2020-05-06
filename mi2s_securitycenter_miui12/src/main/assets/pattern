@@ -1,0 +1,169 @@
+{
+"version":"1.2",
+"features":[
+  {
+    "name":"Fei_xin",
+    "abstract":"Start with 12520",
+    "sms_type":1,
+    "address":{pattern:["^12520"]}
+  },
+  {
+    "name":"sms_body_length",
+    "sms_type":1,
+    "body":{body_len:["0-15"]}
+  },
+  {
+   "name":"bracket_title_not_personal_address",
+   "assist":true,
+   "address":{type:[1,2,3,4,5,6]},
+   "body":   {
+              "or_pattern":[
+                            "^(\\s)*【[\\u4E00-\\u9FFF|a-z|0-9|０-９| | |\\.]{2,12}】",
+                            "【[\\u4E00-\\u9FFF|a-z|0-9|０-９| | |\\.]{2,12}】(\\s|\\u0000)*$",
+                            "^(\\s)*\\[[\\u4E00-\\u9FFF|a-z|0-9|０-９| | |\\.]{2,12}\\]",
+                            "\\[[\\u4E00-\\u9FFF|a-z|0-9|０-９| | |\\.]{2,12}\\](\\s|\\u0000)*$"
+                           ]}
+  },
+  {
+   "name":"important_info_body",
+   "assist":true,
+   "body":   {
+              neg_pattern:["恭喜.*幸运.*奖品"],
+              "or_pattern":[
+                             "(尾号|信用卡).{0,1}\\d{4}",
+                             "券.{0,4}\\d{6,20}",
+                             "验证码.{0,4}\\d{4,8}",
+                             "密码.{0,4}\\d{4,10}",
+                             "兑换码.{0,4}[0-9|A-Z|a-z]{4,16}",
+                             "(速递|快递)(单号|单){0,1}.{0,1}[0-9|A-Z|a-z]{10,18}"
+                            ]}
+  },
+  {
+   "name":"important_addr",
+   "assist":true,
+   "address":{type:[1,5]}
+  },
+  {
+   "name":"important_info",
+   "sms_type":1,
+   "combi":["bracket_title_not_personal_address&important_info_body",
+            "important_addr&important_info_body"]
+  },
+  {
+   "sms_type":1,
+   "name":"linking_up",
+   "body":   {"or_pattern":[
+                            "^(\\s)*\\(接上条\\)",
+                            "^(\\s)*（接上条）",
+                            "^(\\s)*(接上:|接上：|接上条：|接上条:)",
+                            "^(\\s)*\\([1-9]/[1-9]\\)",
+                            "^(\\s)*（[1-9]/[1-9]）"
+                           ]}
+  },
+  {
+   "sms_type":0x08000000,
+   "name":"fa_piao",
+   "body":   {
+              num_types:[2],
+              body_len:["15-55"],
+              or_pattern:[
+                       "(发|發|fa)(.|\\n)*(票|飘|漂|嫖|缥|螵|瞟|嘌|piao)",
+                       "票发"
+                      ]}
+  },
+  {
+   "sms_type":0x08000000,
+   "name":"fa_piao_1",
+   "body":   {
+              struct_types:[1],
+              num_types:[2],
+              body_len:["15-55"]
+             }
+  },
+  {
+   "sms_type":0x08000000,
+   "name":"bank_card_remittance",
+   "body":   {
+              num_types:[0],
+              body_len:["15-55"],
+              or_pattern:[
+                       "[工|农|侬|建|中|交|招|邮政].{0,14}行"
+                      ]}
+  },
+  {
+   "sms_type":0x08000000,
+   "name":"phish",
+   "body":   {
+              struct_types:[2]
+             }
+  },
+  {
+   "name":"subscription",
+   "sms_type":0x00000100,
+   "body":   {
+              "or_pattern":[
+                            "^(\\s|\\u00A0)*[\\[|【][\\u4E00-\\u9FFF]{0,8}(早报|晚报|手机报|快报|播报|预报|战报|晨报|新闻|奇闻|快讯|短讯|刊|阅读|百科|所学|小学|中学|小米|打车|大众点评|速递|快递)[\\u4E00-\\u9FFF]{0,4}[】|\\]]",
+                            "[\\[|【][\\u4E00-\\u9FFF]{0,8}(早报|晚报|手机报|快报|播报|预报|战报|晨报|新闻|奇闻|快讯|短讯|刊|阅读|百科|所学|小学|中学|小米|打车|大众点评|速递|快递)[\\u4E00-\\u9FFF]{0,4}[】|\\]](\\s|\\u0000)*$",
+                            "^(\\s|\\u00A0)*[\\u4E00-\\u9FFF]{0,8}(早报|晚报|手机报|快报|播报|预报|战报|晨报|新闻|奇闻|快讯|短讯|刊|阅读|百科|所学|小学|中学)[\\u4E00-\\u9FFF]{0,4}[:|：]"
+                           ]}
+  },
+  {
+   "name":"all_chinese",
+   "sms_type":0x00000100,
+   "body":   {
+              "neg_pattern":[
+                            "[^\\u4E00-\\u9FFF|，|。|\\n| | ]"
+                           ]}
+  },
+  {
+   "name":"multi_semicolo",
+   "sms_type":0x00000100,
+   "body":   {
+              "or_pattern":[
+                            "\\W1\\..{6,}\\W2\\..{6,}\\W3\\..{6,}",
+                            "\\W1,.{6,}\\W2,.{6,}\\W3,.{6,}",
+                            "\\W1、.{6,}\\W2、.{6,}\\W3、.{6,}",
+                            "\\W1:.{6,}\\W2:.{6,}\\W3:.{6,}",
+                            "\\W1：.{6,}\\W2：.{6,}\\W3：.{6,}",
+                            ".{6,};.{6,};.{6,};",
+                            ".{6,}；.{6,}；.{6,}；",
+                            "(.|\\r){6,}\\n{1,}(.|\\r){6,}\\n{1,}(.|\\r){6,}"
+                           ]}
+  },
+  {
+    "name":"telephone_fee",
+    "sms_type":1,
+    "address":{"type":[1]},
+    "body":   {"pattern":[
+                          "[1-9][0-9]?元话费",
+                          "(送|赠).*(移动|联通|电信)"
+                         ]}
+  },
+  {
+    "name":"official_phone",
+    "sms_type":0x00004000,
+    "address":{"type":[2]}
+  },
+  {
+    "name":"important_phone",
+    "sms_type":0x00001000,
+    "address":{"type":[1,5]}
+  },
+  {
+    "name":"xiaomi_related",
+    "sms_type":0x00000100,
+    "body":   {"pattern":[
+                          "小米[主题|商店]"
+                         ]}
+  },
+  {
+    "name":"map_guide",
+    "sms_type":0x00000100,
+    "body":   {"or_pattern":[
+                             "map\\.(sogou|baidu|amap)\\.com",
+                             "www\\.amap\\.com",
+                             "ditu\\.google\\.com"
+                            ]}
+  }
+]
+}

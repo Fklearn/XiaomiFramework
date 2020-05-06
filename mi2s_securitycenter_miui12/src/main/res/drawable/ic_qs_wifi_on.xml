@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/qs_tile_icon_size" android:width="@dimen/qs_tile_icon_size" android:viewportWidth="64" android:viewportHeight="64">
+    <path android:fillColor="@color/qs_tile_icon_enabled_color" android:pathData="M59.5 25.8l-2.9 2.8C45.3 15 25.2 13.1 11.6 24.4 10.1 25.7 8.7 27.1 7.4 28.6L4.5 25.8C17.3 10.6 40 8.7 55.2 21.5c1.5 1.3 3 2.7 4.3 4.3zM32 23c7.9 0 15.4 3.6 20.3 9.8l-2.9 2.8C42 26 28.2 24.2 18.6 31.6c-1.5 1.2 -2.9 2.5 -4 4L11.7 32.8C16.6 26.6 24.1 23 32 23Zm0 10c5.2 0 10.1 2.5 13.1 6.8l-2.9 2.8C38.7 37 31.3 35.3 25.7 38.9c-1.5 1 -2.8 2.2 -3.8 3.8L19 39.9C21.9 35.5 26.8 33 32 33Zm0 10c2.5 0 4.8 1.6 5.6 4l-4.9 4.7c-0.4 0.4 -1.1 0.4 -1.5 0L26.4 47c0.8 -2.4 3.1 -4 5.6 -4z"/>
+</vector>

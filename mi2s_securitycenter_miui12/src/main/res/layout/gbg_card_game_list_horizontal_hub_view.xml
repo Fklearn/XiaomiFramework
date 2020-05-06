@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="4">
+    <com.miui.gamebooster.globalgame.view.GameItemView android:id="@+id/gameItemView00" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:type="linear"/>
+    <com.miui.gamebooster.globalgame.view.GameItemView android:id="@+id/gameItemView01" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:type="linear"/>
+    <com.miui.gamebooster.globalgame.view.GameItemView android:id="@+id/gameItemView02" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:type="linear"/>
+    <com.miui.gamebooster.globalgame.view.GameItemView android:id="@+id/gameItemView03" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" app:type="linear"/>
+</LinearLayout>

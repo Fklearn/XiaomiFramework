@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/pref_category_title_securitycenter_settings" android:key="@string/preference_key_category_title_module_settings">
+        <CheckBoxPreference android:title="@string/menu_item_notification_title" android:key="@string/preference_key_create_permanent_notification"/>
+        <CheckBoxPreference android:title="@string/cta_settings" android:key="@string/preference_key_cta_settings"/>
+        <Preference android:title="@string/menu_item_shortcut_title" android:key="@string/preference_key_create_shortcut" android:summary="@string/menu_item_shortcut_summary"/>
+        <Preference android:title="@string/manual_item_white_list_title" android:key="preference_key_manual_item_white_list" android:summary="@string/manual_item_white_list_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_title_module_settings" android:key="@string/preference_key_category_title_module_feature_settings">
+        <Preference android:title="@string/activity_title_garbage_cleanup" android:key="@string/preference_key_module_garbage_cleanup"/>
+        <Preference android:title="@string/optimize_manage_title" android:key="@string/preference_key_optimize_manage"/>
+        <Preference android:title="@string/activity_title_networkassistants" android:key="@string/preference_key_module_network_assistant"/>
+        <Preference android:title="@string/activity_title_antispam" android:key="@string/preference_key_module_antipam"/>
+        <Preference android:title="@string/activity_title_power_manager" android:key="@string/preference_key_module_power_center"/>
+        <Preference android:title="@string/activity_title_antivirus" android:key="@string/preference_key_module_antivirus"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/information_setting" android:key="@string/preference_category_information_setting">
+        <CheckBoxPreference android:title="@string/recommend_news" android:key="@string/preference_key_information_setting_close" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/load_only_under_wlan" android:key="@string/preference_key_information_setting_wlan" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="">
+        <Preference android:title="@string/menu_item_about_privacy_title" android:key="@string/preference_key_about_privacy"/>
+        <miuix.preference.TextPreference android:title="@string/menu_item_about_title" android:key="@string/preference_key_about_version"/>
+    </PreferenceCategory>
+</PreferenceScreen>

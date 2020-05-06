@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.3dp" android:layout_marginStart="@dimen/result_page_padding">
+            <ImageView android:id="@+id/img" android:layout_width="108dp" android:layout_height="108dp" android:src="@drawable/icon_def" android:scaleType="centerCrop"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="@dimen/result_page_padding">
+                <TextView android:textSize="16sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FunctionTitleStyle"/>
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" style="@style/FunctionSummaryStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="13.3dp"/>
+        <Button android:id="@+id/button" style="@style/FunctionResultButton"/>
+    </LinearLayout>
+    <TextView android:id="@+id/close" android:visibility="invisible" android:layout_marginTop="6.67dp" android:layout_marginEnd="6.67dp" android:layout_alignParentEnd="true" style="@style/ResultItemAdxStyle"/>
+</RelativeLayout>

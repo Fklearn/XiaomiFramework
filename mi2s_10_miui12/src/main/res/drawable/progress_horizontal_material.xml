@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/background">
+        <shape android:tint="?^attr-private/colorProgressBackgroundNormal" android:shape="rectangle">
+            <corners android:radius="?^attr-private/progressBarCornerRadius"/>
+            <size android:height="@dimen/progress_bar_height_material"/>
+            <solid android:color="@color/white_disabled_material"/>
+        </shape>
+    </item>
+    <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/secondaryProgress">
+        <scale android:scaleWidth="100%">
+            <shape android:tint="?attr/colorControlActivated" android:shape="rectangle">
+                <corners android:radius="?^attr-private/progressBarCornerRadius"/>
+                <size android:height="@dimen/progress_bar_height_material"/>
+                <solid android:color="@color/white_disabled_material"/>
+            </shape>
+        </scale>
+    </item>
+    <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:id="@+id/progress">
+        <scale android:scaleWidth="100%">
+            <shape android:tint="?attr/colorControlActivated" android:shape="rectangle">
+                <corners android:radius="?^attr-private/progressBarCornerRadius"/>
+                <size android:height="@dimen/progress_bar_height_material"/>
+                <solid android:color="@color/white"/>
+            </shape>
+        </scale>
+    </item>
+</layer-list>

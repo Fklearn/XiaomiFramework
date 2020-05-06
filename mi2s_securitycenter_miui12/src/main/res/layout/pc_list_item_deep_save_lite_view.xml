@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_pc_main_card_border_whole" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/list_item_view_side_padding" android:paddingBottom="@dimen/list_item_view_side_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/list_item_view_side_padding" android:layout_marginStart="17.1dp" android:layout_marginEnd="9.5dp">
+        <TextView android:textStyle="bold" android:textColor="#ff8c93b0" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/StyleListItemTitle"/>
+        <TextView android:textColor="@color/pc_textview_color" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleListItemSubTitle"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/small_result_blue_button_text_size" android:textColor="#ff0097ff" android:id="@android:id/button1" android:background="@drawable/pc_scanresult_button_blue" android:layout_width="@dimen/small_result_blue_button_min_width" android:layout_height="@dimen/small_result_blue_button_min_height" android:layout_marginBottom="@dimen/small_result_blue_button_margin_bottom" android:singleLine="true" android:layout_marginEnd="@dimen/small_result_blue_button_margin_end" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

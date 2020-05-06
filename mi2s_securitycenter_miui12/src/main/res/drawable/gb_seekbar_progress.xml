@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@android:id/background" android:drawable="@drawable/gb_seekbar_progress_bg"/>
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/gb_seekbar_progress_hl"/>
+    </item>
+</layer-list>

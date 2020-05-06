@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/app_manager_finish_icon" android:id="@+id/item_force_stop" android:title="@string/menu_item_force_stop" android:showAsAction="never|always|withText"/>
+    <item android:icon="@drawable/app_manager_delete_icon" android:id="@+id/item_uninstall" android:title="@string/menu_item_uninstall" android:showAsAction="never|always|withText"/>
+    <item android:icon="@drawable/app_detail" android:id="@+id/item_details" android:title="@string/menu_item_app_details" android:showAsAction="never|always|withText"/>
+</menu>

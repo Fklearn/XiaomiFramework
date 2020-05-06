@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_focused="true" android:color="@color/notification_miui_action_text_color_p"/>
+    <item android:state_checked="true" android:color="@color/notification_miui_action_text_color_p"/>
+    <item android:state_pressed="true" android:color="@color/notification_miui_action_text_color_p"/>
+    <item android:color="@color/notification_miui_action_text_color_n"/>
+</selector>

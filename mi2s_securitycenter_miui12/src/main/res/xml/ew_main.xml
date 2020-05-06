@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:title="@string/ew_main_open_title" android:key="slide_earthquake_warning" android:summary="@string/ew_main_open_tips"/>
+    <Preference android:enabled="false" android:title="@string/ew_main_settings" android:key="ll_setting"/>
+    <PreferenceCategory android:title="@string/ew_main_detail_title">
+        <com.miui.earthquakewarning.view.EarthquakeGuideInfoPreference android:key="ll_info_preference" app:layout="@layout/ew_item_guide_preference"/>
+        <Preference android:icon="@drawable/ew_main_icon_contact" android:title="@string/ew_main_contact_title" android:key="container_contact" android:summary="@string/ew_main_contact_tips"/>
+        <Preference android:icon="@drawable/ew_main_icon_emergency" android:title="@string/ew_main_emergency_title" android:key="container_emergency_card" android:summary="@string/ew_main_emergency_tips"/>
+        <Preference android:icon="@drawable/ew_main_icon_safe_place" android:title="@string/ew_main_place_title" android:key="container_safe_place" android:summary="@string/ew_main_place_tips"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ew_main_warning_list">
+        <Preference android:icon="@drawable/ew_main_icon_warning_list" android:title="@string/ew_main_warning_list_title" android:key="container_warning_list" android:summary="@string/ew_main_warning_list_tips"/>
+    </PreferenceCategory>
+</PreferenceScreen>

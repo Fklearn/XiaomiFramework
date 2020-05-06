@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/lyt_btn">
+        <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_provision_title" android:fontFamily="mipro-light" style="@style/ProvisionPageTitleTextStyle"/>
+        <TextView android:textSize="@dimen/text_font_size_38" android:textColor="@color/pm_provision_text_summary_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="@string/privacy_provision_summary" style="@style/ProvisionPageTitleTextStyle"/>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/page_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_180" android:src="@drawable/pm_setting_icon_provision" android:layout_marginStart="@dimen/provision_margin_start" android:layout_marginEnd="@dimen/provision_margin_end"/>
+                <VideoView android:layout_gravity="center" android:id="@+id/video_view" android:layout_width="wrap_content" android:layout_height="@dimen/view_dimen_600" android:layout_marginTop="@dimen/view_dimen_80"/>
+                <TextView android:textSize="@dimen/text_font_size_38" android:textColor="@color/pm_provision_text_summary_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:text="@string/privacy_provision_text" style="@style/ProvisionPageTitleTextStyle"/>
+                <TextView android:textSize="@dimen/text_font_size_38" android:textColor="@color/pm_provision_text_link_color" android:id="@+id/privacy_more" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_79" android:text="@string/privacy_provision_more" style="@style/ProvisionPageTitleTextStyle"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/lyt_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/provision_margin_bottom" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@+id/lyt_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/provision_btn_margin_left_bound" android:layout_alignParentStart="true">
+            <TextView android:textColor="@drawable/btn_text_color_normal" android:id="@+id/setup_btn_back" android:text="@string/privacy_provision_back" android:paddingStart="@dimen/provision_text_padding" style="@style/ProvisionStepTextStyle"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/lyt_btn_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/provision_btn_margin_right_bound" android:layout_alignParentEnd="true">
+            <TextView android:textColor="@drawable/btn_text_color_high_light" android:id="@+id/setup_next" android:text="@string/privacy_provision_next" android:paddingEnd="@dimen/provision_text_padding" style="@style/ProvisionStepTextStyle"/>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeight">
+    <LinearLayout android:id="@+id/option1" android:background="?attr/actionBarItemBackground" android:focusable="true" android:layout_width="64dp" android:layout_height="match_parent" android:contentDescription="@string/silent_mode_silent">
+        <ImageView android:layout_gravity="center" android:background="@drawable/silent_mode_indicator" android:duplicateParentState="true" android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:src="@drawable/ic_audio_ring_notif_mute" android:scaleType="center" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <LinearLayout android:id="@+id/option2" android:background="?attr/actionBarItemBackground" android:focusable="true" android:layout_width="64dp" android:layout_height="match_parent" android:contentDescription="@string/silent_mode_vibrate">
+        <ImageView android:layout_gravity="center" android:background="@drawable/silent_mode_indicator" android:duplicateParentState="true" android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:src="@drawable/ic_audio_ring_notif_vibrate" android:scaleType="center" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+    <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <LinearLayout android:id="@+id/option3" android:background="?attr/actionBarItemBackground" android:focusable="true" android:layout_width="64dp" android:layout_height="match_parent" android:contentDescription="@string/silent_mode_ring">
+        <ImageView android:layout_gravity="center" android:background="@drawable/silent_mode_indicator" android:duplicateParentState="true" android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:src="@drawable/ic_audio_ring_notif" android:scaleType="center" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</LinearLayout>

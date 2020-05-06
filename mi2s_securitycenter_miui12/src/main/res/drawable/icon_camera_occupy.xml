@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="16.36dp" android:width="19.68dp" android:viewportWidth="54" android:viewportHeight="45">
+    <path android:fillColor="#ffffff" android:pathData="M8,7C3.5817,7 0,10.5817 0,15V37C0,41.4183 3.5817,45 8,45H46C50.4183,45 54,41.4183 54,37V15C54,10.5817 50.4183,7 46,7H41.6376C40.0375,7 38.5913,6.0464 37.961,4.5757L37.039,2.4243C36.4087,0.9536 34.9625,0 33.3624,0H20.1376C18.5375,0 17.0913,0.9536 16.461,2.4243L15.539,4.5757C14.9087,6.0464 13.4625,7 11.8624,7H8ZM27,36C32.5228,36 37,31.5228 37,26C37,20.4772 32.5228,16 27,16C21.4772,16 17,20.4772 17,26C17,31.5228 21.4772,36 27,36Z" android:fillType="1"/>
+</vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/background">
+        <shape android:shape="line">
+            <stroke android:width="@dimen/car_seekbar_height" android:color="@color/car_seekbar_track_background_light"/>
+        </shape>
+    </item>
+    <item android:id="@+id/secondaryProgress">
+        <clip>
+            <shape android:shape="line">
+                <stroke android:width="@dimen/car_seekbar_height" android:color="@color/car_seekbar_track_secondary_progress"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@+id/progress">
+        <clip>
+            <shape android:shape="line">
+                <stroke android:width="@dimen/car_seekbar_height" android:color="@color/car_accent_dark"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

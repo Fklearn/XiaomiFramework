@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="1px" android:paddingRight="1px" android:paddingBottom="17.3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <include android:id="@+id/app1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/resolve_list_item"/>
+        <include android:id="@+id/app2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/resolve_list_item"/>
+    </LinearLayout>
+    <CheckBox android:textAppearance="0x100d0058" android:id="@+id/always_option" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alwaysUsePrompt" android:layout_marginStart="18dp"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@drawable/resolver_offical_recommend_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="0x100d0058" android:gravity="center" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2"/>
+    <com.android.internal.widget.MaskLayout android:id="@+id/masklayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/target_badge" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:scaleType="fitCenter"/>
+    </com.android.internal.widget.MaskLayout>
+    <TextView android:textAppearance="0x100d0058" android:textColor="@color/resolver_text_dark" android:gravity="top|center_vertical|center_horizontal|center" android:id="@android:id/text1" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:minLines="2" android:maxEms="5"/>
+</LinearLayout>

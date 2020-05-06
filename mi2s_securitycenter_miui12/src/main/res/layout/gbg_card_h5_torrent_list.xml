@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:id="@+id/root" android:background="@color/itemBaseBg" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/FramePadding">
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:background="@drawable/background_with_full_radius_white_fill" android:paddingTop="@dimen/dp_15dp" android:paddingBottom="@dimen/dp_8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.miui.gamebooster.globalgame.view.GameItemHub android:id="@+id/gameItemHub00" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.miui.gamebooster.globalgame.view.GameItemHub android:id="@+id/gameItemHub01" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.miui.gamebooster.globalgame.view.GameItemHub android:id="@+id/gameItemHub02" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.miui.gamebooster.globalgame.view.GameItemHub android:id="@+id/gameItemHub03" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.miui.gamebooster.globalgame.view.GameItemHub android:id="@+id/gameItemHub04" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

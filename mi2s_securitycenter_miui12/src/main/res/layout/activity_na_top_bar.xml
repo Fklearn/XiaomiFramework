@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="33dp" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:paddingStart="17.5dp" android:paddingEnd="17.5dp">
+        <ImageView android:id="@+id/back" android:background="@null" android:padding="8.5dp" android:layout_width="36.4dp" android:layout_height="36.4dp" android:src="@drawable/na_back" android:layout_marginStart="6dp" android:layout_alignParentStart="true"/>
+        <ImageView android:id="@+id/settings" android:background="@drawable/na_settings" android:layout_width="36.4dp" android:layout_height="36.4dp" android:layout_marginEnd="6dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="32sp" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:text="@string/app_name_na" android:paddingStart="17.5dp" android:paddingEnd="17.5dp" android:layout_marginStart="10dp"/>
+</LinearLayout>

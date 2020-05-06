@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_result_card_border_whole" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="44dp">
+        <ImageView android:id="@+id/tag" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp"/>
+        <TextView android:textSize="@dimen/rank_title_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/icon_delete_selector" android:drawablePadding="5dp" android:layout_marginStart="13dp"/>
+    </LinearLayout>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:id="@+id/line" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+    <Button android:layout_gravity="center_vertical" android:id="@+id/button" android:layout_width="match_parent" style="@style/FunctionResultButton"/>
+</LinearLayout>

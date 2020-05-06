@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AntiSpam.Theme.LogActivity">
+    </style>
+    <style name="BoldWindowTitle">
+    </style>
+    <style name="BottomMenuStyle">
+    </style>
+    <style name="CalWidget.TabView">
+    </style>
+    <style name="LightTheme">
+    </style>
+    <style name="LightThemeNoTitle">
+    </style>
+    <style name="Lucky.AlertDialog">
+    </style>
+    <style name="Lucky.Theme.MainPage">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="?0x1001004f">2</item>
+    </style>
+    <style name="Lucky.Theme.SecondSettings">
+    </style>
+    <style name="PC.Theme.Light.NoTitile.TransparentDark2">
+        <item name="?0x1001004f">2</item>
+        <item name="?0x100100a9">#00c155</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.Compat.DayNight">
+    </style>
+    <style name="Theme.Compat.Preference.DayNight">
+    </style>
+    <style name="Theme.DayNight">
+    </style>
+    <style name="Theme.DayNight.Alert">
+    </style>
+    <style name="Theme.DayNight.Custom.ActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar.ShowTitle</item>
+        <item name="android:actionBarTabTextStyle">@style/BoldWindowTitle</item>
+        <item name="?0x10010036">@style/ActionBar.ActionMode.ActionButton</item>
+    </style>
+    <style name="Theme.DayNight.Custom.ActionBar.Compat">
+        <item name="android:actionBarStyle">@style/ActionBar.ShowTitle</item>
+        <item name="android:actionBarTabTextStyle">@style/BoldWindowTitle</item>
+    </style>
+    <style name="Theme.DayNight.NoTitle">
+    </style>
+    <style name="Theme.DayNight.NoTitle.Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.DayNight.Settings">
+    </style>
+    <style name="Theme.DayNight.Settings.ActionBar">
+        <item name="?0x10010036">@style/ActionBar.ActionMode.ActionButton</item>
+    </style>
+    <style name="Theme.DayNight.Settings.ActionBar.Compat">
+    </style>
+    <style name="Theme.DayNight.Settings1">
+    </style>
+    <style name="Theme.Dialog.Alert">
+    </style>
+    <style name="Theme.Light.ActionBar.NoTitle">
+    </style>
+    <style name="Theme.Light.ActionBarPermCenter">
+    </style>
+    <style name="Theme.Light.ActionBarTransparentDark2">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent</item>
+        <item name="android:homeAsUpIndicator">?unknown_ref: 1002006e</item>
+        <item name="?0x1001004f">2</item>
+    </style>
+    <style name="Theme.Light.ApplicationLockImmersion">
+        <item name="?0x1001004a">true</item>
+        <item name="?0x1001004f">2</item>
+    </style>
+    <style name="Theme.Light.DayNight">
+    </style>
+    <style name="Theme.Light.DayNight.Settings">
+    </style>
+    <style name="Theme.Light.Immersion">
+        <item name="?0x1001004a">true</item>
+    </style>
+    <style name="Theme.Light.Immersion.SearchMode">
+        <item name="?0x1001004a">true</item>
+        <item name="?0x1001007c">?unknown_attr_ref: 10010083</item>
+    </style>
+    <style name="Theme.Light.NoLine">
+        <item name="?0x1001007c">?unknown_attr_ref: 10010083</item>
+    </style>
+    <style name="Theme.Light.NoTitile.TransparentDark2">
+        <item name="?0x1001004f">2</item>
+    </style>
+    <style name="Theme.Light.NoTitle.ApplicationLockImmersion">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="?0x1001004a">true</item>
+        <item name="?0x1001004f">2</item>
+    </style>
+    <style name="Theme.Light.NoTitle.ApplicationLockImmersion2">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="?0x1001004f">2</item>
+    </style>
+    <style name="Theme.Light.NoTitle.Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.MainPage">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="Theme.MainPage.ActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="Theme.PC_PowerCenter.ActionBar">
+    </style>
+    <style name="Theme.Panel">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="Theme.PowerCenter.NoTitle">
+    </style>
+    <style name="Theme.TabPage.immersionMenu">
+        <item name="android:actionBarStyle">@style/Style.ActionBar.Tab</item>
+        <item name="?0x1001004a">true</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.DayNight">
+    </style>
+    <style name="ThemeStatusBarTextWhiteAntiVirus">
+    </style>
+    <style name="TransparentCleaner">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

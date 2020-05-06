@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/play_btn_net_data" android:background="@drawable/bg_corner_100_black60" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/view_dimen_100" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_padding_50" android:src="@drawable/data_net_video_play_btn"/>
+        <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/color_14b9c7" android:id="@+id/net_data_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/main_padding_20"/>
+        <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_padding_50" android:text="@string/game_video_net_data"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/play_btn_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_play_btn" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+</RelativeLayout>

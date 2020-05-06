@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/header_title" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_39" android:layout_marginStart="@dimen/gb_setting_item_padding_start" android:layout_marginEnd="@dimen/gb_setting_item_padding_end" style="@style/GBSettingItemSubtitle"/>
+    <View android:background="@drawable/gb_settings_divider_land" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_2" android:layout_marginTop="@dimen/view_dimen_39" android:layout_marginStart="@dimen/view_dimen_122" android:layout_marginEnd="@dimen/view_dimen_68"/>
+</LinearLayout>

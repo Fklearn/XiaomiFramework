@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/pc_main_power_save_title_margin_top" android:paddingBottom="@dimen/pc_power_save_description_bottom_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="17.45dp" android:textColor="@color/battery_low_percent_color" android:id="@+id/level_percent" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="16.73dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pc_power_save_description_item_margin_top_dialog" android:text="@string/power_save_ps_limit" android:drawablePadding="9.45dp" android:drawableStart="@drawable/pc_dialogdes_itemnumber" style="@style/PowerSaveDescriptionDialog"/>
+        <TextView android:textSize="16.73dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/power_save_ps_freeze" android:drawablePadding="9.45dp" android:drawableStart="@drawable/pc_dialogdes_itemnumber" style="@style/PowerSaveDescriptionDialog"/>
+        <TextView android:textSize="16.73dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/power_save_ps_clean" android:drawablePadding="9.45dp" android:drawableStart="@drawable/pc_dialogdes_itemnumber" style="@style/PowerSaveDescriptionDialog"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:src="@drawable/pc_dialogdes_itemnumber"/>
+            <TextView android:textSize="16.73dp" android:textColor="@color/battery_low_percent_color" android:id="@+id/pc_noticeui_content4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="9.45dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

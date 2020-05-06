@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.common.customview.MovableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_layout" android:background="@color/na_nd_bg" android:layout_width="match_parent" android:layout_height="match_parent" app:headerHeight="@dimen/nd_speed_for_apps_list_collapse_top" app:scrollRange="@dimen/nd_speed_for_apps_list_collapse_top">
+    <LinearLayout android:orientation="vertical" android:id="@+id/header_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:paddingTop="21dp" android:layout_width="match_parent" android:layout_height="@dimen/nd_speed_for_apps_list_collapse_top">
+            <com.miui.networkassistant.netdiagnose.NetworkDiagnosticsDialView android:id="@+id/nd_dial_view" android:layout_width="300dp" android:layout_height="255dp" android:layout_centerHorizontal="true"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="89dp" android:layout_centerHorizontal="true">
+                <TextView android:textSize="13.8dp" android:textColor="@color/na_nd_text_sub" android:gravity="center" android:id="@+id/current_network_type" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+                <com.miui.networkassistant.ui.view.NetworkSpeedView android:gravity="center_horizontal" android:id="@+id/netspeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginStart="16dp"/>
+                <Button android:textSize="18sp" android:textColor="#0099ff" android:layout_gravity="center_horizontal" android:id="@+id/start_diagnostic_btn" android:background="@null" android:layout_width="158.5dp" android:layout_height="55dp" android:layout_marginTop="-4dp" android:text="@string/btn_start_diagnostic"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/content_container" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <fragment android:name="com.miui.networkassistant.ui.fragment.NetworkSpeedForAppsFragment" android:id="@+id/network_diagnostics_network_speed_for_apps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/diagnostics_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nd_speed_for_apps_list_collapse_top" android:layout_alignParentBottom="true">
+        <fragment android:name="com.miui.networkassistant.ui.fragment.NetworkDiagnosticsScanningFragment" android:id="@+id/network_diagnostics_scanning_zone" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <fragment android:name="com.miui.networkassistant.ui.fragment.NetworkDiagnosticsResultFragment" android:id="@+id/network_diagnostics_result_zone" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</com.miui.common.customview.MovableLayout>

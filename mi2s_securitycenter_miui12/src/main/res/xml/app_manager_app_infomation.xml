@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:key="category_app_infomation">
+        <miuix.preference.TextPreference android:title="@string/app_manager_app_info_name" android:key="am_info_label"/>
+        <miuix.preference.TextPreference android:title="@string/app_manager_app_ifno_version" android:key="am_info_version"/>
+        <miuix.preference.TextPreference android:title="@string/app_manager_app_info_pkg" android:key="am_info_pkgname"/>
+    </PreferenceCategory>
+</PreferenceScreen>

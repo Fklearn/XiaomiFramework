@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:title="setting_preferences">
+    <CheckBoxPreference android:title="@string/pref_key_tethering_title" android:key="pref_key_tethering_stats_limit_switch"/>
+    <miuix.preference.TextPreference android:title="@string/pref_title_traffic_limit_number" android:key="pref_key_tethering_stats_limit_value"/>
+    <miuix.preference.TextPreference android:title="@string/pref_title_over_traffic_limit_warning" android:key="pref_key_tethering_over_limit_opt"/>
+</PreferenceScreen>

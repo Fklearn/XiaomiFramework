@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@color/color_gtb_xunyou_gift_dialog_bg_bottom"/>
+    <corners android:bottomLeftRadius="@dimen/gtb_x_y_gift_bottom_bg_radius" android:bottomRightRadius="@dimen/gtb_x_y_gift_bottom_bg_radius"/>
+</shape>

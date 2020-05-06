@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_smartcover_smallwindow_bottom">1620</integer>
+    <integer name="config_smartcover_smallwindow_left">130</integer>
+    <integer name="config_smartcover_smallwindow_right">1310</integer>
+</resources>

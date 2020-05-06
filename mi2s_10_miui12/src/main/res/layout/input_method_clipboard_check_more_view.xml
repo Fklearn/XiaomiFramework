@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/clipboard_more_outside_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/clipboard_more_inside_view" android:background="@drawable/input_method_pop_view_bg_middle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/clipboard_more_copy" android:background="@drawable/input_method_press_shape_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/input_method_clipboard_more_view_top_height"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/input_method_clipboard_more_view_width" android:layout_height="@dimen/input_method_clipboard_more_item_height">
+                <TextView android:textSize="@dimen/input_method_clipboard_more_text_size" android:textColor="@color/input_method_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_clipboard_check_more_copy" android:layout_marginStart="@dimen/input_method_clipboard_more_text_margin_start"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/clipboard_more_insert_phrase" android:background="@drawable/input_method_press_shape" android:visibility="gone" android:layout_width="@dimen/input_method_clipboard_more_view_width" android:layout_height="@dimen/input_method_clipboard_more_item_height">
+            <TextView android:textSize="@dimen/input_method_clipboard_more_text_size" android:textColor="@color/input_method_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_clipboard_check_more_add_to_phrase" android:layout_marginStart="@dimen/input_method_clipboard_more_text_margin_start"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/clipboard_more_delete" android:background="@drawable/input_method_press_shape_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/input_method_clipboard_more_view_width" android:layout_height="@dimen/input_method_clipboard_more_item_height">
+                <TextView android:textSize="@dimen/input_method_clipboard_more_text_size" android:textColor="@color/input_method_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_clipboard_check_more_delete" android:layout_marginStart="@dimen/input_method_clipboard_more_text_margin_start"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/input_method_clipboard_more_view_top_height"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

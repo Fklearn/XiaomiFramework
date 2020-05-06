@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="#222224"/>
+    <corners android:topLeftRadius="@dimen/pc_main_card_border_whole_size" android:topRightRadius="@dimen/pc_main_card_border_whole_size" android:bottomLeftRadius="@dimen/pc_main_card_border_whole_size" android:bottomRightRadius="@dimen/pc_main_card_border_whole_size"/>
+    <stroke android:width="1px" android:color="@color/pc_main_card_border_whole_color"/>
+</shape>

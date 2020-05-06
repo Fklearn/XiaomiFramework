@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/st_title_markednumber_group" android:key="key_mark_number_group">
+        <CheckBoxPreference android:persistent="false" android:title="@string/mark_fraud" android:key="key_mark_fraud"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/mark_agent" android:key="key_mark_agent"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/mark_sell" android:key="key_mark_sell"/>
+    </PreferenceCategory>
+    <Preference android:layout="@layout/custom_preference"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/repeated_marked_number_title" android:key="key_repeated_marked_number" android:summary="@string/repeated_marked_number_summary"/>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory>
+        <CheckBoxPreference android:title="@string/warningcenter_mijia_open_title" android:key="preference_key_open_mijia_warning" android:summary="@string/warningcenter_mijia_open_desc"/>
+        <com.miui.warningcenter.mijia.MijiaTitleGalleryPreference android:key="preference_key_mijia_gallery" app:layout="@layout/warning_center_mijia_main_top"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/warningcenter_mijia_devices_support">
+        <com.miui.warningcenter.mijia.MijiaDeviceViewPreference android:enabled="false" android:key="preference_key_mijia_device" app:layout="@layout/warning_center_mijia_main_bottom"/>
+    </PreferenceCategory>
+</PreferenceScreen>

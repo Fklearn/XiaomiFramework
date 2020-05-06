@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/hp_card_bg_no_shadow_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_main_left_banner_min_height">
+        <ImageView android:id="@+id/icon" android:layout_width="@dimen/card_main_list_banner_iv_banner_size" android:layout_height="@dimen/card_main_list_banner_iv_banner_size" android:layout_marginTop="@dimen/card_main_list_icon_margin_top" android:scaleType="centerCrop"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/card_main_list_banner_iv_banner_margin" android:layout_marginEnd="2dp">
+            <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/HpCardTitleTextViewStyle"/>
+            <TextView android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/HpCardSummaryTextViewStyle"/>
+        </LinearLayout>
+        <Button android:id="@+id/button" style="@style/CardActionButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

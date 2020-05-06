@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.miui.powercenter.legacypowerrank.PowerUsageDetailsTitlePreference android:key="preference_key_power_usage_details_title"/>
+    <PreferenceCategory android:title="@string/details_subtitle" android:key="category_key_power_usage_details"/>
+    <PreferenceCategory android:title="@string/packages_subtitle" android:key="category_key_power_usage_packages"/>
+</PreferenceScreen>

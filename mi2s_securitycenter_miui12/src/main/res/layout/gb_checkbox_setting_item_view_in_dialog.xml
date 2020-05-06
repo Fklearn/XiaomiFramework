@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/rootView" android:layout_width="match_parent" style="@style/GBWonderfulItemRoot">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/second_root" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/gb_wonderful_video_zero_size" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="@dimen/gb_record_item_spacing_between_text_and_switch">
+            <TextView android:textSize="@dimen/gb_wonderful_dialog_title_textsize" android:textColor="@color/white" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GBWonderfulItemTitleRoot"/>
+            <TextView android:textSize="@dimen/gb_wonderful_record_way_dialog_subtitle_textsize" android:textColor="@color/gb_record_dialog_subtitle_color" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_record_item_spacing_between_title_and_subtitle" style="@style/GBWonderfulItemTitleRoot"/>
+        </LinearLayout>
+        <com.miui.gamebooster.widget.SwitchButton android:id="@+id/switchBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" app:backDrawable="@drawable/gb_switch_bg_selector_in_dialog" app:thumbDrawable="@drawable/gb_switch_thumb_selector_in_dialog"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bottomImg" android:background="@drawable/gb_wifi_settings_bg" android:paddingTop="@dimen/view_dimen_36" android:paddingBottom="@dimen/view_dimen_36" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_dimen_24" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50"/>
+</LinearLayout>

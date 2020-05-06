@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@color/voice_input_button_bg_pressed"/>
+    <corners android:radius="@dimen/voice_input_button_radius"/>
+    <stroke android:width="@dimen/voice_input_button_stroke_width" android:color="@color/voice_input_button_stroke"/>
+</shape>

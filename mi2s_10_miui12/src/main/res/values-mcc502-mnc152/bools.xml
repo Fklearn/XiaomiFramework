@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_volte_play_local_hold_tone">true</bool>
+</resources>

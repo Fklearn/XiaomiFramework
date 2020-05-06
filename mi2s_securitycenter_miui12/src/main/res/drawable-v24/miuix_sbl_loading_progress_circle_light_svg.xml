@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="20dp" android:width="20dp" android:viewportWidth="60" android:viewportHeight="60">
+    <path android:fillColor="@color/miuix_sbl_loading_light" android:pathData="M18.1562,30.0195m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" android:strokeWidth="2" android:strokeAlpha="1" android:fillAlpha="1"/>
+</vector>

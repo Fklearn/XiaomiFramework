@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/storage_list_item_dot_w_h"/>
+    <solid android:color="@color/g_ad_button_bg1_p"/>
+    <size android:height="@dimen/storage_list_item_dot_w_h" android:width="@dimen/storage_list_item_dot_w_h"/>
+</shape>

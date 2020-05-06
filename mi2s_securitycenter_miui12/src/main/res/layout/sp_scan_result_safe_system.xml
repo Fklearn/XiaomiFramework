@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/main_page_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="13dp" android:paddingEnd="13dp">
+    <LinearLayout android:id="@+id/update_safe_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp">
+        <TextView android:textSize="13sp" android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/safe_result_item_info_system_version" android:layout_weight="1" style="0x100d0058"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sp_result_safe" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/root_safe_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+        <TextView android:textSize="13sp" android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/safe_result_item_info_system_root" android:layout_weight="1" style="0x100d0058"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sp_result_safe" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+        <TextView android:textSize="13sp" android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/safe_result_item_info_system_scan" android:layout_weight="1" style="0x100d0058"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sp_result_safe" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <LinearLayout android:paddingBottom="17dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp">
+        <TextView android:textSize="13sp" android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/safe_result_item_info_system_antivirus" android:layout_weight="1" style="0x100d0058"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/sp_result_safe" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+</LinearLayout>

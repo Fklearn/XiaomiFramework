@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/storage_activity_main_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout android:id="@+id/sbl" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll">
+        <com.miui.optimizecenter.storage.view.StorageScrollView android:id="@+id/scroll" android:paddingTop="@dimen/storage_action_bar_pt" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:id="@+id/main_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                <include layout="@layout/storage_main_ui"/>
+                <com.miui.optimizecenter.storage.view.PreferenceListView android:orientation="vertical" android:id="@+id/external_panel" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <include layout="@layout/storage_main_item1"/>
+            </LinearLayout>
+        </com.miui.optimizecenter.storage.view.StorageScrollView>
+    </miuix.springback.view.SpringBackLayout>
+    <include android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/storage_activity_action_bar"/>
+</FrameLayout>

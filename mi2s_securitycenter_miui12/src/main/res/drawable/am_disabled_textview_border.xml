@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <corners android:radius="@dimen/am_action_btn_corner_radius"/>
+    <stroke android:width="@dimen/am_text_border_stroke_width" android:color="@color/app_manager_disabled_border_color"/>
+</shape>

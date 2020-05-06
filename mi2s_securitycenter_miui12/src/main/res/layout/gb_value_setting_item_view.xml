@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rootView" android:layout_width="match_parent" style="@style/GBSettingItem">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GBSettingItemTitle"/>
+        <TextView android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_setting_item_spacing_between_title_and_subtitle" style="@style/GBSettingItemSubtitle"/>
+    </LinearLayout>
+    <TextView android:id="@+id/value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="14dp" style="@style/GBSettingItemValue"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gb_setting_item_arrow_selector"/>
+</LinearLayout>

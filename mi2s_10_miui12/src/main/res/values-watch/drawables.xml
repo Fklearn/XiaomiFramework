@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="config_scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</drawable>
+    <drawable name="config_scrollbarTrackVertical">@drawable/scrollbar_vertical_track</drawable>
+</resources>

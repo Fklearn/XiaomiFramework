@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.policy.impl.RecentApplicationsBackground xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@drawable/recent_dialog_background" android:padding="4dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?attr/textAppearanceSmall" android:textStyle="bold" android:textColor="#80ffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40dp" android:text="@string/recent_tasks_title" android:singleLine="true"/>
+    <TextView android:textAppearance="?attr/textAppearanceSmall" android:gravity="center" android:id="@+id/no_applications_message" android:layout_width="320dp" android:layout_height="80dp" android:text="@string/no_recent_tasks"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="320dp" android:layout_height="wrap_content">
+        <include android:id="@+id/button0" layout="@layout/recent_apps_icon"/>
+        <include android:id="@+id/button1" layout="@layout/recent_apps_icon"/>
+        <include android:id="@+id/button2" layout="@layout/recent_apps_icon"/>
+        <include android:id="@+id/button3" layout="@layout/recent_apps_icon"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="320dp" android:layout_height="wrap_content">
+        <include android:id="@+id/button4" layout="@layout/recent_apps_icon"/>
+        <include android:id="@+id/button5" layout="@layout/recent_apps_icon"/>
+        <include android:id="@+id/button6" layout="@layout/recent_apps_icon"/>
+        <include android:id="@+id/button7" layout="@layout/recent_apps_icon"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="40dp"/>
+</com.android.internal.policy.impl.RecentApplicationsBackground>

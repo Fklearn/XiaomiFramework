@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/item_image" android:layout_width="@dimen/gb_tab1_icon_size" android:layout_height="@dimen/gb_tab1_icon_size" android:layout_marginTop="4.5dp" android:scaleType="fitCenter" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/xunyou_booster" android:background="@drawable/xunyou_booster_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.5dp" android:scaleType="fitCenter" android:layout_centerHorizontal="true"/>
+    <TextView android:textAppearance="@style/game_booster_title_show" android:ellipsize="end" android:id="@+id/item_text" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:singleLine="true" android:layout_below="@+id/item_image" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:textAppearance="@style/EditorTextAppearance" android:textColor="@color/text_edit_action_popup_text" android:gravity="center" android:background="@drawable/text_select_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"/>

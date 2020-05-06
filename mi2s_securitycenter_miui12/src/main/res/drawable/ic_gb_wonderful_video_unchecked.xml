@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/gb_wonderful_main_page_item_chebox_size" android:width="@dimen/gb_wonderful_main_page_item_chebox_size" android:viewportWidth="70" android:viewportHeight="71">
+    <path android:fillColor="#ffffff" android:pathData="M35,70.6438C54.33,70.6438 70,54.9738 70,35.6438C70,16.3138 54.33,0.6438 35,0.6438C15.67,0.6438 0,16.3138 0,35.6438C0,54.9738 15.67,70.6438 35,70.6438ZM35,67.6438C17.3269,67.6438 3,53.3169 3,35.6438C3,17.9707 17.3269,3.6438 35,3.6438C52.6731,3.6438 67,17.9707 67,35.6438C67,53.3169 52.6731,67.6438 35,67.6438Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
+</vector>

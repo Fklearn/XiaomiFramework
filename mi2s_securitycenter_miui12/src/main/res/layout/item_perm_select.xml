@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/item_group" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/perm_selected_img_w">
+        <TextView android:textSize="@dimen/perm_selected_title_size" android:id="@+id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="miui-bold"/>
+        <TextView android:textSize="@dimen/perm_selected_tips_size" android:gravity="center" android:id="@+id/item_tips" android:background="@drawable/pm_tips_solid_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/perm_selected_tips_top_margin" android:layout_marginStart="@dimen/perm_selected_tips_left_margin" android:layout_toEndOf="@+id/item_title"/>
+        <TextView android:textSize="@dimen/perm_selected_subtitle_size" android:id="@+id/item_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/item_title"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/item_selected" android:background="@drawable/icon_perm_selected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

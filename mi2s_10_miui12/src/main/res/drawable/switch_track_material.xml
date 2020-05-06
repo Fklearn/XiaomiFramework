@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:gravity="left|right|center_vertical|center_horizontal|fill_horizontal|center" android:start="4dp" android:end="4dp">
+        <shape android:tint="@color/switch_track_material" android:shape="rectangle">
+            <corners android:radius="7dp"/>
+            <solid android:color="@color/white_disabled_material"/>
+            <size android:height="14dp"/>
+        </shape>
+    </item>
+</layer-list>

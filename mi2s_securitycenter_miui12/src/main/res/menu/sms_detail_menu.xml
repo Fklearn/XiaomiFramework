@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/report_sms_detail" android:id="@+id/report_menu" android:title="@string/menu_report" android:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/charge_sms_detail" android:id="@+id/charge_menu" android:title="@string/menu_charge_traffic" android:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/action_button_manual_setting_data" android:id="@+id/setting_menu" android:title="@string/menu_setting_traffic" android:showAsAction="ifRoom"/>
+</menu>

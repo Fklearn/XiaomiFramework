@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/selectableItemBackground" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeightSmall" android:paddingStart="?attr/listPreferredItemPaddingStart" android:paddingEnd="?attr/listPreferredItemPaddingEnd">
+    <com.android.internal.widget.PreferenceImageView android:id="@+id/icon" android:layout_width="@dimen/car_preference_icon_size" android:layout_height="@dimen/car_preference_icon_size" android:layout_marginTop="@dimen/car_preference_row_vertical_margin" android:layout_marginBottom="@dimen/car_preference_row_vertical_margin" android:layout_centerVertical="true" android:layout_marginEnd="?attr/listPreferredItemPaddingEnd" android:layout_alignParentStart="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/car_preference_row_vertical_margin" android:layout_marginBottom="@dimen/car_preference_row_vertical_margin" android:layout_centerVertical="true" android:layout_toStartOf="@+id/widget_frame" android:layout_toEndOf="@+id/icon">
+        <TextView android:textAppearance="?attr/textAppearanceListItem" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?attr/textAppearanceListItemSecondary" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/widget_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

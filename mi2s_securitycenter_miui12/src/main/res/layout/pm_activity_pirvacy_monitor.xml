@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miui.widget.NestedHeaderLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="match_parent" miui:scrollableView="@+id/privacy_manager_list" miui:rangeOffset="1px" style="0x100d00c2">
+        <include android:id="0x100b000b" layout="0x10030000"/>
+        <com.miui.common.expandableview.PinnedHeaderListView android:id="@+id/privacy_manager_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </miui.widget.NestedHeaderLayout>
+    <miui.widget.ProgressBar android:id="@+id/behavior_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="0x100d002a"/>
+    <TextView android:textSize="@dimen/app_behavior_perm_desc_text" android:textColor="@color/app_behavior_empty_text_color" android:gravity="center" android:id="@+id/behavior_empty_view" android:paddingBottom="@dimen/app_behavior_empty_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_behavior_no_recorder" android:layout_centerInParent="true"/>
+</RelativeLayout>

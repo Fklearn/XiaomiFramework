@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/na_main_background" android:background="@drawable/card_blue" android:layout_width="match_parent" android:layout_height="336dp">
+    <com.miui.networkassistant.ui.view.BackgroundView android:id="@+id/main_bg_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/card_no_sim" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15sp" android:textColor="@color/na_button_no_sim_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5dp" android:text="@string/main_alert_message_no_imsi" android:textAlignment="viewStart"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/card_ad_sim" android:background="@drawable/na_sim_ad" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="32.7dp" android:textColor="#ffffff" android:id="@+id/tv_mi_sim_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="56dp" android:text="@string/na_main_card_ad_title" android:fontFamily="mipro-bold" android:layout_marginStart="25dp"/>
+        <TextView android:textSize="14.5dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/na_main_card_ad_subtitle" android:layout_marginStart="25dp"/>
+        <TextView android:textSize="14.5dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/na_main_card_ad_text" android:layout_marginStart="25dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25.8dp" android:layout_marginStart="25dp">
+            <ImageView android:id="@+id/card_title_image" android:layout_width="14.5dp" android:layout_height="18.2dp" android:src="@drawable/icon_sim1"/>
+            <TextView android:textSize="13.3sp" android:textColor="@color/na_card_title" android:id="@+id/card_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8.4dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="22dp">
+            <TextView android:textSize="65.5dp" android:textColor="#ffffff" android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp"/>
+            <TextView android:textSize="13.1dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="center_vertical" android:id="@+id/unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:layout_marginStart="2dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/primary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:layout_marginStart="25dp">
+            <TextView android:textSize="14.5dp" android:textColor="#ffffff" android:id="@+id/text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_month_total_used"/>
+            <TextView android:textSize="14.5dp" android:textColor="#ffffff" android:id="@+id/view_split" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="|" android:layout_marginStart="3dp" android:layout_marginEnd="3dp"/>
+            <TextView android:textSize="14.5dp" android:textColor="#ffffff" android:id="@+id/pre_adjust_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="15.3dp" android:textColor="#ffffff" android:id="@+id/text_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_tc_failed" android:singleLine="true" android:drawablePadding="4dp" android:drawableEnd="@drawable/tc_error"/>
+        </LinearLayout>
+        <include android:id="@+id/view_package_used" android:layout_width="match_parent" android:layout_height="@dimen/na_package_used_height" android:layout_marginTop="10dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp" layout="@layout/view_main_package_used"/>
+        <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.miui.networkassistant.ui.view.LoadingButton android:textSize="17.5dp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/button_adjust_usage" android:layout_width="match_parent" android:layout_height="50.1dp" android:layout_marginBottom="22dp" android:layout_marginStart="14.5dp" android:layout_marginEnd="14.5dp"/>
+    </LinearLayout>
+</RelativeLayout>

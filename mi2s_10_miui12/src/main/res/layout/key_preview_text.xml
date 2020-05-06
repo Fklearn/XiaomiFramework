@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="30sp" android:textColor="@color/keyboard_preview_text" android:gravity="center" android:id="@+id/preview_text" android:background="@drawable/key_preview_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" class="miui.view.MiuiKeyBoardView$KeyButton"/>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/view_dimen_110" android:width="@dimen/view_dimen_110" android:autoMirrored="true" android:viewportWidth="110" android:viewportHeight="110">
+    <path android:fillColor="#9c91ff" android:pathData="M55,110C85.376,110 110,85.376 110,55C110,24.624 85.376,0 55,0C24.624,0 0,24.624 0,55C0,85.376 24.624,110 55,110Z"/>
+</vector>

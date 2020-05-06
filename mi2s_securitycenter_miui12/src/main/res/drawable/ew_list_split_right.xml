@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true">
+        <shape>
+            <solid android:color="@color/ew_list_split_button_bg_selected"/>
+            <stroke android:width="@dimen/ew_main_guide_card_bg_stoke_width" android:color="@color/ew_list_split_button_bg_stoke"/>
+            <corners android:topLeftRadius="0dp" android:topRightRadius="@dimen/ew_list_split_button_corner" android:bottomLeftRadius="0dp" android:bottomRightRadius="@dimen/ew_list_split_button_corner"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/ew_list_split_button_bg_normal"/>
+            <stroke android:width="@dimen/ew_main_guide_card_bg_stoke_width" android:color="@color/ew_list_split_button_bg_stoke"/>
+            <corners android:topLeftRadius="0dp" android:topRightRadius="@dimen/ew_list_split_button_corner" android:bottomLeftRadius="0dp" android:bottomRightRadius="@dimen/ew_list_split_button_corner"/>
+        </shape>
+    </item>
+</selector>

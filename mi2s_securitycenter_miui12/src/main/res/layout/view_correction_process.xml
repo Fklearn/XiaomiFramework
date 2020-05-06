@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_weight="1">
+        <ImageView android:id="@+id/iv_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc_send_sms" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10.67sp" android:textColor="@color/na_white" android:id="@+id/tv_send_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/main_tc_send_sms" android:layout_below="@+id/iv_send" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_weight="1">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:src="@drawable/tc_arrow"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:src="@drawable/tc_arrow"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc_arrow"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:id="@+id/iv_wait" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc_wait" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10.67sp" android:textColor="@color/na_white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/main_tc_wait_result" android:layout_below="@+id/iv_wait" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_weight="1">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:src="@drawable/tc_arrow"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:src="@drawable/tc_arrow"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc_arrow"/>
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/send_sms" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <ImageView android:id="@+id/iv_over" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tc_over" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10.67sp" android:textColor="@color/na_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/main_tc_over" android:layout_below="@+id/iv_over" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

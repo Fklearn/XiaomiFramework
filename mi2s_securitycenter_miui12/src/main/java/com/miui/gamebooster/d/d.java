@@ -1,0 +1,26 @@
+package com.miui.gamebooster.d;
+
+public enum d {
+    QUICKWEIXIN,
+    QUICKQQ,
+    QUICKBROWSER,
+    QUICKFACEBOOK,
+    QUICKVK,
+    QUICKWHATSAPP,
+    RECORD,
+    QUICKSCREENSHOT,
+    ONEKEYCLEAN,
+    ANTIMSG,
+    LEFT_ARROW,
+    RIGHT_ARROW,
+    DND,
+    WIFI,
+    SIMCARD,
+    IMMERSION,
+    HANGUP,
+    DISPLAY,
+    MILINK,
+    VOICECHANGER,
+    WONDERFULE_MOMENT,
+    SETTINGS
+}

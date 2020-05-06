@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="@dimen/headsup_view_height">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/content_bg" android:background="@drawable/heads_up_hongbao_alarm_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.66dp" android:layout_marginBottom="-18dp" android:src="@drawable/alarm_headsup_wechat"/>
+        <TextView android:textSize="@dimen/heads_up_hongbao_message_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@+id/title" android:paddingLeft="@dimen/heads_up_hongbao_message_hpadding" android:paddingRight="@dimen/heads_up_hongbao_message_hpadding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/heads_up_hongbao_ok_text_size" android:textColor="#cb6e00" android:gravity="center" android:id="@+id/ok" android:background="@drawable/selector_alarm_headsup_btn" android:layout_width="@dimen/heads_up_hongbao_ok_button_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/heads_up_hongbao_ok_button_top_margin" android:text="@string/open_right_now"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mi"/>
+            <TextView android:textSize="@dimen/heads_up_hongbao_message_slogon_size" android:textColor="#952924" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alarm_headsup_bottom" android:singleLine="true" android:layout_marginStart="4.33dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/settings" android:paddingBottom="@dimen/heads_up_hongbao_close_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_settings_alarm_headsup" android:paddingStart="@dimen/heads_up_hongbao_close_button_padding" android:paddingEnd="4.33dp"/>
+        <ImageView android:id="@+id/later" android:paddingLeft="@dimen/heads_up_hongbao_close_button_padding" android:paddingBottom="@dimen/heads_up_hongbao_close_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_close_alarm_headsup"/>
+    </LinearLayout>
+</FrameLayout>

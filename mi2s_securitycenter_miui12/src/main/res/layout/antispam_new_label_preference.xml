@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="16.36dp" android:paddingBottom="16.36dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/miuix_preference_item_padding_start" android:paddingEnd="@dimen/miuix_preference_item_padding_end">
+    <TextView android:textAppearance="0x100d0058" android:layout_gravity="center_vertical" android:id="@+id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/st_sum_call_wait"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Material.Dialog">
+    </style>
+    <style name="Theme.Material.Dialog.Alert">
+    </style>
+    <style name="Theme.Material.Light.Dialog">
+    </style>
+    <style name="Theme.Material.Light.Dialog.Alert">
+    </style>
+    <style name="Theme.DeviceDefault.Dialog.Alert">
+    </style>
+    <style name="Theme.DeviceDefault.Light.Dialog.Alert">
+    </style>
+    <style name="Theme.DeviceDefault.Autofill">
+        <item name="colorBackground">@color/autofill_background_material_dark</item>
+    </style>
+    <style name="Theme.DeviceDefault.Autofill.Light">
+    </style>
+    <style name="Theme.DeviceDefault.Autofill.Save">
+        <item name="colorBackground">@color/autofill_background_material_dark</item>
+    </style>
+    <style name="Theme.DeviceDefault.Dialog.AppError">
+    </style>
+    <style name="Theme.DeviceDefault.Light.Autofill.Save">
+    </style>
+    <style name="Theme.DeviceDefault.Resolver">
+    </style>
+    <style name="Theme.Dialog.Alert">
+    </style>
+    <style name="Theme.Dialog.Confirmation">
+    </style>
+    <style name="Theme.Holo.Dialog.Alert">
+    </style>
+    <style name="Theme.Holo.Light.Dialog.Alert">
+    </style>
+    <style name="Theme.Material.Settings.Dialog">
+    </style>
+    <style name="Theme.Material.Settings.Dialog.Alert">
+    </style>
+</resources>

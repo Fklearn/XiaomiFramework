@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="boot_msg_text">
+        <item>正在优化应用启动速度，请耐心等待.</item>
+        <item>正在优化应用启动速度，请耐心等待..</item>
+        <item>正在优化应用启动速度，请耐心等待...</item>
+        <item>正在优化应用启动速度，请耐心等待.</item>
+        <item>正在优化应用启动速度，请耐心等待..</item>
+        <item>正在优化应用启动速度，请耐心等待...</item>
+        <item>正在优化应用启动速度，请耐心等待.</item>
+        <item>正在优化应用启动速度，请耐心等待..</item>
+        <item>正在优化应用启动速度，请耐心等待...</item>
+        <item>正在优化应用启动速度，请耐心等待.</item>
+        <item>正在优化应用启动速度，请耐心等待..</item>
+        <item>正在优化应用启动速度，请耐心等待...</item>
+    </array>
+    <array name="fingerprint_acquired_vendor">
+        <item>请再试一次</item>
+        <item />
+        <item />
+        <item>请将手指完全覆盖指纹操作区域并按压</item>
+        <item />
+        <item>请将手指完全覆盖指纹操作区域并按压</item>
+        <item>请清洁指纹表面后再次尝试</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>请将手指完全覆盖指纹操作区域并按压</item>
+        <item>请将手指完全覆盖指纹操作区域并按压</item>
+        <item>手指移动过快,未能识别</item>
+        <item>请移动手指位置后,再次进行识别</item>
+        <item>请抬起手指后再次将手指放置于识别区域</item>
+        <item>请将您的手指在识别区域保持久一点</item>
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item>请移动手指位置，再进行录入</item>
+        <item>该指纹已经存在，请更换手指进行录入</item>
+    </array>
+</resources>

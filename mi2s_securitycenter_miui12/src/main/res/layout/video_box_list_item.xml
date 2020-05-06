@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/vp_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/vb_main_item_func_h">
+    <android.support.v4.view.ViewPager android:id="@+id/vb_item_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    <com.miui.gamebooster.videobox.view.VBIndicatorView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/vb_indicator" android:visibility="gone" android:layout_width="@dimen/vb_main_indicator_w" android:layout_height="@dimen/vb_main_indicator_h" android:layout_marginBottom="@dimen/vb_main_indicator_mb"/>
+    <View android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/divider" android:background="@color/color_vtb_main_item_divider" android:visibility="gone" android:layout_width="@dimen/vtb_main_item_divider_line_w" android:layout_height="@dimen/vtb_main_item_divider_line_h"/>
+</FrameLayout>

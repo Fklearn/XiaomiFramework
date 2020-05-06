@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_main_top_icon_margin_top">
+        <ImageView android:gravity="center" android:id="@+id/icon" android:paddingTop="4dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+        <TextView android:textSize="@dimen/am_main_top_text_size" android:textColor="@color/app_manager_main_top_text_color" android:gravity="center" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_main_top_text_margin_top" android:singleLine="true"/>
+    </LinearLayout>
+</FrameLayout>

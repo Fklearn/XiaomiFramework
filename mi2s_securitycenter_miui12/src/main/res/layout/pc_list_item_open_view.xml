@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/list_item_view_side_padding" android:paddingBottom="@dimen/list_item_view_side_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding">
+        <ImageView android:layout_gravity="top" android:id="@android:id/icon" android:layout_width="@dimen/list_item_app_icon_size" android:layout_height="@dimen/list_item_app_icon_size" android:scaleType="centerInside" android:layout_marginEnd="@dimen/list_item_view_side_padding"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp">
+            <TextView android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/StyleListItemTitle"/>
+            <TextView android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleListItemSubTitle"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:id="@android:id/button1" android:background="@drawable/action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_text_open_now"/>
+            <TextView android:textSize="14sp" android:textColor="#99000000" android:id="@android:id/text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_text_already_opened"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

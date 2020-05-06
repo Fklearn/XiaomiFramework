@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="unloggable_phone_numbers">
+        <item>016</item>
+    </array>
+</resources>

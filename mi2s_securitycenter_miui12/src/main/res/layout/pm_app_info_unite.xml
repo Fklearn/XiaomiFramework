@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/am_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/app_info_icon" android:layout_width="@dimen/view_dimen_188" android:layout_height="@dimen/view_dimen_188" android:layout_marginStart="@dimen/view_dimen_80"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/view_dimen_46">
+        <TextView android:textSize="@dimen/text_font_size_50" android:textColor="@color/app_manager_detail_title_color" android:gravity="center" android:id="@+id/app_info_pkgname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_31" android:fontFamily="miui-bold"/>
+        <TextView android:textSize="@dimen/text_font_size_38" android:textStyle="normal" android:textColor="@color/tx_runtime_behavior" android:id="@+id/app_info_isrunning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_2" android:text="@string/pm_auto_start_proc_is_running"/>
+    </LinearLayout>
+</LinearLayout>

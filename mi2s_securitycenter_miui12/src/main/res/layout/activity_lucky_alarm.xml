@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.miui.common.customview.MovableLayout android:id="@+id/activity_lucky_alarm" android:background="@drawable/lucky_alarm_header_bg" android:layout_width="match_parent" android:layout_height="match_parent" app:headerHeight="@dimen/lucky_alarm_top_height" app:scrollRange="178dp">
+        <RelativeLayout android:id="@+id/header_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/lucky_alarm_top_height" android:layout_marginTop="@dimen/lucky_alarm_appbar_topmargin">
+            <ImageView android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.2dp" android:src="0x1002006e" android:layout_marginStart="10.2dp"/>
+            <TextView android:textSize="19.64dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/txvBack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.64dp" android:text="@string/lucky_alarm" android:contentDescription="@string/lucky_alarm_back"/>
+            <Button android:id="@+id/settings" android:background="0x10020065" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.2dp" android:contentDescription="@string/alarm_setting_title" android:layout_marginEnd="10.02dp" android:layout_alignParentEnd="true"/>
+            <ImageView android:id="@+id/imgLuckyAlarmIcon" android:layout_width="67.64dp" android:layout_height="67.64dp" android:layout_marginTop="82.55dp" android:src="@drawable/hongbao_launcher" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="13.09sp" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/txvLuckyAlarmApp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13.45dp" android:text="@string/lucky_alarm_app" android:layout_below="@+id/imgLuckyAlarmIcon" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="40sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@+id/txvLuckyAlarmCountDown" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp" android:text="@string/lucky_alarm_count_down" android:layout_below="@+id/txvLuckyAlarmApp" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/content_container" android:background="@color/lucky_bkg_color" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/lucky_alarm_top_height">
+            <ListView android:id="@+id/listLuckyAlarm" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/content_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.miui.common.customview.MovableLayout>
+</FrameLayout>

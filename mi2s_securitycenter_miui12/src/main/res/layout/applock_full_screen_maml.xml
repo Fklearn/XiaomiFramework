@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.miui.applicationlock.widget.WrapMaml android:id="@+id/action_maml" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/onOrMuteSwitch" android:background="@drawable/sound_on" android:visibility="gone" android:layout_width="@dimen/play_or_mute_button_width" android:layout_height="@dimen/play_or_mute_button_width" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+</RelativeLayout>

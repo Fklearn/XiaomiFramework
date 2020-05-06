@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="145.5dp" android:width="145.5dp" android:autoMirrored="true" android:viewportWidth="400" android:viewportHeight="400">
+    <path android:fillColor="@drawable/$battery_risk_icon_dark__0" android:pathData="M200,200m-200,0a200,200 0,1 1,400 0a200,200 0,1 1,-400 0"/>
+</vector>

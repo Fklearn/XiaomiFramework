@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/splashscreen" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitStart"/>
+</FrameLayout>

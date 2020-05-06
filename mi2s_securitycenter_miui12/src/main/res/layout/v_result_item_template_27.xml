@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.4dp" android:layout_marginStart="10.4dp">
+            <ImageView android:id="@+id/img" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:src="@drawable/icon_def" android:scaleType="centerCrop"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="8dp">
+                <TextView android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FunctionTitleStyle"/>
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginEnd="@dimen/result_page_padding" style="@style/FunctionSummaryStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/bigImage" android:visibility="gone" android:layout_width="match_parent" android:layout_height="166dp" android:layout_marginTop="10.4dp" android:scaleType="centerCrop" android:layout_marginStart="10.4dp" android:layout_marginEnd="10.4dp"/>
+        <Button android:id="@+id/button" android:layout_width="match_parent" android:layout_height="35.4dp" android:layout_marginTop="10.4dp" android:layout_marginBottom="10.4dp" android:layout_marginStart="10.4dp" android:layout_marginEnd="10.4dp" style="@style/ResultButtonBlue"/>
+    </LinearLayout>
+    <TextView android:id="@+id/close" android:visibility="invisible" android:layout_marginTop="6.67dp" android:layout_marginEnd="6.67dp" android:layout_alignParentEnd="true" style="@style/ResultItemAdxStyle"/>
+</RelativeLayout>

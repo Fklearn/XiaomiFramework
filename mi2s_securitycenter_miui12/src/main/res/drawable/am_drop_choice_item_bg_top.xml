@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <corners android:topLeftRadius="@dimen/hp_card_bg_radius" android:topRightRadius="@dimen/hp_card_bg_radius" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp"/>
+    <solid android:color="@color/am_drop_choice_item_bg_color"/>
+</shape>

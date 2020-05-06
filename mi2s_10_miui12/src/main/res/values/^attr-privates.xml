@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <^attr-private name="__removed0">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="__removed1">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="__removed2">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="__removed3">
+        <item>65535</item>
+    </^attr-private>
+    <^attr-private name="__removed4">
+        <item>65535</item>
+    </^attr-private>
+    <^attr-private name="__removed5">
+        <item>65535</item>
+    </^attr-private>
+    <^attr-private name="__removed6">
+        <item>65535</item>
+    </^attr-private>
+    <^attr-private name="accessibilityFocusedDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="actionModePopupWindowStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="activityChooserViewStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="activityOpenRemoteViewsEnterAnimation">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="adjustable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="alertDialogButtonGroupStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="alertDialogCenterButtons">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="allowMassStorage">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="allowStacking">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="alwaysFocusable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="aspect">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="autofillDatasetPickerMaxHeight">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="autofillDatasetPickerMaxWidth">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="autofillSaveCustomSubtitleMaxHeight">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="backgroundLeft">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="backgroundPermission">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="backgroundRequest">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="backgroundRequestDetail">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="backgroundRight">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="borderBottom">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="borderLeft">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="borderRight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="borderTop">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="buttonPanelSideLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="calendarViewMode">
+        <item>65536</item>
+        <item>@null</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="checkMarkGravity">
+        <item>131072</item>
+        <item>8388613</item>
+        <item>3</item>
+        <item>5</item>
+        <item>8388611</item>
+    </^attr-private>
+    <^attr-private name="clickColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="closeItemLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="colorListDivider">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="colorPopupBackground">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="colorProgressBackgroundNormal">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="colorSwitchThumbNormal">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="controllerType">
+        <item>65536</item>
+        <item>1</item>
+        <item>@null</item>
+    </^attr-private>
+    <^attr-private name="damping">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="dayHighlightColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="daySelectorColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="defaultQueryHint">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="dialogCustomTitleDecorLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="dialogMode">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="dialogTitleDecorLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="dialogTitleIconsDecorLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="disableChildrenWhenDisabled">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="dotSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="drawableAlpha">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="dropdownListPreferredItemHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="emulated">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="enableControlView">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="enableSubtitle">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="errorColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="errorMessageAboveBackground">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="errorMessageBackground">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="expandActivityOverflowButtonDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="externalRouteEnabledDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="findOnPageNextDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="findOnPagePreviousDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarCloseDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarDividerColor">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarForegroundColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarItemBackgroundBorderlessDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarItemBackgroundDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarOpenDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="floatingToolbarPopupBackgroundDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="foregroundInsidePadding">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="fragmentBreadCrumbsStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="frameDuration">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="framesCount">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="fromBottom">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="fromLeft">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="fromRight">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="fromTop">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="gestureOverlayViewStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="glowDot">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="hasRoundedCorners">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="headerLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="headerRemoveIconIfEmpty">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="headerTextColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="hideWheelUntilFocused">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="horizontalProgressLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="initialActivityCount">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="internalLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="internalMaxHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="internalMaxWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="internalMinHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="internalMinWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="interpolatorX">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="interpolatorY">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="interpolatorZ">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="itemColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="itemLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="keyboardViewStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="layoutManager">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="layout_alwaysShow">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="layout_childType">
+        <item>65536</item>
+        <item>2</item>
+        <item>6</item>
+        <item>@null</item>
+        <item>7</item>
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+        <item>5</item>
+    </^attr-private>
+    <^attr-private name="layout_hasNestedScrollIndicator">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="layout_ignoreOffset">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="layout_maxHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="layout_removeBorders">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="leftToRight">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="legacyLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="lightRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="lightY">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="lightZ">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="listItemLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="listLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="locale">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="lockPatternStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="magnifierColorOverlay">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="magnifierElevation">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="magnifierHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="magnifierHorizontalOffset">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="magnifierStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="magnifierVerticalOffset">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="magnifierWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="magnifierZoom">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="majorWeightMax">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="majorWeightMin">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="maxCollapsedHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="maxCollapsedHeightSmall">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="maxFileSize">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="maxItems">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="minorWeightMax">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="minorWeightMin">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="monthTextAppearance">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="mountPoint">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="mtpReserve">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="multiChoiceItemLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="navigationButtonStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="needsDefaultBackgrounds">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="notificationHeaderAppNameVisibility">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>@null</item>
+    </^attr-private>
+    <^attr-private name="notificationHeaderIconSize">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="notificationHeaderStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="notificationHeaderTextAppearance">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="numDots">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="opacityListDivider">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="paddingBottomNoButtons">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="paddingTopNoTitle">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="pageSpacing">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="panelMenuIsCompact">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="panelMenuListTheme">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="panelMenuListWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="pathAdvancedPattern">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="pathColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="pointerIconAlias">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconAllScroll">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconArrow">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconCell">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconContextMenu">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconCopy">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconCrosshair">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconGrab">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconGrabbing">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconHand">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconHelp">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconHorizontalDoubleArrow">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconNodrop">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconSpotAnchor">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconSpotHover">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconSpotTouch">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconText">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconTopLeftDiagonalDoubleArrow">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconTopRightDiagonalDoubleArrow">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconVerticalDoubleArrow">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconVerticalText">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconWait">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconZoomIn">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="pointerIconZoomOut">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="popupPromptView">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="position">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>@null</item>
+    </^attr-private>
+    <^attr-private name="preferenceActivityStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="preferenceFragmentListStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="preferenceFragmentPaddingSide">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="preferenceFrameLayoutStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="preferenceHeaderPanelStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="preferenceListStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="preferencePanelStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="preserveIconSpacing">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="primary">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="productId">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="progressBarCornerRadius">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="progressLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="quickContactBadgeOverlay">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="quickContactWindowSize">
+        <item>65536</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="regularColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="removable">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="removeBeforeMRelease">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="request">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="requestDetail">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="resOutColor">
+        <item>16</item>
+    </^attr-private>
+    <^attr-private name="response">
+        <item>32</item>
+    </^attr-private>
+    <^attr-private name="reverseLayout">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="screenLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="scrollIndicatorPaddingLeft">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="scrollIndicatorPaddingRight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="searchDialogTheme">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="searchResultListItemHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="searchWidgetCorpusItemBackground">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="seekBarDialogPreferenceStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="seekBarPreferenceStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="selectionDivider">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="selectionDividersDistance">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="selectionScrollOffset">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="showAtTop">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="showRelative">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="showSeekBarValue">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="showTitle">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="showWallpaper">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="singleChoiceItemLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="spanCount">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="stackFromEnd">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="state_accessibility_focused">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="storageDescription">
+        <item>2</item>
+    </^attr-private>
+    <^attr-private name="successColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="systemUserOnly">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="tabLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="textAppearanceAutoCorrectionSuggestion">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="textAppearanceEasyCorrectSuggestion">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="textAppearanceMisspelledSuggestion">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="textColorPrimaryActivated">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="textColorSearchUrl">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="textColorSecondaryActivated">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="textEditSuggestionContainerLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="textEditSuggestionHighlightStyle">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="textUnderlineColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="textUnderlineThickness">
+        <item>65</item>
+    </^attr-private>
+    <^attr-private name="thumbDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="thumbMinHeight">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="thumbMinWidth">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="toBottom">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="toLeft">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="toRight">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="toTop">
+        <item>128</item>
+    </^attr-private>
+    <^attr-private name="toastFrameBackground">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="tooltipBackgroundColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="tooltipForegroundColor">
+        <item>17</item>
+    </^attr-private>
+    <^attr-private name="tooltipFrameBackground">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="trackDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="unlockProfile">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="useDisabledAlpha">
+        <item>8</item>
+    </^attr-private>
+    <^attr-private name="vendorId">
+        <item>4</item>
+    </^attr-private>
+    <^attr-private name="viewType">
+        <item>65536</item>
+        <item>@null</item>
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="virtualButtonPressedDrawable">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="windowActionBarFullscreenDecorLayout">
+        <item>1</item>
+    </^attr-private>
+    <^attr-private name="windowFixedHeightMajor">
+        <item>192</item>
+    </^attr-private>
+    <^attr-private name="windowFixedHeightMinor">
+        <item>192</item>
+    </^attr-private>
+    <^attr-private name="windowFixedWidthMajor">
+        <item>192</item>
+    </^attr-private>
+    <^attr-private name="windowFixedWidthMinor">
+        <item>192</item>
+    </^attr-private>
+    <^attr-private name="windowOutsetBottom">
+        <item>64</item>
+    </^attr-private>
+    <^attr-private name="yearListItemActivatedTextAppearance">
+        <item>1</item>
+    </^attr-private>
+</resources>

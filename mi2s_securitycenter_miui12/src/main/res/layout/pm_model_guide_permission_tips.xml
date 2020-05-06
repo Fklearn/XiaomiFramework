@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_font_size_38" android:textColor="@color/applock_reset_header_text_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_30" android:layout_marginBottom="@dimen/view_dimen_30" android:text="@string/privacy_guide_permission_use_text" android:minLines="5" android:layout_marginStart="@dimen/view_dimen_48" android:layout_marginEnd="@dimen/view_dimen_48"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

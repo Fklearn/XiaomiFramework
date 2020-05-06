@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20dp" android:src="@drawable/gamebox_arrow_expand_h" android:layout_marginStart="@dimen/dp_20dp"/>
+        <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@+id/exo_play" android:layout_width="@dimen/gb_wonderful_video_play_btn_size" android:layout_height="@dimen/gb_wonderful_video_play_btn_size" style="@style/ExoMediaButton.Play"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/exo_pause" android:layout_width="@dimen/gb_wonderful_video_play_btn_size" android:layout_height="@dimen/gb_wonderful_video_play_btn_size" style="@style/ExoMediaButton.Pause"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/layout_bottom_control" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/sounds_btn" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_120" android:src="@drawable/sounds_btn" android:scaleType="centerInside" android:layout_marginStart="@dimen/main_padding_14"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/gb_wonderful_video_play_pos_textsize" android:textColor="@color/gb_wonderful_video_play_duration_pos_textcolor" android:id="@+id/exo_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="@dimen/gb_wonderful_video_play_duration_size_interval" android:paddingEnd="@dimen/gb_wonderful_video_play_duration_size_interval"/>
+                    <View android:background="@color/gb_wonderful_video_play_duration_pos_textcolor" android:layout_width="@dimen/gb_wonderful_video_interval_width" android:layout_height="@dimen/gb_wonderful_video_interval_height"/>
+                    <TextView android:textSize="@dimen/gb_wonderful_video_play_pos_textsize" android:textColor="@color/gb_wonderful_video_play_duration_pos_textcolor" android:id="@+id/exo_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="@dimen/gb_wonderful_video_play_duration_size_interval" android:paddingEnd="@dimen/gb_wonderful_video_play_duration_size_interval"/>
+                </LinearLayout>
+            </LinearLayout>
+            <com.google.android.exoplayer2.ui.DefaultTimeBar android:id="@+id/exo_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_110" style="@style/CustomExoMediaTimeBar"/>
+        </FrameLayout>
+    </FrameLayout>
+</merge>

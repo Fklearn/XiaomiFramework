@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="?android:attr/actionBarStyle">
+        <View android:id="@+id/status_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="?android:attr/actionBarSize">
+            <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?android:attr/homeAsUpIndicator"/>
+            <include android:layout_gravity="center_vertical" android:id="@+id/title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/action_bar_title_item"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

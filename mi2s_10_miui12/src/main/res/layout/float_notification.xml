@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="0x10501db" android:layout_height="0x10501da" android:scaleType="fitCenter" android:layout_marginStart="0x10501dd"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="0x10501b3" android:paddingEnd="0dp">
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Title" android:ellipsize="marquee" android:id="@+id/primary_text" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.EventContent" android:ellipsize="end" android:id="@+id/secondary_text" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.EventContent" android:textColor="@color/float_notification_button_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/action_button" android:background="@drawable/float_notification_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="Close" android:layout_marginEnd="0x10501de"/>
+</LinearLayout>

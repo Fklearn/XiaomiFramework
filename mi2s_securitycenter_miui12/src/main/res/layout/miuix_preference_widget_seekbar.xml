@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:background="?attr/preferenceItemBackground" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/miuix_preference_item_seekbar_parent_padding_top" android:paddingBottom="@dimen/miuix_preference_item_seekbar_parent_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/miuix_preference_item_seekbar_icon_width" android:layout_height="@dimen/miuix_preference_item_seekbar_icon_height" android:layout_marginEnd="@dimen/miuix_preference_item_seekbar_icon_margin_end"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <miuix.preference.UnPressableLinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/miuix_preference_item_seekbar_padding_top" android:paddingBottom="@dimen/miuix_preference_item_seekbar_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <miui.widget.SeekBar android:id="@+id/seekbar" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:paddingStart="@dimen/miuix_preference_seekbar_padding_horizontal" android:paddingEnd="@dimen/miuix_preference_seekbar_padding_horizontal"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceListItem" android:ellipsize="marquee" android:gravity="right" android:id="@+id/seekbar_value" android:scrollbars="none" android:fadingEdge="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true"/>
+        </miuix.preference.UnPressableLinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/switch_outside_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/switch_inside_view" android:background="@color/input_method_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/switch_list_view_layout" android:layout_width="@dimen/input_method_switch_view_width" android:layout_height="0dp" android:layout_weight="1">
+            <ListView android:id="@+id/switch_list_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null" android:overScrollMode="never"/>
+            <View android:layout_gravity="bottom" android:id="@+id/switch_transitional_view" android:background="@drawable/shape_bottom_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/input_method_clipboard_list_view_bottom_height"/>
+        </FrameLayout>
+        <LinearLayout android:id="@+id/keyboard_setting_layout" android:layout_width="@dimen/input_method_switch_view_width" android:layout_height="@dimen/input_method_switch_view_settings_layout_height">
+            <LinearLayout android:gravity="center" android:id="@+id/keyboard_setting_button" android:background="@drawable/input_method_button_shape" android:layout_width="match_parent" android:layout_height="@dimen/input_method_switch_view_settings_button_height" android:layout_marginTop="@dimen/input_method_switch_fist_line_height" android:layout_marginStart="@dimen/input_method_switch_view_settings_button_margin" android:layout_marginEnd="@dimen/input_method_switch_view_settings_button_margin">
+                <TextView android:textSize="@dimen/input_method_switch_view_settings_button_textSize" android:textStyle="bold" android:textColor="@color/input_method_switch_settings_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_switch_settings_text"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

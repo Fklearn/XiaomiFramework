@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/common_linearlayout" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ListViewItem">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="9.5dp" android:textColor="@color/gb_activity_main_text" android:gravity="center" android:id="@+id/rank" android:padding="1.5dp" android:layout_width="18dp" android:layout_height="18dp" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/icon" android:layout_width="@dimen/card_game_icon_size" android:layout_height="@dimen/card_game_icon_size" android:scaleType="centerCrop" android:layout_marginStart="10dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="10dp" style="@style/ResultItem">
+            <TextView android:textSize="@dimen/font_size_39" android:textColor="#cc000000" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="true"/>
+            <TextView android:id="@+id/type" android:background="@drawable/gb_top_button" style="@style/CardTypeStyle"/>
+            <TextView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/GBFunctionSummaryStyle"/>
+        </LinearLayout>
+        <Button android:id="@+id/button" android:background="@drawable/gb_top_button" style="@style/GBCardActionButtonStyle"/>
+    </LinearLayout>
+    <include android:id="@+id/divider" layout="@layout/gb_include_horizontal_line"/>
+</LinearLayout>

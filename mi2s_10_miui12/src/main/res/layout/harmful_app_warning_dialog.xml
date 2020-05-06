@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/harmful_app_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/harmful_app_name_padding_left" android:paddingTop="@dimen/harmful_app_name_padding_top" android:paddingRight="@dimen/harmful_app_name_padding_right" android:paddingBottom="@dimen/harmful_app_name_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/harmful_app_icon_size" android:layout_height="@dimen/harmful_app_icon_size" android:src="@drawable/red_shield" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/text_size_subhead_material" android:textColor="?attr/textColorPrimary" android:gravity="center_vertical" android:id="@+id/app_name_text" android:paddingLeft="@dimen/harmful_app_icon_name_padding" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_body_1_material" android:id="@+id/message" android:paddingLeft="@dimen/harmful_app_message_padding_left" android:paddingRight="@dimen/harmful_app_message_padding_right" android:paddingBottom="@dimen/harmful_app_message_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/harmful_app_message_line_spacing_modifier"/>
+    </LinearLayout>
+</ScrollView>

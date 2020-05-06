@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll_view">
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:background="@color/text_color_black_15" android:layout_width="match_parent" android:layout_height="@dimen/divider"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/competition_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/spacing_70" style="0x100d004d">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="15dp">
+                        <TextView android:textAppearance="0x100d005f" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_performance_mode" android:layout_weight="1"/>
+                        <TextView android:textAppearance="0x100d0058" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_performance_mode_detail" android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@+id/sliding_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <RelativeLayout android:background="@color/color_gb_item_main_bg" android:paddingBottom="@dimen/view_dimen_109" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/competition_checkbox">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/wlan_optimization" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_37" android:layout_marginStart="@dimen/view_dimen_70">
+                    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gb_competition_wlan"/>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_dimen_73" android:layout_marginEnd="@dimen/view_dimen_107">
+                            <TextView android:textAppearance="0x100d005f" android:id="@+id/wlan_optimization_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wlan_optimization_title" android:layout_weight="1"/>
+                            <TextView android:textAppearance="0x100d0058" android:id="@+id/wlan_optimization_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wlan_optimization_summary" android:layout_weight="1"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/doze_optimization" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_123" android:layout_below="@+id/wlan_optimization" android:layout_marginStart="@dimen/view_dimen_70">
+                    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gb_competition_doze"/>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_dimen_73" android:layout_marginEnd="@dimen/view_dimen_107">
+                            <TextView android:textAppearance="0x100d005f" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/doze_optimization_title" android:layout_weight="1"/>
+                            <TextView android:textAppearance="0x100d0058" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/doze_optimization_summary" android:layout_weight="1"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/audio_optimization" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_123" android:layout_below="@+id/doze_optimization" android:layout_marginStart="@dimen/view_dimen_70">
+                    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gb_competition_audio"/>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_dimen_73" android:layout_marginEnd="@dimen/view_dimen_107">
+                            <TextView android:textAppearance="0x100d005f" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/audio_optimization_title" android:layout_weight="1"/>
+                            <TextView android:textAppearance="0x100d0058" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/audio_optimization_summary" android:layout_weight="1"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/perfermance_optimization" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_123" android:layout_marginBottom="@dimen/view_dimen_109" android:layout_below="@+id/audio_optimization" android:layout_marginStart="@dimen/view_dimen_70">
+                    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gb_competition_perfamance"/>
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_dimen_73" android:layout_marginEnd="@dimen/view_dimen_107">
+                            <TextView android:textAppearance="0x100d005f" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perfermance_optimization_title" android:layout_weight="1"/>
+                            <TextView android:textAppearance="0x100d0058" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/perfermance_optimization_summary" android:layout_weight="1"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

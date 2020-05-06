@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DatePicker xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/datePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:spinnersShown="true" android:calendarViewShown="false" android:datePickerMode="@integer/date_picker_mode"/>

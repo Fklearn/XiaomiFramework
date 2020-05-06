@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="alpha_width" format="integer">
+    </attr>
+    <attr name="arrowGreenUpBmp" format="reference">
+    </attr>
+    <attr name="arrowRedUpBmp" format="reference">
+    </attr>
+    <attr name="aspect" format="string">
+    </attr>
+    <attr name="btnDefaultBackgroundBmp" format="reference">
+    </attr>
+    <attr name="btnDefaultBmp" format="reference">
+    </attr>
+    <attr name="btnRedBmp" format="reference">
+    </attr>
+    <attr name="btnTouchedBmp" format="reference">
+    </attr>
+    <attr name="care_streamactive" format="boolean">
+    </attr>
+    <attr name="circleDefaultBmp" format="reference">
+    </attr>
+    <attr name="circleGreenBmp" format="reference">
+    </attr>
+    <attr name="circleRedBmp" format="reference">
+    </attr>
+    <attr name="diameterFactor" format="float">
+    </attr>
+    <attr name="paintColor" format="color">
+    </attr>
+    <attr name="pathStrokeAlpha" format="integer">
+    </attr>
+    <attr name="sliding_dot_bar" format="reference">
+    </attr>
+    <attr name="sliding_panel" format="reference">
+    </attr>
+    <attr name="sliding_shadow_dot_bar" format="reference">
+    </attr>
+    <attr name="symmetry" format="boolean">
+    </attr>
+    <attr name="update_enable" format="boolean">
+    </attr>
+    <attr name="wrongColor" format="color">
+    </attr>
+</resources>

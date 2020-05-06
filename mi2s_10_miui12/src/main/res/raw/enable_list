@@ -1,0 +1,31 @@
+{
+  "com.xiaomi.mipicks": {
+    "enable_list": [
+      "IN",
+      "ID",
+      "RU",
+      "ES"
+    ],
+    "shouldKeep": false
+  },
+  "com.mipay.wallet.in": {
+    "enable_list": [
+      "IN"
+    ],
+    "shouldKeep": false
+  },
+  "com.miui.virtualsim": {
+    "enable_list": [
+      "ID"
+    ],
+    "shouldKeep": false
+  },
+  "com.xiaomi.glgm": {},
+  "com.mi.globalTrendNews": {},
+  "com.micredit.in": {
+    "enable_list": [
+      "IN"
+    ],
+    "shouldKeep": false
+  }
+}

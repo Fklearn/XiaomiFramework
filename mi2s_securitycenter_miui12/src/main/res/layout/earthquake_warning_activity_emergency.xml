@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/ew_text_while_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/ew_main_padding_start" android:paddingEnd="@dimen/ew_main_padding_start">
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:layout_gravity="center" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_66" style="@style/StyleEmergencyText"/>
+                <TextView android:textSize="@dimen/text_font_size_46" android:textStyle="bold" android:textColor="@color/ew_text_black_color" android:layout_gravity="center" android:id="@+id/birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ew_emergency_birthday_margin_top"/>
+                <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_142" android:text="@string/ew_emergency_idcard" style="@style/StyleEmergencyTitle"/>
+                <TextView android:id="@+id/idcard" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleEmergencyText"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_emergency_blood_type" style="@style/StyleEmergencyTitle"/>
+                <TextView android:id="@+id/blood_type" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleEmergencyText"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_emergency_allergy" style="@style/StyleEmergencyTitle"/>
+                <TextView android:id="@+id/allergy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleEmergencyText"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_emergency_recent_medicine" style="@style/StyleEmergencyTitle"/>
+                <TextView android:id="@+id/medicine" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleEmergencyText"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_emergency_medical" style="@style/StyleEmergencyTitle"/>
+                <TextView android:id="@+id/medical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleEmergencyText"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_emergency_organ_donation" style="@style/StyleEmergencyTitle"/>
+                <TextView android:id="@+id/organ_donation" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleEmergencyText"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_font_size_33" android:textColor="@color/ew_emergency_privency_text_normal" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ew_main_switch_margin_start" android:text="@string/ew_emergency_privacy" android:layout_marginStart="@dimen/ew_main_padding_start" android:layout_marginEnd="@dimen/ew_main_padding_start"/>
+</LinearLayout>

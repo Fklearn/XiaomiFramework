@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="96dp" android:width="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <path android:fillColor="@color/perm_icon_color" android:pathData="M48,96C74.5097,96 96,74.5097 96,48C96,21.4903 74.5097,0 48,0C21.4903,0 0,21.4903 0,48C0,74.5097 21.4903,96 48,96Z" android:fillType="1"/>
+    <path android:fillColor="#ffffff" android:pathData="M48,73C60.1503,73 70,69.4183 70,65C70,60.5817 60.1503,57 48,57C35.8497,57 26,60.5817 26,65C26,69.4183 35.8497,73 48,73Z" android:fillType="1"/>
+    <path android:fillColor="@color/perm_icon_color" android:pathData="M25,50H71C71,50 51,68 48,68C45,68 25,50 25,50Z" android:fillType="1"/>
+    <path android:fillColor="#ffffff" android:pathData="M48,63C49.28,63 64,52.6774 64,38.9379C64,30.1356 56.8366,23 48,23C39.1634,23 32,30.1356 32,38.9379C32,52.6774 46.72,63 48,63Z" android:fillType="1"/>
+    <path android:fillColor="@color/perm_icon_color" android:pathData="M48,44C51.3137,44 54,41.3137 54,38C54,34.6863 51.3137,32 48,32C44.6863,32 42,34.6863 42,38C42,41.3137 44.6863,44 48,44Z" android:fillType="1"/>
+</vector>

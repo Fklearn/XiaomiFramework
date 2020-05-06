@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="20.6dp" style="0x100d004e">
+    <ImageView android:id="@+id/icon" android:layout_width="@dimen/om_result_icon_size" android:layout_height="@dimen/om_result_icon_size" android:scaleType="centerInside" android:layout_marginEnd="8dp"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="14sp" android:ellipsize="marquee" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="12sp" android:textColor="#b3000000" android:id="@+id/info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp"/>
+    </LinearLayout>
+    <com.miui.gamebooster.view.QRSlidingButton android:layout_gravity="center_vertical" android:id="@+id/sliding_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/$chooser_direct_share_icon_placeholder__0">
+    <target android:name="gradient" android:animation="@drawable/$chooser_direct_share_icon_placeholder__1"/>
+</animated-vector>

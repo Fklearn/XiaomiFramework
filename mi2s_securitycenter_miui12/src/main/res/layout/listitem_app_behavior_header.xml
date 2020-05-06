@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/app_behavior_list_head_bg" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/app_behavior_time_text" android:textColor="@color/app_behavior_record_header_color" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/header_title" android:layout_width="wrap_content" android:layout_height="@dimen/app_behavior_header_height" android:fontFamily="miui-bold" android:textDirection="locale" android:layout_marginStart="@dimen/app_behavior_item_time_start"/>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:background="#ff000000" android:shareInterpolator="false" android:zAdjustment="top">
+    <translate android:interpolator="@interpolator/launch_task_behind_target_ydelta" android:duration="333" android:fillBefore="true" android:fillAfter="true" android:startOffset="50" android:fromYDelta="109.9976%" android:toYDelta="70%" android:fillEnabled="true"/>
+    <translate android:interpolator="@interpolator/fast_out_linear_in" android:duration="317" android:fillBefore="false" android:fillAfter="true" android:startOffset="467" android:fromYDelta="0%" android:toYDelta="50%" android:fillEnabled="true"/>
+</set>

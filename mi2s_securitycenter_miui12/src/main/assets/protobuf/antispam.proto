@@ -1,0 +1,99 @@
+package antispam;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.miui.antispam.service.backup";
+option java_outer_classname = "AntiSpamProtos";
+
+message BlacklistEntry {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional string number = 3;
+  optional string notes = 4;
+  optional int32 state = 5 [default = 0];
+  optional int32 simId = 6 [default = 1];
+
+}
+
+message WhitelistEntry {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional string number = 3;
+  optional string notes = 4;
+  optional int32 state = 5 [default = 0];
+  optional int32 isDisplay = 6 [default = 1];
+  optional int32 simId = 7 [default = 1];
+
+}
+
+message KeywordEntry {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional string keyword = 3;
+  optional int32 simId = 4 [default = 1];
+  optional int32 type = 5 [default = 1];
+
+}
+
+message PolicyEntry {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional string name = 3;
+  optional int32 state = 4 [default = 1];
+  optional int32 simId = 5 [default = 1];
+
+}
+
+message SwitchEntry {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional bool state = 3 [default = true];
+  optional int32 simId = 4 [default = 1];
+}
+
+message NotificationEntry {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional int32 state = 3 [default = 0];
+  optional int32 simId = 4 [default = 1];
+}
+
+message AutoUpdateLibrary {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional bool state = 3 [default = true];
+}
+
+message SimsShareSettings {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional bool state = 3 [default = true];
+}
+
+message ReportedNumberGuide {
+  optional string guid = 1;
+  optional string luid = 2;
+
+  optional bool FraudState = 3 [default = false];
+  optional bool AgentState = 4 [default = false];
+  optional bool SellState = 5 [default = false];
+}
+
+message AntiSpam {
+  repeated BlacklistEntry blacklist = 1;
+  repeated WhitelistEntry whitelist = 2;
+  repeated KeywordEntry keyword = 3;
+  repeated PolicyEntry policy = 4;
+  repeated SwitchEntry switch = 5;
+  repeated NotificationEntry notification = 6;
+  optional AutoUpdateLibrary autoUpdateLibrary = 7;
+  optional SimsShareSettings simsShareSettings = 8;
+  optional ReportedNumberGuide reportedNumberGuide = 9;
+}

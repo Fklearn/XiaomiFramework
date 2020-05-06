@@ -1,0 +1,102 @@
+package com.miui.luckymoney.config;
+
+public final class CommonPerConstants {
+
+    public static final class DEFAULT {
+        public static final boolean BUSINESS_LUCKY_WARNING_ENABLE_DEFAULT = true;
+        public static final long DEFAULT_UPDATE_FREQUENCY_DEFAULT = 172800000;
+        public static final boolean DESKTOP_FLOAT_WINDOW_ENABLE_DEFAULT = false;
+        public static final long DND_START_TIME_DEFAULT = 0;
+        public static final long DND_STOP_TIME_DEFAULT = 25200000;
+        public static final boolean DO_NOT_DISTURB_DEFAULT = false;
+        public static final int DO_NOT_DISTURB_MODE_LEVEL_DEFAULT = DoNotDisturbConstants.DND_LEVEL_NO_SOUND;
+        public static final boolean FAST_OPEN_CONFIG_FIRST_LOAD_DEFAULT = true;
+        public static final boolean FAST_OPEN_MODE_DEFAULT = false;
+        public static final boolean FIRST_START_UP_DEFAULT = true;
+        public static final long FLOAT_TIPS_DURATION_DEFAULT = 300000;
+        public static final long FLOAT_TIPS_START_TIME_DEFAULT = 0;
+        public static final long FLOAT_TIPS_STOP_TIME_DEFAULT = 1;
+        public static final long FLOAT_TIPS_UPDATE_TIME_DEFAULT = 0;
+        public static final long HOT_END_TIME_DEFAULT = 1;
+        public static final long HOT_START_TIME_DEFAULT = 0;
+        public static final long HOT_UPDATE_FREQUENC_DEFAULT = 21600000;
+        public static final boolean IS_CONFIG_CHANGED_DEFAULT = false;
+        public static final int LAST_FLOAT_VIEW_X_POS_DEFAULT = 750;
+        public static final int LAST_FLOAT_VIEW_Y_POS_DEFAULT = 430;
+        public static final long LAST_TIME_CHECK_UPDATE_CONFIG_DEFAULT = 0;
+        public static final boolean LUCKY_ALARM_ENABLE_DEFAULT = true;
+        public static final boolean LUCKY_ALARM_SOUND_ENABLE_DEFAULT = true;
+        public static final String LUCKY_MAX_SOURCE_DEFAULT = "暂无";
+        public static final boolean LUCKY_SOUND_WARNING_ENABLE_DEFAULT = true;
+        public static final int LUCKY_SOUND_WARNING_LEVEL_DEFAULT = 1;
+        public static final boolean LUCKY_WARNING_ENABLE_DEFAULT = true;
+        public static final boolean MILIAO_LUCKY_WARNING_ENABLE_DEFAULT = true;
+        public static final boolean ONLY_NOTI_GROUP_LUCKY_MONEY_DEFAULT = false;
+        public static final boolean QQ_LUCKY_WARNING_ENABLE_DEFAULT = true;
+        public static final long RECEIVE_TOTAL_LUCKY_MONEY_DEFAULT = 0;
+        public static final long SETTING_SWITCH_STATE_UPLOAD_TIME_DEFAULT = 0;
+        public static final boolean SHAKE_SEND_STICKER_ENABLE_DEFAULT = false;
+        public static final boolean SHOULD_CLEAN_RES_DIR_DEFAULT = true;
+        public static final boolean SHOULD_TIPS_DEFAULT = true;
+        public static final long WARNING_LUCKY_MONEY_COUNT_DEFAULT = 0;
+        public static final boolean XIAOMI_LUCKY_MONEY_ENABLE_DEFAULT = false;
+    }
+
+    public static final class KEY {
+        public static final String ADS_CONFIG = "ads_config";
+        public static final String BUSINESS_LUCKY_WARNING_ENABLE = "business_lucky_warning_enable";
+        public static final String DEFAULT_UPDATE_FREQUENCY = "default_update_frequency";
+        public static final String DESKTOP_FLOAT_WINDOW_ENABLE = "desktop_float_window_enable";
+        public static final String DND_START_TIME = "dnd_start_time";
+        public static final String DND_STOP_TIME = "dnd_stop_time";
+        public static final String DO_NOT_DISTURB_MODE = "do_not_disturb_mode";
+        public static final String DO_NOT_DISTURB_MODE_LEVEL = "do_not_disturb_mode_level";
+        public static final String FAST_OPEN_CONFIG = "fast_open_config";
+        public static final String FAST_OPEN_CONFIG_FIRST_LOAD = "fast_open_config_first_load";
+        public static final String FAST_OPEN_MODE = "fast_open_mode";
+        public static final String FIRST_START_UP = "first_start_up";
+        public static final String FLOAT_ACTIVITY_DEFAULT_CONFIG = "float_activity_default_config";
+        public static final String FLOAT_ASSISTANT_VIEW_CONFIG_DATA = "float_assistant_view_config_data";
+        public static final String FLOAT_TIPS_ALARM = "float_tips_alarm";
+        public static final String FLOAT_TIPS_ALARM_CONFIG_DATA = "float_tips_alarm_config_data";
+        public static final String FLOAT_TIPS_IMAGE_LEFT = "float_tips_image_left";
+        public static final String FLOAT_TIPS_IMAGE_RIGHT = "float_tips_image_right";
+        public static final String FLOAT_TIPS_START_TIME = "float_tips_start_time";
+        public static final String FLOAT_TIPS_STOP_TIME = "float_tips_stop_time";
+        public static final String FLOAT_TIPS_UPDATE_TIME = "float_tips_update_time";
+        public static final String HOT_END_TIME = "hot_end_time";
+        public static final String HOT_START_TIME = "hot_start_time";
+        public static final String HOT_UPDATE_FREQUENCY = "hot_update_frequency";
+        public static final String IS_CONFIG_CHANGED = "is_config_changed";
+        public static final String LAST_FLOAT_VIEW_X_POS = "LAST_FLOAT_VIEW_X_POS";
+        public static final String LAST_FLOAT_VIEW_Y_POS = "LAST_FLOAT_VIEW_Y_POS";
+        public static final String LAST_RECORD_MONEY_TIME = "last_record_money_time";
+        public static final String LAST_TIME_CHECK_UPDATE_CONFIG = "last_time_check_update_config";
+        public static final String LUCKY_ALARM_CONFIG = "lucky_alarm_config";
+        public static final String LUCKY_ALARM_ENABLE = "lucky_alarm_enable";
+        public static final String LUCKY_ALARM_SETTINGS_PACKAGE = "lucky_alarm_settings_package_";
+        public static final String LUCKY_ALARM_SOUND_ENABLE = "lucky_alarm_sound_enable";
+        public static final String LUCKY_MAX_SOURCE = "lucky_max_source";
+        public static final String LUCKY_SOUND_WARNING_ENABLE = "lucky_sound_warning_enable";
+        public static final String LUCKY_SOUND_WARNING_LEVEL = "lucky_sound_warning_level";
+        public static final String LUCKY_WARNING_ENABLE = "lucky_warning_enable";
+        public static final String MASTER_SWITCH_CONFIG = "master_switch_config";
+        public static final String MILIAO_LUCKY_WARNING_ENABLE = "miliao_lucky_warning_enable";
+        public static final String MM_MONEY = "mm_money";
+        public static final String MM_MONEY_TODAY = "mm_money_today";
+        public static final String ONLY_NOTI_GROUP_LUCKY_MONEY = "only_noti_group_lucky_money";
+        public static final String PERSONAL_LUCKY_MAX_SOURCE = "personal_lucky_max_source";
+        public static final String PREX_LUCKY_COUNT_FROM = "lucky_count_from_";
+        public static final String PREX_PERSONAL_LUCKY_COUNT_FROM = "personal_lucky_count_from_";
+        public static final String QQ_LUCKY_WARNING_ENABLE = "qq_lucky_warning_enable";
+        public static final String QQ_MONEY = "qq_money";
+        public static final String QQ_MONEY_TODAY = "qq_money_today";
+        public static final String RECEIVE_TOTAL_LUCKY_MONEY = "receive_total_lucky_money";
+        public static final String SETTING_SWITCH_STATE_UPLOAD_TIME = "setting_switch_state_upload_time";
+        public static final String SHAKE_SEND_STICKER_ENABLE = "shake_send_sticker_enable";
+        public static final String SHOULD_CLEAN_RES_DIR = "should_clean_res_dir";
+        public static final String SHOULD_TIPS = "should_tips";
+        public static final String WARNING_LUCKY_MONEY_COUNT = "warning_lucky_money_count";
+        public static final String XIAOMI_LUCKY_MONEY_ENABLE = "xiaomi_lucky_money_enable";
+    }
+}

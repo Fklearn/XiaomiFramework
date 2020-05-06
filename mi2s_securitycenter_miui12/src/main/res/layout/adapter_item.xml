@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:orientation="vertical" android:layout_width="@dimen/applock_main_grid_item_width" android:layout_height="@dimen/applock_main_grid_item_size" android:layoutDirection="ltr">
+        <ImageView android:layout_gravity="center" android:id="@+id/imaginfo" android:layout_width="@dimen/applock_main_grid_icon_size" android:layout_height="@dimen/applock_main_grid_icon_size"/>
+        <CheckBox android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/select" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/lock_check_selector"/>
+    </FrameLayout>
+    <TextView android:textColor="@color/applock_grid_view_item_text_color" android:id="@+id/textview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/applock_main_grid_text_margin" android:singleLine="true"/>
+</LinearLayout>

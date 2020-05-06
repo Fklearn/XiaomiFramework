@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="miuix_preference_item_padding_end">26.67dp</dimen>
+    <dimen name="miuix_preference_item_padding_start">26.67dp</dimen>
+    <dimen name="miuix_preference_item_radio_padding_end">0dp</dimen>
+    <dimen name="miuix_preference_item_radio_padding_start">26.67dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_icon_height">21.33dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_icon_margin_end">10.67dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_icon_width">21.33dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_padding_bottom">4dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_padding_top">11.33dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_parent_padding_bottom">13dp</dimen>
+    <dimen name="miuix_preference_item_seekbar_parent_padding_top">13dp</dimen>
+</resources>

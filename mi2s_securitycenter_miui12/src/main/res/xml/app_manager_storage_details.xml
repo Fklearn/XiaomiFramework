@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <miuix.preference.TextPreference android:title="@string/app_manager_total_size" android:key="key_total_size"/>
+    <miuix.preference.TextPreference android:title="@string/app_manager_code_size" android:key="key_code_size"/>
+    <miuix.preference.TextPreference android:title="@string/app_manager_data_size" android:key="key_data_size"/>
+    <miuix.preference.TextPreference android:title="@string/app_manager_cache_size" android:key="key_cache_size"/>
+</PreferenceScreen>

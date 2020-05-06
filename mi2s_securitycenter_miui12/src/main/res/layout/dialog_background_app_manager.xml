@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/system_permission_main_purpose_text" android:textColor="@color/system_permission_title" android:id="@+id/background_running_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="miui"/>
+    <CheckBox android:textSize="@dimen/system_permission_main_purpose_text" android:textColor="@color/system_permission_desc" android:id="@+id/background_running_uninstall" android:paddingLeft="7.3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.5dp" android:text="@string/app_running_tip_uninstall" style="?android:attr/textAppearanceSmall"/>
+</LinearLayout>

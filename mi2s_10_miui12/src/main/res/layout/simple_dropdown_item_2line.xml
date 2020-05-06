@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="?attr/listPreferredItemHeight" android:baselineAligned="false">
+    <TwoLineListItem android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:mode="twoLine" android:layout_weight="1">
+        <TextView android:textAppearance="?attr/textAppearanceLargePopupMenu" android:id="@+id/text1" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="?attr/dropDownItemStyle"/>
+        <TextView android:textAppearance="?attr/textAppearanceSmallPopupMenu" android:textColor="#323232" android:id="@+id/text2" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/text1" android:layout_alignStart="@+id/text1" style="?attr/dropDownItemStyle"/>
+    </TwoLineListItem>
+</LinearLayout>

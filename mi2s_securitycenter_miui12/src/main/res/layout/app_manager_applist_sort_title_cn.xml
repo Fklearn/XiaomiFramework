@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="@dimen/am_list_sort_title_height" android:paddingStart="@dimen/am_drop_window_margin_left" android:paddingEnd="@dimen/am_line_margin_lr">
+    <FrameLayout android:id="@+id/am_sort" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/achnor_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/am_sort_title_margin_left">
+            <TextView android:textSize="@dimen/am_sort_title_text_size" android:textStyle="bold" android:textColor="@color/app_manager_sort_title_color" android:layout_gravity="center_vertical" android:id="@+id/am_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/am_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_sort_drop_icon" android:layout_marginStart="@dimen/am_sort_drop_icon_margin_left"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

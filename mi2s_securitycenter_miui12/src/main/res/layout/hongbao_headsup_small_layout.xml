@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="380dp" android:layout_height="96dp">
+    <FrameLayout android:id="@+id/content" android:layout_width="380dp" android:layout_height="96dp" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@+id/container_view" android:background="@drawable/heads_up_hongbao_message_little_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/icon_headsup_luckymoney" android:layout_centerVertical="true" android:layout_marginStart="14.7dp" android:layout_marginEnd="11.7dp" android:layout_alignParentStart="true"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@+id/icon">
+                <TextView android:textSize="@dimen/heads_up_hongbao_message_size" android:textColor="@android:color/white" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <RelativeLayout android:gravity="center_vertical" android:id="@+id/layoutAds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                    <ImageView android:id="@+id/imgAdsLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/heads_up_message_logo1" android:adjustViewBounds="true" android:maxWidth="36dp" android:maxHeight="13dp" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+                    <TextView android:textSize="10dp" android:textColor="@color/lock_screen_hongbao_message_color" android:id="@+id/txvAdsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hongbao_message_slogon" android:layout_marginStart="3dp" android:layout_toEndOf="@+id/imgAdsLogo"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView android:textSize="11.3dp" android:textColor="@color/whiltealpha100" android:gravity="center" android:id="@+id/ok" android:background="@drawable/selector_small_headsup_btn" android:layout_width="70dp" android:layout_height="25.3dp" android:text="@string/open_right_now_short" android:layout_centerVertical="true" android:layout_marginEnd="17.3dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp">
+            <ImageView android:id="@+id/settings" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/selector_noti_setting"/>
+            <ImageView android:id="@+id/later" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/bg_hongbao_headsup_later"/>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/storage_app_detail_bg" android:layout_width="match_parent" android:layout_height="@dimen/storage_app_details_item_header_h" android:paddingStart="@dimen/storage_app_details_item_ps_pe" android:paddingEnd="@dimen/storage_app_details_item_ps_pe">
+    <ImageView android:id="@+id/app_icon" android:layout_width="@dimen/storage_app_details_icon_w_h" android:layout_height="@dimen/storage_app_details_icon_w_h" android:scaleType="fitXY" android:layout_marginEnd="@dimen/storage_app_details_item_header_icon_me"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/storage_app_details_name_text" android:textStyle="bold" android:textColor="@color/storage_app_detail_name" android:ellipsize="end" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/storage_app_details_version_text" android:textColor="@color/storage_app_detail_app_version" android:id="@+id/app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/storage_app_details_item_header_title_mb"/>
+    </LinearLayout>
+</LinearLayout>

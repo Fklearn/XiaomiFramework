@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/keyguard_click_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceMedium" android:textSize="22dp" android:ellipsize="marquee" android:layout_gravity="start" android:id="@+id/keyguard_message_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <stroke android:width="@dimen/pc_optimize_time_flag_stroke_width" android:color="@color/pc_optimize_time_flag_stroke_color"/>
+    <corners android:topLeftRadius="@dimen/pc_optimize_time_flag_corner_radius" android:topRightRadius="@dimen/pc_optimize_time_flag_corner_radius" android:bottomLeftRadius="@dimen/pc_optimize_time_flag_corner_radius" android:bottomRightRadius="@dimen/pc_optimize_time_flag_corner_radius"/>
+    <padding android:left="@dimen/pc_optimize_time_flag_left_padding" android:top="@dimen/pc_optimize_time_flag_top_padding" android:right="@dimen/pc_optimize_time_flag_left_padding" android:bottom="@dimen/pc_optimize_time_flag_top_padding"/>
+</shape>

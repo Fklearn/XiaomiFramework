@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/outside_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inside_view" android:background="@color/input_method_background_color" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/input_method_clipboard_view_width" android:layout_height="@dimen/input_method_clipboard_tab_height">
+            <LinearLayout android:gravity="right" android:id="@+id/clipboard_button" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/input_method_clipboard_tab_text_size" android:textStyle="bold" android:layout_gravity="center" android:id="@+id/clipboard_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_tab_clipboard_text" android:layout_marginEnd="@dimen/input_method_clipboard_tab_text_margin"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/phrase_button" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/input_method_clipboard_tab_text_size" android:textStyle="bold" android:layout_gravity="center" android:id="@+id/phrase_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_tab_phrase_text" android:layout_marginStart="@dimen/input_method_clipboard_tab_text_margin"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/input_method_clipboard_division_line_color" android:layout_width="@dimen/input_method_clipboard_view_width" android:layout_height="@dimen/input_method_clipboard_division_line_height"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/input_method_clipboard_view_width" android:layout_height="@dimen/input_method_clipboard_second_view_height">
+            <LinearLayout android:id="@+id/tips_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/input_method_clipboard_tips_view_height">
+                <LinearLayout android:layout_gravity="center" android:background="@drawable/input_method_tips_shape" android:layout_width="match_parent" android:layout_height="@dimen/input_method_clipboard_tips_text_height" android:layout_marginStart="@dimen/input_method_clipboard_tips_text_margin" android:layout_marginEnd="@dimen/input_method_clipboard_tips_text_margin">
+                    <LinearLayout android:id="@+id/text_layout_view" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textSize="@dimen/input_method_clipboard_tips_text_size" android:textColor="@color/input_method_clipboard_tips_view_text_color" android:gravity="center_vertical" android:id="@+id/text_view" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/input_method_clipboard_tips" android:layout_marginStart="@dimen/input_method_clipboard_tips_text_margin_start"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center" android:id="@+id/delete_view" android:layout_width="@dimen/input_method_clipboard_tips_close_view_height_width" android:layout_height="@dimen/input_method_clipboard_tips_close_view_height_width" android:layout_marginEnd="@dimen/input_method_clipboard_tips_close_view_margin_end">
+                        <ImageView android:id="@+id/delete_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/input_method_notice_close" android:scaleType="centerCrop"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/list_view_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <ListView android:id="@+id/list_view" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:overScrollMode="never"/>
+                <View android:id="@+id/clipboard_transitional_view" android:background="@drawable/shape_bottom_color" android:layout_width="match_parent" android:layout_height="@dimen/input_method_clipboard_list_view_bottom_height" android:layout_alignParentBottom="true"/>
+                <TextView android:textSize="@dimen/input_method_switch_view_settings_button_textSize" android:textColor="@color/input_method_no_content_text_color" android:id="@+id/clipboard_no_items" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_no_content_text" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/clipboard_layout" android:layout_width="match_parent" android:layout_height="@dimen/input_method_edit_phrase_layout_height">
+                <LinearLayout android:gravity="center" android:id="@+id/clipboard_settings_button" android:background="@drawable/input_method_button_shape" android:layout_width="@dimen/input_method_clipboard_more_view_settings_width" android:layout_height="@dimen/input_method_switch_view_settings_button_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/input_method_edit_phrase_button_margin" android:layout_alignParentStart="true">
+                    <TextView android:textSize="@dimen/input_method_switch_view_settings_button_textSize" android:textStyle="bold" android:textColor="@color/input_method_button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_clipboard_settings_button"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@+id/clipboard_clear_button" android:background="@drawable/input_method_button_shape" android:layout_width="@dimen/input_method_clipboard_more_view_settings_width" android:layout_height="@dimen/input_method_switch_view_settings_button_height" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/input_method_edit_phrase_button_margin" android:layout_alignParentEnd="true">
+                    <TextView android:textSize="@dimen/input_method_switch_view_settings_button_textSize" android:textStyle="bold" android:textColor="@color/input_method_button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_clipboard_clear_all_button"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:id="@+id/phrase_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/input_method_edit_phrase_layout_height">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/phrase_edit_button" android:background="@drawable/input_method_button_shape" android:layout_width="match_parent" android:layout_height="@dimen/input_method_switch_view_settings_button_height" android:layout_marginStart="@dimen/input_method_edit_phrase_button_margin" android:layout_marginEnd="@dimen/input_method_edit_phrase_button_margin">
+                    <TextView android:textSize="@dimen/input_method_switch_view_settings_button_textSize" android:textStyle="bold" android:textColor="@color/input_method_button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_method_edit_phrase_text"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

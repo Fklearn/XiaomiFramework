@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.ActionBarOverlayLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="?attr/actionBarTheme" android:id="@+id/decor_content_parent" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.android.internal.widget.ActionBarContainer android:gravity="top" android:id="@+id/action_bar_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:transitionName="android:action_bar" android:touchscreenBlocksFocus="true" android:keyboardNavigationCluster="true" style="?attr/actionBarStyle">
+        <com.android.internal.widget.ActionBarView android:id="@+id/action_bar" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/actionBarStyle"/>
+        <com.android.internal.widget.ActionBarContextView android:id="@+id/action_context_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/actionModeStyle"/>
+    </com.android.internal.widget.ActionBarContainer>
+    <com.android.internal.widget.ActionBarContainer android:gravity="center" android:id="@+id/split_action_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="true" android:keyboardNavigationCluster="true" style="?attr/actionBarSplitStyle"/>
+</com.android.internal.widget.ActionBarOverlayLayout>

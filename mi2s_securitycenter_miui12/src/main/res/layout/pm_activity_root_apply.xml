@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/pm_activity_root_apply_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="42dp" android:layout_marginEnd="42dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_danger_warning"/>
+        <TextView android:textSize="18sp" android:textColor="@color/pm_activity_root_apply_title" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/root_apply_title"/>
+        <TextView android:textSize="13sp" android:textColor="@color/pm_activity_root_apply_warning_info" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/warning_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+            <Button android:textSize="12sp" android:textColor="@color/pm_activity_root_apply_reject" android:id="@+id/reject" android:background="@drawable/button_root_left_selector" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/button_text_reject" android:layout_weight="1"/>
+            <Button android:textSize="12sp" android:textColor="@color/pm_activity_root_apply_accept" android:id="@+id/accept" android:background="@drawable/button_root_right_selector" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/button_text_accept" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

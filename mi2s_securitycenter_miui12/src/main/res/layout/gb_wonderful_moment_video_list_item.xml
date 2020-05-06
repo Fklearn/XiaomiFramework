@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/childContainer" android:paddingBottom="@dimen/gb_wonderful_main_page_gird_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/cell_left" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/gb_wonderful_moment_list_child_item"/>
+    <View android:layout_width="@dimen/gb_wonderful_main_page_gird_horizontal_vertical_space" android:layout_height="0dp"/>
+    <include android:id="@+id/cell_center" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/gb_wonderful_moment_list_child_item"/>
+    <View android:layout_width="@dimen/gb_wonderful_main_page_gird_horizontal_vertical_space" android:layout_height="0dp"/>
+    <include android:id="@+id/cell_right" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" layout="@layout/gb_wonderful_moment_list_child_item"/>
+</LinearLayout>

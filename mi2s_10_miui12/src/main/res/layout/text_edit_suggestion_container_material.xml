@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/suggestionWindowContainer" android:background="?^attr-private/floatingToolbarPopupBackgroundDrawable" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/text_edit_floating_toolbar_margin" android:divider="?attr/listDivider" android:showDividers="middle" android:elevation="@dimen/text_edit_floating_toolbar_elevation">
+        <ListView android:id="@+id/suggestionContainer" android:paddingTop="4dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/addToDictionaryButton" android:text="@string/addToDictionary" style="@style/Widget.Material.SuggestionButton"/>
+            <TextView android:id="@+id/deleteButton" android:text="@string/deleteText" style="@style/Widget.Material.SuggestionButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

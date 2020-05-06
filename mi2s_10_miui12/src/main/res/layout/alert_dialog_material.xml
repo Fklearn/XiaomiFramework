@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.AlertDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:id="@+id/parentPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/alert_dialog_title_material"/>
+    <FrameLayout android:id="@+id/contentPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+        <ScrollView android:id="@+id/scrollView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Space android:id="@+id/textSpacerNoTitle" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dialog_padding_top_material"/>
+                <TextView android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr/dialogPreferredPadding" android:paddingEnd="?attr/dialogPreferredPadding" style="@style/TextAppearance.Material.Subhead"/>
+                <Space android:id="@+id/textSpacerNoButtons" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dialog_padding_top_material"/>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/customPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+        <FrameLayout android:id="@+id/custom" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/alert_dialog_button_bar_material"/>
+</com.android.internal.widget.AlertDialogLayout>

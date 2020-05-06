@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/img" android:layout_width="116dp" android:layout_height="116dp" android:scaleType="centerCrop" android:layout_marginStart="3dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="10dp">
+            <TextView android:textSize="@dimen/result_title_text" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxLines="2"/>
+            <TextView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ResultBottomText"/>
+            <Button android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="33.4dp" android:layout_marginBottom="3dp" android:layout_marginEnd="3dp" style="@style/FunctionTemplateButton1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/close" android:visibility="invisible" android:layout_marginTop="13dp" android:layout_marginEnd="6.67dp" android:layout_alignParentEnd="true" style="@style/ResultItemAdxStyle"/>
+</RelativeLayout>

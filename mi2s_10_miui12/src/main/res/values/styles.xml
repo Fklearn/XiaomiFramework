@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Animation">
+    </style>
+    <style name="Animation.AutoDisableScreenButtonsFloat">
+        <item name="android:windowEnterAnimation">@anim/auto_disable_screenbuttons_float_in</item>
+        <item name="android:windowExitAnimation">@anim/auto_disable_screenbuttons_float_out</item>
+    </style>
+    <style name="Animation.GlobalAction">
+        <item name="android:windowEnterAnimation">@anim/globalaction_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/globalaction_fade_out</item>
+    </style>
+    <style name="Animation.TextSelect">
+        <item name="android:windowExitAnimation">@anim/text_select_fade_out</item>
+    </style>
+    <style name="Animation.TextSelect.Selection">
+        <item name="android:windowEnterAnimation">@anim/text_select_selection_fade_in</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="Animation.VolumePanel">
+        <item name="android:windowEnterAnimation">@anim/volume_panel_in</item>
+        <item name="android:windowExitAnimation">@anim/volume_panel_out</item>
+    </style>
+    <style name="EditorTextAppearance">
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textSize">@dimen/text_edit_action_popup_text_size</item>
+    </style>
+    <style name="FreeformTipWindow">
+        <item name="android:windowEnterAnimation">@anim/freeform_tip_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/freeform_tip_fade_out</item>
+    </style>
+    <style name="InputMethodWindowAnimationLeft">
+        <item name="android:windowEnterAnimation">@anim/input_method_window_left_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_window_left_exit</item>
+    </style>
+    <style name="InputMethodWindowAnimationMiddleLeft">
+        <item name="android:windowEnterAnimation">@anim/input_method_window_middle_left_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_window_middle_left_exit</item>
+    </style>
+    <style name="InputMethodWindowAnimationMiddleRight">
+        <item name="android:windowEnterAnimation">@anim/input_method_window_middle_right_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_window_middle_right_exit</item>
+    </style>
+    <style name="InputMethodWindowAnimationRight">
+        <item name="android:windowEnterAnimation">@anim/input_method_window_right_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_window_right_exit</item>
+    </style>
+    <style name="InputMethodWindowCheckBox">
+        <item name="android:windowEnterAnimation">@anim/input_method_window_check_box_enter</item>
+        <item name="android:windowExitAnimation">@anim/input_method_window_check_box_exit</item>
+    </style>
+    <style name="KeyboardButtonNormal">
+        <item name="android:textSize">@dimen/normal_key_text_size</item>
+        <item name="android:textColor">@color/keyboard_key_text</item>
+        <item name="android:gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:background">@drawable/btn_keyboard_key</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="KidSpaceSwitchDialog">
+        <item name="android:windowBackground">@color/switch_dialog_bg</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="MiuiBootMessageDialog">
+        <item name="android:windowBackground">@color/miui_boot_massage_dialog_background_color</item>
+    </style>
+    <style name="MiuiUserSwitchDialog">
+        <item name="android:progressBarStyle">@style/MiuiUserSwitchProgressBar</item>
+    </style>
+    <style name="MiuiUserSwitchProgressBar">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="RemainTimeTitle">
+        <item name="android:textSize">@dimen/silent_mode_text_size</item>
+        <item name="android:textColor">@color/silent_mode_remaintime_1_color</item>
+        <item name="android:alpha">@null</item>
+    </style>
+    <style name="SecondSpaceSwitchDialog">
+        <item name="android:windowBackground">@color/switch_dialog_bg</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="SeekbarTime">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/time_selected</item>
+    </style>
+    <style name="SilentModeTitle">
+        <item name="android:textSize">@dimen/silent_mode_title_textSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/silent_mode_title</item>
+    </style>
+    <style name="TimeLabel">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/time_not_selected</item>
+    </style>
+    <style name="name">@android:style/Widget.GenericQuickContactBadge</style>
+</resources>

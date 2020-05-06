@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:textAppearance="0x100d00a4" android:gravity="center_vertical" android:orientation="horizontal" android:background="0x10020069" android:layout_width="match_parent" android:layout_height="?android:attr/listPreferredItemHeight" android:minHeight="?android:attr/listPreferredItemHeight">
+    <RadioButton android:gravity="center_vertical" android:id="@+id/android_radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <CheckedTextView android:textAppearance="0x100d00a4" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="0x100d000d" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@android:id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

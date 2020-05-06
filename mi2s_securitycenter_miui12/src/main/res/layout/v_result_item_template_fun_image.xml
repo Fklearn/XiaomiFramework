@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_result_card_border_whole" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="13.3dp" style="@style/FunctionResultItem">
+        <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="match_parent" android:layout_height="100dp" securitycenter:ratioXY="0.35">
+            <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="116dp" android:scaleType="centerCrop"/>
+        </com.miui.antivirus.ui.ResizeFrameLayout>
+        <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" style="@style/FunctionTitleStyle"/>
+        <TextView android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" style="@style/FunctionSummaryStyle"/>
+    </LinearLayout>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="23dp"/>
+    <Button android:id="@+id/button" style="@style/FunctionResultButton"/>
+</LinearLayout>

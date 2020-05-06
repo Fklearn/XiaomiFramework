@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/lucky_settingitem_margin_left" android:paddingEnd="@dimen/lucky_settingitem_margin_right">
+    <TextView android:textSize="13.09sp" android:textColor="@color/lucky_fastopen_type_title_color" android:gravity="start" android:id="@+id/header_title" android:paddingTop="9.09dp" android:paddingBottom="9.82dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</FrameLayout>

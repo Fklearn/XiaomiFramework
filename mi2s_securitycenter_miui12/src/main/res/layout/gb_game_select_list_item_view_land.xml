@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/view_dimen_68" android:layout_width="match_parent" android:layout_height="@dimen/gb_setting_item_height" android:paddingStart="@dimen/view_dimen_124" android:paddingEnd="@dimen/view_dimen_134">
+    <ImageView android:id="@+id/icon" android:layout_width="@dimen/gb_setting_item_app_icon_size" android:layout_height="@dimen/gb_setting_item_app_icon_size"/>
+    <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_28" android:layout_marginEnd="@dimen/view_dimen_30" style="@style/GBSettingItemTitle"/>
+    <com.miui.gamebooster.widget.SwitchButton android:id="@+id/sliding_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

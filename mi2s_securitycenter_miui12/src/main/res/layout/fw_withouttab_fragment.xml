@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.nestedheader.widget.NestedHeaderLayout android:id="@+id/nested_header" android:layout_width="match_parent" android:layout_height="match_parent" app:headerView="@+id/header" app:scrollableView="@android:id/list">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="@dimen/tab_sort_text_height" style="0x100d004d">
+            <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/tab_sort_text" android:gravity="center_vertical" android:id="@+id/spinner" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/tab_sort_all" android:drawableEnd="@drawable/fw_expand_indicator"/>
+        </LinearLayout>
+        <com.miui.antispam.ui.view.RecyclerViewExt android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:fastScrollEnabled="true"/>
+    </miuix.nestedheader.widget.NestedHeaderLayout>
+    <RelativeLayout android:id="@android:id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center_horizontal" android:id="@+id/emptyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bl_no_block_call" android:layout_centerInParent="true" style="0x100d009d"/>
+    </RelativeLayout>
+    <include android:visibility="gone" layout="@layout/fw_log_list_loading"/>
+</LinearLayout>

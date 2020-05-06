@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/lucky_settingitem_appline_height" style="0x100d004e">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="@dimen/lucky_settingitem_appicon_size" android:layout_height="@dimen/lucky_settingitem_appicon_size"/>
+    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lucky_settingitem_appicon_marginleft" android:layout_marginEnd="@dimen/lucky_settingitem_appicon_marginleft">
+            <TextView android:textSize="@dimen/lucky_settingitem_app_titlesize" android:textColor="@color/lucky_settings_item_title_color" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:textAppearance="0x100d0058" android:textSize="10sp" android:textColor="@color/auto_start_prog_runing_text_color" android:layout_gravity="center_vertical" android:id="@+id/procIsRunning" android:background="@drawable/textview_border_green" android:paddingLeft="2dp" android:paddingRight="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/pm_auto_start_proc_is_running" android:singleLine="true" android:layout_marginStart="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@+id/sliding_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

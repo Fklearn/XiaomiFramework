@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:id="@+id/volume_dialog" android:background="@drawable/volume_dialog_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ringer_mode"/>
+        <RelativeLayout android:paddingTop="@dimen/volume_dialog_padding_top" android:paddingBottom="@dimen/volume_dialog_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/volume_dialog_padding_left">
+            <ImageButton android:id="@+id/volume_expand_button" android:background="@android:color/transparent" android:paddingTop="@dimen/volume_dialog_expand_button_padding_top" android:paddingBottom="@dimen/volume_dialog_expand_button_padding_bottom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/volume_collapse_btn" android:soundEffectsEnabled="false" android:paddingStart="@dimen/volume_dialog_expand_button_padding_left" android:paddingEnd="@dimen/volume_dialog_expand_button_padding_right" android:layout_alignParentEnd="true"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/volume_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@+id/volume_expand_button"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

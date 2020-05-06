@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/hp_card_bg_no_shadow_selector" android:paddingBottom="@dimen/card_top_banner_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/hp_function_icon_padding_start" android:paddingEnd="@dimen/hp_function_icon_padding_start">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="@dimen/card_main_list_banner_iv_banner_size" android:layout_height="@dimen/card_main_list_banner_iv_banner_size" android:layout_marginTop="@dimen/card_main_list_icon_margin_top" android:layout_marginBottom="@dimen/card_main_list_icon_margin_top" android:scaleType="centerCrop"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/card_main_list_banner_iv_banner_margin">
+            <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/HpCardTitleTextViewStyle"/>
+            <TextView android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/HpCardSummaryTextViewStyle"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/right_arrow" android:background="0x10020068" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.miui.common.customview.ResizeFrameLayout android:layout_width="match_parent" android:layout_height="@dimen/result_item_big_img_height" securitycenter:secRatioXY="0.48">
+        <com.miui.securityscan.ui.main.RoundImageView android:id="@+id/iv_big_banner" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" app:needStat="false" app:radiusLeftBottom="@dimen/securityscan_big_banner_radius" app:radiusLeftTop="@dimen/securityscan_big_banner_radius" app:radiusRightBottom="@dimen/securityscan_big_banner_radius" app:radiusRightTop="@dimen/securityscan_big_banner_radius"/>
+    </com.miui.common.customview.ResizeFrameLayout>
+</LinearLayout>

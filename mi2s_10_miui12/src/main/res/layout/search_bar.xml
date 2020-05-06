@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/search_bar" android:background="@color/transparent" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" class="android.app.SearchDialog$SearchBar">
+    <LinearLayout android:orientation="horizontal" android:background="?attr/actionModeBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/closeButton" android:background="?attr/selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="48dp">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/homeAsUpIndicator"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/search_app_icon" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="centerInside"/>
+        </LinearLayout>
+        <SearchView android:layout_gravity="center_vertical" android:id="@+id/search_view" android:layout_width="0dp" android:layout_height="wrap_content" android:maxWidth="600dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/ab_solid_shadow_holo" android:scaleType="fitXY"/>
+</view>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?attr/dividerHorizontal" android:showDividers="middle">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/media_route_volume_layout" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64dp">
+            <ImageView android:gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_audio_vol" android:scaleType="center"/>
+            <SeekBar android:id="@+id/media_route_volume_slider" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/media_route_control_frame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

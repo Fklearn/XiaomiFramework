@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:gravity="fill_horizontal" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/divider_horizontal_dark" android:scaleType="fitXY"/>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/replace_app_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter"/>
+        <TextView android:id="@+id/replace_message" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/textAppearanceMedium"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/original_app_icon" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:scaleType="fitCenter"/>
+        <TextView android:id="@+id/original_message" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/textAppearanceMedium"/>
+    </LinearLayout>
+</LinearLayout>

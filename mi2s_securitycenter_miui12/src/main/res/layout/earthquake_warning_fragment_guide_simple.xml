@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ew_guide_title_margin_top" android:layout_marginBottom="@dimen/ew_guide_title_margin_bottom" android:layout_marginStart="@dimen/ew_guide_title_margin_start" android:layout_marginEnd="@dimen/ew_guide_title_margin_start">
+        <TextView android:textSize="@dimen/ew_main_text_title_size" android:textColor="@color/ew_guide_text_title_color" android:id="@+id/guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@+id/image_guide" android:layout_width="@dimen/ew_guide_image_width" android:layout_height="wrap_content" android:src="@drawable/ew_guide_icon_1"/>
+</LinearLayout>

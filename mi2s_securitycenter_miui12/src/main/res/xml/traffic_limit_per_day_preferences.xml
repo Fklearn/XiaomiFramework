@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/title_limit_traffic_per_day" android:key="category_key_limit_traffic_per_day">
+        <CheckBoxPreference android:title="@string/title_limit_traffic_per_day" android:key="pref_key_limit_traffic_per_day" android:defaultValue="false"/>
+        <miuix.preference.TextPreference android:title="@string/pref_title_traffic_limit_number" android:key="pref_key_traffic_limit_number_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_title_traffic_limit_number" android:key="pref_key_traffic_limit_number" app:entries="@array/over_limit_traffic_waring_style" app:entryValues="@array/over_limit_traffic_waring_style"/>
+        <miuix.preference.TextPreference android:title="@string/pref_title_over_traffic_limit_warning" android:key="pref_key_over_traffic_limit_warning_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_title_over_traffic_limit_warning" android:key="pref_key_over_traffic_limit_warning" app:adapter="com.miui.applicationlock.DropDownPreferenceAdapter" app:entries="@array/over_limit_traffic_waring_style"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/lock_screen_warning_category" android:key="category_key_lock_screen">
+        <CheckBoxPreference android:title="@string/lock_screen_warning_switch_title" android:key="pref_key_lock_screen_switch" android:summary="@string/lock_screen_warning_switch_summary" android:defaultValue="false"/>
+        <miuix.preference.TextPreference android:title="@string/lock_screen_warning_value" android:key="pref_key_lock_screen_warning_value_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/lock_screen_warning_value" android:key="pref_key_lock_screen_warning_value" app:entries="@array/over_limit_traffic_waring_style" app:entryValues="@array/over_limit_traffic_waring_style"/>
+    </PreferenceCategory>
+</PreferenceScreen>

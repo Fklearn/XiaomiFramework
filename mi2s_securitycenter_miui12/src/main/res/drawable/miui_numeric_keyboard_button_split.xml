@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:exitFadeDuration="200">
+    <item android:state_pressed="true" android:drawable="@drawable/miui_numeric_keyboard_button_p_split"/>
+    <item android:state_focused="true" android:drawable="@drawable/miui_numeric_keyboard_button_p_split"/>
+    <item android:drawable="@android:color/transparent"/>
+</selector>

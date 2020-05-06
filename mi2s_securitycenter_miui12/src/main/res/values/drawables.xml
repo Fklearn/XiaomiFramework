@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="app_manager_back_icon">?unknown_ref: 1002006d</drawable>
+    <drawable name="app_manager_delete_icon">?unknown_ref: 10020005</drawable>
+    <drawable name="app_manager_finish_icon">?unknown_ref: 10020007</drawable>
+    <drawable name="app_manager_info_icon">?unknown_ref: 10020061</drawable>
+    <drawable name="applock_settings">?unknown_ref: 10020064</drawable>
+    <drawable name="divider">#d9d9d9</drawable>
+    <drawable name="exo_controls_fastforward">@drawable/exo_icon_fastforward</drawable>
+    <drawable name="exo_controls_next">@drawable/exo_icon_next</drawable>
+    <drawable name="exo_controls_pause">@drawable/exo_icon_pause</drawable>
+    <drawable name="exo_controls_play">@drawable/exo_icon_play</drawable>
+    <drawable name="exo_controls_previous">@drawable/exo_icon_previous</drawable>
+    <drawable name="exo_controls_rewind">@drawable/exo_icon_rewind</drawable>
+    <drawable name="exo_notification_fastforward">@drawable/exo_icon_fastforward</drawable>
+    <drawable name="exo_notification_next">@drawable/exo_icon_next</drawable>
+    <drawable name="exo_notification_pause">@drawable/exo_icon_pause</drawable>
+    <drawable name="exo_notification_play">@drawable/exo_icon_play</drawable>
+    <drawable name="exo_notification_previous">@drawable/exo_icon_previous</drawable>
+    <drawable name="exo_notification_rewind">@drawable/exo_icon_rewind</drawable>
+    <drawable name="exo_notification_stop">@drawable/exo_icon_stop</drawable>
+    <drawable name="expander_close">?unknown_ref: 1002006b</drawable>
+    <drawable name="expander_open">?unknown_ref: 1002006a</drawable>
+    <drawable name="icon_main_back">?unknown_ref: 1002006d</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="pc_battery_risk_icon">@drawable/battery_risk_icon</drawable>
+    <drawable name="pc_battery_risk_icon_mid">@drawable/ic_battery_risk_icon_mid</drawable>
+    <drawable name="pc_battery_risk_icon_shadow">@drawable/battery_risk_icon_shadow</drawable>
+    <drawable name="pc_battery_solve_issues_icon">@drawable/battery_solve_issues_icon</drawable>
+    <drawable name="pc_battery_solve_issues_icon_mid">@drawable/battery_solve_issues_icon_mid</drawable>
+    <drawable name="pc_battery_solve_issues_icon_shadow">@drawable/battery_solve_issues_icon_shadow</drawable>
+    <drawable name="v_back_icon">?unknown_ref: 1002006d</drawable>
+    <drawable name="v_setting_icon">?unknown_ref: 10020064</drawable>
+</resources>

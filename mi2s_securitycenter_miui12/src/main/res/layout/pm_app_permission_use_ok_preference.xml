@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="52.6dp">
+    <Button android:textSize="13.8sp" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:id="@+id/button_ok" android:background="@drawable/pm_app_permission_use_ok" android:layout_width="match_parent" android:layout_height="42.6dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="@string/antivirus_none_engine_dialog_ok" android:layout_marginStart="26.6dp" android:layout_marginEnd="26.6dp"/>
+</RelativeLayout>

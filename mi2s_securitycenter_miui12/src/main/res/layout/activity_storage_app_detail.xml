@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/storage_app_detail_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:scrollableView="@+id/rv_main">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_main" android:background="@color/storage_app_detail_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/storage_app_details_rv_pt"/>
+    </miuix.springback.view.SpringBackLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="@dimen/storage_app_details_bottom_btn_panel_h">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/uninstall" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@+id/iv_uninstall" android:layout_width="@dimen/storage_appdetail_uninstall_icon" android:layout_height="@dimen/storage_appdetail_uninstall_icon" android:src="@drawable/storage_app_detail_delete" android:tint="@color/storage_app_detail_uninstall_icon"/>
+            <TextView android:textSize="@dimen/storage_app_details_uninstall_text" android:textColor="@color/storage_app_detail_uninstall" android:ellipsize="end" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/storage_app_detail_uninstall_app" android:maxLines="2" android:paddingStart="@dimen/storage_app_details_ms_me" android:paddingEnd="@dimen/storage_app_details_ms_me"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

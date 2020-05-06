@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/card_bg_no_shadow_selector" android:paddingTop="@dimen/result_card_list_padding_top" android:paddingBottom="@dimen/result_func_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="47dp" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+    <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/power_card_title_margin_bottom" style="@style/CardListTitleTextiViewStyle"/>
+    <include android:id="@+id/item1" android:visibility="gone" layout="@layout/card_layout_consume_power_rank_item"/>
+    <include android:id="@+id/item2" android:visibility="gone" layout="@layout/card_layout_consume_power_rank_item"/>
+    <include android:id="@+id/item3" android:visibility="gone" layout="@layout/card_layout_consume_power_rank_item"/>
+    <FrameLayout android:paddingTop="@dimen/power_card_button_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/card_layout_bottom_button"/>
+    </FrameLayout>
+</LinearLayout>

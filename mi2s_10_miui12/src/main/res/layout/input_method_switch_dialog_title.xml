@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:paddingTop="@dimen/dialog_padding_top_material" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr/dialogPreferredPadding" android:paddingEnd="?attr/dialogPreferredPadding">
+            <com.android.internal.widget.DialogTitle android:ellipsize="end" android:id="@+id/alertTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_input_method" android:singleLine="true" android:textAlignment="viewStart" style="?attr/windowTitleStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/hard_keyboard_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:ellipsize="marquee" android:gravity="center_vertical" android:orientation="vertical" android:background="?attr/selectableItemBackground" android:paddingTop="16dp" android:paddingBottom="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeightSmall" android:layout_weight="1" android:paddingStart="?attr/listPreferredItemPaddingStart" android:paddingEnd="16dp">
+                <TextView android:textAppearance="?attr/textAppearanceListItem" android:ellipsize="marquee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hardware" android:singleLine="true"/>
+                <TextView android:textAppearance="?attr/textAppearanceListItemSecondary" android:textColor="?attr/textColorSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_ime" android:maxLines="10"/>
+            </LinearLayout>
+            <Switch android:layout_gravity="center_vertical" android:id="@+id/hard_keyboard_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="?attr/listPreferredItemPaddingEnd"/>
+        </LinearLayout>
+        <View android:background="?attr/listDividerAlertDialog" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </LinearLayout>
+</LinearLayout>

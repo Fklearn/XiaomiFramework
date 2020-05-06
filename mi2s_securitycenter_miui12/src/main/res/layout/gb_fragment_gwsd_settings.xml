@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/gb_settings_second_level_action_bar"/>
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/tab_divider" app:scrollOrientation="6" app:scrollableView="@+id/scroll_view">
+        <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/gwsdSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiTitle="@string/function_gwsd_title"/>
+                <TextView android:textSize="14sp" android:textColor="@color/color_gtb_gwsd_txt" android:id="@+id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/function_gwsd_detail" android:paddingStart="@dimen/gb_setting_item_padding_start" android:paddingEnd="@dimen/gb_setting_item_padding_end"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </miuix.springback.view.SpringBackLayout>
+</LinearLayout>

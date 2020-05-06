@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <miuix.preference.RadioButtonPreferenceCategory android:title="@string/st_title_back_sound_choose" android:key="key_st_antispam_backsound_mode_defined">
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/st_title_back_sound_busy" android:key="backsound1"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/st_title_back_sound_none" android:key="backsound2"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/st_title_back_sound_closed" android:key="backsound3"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/st_title_back_sound_stop" android:key="backsound4"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+    </miuix.preference.RadioButtonPreferenceCategory>
+    <PreferenceCategory android:title="@string/st_title_call_wait_setting">
+        <miuix.preference.TextPreference android:title="@string/st_title_call_wait" android:key="key_open_call_wait"/>
+        <Preference android:layout="@layout/antispam_new_label_preference"/>
+    </PreferenceCategory>
+</PreferenceScreen>

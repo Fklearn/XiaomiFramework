@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/am_main_top_layout_height" android:paddingStart="@dimen/am_line_margin_lr" android:paddingEnd="@dimen/am_line_margin_lr">
+        <FrameLayout android:id="@+id/am_function_updater" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_main_top_icon_margin_top">
+                <FrameLayout android:id="@+id/img_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:paddingTop="4dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_update" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+                    <FrameLayout android:layout_gravity="end" android:id="@+id/am_red_point" android:background="@drawable/am_update_red_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="10dp" android:textColor="@color/app_manager_update_label_color" android:layout_gravity="center" android:id="@+id/am_update_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </FrameLayout>
+                </FrameLayout>
+                <TextView android:textSize="@dimen/am_main_top_text_size" android:textColor="@color/app_manager_main_top_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_main_top_text_margin_top" android:text="@string/app_manager_app_update" android:singleLine="true"/>
+            </LinearLayout>
+        </FrameLayout>
+        <com.miui.appmanager.widget.AMMainTopFunctionView android:gravity="center" android:id="@+id/am_function_uninstall" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <com.miui.appmanager.widget.AMMainTopFunctionView android:gravity="center" android:id="@+id/am_function_splite" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <FrameLayout android:id="@+id/am_function_perm_record" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_main_top_icon_margin_top">
+                <FrameLayout android:id="@+id/img_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:gravity="center" android:paddingTop="4dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_app_behavior_door" android:paddingStart="8dp" android:paddingEnd="8dp"/>
+                    <FrameLayout android:layout_gravity="end" android:id="@+id/privacy_red_point" android:background="@drawable/pm_app_behavior_warn_icon" android:visibility="gone" android:layout_width="@dimen/app_behavior_item_line_width" android:layout_height="@dimen/app_behavior_item_line_width"/>
+                </FrameLayout>
+                <TextView android:textSize="@dimen/am_main_top_text_size" android:textColor="@color/app_manager_main_top_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_main_top_text_margin_top" android:text="@string/app_behavior_door" android:singleLine="true"/>
+            </LinearLayout>
+        </FrameLayout>
+        <com.miui.appmanager.widget.AMMainTopFunctionView android:gravity="center" android:id="@+id/am_function_permission" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/app_manager_line_bg_color" android:layout_width="match_parent" android:layout_height="@dimen/am_line_height" android:layout_marginTop="@dimen/am_sperator_line_margin_top" android:layout_marginBottom="@dimen/am_sperator_line_margin_top" android:layout_marginStart="@dimen/am_line_margin_lr" android:layout_marginEnd="@dimen/am_line_margin_lr"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.securityscan.ui.main.NativeInterstitialAdLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@color/securityscan_bgcolor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="@dimen/circle_view_width" android:layout_height="@dimen/circle_view_height">
+        <com.miui.securityscan.ui.main.BallView android:id="@+id/interstitial_ad_ballview" android:layout_width="@dimen/ball_view_width" android:layout_height="@dimen/ball_view_height" android:layout_centerInParent="true" app:layoutHeight="@dimen/ball_view_height" app:layoutWidth="@dimen/ball_view_width"/>
+        <ImageView android:id="@+id/interstitial_ad_color_circle" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/shape_interstitial_ad_blue" android:layout_centerInParent="true"/>
+        <com.miui.common.customview.ScoreTextView android:textSize="@dimen/main_card_score_textview_textsize" android:textColor="@color/white" android:id="@+id/interstitial_ad_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</com.miui.securityscan.ui.main.NativeInterstitialAdLayout>

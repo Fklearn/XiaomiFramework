@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:id="@+id/input_bottom_view" android:background="@color/input_bottom_background_color" android:layout_width="match_parent" android:layout_height="@dimen/input_bottom_height">
+    <ImageView android:id="@+id/red_point_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/input_bottom_button_margin_top" android:src="@drawable/input_method_red_point" android:layout_marginStart="@dimen/input_method_red_point_margin_start" android:layout_alignParentStart="true"/>
+    <LinearLayout android:id="@+id/input_bottom_layout_left" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/input_bottom_button_margin" android:layout_alignParentStart="true">
+        <ImageView android:id="@+id/input_bottom_button_left" android:layout_width="@dimen/input_bottom_button_height" android:layout_height="@dimen/input_bottom_button_height" android:layout_marginTop="@dimen/input_bottom_button_margin_top" android:layout_marginEnd="@dimen/input_bottom_button_margin"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/input_bottom_layout_right" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/input_bottom_button_margin" android:layout_alignParentEnd="true">
+        <ImageView android:id="@+id/input_bottom_button_right" android:layout_width="@dimen/input_bottom_button_height" android:layout_height="@dimen/input_bottom_button_height" android:layout_marginTop="@dimen/input_bottom_button_margin_top" android:layout_marginStart="@dimen/input_bottom_button_margin"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/red_point_right" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/input_bottom_button_margin_top" android:src="@drawable/input_method_red_point" android:layout_marginEnd="@dimen/input_bottom_button_margin" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

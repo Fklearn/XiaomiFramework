@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textColor="#99000000" android:id="@+id/more_game" android:background="@drawable/gb_button_selector" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="21.5dp" android:layout_marginBottom="21.5dp" android:text="@string/more_game" android:layout_alignParentBottom="true" android:layout_marginStart="23dp" android:layout_marginEnd="23dp"/>
+</LinearLayout>

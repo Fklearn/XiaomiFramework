@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/privay_apps_tutorial_paddingtop" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:gravity="center" android:id="@+id/prompt_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="13.3sp" android:textColor="@color/app_privacy_guide_item_text_color" android:layout_gravity="center" android:id="@+id/prompt_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.6dp" android:layout_marginStart="23dp" android:layout_marginEnd="23dp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/am_drop_window_margin_left" android:paddingEnd="@dimen/am_line_margin_lr">
+    <LinearLayout android:orientation="vertical" android:id="@+id/am_sort" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/am_list_sort_title_height">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/achnor_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/am_sort_title_margin_left">
+            <TextView android:textSize="@dimen/am_sort_title_text_size" android:textStyle="bold" android:textColor="@color/app_manager_sort_title_color" android:layout_gravity="center_vertical" android:id="@+id/am_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/am_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_sort_drop_icon" android:layout_marginStart="@dimen/am_sort_drop_icon_margin_left"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/am_discription" android:layout_width="match_parent" android:layout_height="@dimen/am_details_category_title_height" android:paddingStart="@dimen/am_sort_title_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_icon_memory" android:alpha="0.8"/>
+            <TextView android:textSize="12sp" android:textColor="@color/app_manager_sort_title_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_manager_memory" android:singleLine="true" android:layout_marginStart="5.3dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_title_icon_storage" android:alpha="0.8"/>
+            <TextView android:textSize="12sp" android:textColor="@color/app_manager_sort_title_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_manager_details_storage_title" android:singleLine="true" android:layout_marginStart="5.3dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_icon_running" android:alpha="0.8"/>
+            <TextView android:textSize="12sp" android:textColor="@color/app_manager_sort_title_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pm_auto_start_proc_is_running" android:singleLine="true" android:layout_marginStart="5.3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

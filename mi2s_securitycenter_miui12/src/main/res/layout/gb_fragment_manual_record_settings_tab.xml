@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/tabKing" android:text="@string/game_manual_record_setting_king" style="@style/GBRecordTabItem"/>
+        <TextView android:id="@+id/tabPeace" android:text="@string/game_manual_record_setting_peace" style="@style/GBRecordTabItem"/>
+    </LinearLayout>
+</ScrollView>

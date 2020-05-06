@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:topLeftRadius="0dp" android:topRightRadius="@dimen/dp_10dp" android:bottomLeftRadius="@dimen/dp_10dp" android:bottomRightRadius="0dp"/>
+    <padding android:left="@dimen/gb_wonderful_main_page_video_tag_padding_left" android:top="@dimen/gb_wonderful_main_page_video_tag_padding_top" android:right="@dimen/gb_wonderful_main_page_video_tag_padding_right" android:bottom="@dimen/gb_wonderful_main_page_video_tag_padding_bottom"/>
+    <solid android:color="@color/gb_wonderful_video_shape_ai"/>
+    <size android:height="@dimen/gb_wonderful_main_page_gird_iten_tag_height"/>
+</shape>

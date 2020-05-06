@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imag_background" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <ViewStub android:id="@+id/full_screen_ad_maml" android:layout="@layout/applock_full_screen_maml" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/full_screen_ad_video" android:layout="@layout/applock_full_screen_video" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/full_screen_split_background" android:layout="@layout/applock_full_screen_split_background" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/backlayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/security_title_textsize" android:layout_gravity="center_horizontal" android:id="@+id/securitycenter_slogan" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/applock_slogan_margin_top" android:text="@string/security_center_slogan" android:singleLine="true" android:paddingStart="25dp" android:paddingEnd="25dp"/>
+            <RelativeLayout android:id="@+id/top_header_layout" android:layout_width="match_parent" android:layout_height="@dimen/applock_header_top_layout_height" android:layout_marginTop="@dimen/flag_top_margin_layout">
+                <ImageView android:id="@+id/backup_app_icon" android:layout_width="@dimen/app_icon_small_width" android:layout_height="@dimen/app_icon_small_width" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/applock_margin_start_end_dimen" android:layout_marginEnd="@dimen/applock_margin_start_end_dimen"/>
+                <TextView android:textSize="14.3sp" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@+id/backup_app_icon"/>
+                <RelativeLayout android:gravity="center_vertical" android:id="@+id/flag_top_layout" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <com.miui.common.customview.gif.GifImageView android:id="@+id/image_skin_flag_top" android:layout_width="wrap_content" android:layout_height="@dimen/skin_flag_top" android:layout_marginEnd="@dimen/skin_flag_top_margin_end"/>
+                    <ImageView android:id="@+id/sign_red_point" android:background="@drawable/applock_top_red_point" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/skin_flag_top_red_point_margin" android:layout_alignTop="@+id/image_skin_flag_top" android:layout_marginEnd="@dimen/skin_flag_top_red_point_margin" android:layout_alignEnd="@+id/image_skin_flag_top"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/expended_click_area" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@+id/top_ad_video" android:layout="@layout/applock_top_video" android:layout_width="match_parent" android:layout_height="@dimen/applock_top_video_height"/>
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/icon1" android:layout_width="@dimen/applock_pattern_icon_size" android:layout_height="@dimen/applock_pattern_icon_size" android:layout_marginTop="@dimen/app_icon_margin_top" android:scaleType="centerCrop"/>
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/finger_password_switch" android:background="@drawable/fod_finger_button_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/applock_fod_finger_switch" android:minWidth="@dimen/applock_finger_pass_switch_width" android:minHeight="@dimen/applock_finger_pass_switch_height">
+                <ImageView android:id="@+id/fod_finger_icon" android:background="@drawable/fod_split_finger_icon_small" android:layout_width="@dimen/applock_fod_finger_icon_size" android:layout_height="@dimen/applock_fod_finger_icon_size" android:layout_marginEnd="@dimen/applock_fod_finger_icon_margin_end"/>
+                <TextView android:textSize="@dimen/text_font_size_36" android:textStyle="bold" android:id="@+id/fod_finger_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fod_button_password"/>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/face_finger_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/applock_unlock_smile_margin_top">
+                <ImageView android:layout_gravity="center" android:id="@+id/face_unlock_smile" android:background="@drawable/face_display" android:visibility="invisible" android:layout_width="@dimen/view_dimen_74" android:layout_height="@dimen/view_dimen_74"/>
+                <ImageView android:id="@+id/fingerIcon" android:visibility="invisible" android:layout_width="@dimen/applock_finger_icon_size" android:layout_height="@dimen/applock_finger_icon_size" android:src="@drawable/fingerprint_dark" android:scaleType="centerCrop"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/title_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.3sp" android:textStyle="bold" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/headerText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+                <TextView android:textSize="11sp" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/footerText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.miui.applicationlock.widget.PasswordUnlockMediator android:id="@+id/passwordMediator" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" app:reset_password="false"/>
+            <TextView android:textSize="@dimen/text_font_size_40" android:textColor="#b3ffffff" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/fod_finger_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/full_screen_on_or_mute_switch" android:background="@drawable/sound_off" android:visibility="gone" android:layout_width="@dimen/play_or_mute_button_width" android:layout_height="@dimen/play_or_mute_button_width" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+    </LinearLayout>
+</merge>

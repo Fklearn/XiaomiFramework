@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/white_list_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/cleanup_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="23dp" android:text="@string/btn_text_quick_cleanup" android:layout_alignParentBottom="true"/>
+    <TextView android:textAppearance="0x100d009d" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/icon_list_empty" android:layout_centerInParent="true"/>
+    <miuix.springback.view.SpringBackLayout android:id="@+id/back_layout1" android:layout_width="match_parent" android:layout_height="wrap_content" app:scrollableView="@+id/scroll_view">
+        <LinearLayout android:orientation="vertical" android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="0x100d0058" android:gravity="bottom" android:id="@+id/header_title" android:paddingBottom="7dp" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="0x100d004d"/>
+            <FrameLayout android:id="@+id/divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/app_list" android:paddingStart="@dimen/flow_rank_list_item_padding_bm">
+                <include layout="@layout/include_horizontal_line"/>
+            </FrameLayout>
+        </LinearLayout>
+    </miuix.springback.view.SpringBackLayout>
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/cleanup_btn" android:layout_below="@+id/back_layout1" app:scrollableView="@+id/app_list">
+        <miuix.recyclerview.widget.RecyclerView android:id="@+id/app_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </miuix.springback.view.SpringBackLayout>
+</RelativeLayout>

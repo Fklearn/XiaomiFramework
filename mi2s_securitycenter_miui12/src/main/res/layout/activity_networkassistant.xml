@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll_view">
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:id="@+id/scroll_view" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v4.view.ViewPager android:id="@+id/main_view_pager" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="336dp" android:layout_marginLeft="17.5dp" android:layout_marginTop="22dp" android:layout_marginRight="17.5dp" android:layout_marginBottom="30dp"/>
+            <include android:id="@+id/main_toolbar_purchase" android:clipChildren="false" layout="@layout/view_main_toolbar_item"/>
+            <include android:id="@+id/main_toolbar_firewall" android:clipChildren="false" layout="@layout/view_main_toolbar_item"/>
+            <include android:id="@+id/main_toolbar_statistic" android:clipChildren="false" layout="@layout/view_main_toolbar_item"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

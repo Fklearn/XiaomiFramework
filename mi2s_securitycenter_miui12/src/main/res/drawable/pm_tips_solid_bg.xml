@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="27.5dp"/>
+    <size android:height="@dimen/perm_selected_tips_size_h"/>
+    <padding android:left="@dimen/perm_dialog_tip_in_padding" android:right="@dimen/perm_dialog_tip_in_padding"/>
+    <stroke android:width="1.5dp" android:color="#4d0d84ff"/>
+</shape>

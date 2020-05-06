@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:paddingTop="@dimen/dp_20dp" android:paddingBottom="@dimen/dp_20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/antivirus_header_padding_top" android:paddingEnd="@dimen/antivirus_header_padding_top">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/icon" style="@style/NewResultItemIconStyle"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="13.33dp">
+                <TextView android:id="@+id/title" style="@style/ResultItemAdTitleStyle"/>
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/summary" android:layout_marginTop="1dp" style="@style/ResultItemAdSummaryStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_50">
+            <Button android:layout_gravity="end" android:id="@+id/button" style="@style/ResultBlueButtonStyle"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_defaultWindowFeatureContextMenu">false</bool>
+    <bool name="config_defaultWindowFeatureOptionsPanel">false</bool>
+    <bool name="config_focusScrollContainersInTouchMode">true</bool>
+    <bool name="config_overrideRemoteViewsActivityTransition">true</bool>
+    <bool name="config_supportsMultiDisplay">false</bool>
+    <bool name="config_supportsMultiWindow">false</bool>
+    <bool name="config_supportsSplitScreenMultiWindow">false</bool>
+    <bool name="config_usbChargingMessage">false</bool>
+    <bool name="config_windowActionBarSupported">false</bool>
+    <bool name="config_windowNoTitleDefault">true</bool>
+    <bool name="config_windowOverscanByDefault">true</bool>
+    <bool name="config_windowSwipeToDismiss">true</bool>
+</resources>

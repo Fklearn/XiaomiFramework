@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.SimpleMonthView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/month_view" android:paddingTop="@dimen/day_picker_padding_top" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/day_picker_padding_horizontal" android:paddingEnd="@dimen/day_picker_padding_horizontal"/>

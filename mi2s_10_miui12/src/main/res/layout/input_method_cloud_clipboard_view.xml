@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/cloud_outside_view" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cloud_inside_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="@dimen/input_method_message_margin_start" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/message_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/input_method_cloud_icon" android:scaleType="centerCrop" android:layout_marginStart="@dimen/input_method_message_type_icon_margin_start"/>
+        <TextView android:textSize="@dimen/input_method_cloud_clipboard_text_size" android:textColor="@color/input_method_text_color" android:ellipsize="end" android:gravity="center" android:id="@+id/cloud_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/input_method_cloud_clipboard_text_max_width" android:singleLine="true" android:layout_marginStart="@dimen/input_method_cloud_clipboard_text_margin_start"/>
+        <RelativeLayout android:id="@+id/close_btn" android:layout_width="@dimen/input_method_cloud_clipboard_delete_btn_width" android:layout_height="match_parent">
+            <ImageView android:id="@+id/close_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/input_method_close_icon" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/input_method_close_icon_margin_end" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

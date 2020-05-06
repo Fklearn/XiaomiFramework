@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/optionA" android:layout_width="match_parent" style="@style/GBFourSwitchOption"/>
+    <View android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:id="@+id/optionB" android:layout_width="match_parent" style="@style/GBFourSwitchOption"/>
+    <View android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:id="@+id/optionC" android:layout_width="match_parent" style="@style/GBFourSwitchOption"/>
+    <View android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <TextView android:id="@+id/optionD" android:layout_width="match_parent" style="@style/GBFourSwitchOption"/>
+</LinearLayout>

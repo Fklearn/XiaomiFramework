@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MenuItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:focusable="true">
+    <TextView android:id="@+id/index" android:paddingTop="1dp" android:paddingBottom="0dp" android:layout_width="17dp" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="0dp" android:paddingEnd="8dp"/>
+    <ImageView android:id="@+id/check" android:paddingTop="3dp" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menuitem_checkbox" android:scaleType="fitCenter" android:paddingStart="3dp" android:paddingEnd="3dp"/>
+    <TextView android:id="@+id/title" android:paddingTop="1dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1" android:paddingStart="0dp" android:paddingEnd="0dp"/>
+    <TextView android:gravity="center_horizontal" android:id="@+id/shortcut" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="20dp" android:layout_height="wrap_content" android:includeFontPadding="true" android:paddingStart="8dp" android:paddingEnd="0dp"/>
+</MenuItemView>

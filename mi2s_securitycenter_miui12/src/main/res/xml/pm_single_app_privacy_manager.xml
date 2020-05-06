@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/app_behavior_settings_category_perm" android:key="category_perm_warn">
+        <miuix.preference.TextPreference android:selectable="false" android:summary="@string/app_behavior_settings_perm_tips"/>
+        <CheckBoxPreference android:title="@string/app_behavior_key_location" android:key="key_location_setting"/>
+        <CheckBoxPreference android:title="@string/app_behavior_key_audio" android:key="key_audio_setting"/>
+        <CheckBoxPreference android:title="@string/app_behavior_key_camera" android:key="key_camera_setting"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_behavior_settings_category_privacy" android:key="category_privacy_protect">
+        <miuix.preference.TextPreference android:selectable="false" android:summary="@string/app_behavior_settings_privacy_tips"/>
+        <CheckBoxPreference android:title="@string/app_behavior_key_protect" android:key="key_protect_privacy"/>
+    </PreferenceCategory>
+</PreferenceScreen>

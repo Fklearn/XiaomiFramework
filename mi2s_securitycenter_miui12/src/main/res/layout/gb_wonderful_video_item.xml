@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_gb_wonderful_video_item" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:background="@drawable/shape_gb_wonderful_video_top" android:paddingLeft="@dimen/gb_wonderful_top_padding_left" android:paddingRight="@dimen/gb_wonderful_top_padding_right" android:layout_width="@dimen/gb_wonderful_moment_item_width" android:layout_height="@dimen/gb_wonderful_video_top_height">
+        <TextView android:textSize="@dimen/gb_wonderful_scroll_page_item_desc_textsize" android:textColor="@color/white" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_game_video_item_tag"/>
+        <TextView android:textSize="@dimen/gb_wonderful_scroll_page_item_time_textsize" android:textColor="@color/white" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/tv_duration" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/gb_wonderful_moment_item_width" android:layout_height="@dimen/gb_wonderful_moment_item_video_height">
+        <ImageView android:id="@+id/iv_video" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/btn_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gb_wonderful_video_big_play"/>
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/shape_gb_wonderful_video_bottom" android:layout_width="@dimen/gb_wonderful_moment_item_width" android:layout_height="@dimen/gb_wonderful_video_bottom_height">
+        <TextView android:enabled="true" android:textSize="@dimen/gb_wonderful_scroll_page_item_button_textsize" android:textColor="@color/gb_wonderful_video_save_button_text_selector" android:gravity="center" android:layout_gravity="center" android:id="@+id/btn_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_game_video_save" android:drawablePadding="@dimen/dp_4dp" android:drawableEnd="@drawable/ic_gb_wonderful_video_download_normal"/>
+    </FrameLayout>
+</LinearLayout>

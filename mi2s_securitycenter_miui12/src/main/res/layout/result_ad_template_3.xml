@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/inner" android:background="@drawable/card_bg_no_shadow_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/result_item_title_margin_top_3" android:paddingBottom="@dimen/result_item_title_margin_top_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+            <TextView android:layout_gravity="center_vertical" android:id="@+id/summary" style="@style/ResultItemTitleStyle_3"/>
+            <include android:layout_width="match_parent" android:layout_height="@dimen/result_item_big_img_height" android:layout_marginTop="@dimen/result_item_img_margin_top_3" android:layout_marginBottom="@dimen/result_item_img_margin_top_3" layout="@layout/result_ad_template_part_big_image1"/>
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/result_ad_template_part_bottom1"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/monitor_transparent_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/float_virus_monitor_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:id="@+id/monitor_layout" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/monitor_virus_icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size"/>
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="9dp" android:layout_marginEnd="9dp">
+                <TextView android:textAppearance="0x100d005f" android:id="@+id/monitor_virus_packagename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textAppearance="0x100d0058" android:ellipsize="end" android:id="@+id/monitor_virus_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@+id/monitor_virus_packagename"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/monitor_sec_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/virus_monitor"/>
+                <TextView android:textSize="10sp" android:textColor="@color/v_monitor_sec_tv" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/monitor_sec_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_securitycenter" android:layout_marginStart="3dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/divider" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52dp">
+            <Button android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/monitor_cancel" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/cancel" android:layout_weight="1"/>
+            <View android:background="@drawable/divider" android:layout_width="1px" android:layout_height="match_parent"/>
+            <Button android:textColor="@color/v_monitor_right_btn" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/monitor_clean" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

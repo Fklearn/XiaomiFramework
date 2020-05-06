@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:title="setting_preferences">
+    <PreferenceCategory android:title="@string/pref_about_traffic_title" android:key="category_key_traffic">
+        <CheckBoxPreference android:title="@string/pref_traffic_manage_title" android:key="pref_traffic_manage"/>
+        <Preference android:title="@string/pref_mi_sim_settings" android:key="pref_key_mi_sim_settings"/>
+        <miuix.preference.TextPreference android:title="@string/pref_package_traffic_settings" android:key="pref_key_package_traffic"/>
+        <miuix.preference.TextPreference android:title="@string/pref_adjust_traffic_data" android:key="pref_key_traffic_correction"/>
+        <Preference android:title="@string/daily_limit_and_lock_screen" android:key="pref_key_limit_traffic_per_day"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_about_traffic_title" android:key="category_key_traffic2">
+        <CheckBoxPreference android:title="@string/pref_traffic_manage_title" android:key="pref_traffic_manage2"/>
+        <Preference android:title="@string/pref_mi_sim_settings" android:key="pref_key_mi_sim_settings2"/>
+        <miuix.preference.TextPreference android:title="@string/pref_package_traffic_settings" android:key="pref_key_package_traffic2"/>
+        <miuix.preference.TextPreference android:title="@string/pref_adjust_traffic_data" android:key="pref_key_traffic_correction2"/>
+        <Preference android:title="@string/daily_limit_and_lock_screen" android:key="pref_key_limit_traffic_per_day2"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_title_other" android:key="category_key_other">
+        <CheckBoxPreference android:title="@string/pref_title_update_notification" android:key="pref_show_traffic_notification" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/pref_title_traffic_speed_state" android:key="pref_show_traffic_speed_state" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/pref_title_upload_data_usage" android:key="pref_key_upload_data_usage" android:summary="@string/pref_summary_upload_data_usage"/>
+        <Preference android:title="@string/pref_title_declaration" android:key="pref_key_declaration"/>
+    </PreferenceCategory>
+</PreferenceScreen>

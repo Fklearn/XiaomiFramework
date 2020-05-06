@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_margin_top">0dp</dimen>
+    <dimen name="applock_icon_margin_top">0dp</dimen>
+    <dimen name="applock_icon_margin_top_sc">0dp</dimen>
+    <dimen name="first_use_back_button_alight_top">110dp</dimen>
+    <dimen name="main_indicator_padding">15dp</dimen>
+    <dimen name="six_pices_card_item_height">115.67dp</dimen>
+</resources>

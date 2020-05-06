@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/pref_category_package_type_title" android:key="pref_key_package_type_category">
+        <miuix.preference.TextPreference android:title="@string/pref_title_traffic_package_type" android:key="pref_key_package_type_old" android:summary="@string/pref_traffic_package_type_summary"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_title_traffic_package_type" android:key="pref_key_package_type" android:summary="@string/pref_traffic_package_type_summary" app:entries="@array/traffic_package_type" app:entryValues="@array/traffic_package_type"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_traffic_monthly_package" android:key="pref_key_monthly_package">
+        <miuix.preference.DropDownPreference android:title="@string/pref_traffic_daily_package_brand" android:key="pref_daily_card_brand" app:entries="@array/daily_brand" app:entryValues="@array/daily_brand"/>
+        <miuix.preference.TextPreference android:title="@string/pref_traffic_daily_package_brand" android:key="pref_daily_card_brand_old"/>
+        <miuix.preference.TextPreference android:title="@string/pref_traffic_daily_package" android:key="pref_daily_card_package"/>
+        <miuix.preference.TextPreference android:title="@string/pref_daily_traffic" android:key="pref_normal_package_setting"/>
+        <miuix.preference.TextPreference android:title="@string/traffic_usage_warning_limit" android:key="pref_not_limit_traffic_limit"/>
+        <miuix.preference.TextPreference android:title="@string/pref_daily_adjust" android:key="pref_daily_adjust_traffic"/>
+        <miuix.preference.TextPreference android:title="@string/pref_free_adjust" android:key="pref_leisure_adjust_traffic"/>
+        <miuix.preference.TextPreference android:title="@string/pref_normal_traffic_limit" android:key="pref_normal_traffic_limit_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_normal_traffic_limit" android:key="pref_normal_traffic_limit" app:entries="@array/over_limit_traffic_waring_style" app:entryValues="@array/over_limit_traffic_waring_style"/>
+        <miuix.preference.TextPreference android:title="@string/pref_special_package_setting" android:key="pref_key_special_package_setting" android:summary="@string/pref_special_package_setting_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_more_settings" android:key="pref_more_settings">
+        <miuix.preference.TextPreference android:title="@string/pref_warning_values" android:key="pref_month_warning"/>
+        <miuix.preference.TextPreference android:title="@string/pref_pkg_begin_date" android:key="pref_package_begin_date"/>
+        <CheckBoxPreference android:title="@string/traffic_config_alert_auto_modify" android:key="pref_key_auto_modify_package" android:summary="@string/traffic_alert_auto_modify_package_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

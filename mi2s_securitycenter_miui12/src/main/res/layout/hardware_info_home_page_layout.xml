@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/startBandage" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/hardware_info_bandage_start" android:tint="@color/gamebooster_hardware" android:layout_weight="1" android:layout_marginEnd="2dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/startWidgetsContainer" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/cpuInfoContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="46dp" android:layout_marginEnd="5dp">
+                <ImageView android:id="@+id/cpuInfo_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_page_hi_cpu" android:tint="@color/gamebooster_hardware" android:layout_centerVertical="true"/>
+                <TextView android:textSize="11.64dp" android:textStyle="bold" android:textColor="@color/gamebooster_hardware" android:gravity="end" android:id="@+id/cpuInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="26dp" android:maxLines="1" android:layout_centerVertical="true" android:alpha="0.5" android:fontFamily="sans-serif-medium" android:layout_toEndOf="@+id/cpuInfo_icon"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/gpuInfoContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="46dp" android:layout_marginStart="8dp">
+                <ImageView android:id="@+id/gpuInfo_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_page_hi_gpu" android:tint="@color/gamebooster_hardware" android:layout_centerVertical="true"/>
+                <TextView android:textSize="11.64dp" android:textStyle="bold" android:textColor="@color/gamebooster_hardware" android:gravity="end" android:id="@+id/gpuInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="26dp" android:maxLines="1" android:layout_centerVertical="true" android:alpha="0.5" android:fontFamily="sans-serif-medium" android:layout_toEndOf="@+id/gpuInfo_icon" android:letterSpacing="0.08"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/endBandage" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/hardware_info_bandage_start" android:tint="@color/gamebooster_hardware" android:layout_weight="1" android:scaleX="-1" android:layout_marginStart="2dp"/>
+    </LinearLayout>
+</merge>

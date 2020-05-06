@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.gamebooster.viewPointwidget.ViewPointPicItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/v_picitem" android:background="@color/gamebooster_bgcolor" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingTop="@dimen/main_padding_36" android:paddingBottom="@dimen/main_padding_10" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/main_padding_50" android:paddingEnd="@dimen/main_padding_50" android:layout_marginStart="@dimen/main_padding_28" android:layout_marginEnd="@dimen/main_padding_28">
+        <ImageView android:id="@+id/left_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_padding_15" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/middle_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_padding_15" android:scaleType="centerCrop"/>
+        <FrameLayout android:id="@+id/right_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/right_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <View android:id="@+id/mask" android:background="@drawable/bg_corner_8_black40" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textSize="@dimen/text_font_size_48" android:textColor="@color/color_white_trans_90" android:layout_gravity="center" android:id="@+id/pic_count" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.miui.gamebooster.viewPointwidget.ViewPointPicItem>

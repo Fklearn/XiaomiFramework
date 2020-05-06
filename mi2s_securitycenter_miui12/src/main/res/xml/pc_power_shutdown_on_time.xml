@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/power_center_ontime_boot">
+        <CheckBoxPreference android:title="@string/power_center_ontime_boot" android:key="button_boot"/>
+        <miuix.preference.TextPreference android:title="@string/power_center_time_to_boot" android:key="time_boot" android:dependency="button_boot"/>
+        <com.miui.powercenter.bootshutdown.RepeatPreference android:title="@string/power_center_repeat" android:key="repeat_boot" android:dependency="button_boot"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_center_ontime_shutdown">
+        <CheckBoxPreference android:title="@string/power_center_ontime_shutdown" android:key="button_shutdown"/>
+        <miuix.preference.TextPreference android:title="@string/power_center_time_to_shutdown" android:key="time_shutdown" android:dependency="button_shutdown"/>
+        <com.miui.powercenter.bootshutdown.RepeatPreference android:title="@string/power_center_repeat" android:key="repeat_shutdown" android:dependency="button_shutdown"/>
+    </PreferenceCategory>
+</PreferenceScreen>

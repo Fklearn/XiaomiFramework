@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/om_settings_lock_app_manage">
+        <miuix.preference.TextPreference android:title="@string/om_settings_lock_app" android:key="preference_key_lock_app_manage"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/om_settings_speed_up_auto" android:key="category_key_memory_clean_lock_screen">
+        <miuix.preference.DropDownPreference android:title="@string/om_settings_memory_clean_lock_screen" android:key="preference_key_memory_clean_lock_screen" app:adapter="com.miui.optimizemanage.settings.DropDownLockScreenAdapter"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/om_settings_notify_manage" android:key="preference_key_notify_manage_category">
+        <miuix.preference.DropDownPreference android:title="@string/om_settings_memory_occupy_notify" android:key="preference_key_memory_occupy_notify" android:summary="@string/om_settings_memocy_occupy_too_large_summary" app:adapter="com.miui.optimizemanage.settings.DropDownMemoryOccupyAdapter"/>
+        <CheckBoxPreference android:title="@string/om_settings_cpu_over_load_notify" android:key="preference_key_cpu_over_load" android:summary="@string/om_settings_cpu_over_load_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

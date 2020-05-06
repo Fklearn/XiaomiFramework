@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.MiuiDecorCaptionView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/top_caption" android:background="@color/transparent" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="28.36dp" android:minHeight="10dp">
+        <View android:layout_gravity="center" android:id="@+id/move_region" android:background="@color/transparent" android:layout_width="244.54dp" android:layout_height="28.36dp" android:minHeight="10dp"/>
+        <View android:layout_gravity="center_horizontal" android:id="@+id/top_image" android:background="#66b2b2b2" android:layout_width="58.18dp" android:layout_height="4.85dp" android:layout_marginTop="11.64dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/bottom_caption" android:background="@color/transparent" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="37.82dp">
+        <View android:layout_gravity="center_horizontal" android:id="@+id/bottom_image" android:background="#b3383838" android:layout_width="80.45dp" android:layout_height="4.85dp" android:layout_marginTop="13.09dp"/>
+    </FrameLayout>
+</com.android.internal.widget.MiuiDecorCaptionView>

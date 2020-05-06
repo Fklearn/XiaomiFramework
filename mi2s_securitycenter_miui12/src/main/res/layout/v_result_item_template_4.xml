@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="75dp" android:layout_weight="1">
+                <TextView android:textSize="@dimen/result_title_text" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+                <TextView android:ellipsize="end" android:id="@+id/views" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" style="@style/ViewsStyle"/>
+            </LinearLayout>
+            <com.miui.common.customview.AdImageView android:id="@+id/icon" android:layout_width="108dp" android:layout_height="72dp" android:scaleType="centerCrop" android:layout_marginStart="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

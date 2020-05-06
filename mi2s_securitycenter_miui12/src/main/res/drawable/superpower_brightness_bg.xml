@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/superpower_notification_layout_radius"/>
+    <solid android:color="@color/superpower_notification_layout_background"/>
+    <size android:height="@dimen/superpower_notification_brightness_height"/>
+</shape>

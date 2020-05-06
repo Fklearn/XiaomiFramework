@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="80dp">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.miui.powercenter.view.BatteryStatusValueText android:ellipsize="end" android:id="@+id/estimate_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" style="@style/StyleBatteryStatusValue"/>
+            <TextView android:ellipsize="end" android:id="@+id/estimate_time_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_center_list_item_battery_status_time" android:singleLine="true" android:layout_alignBaseline="@+id/estimate_time_value" android:layout_toEndOf="@+id/estimate_time_value" style="@style/StyleBatteryStatusUnit"/>
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/estimate_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_estimate_usage_time_title" android:singleLine="true" style="@style/StyleBatteryStatusTitle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.miui.powercenter.view.BatteryStatusValueText android:ellipsize="end" android:id="@+id/temperature_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" style="@style/StyleBatteryStatusValue"/>
+            <TextView android:ellipsize="end" android:id="@+id/temperature_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_center_list_item_battery_status_temperature" android:singleLine="true" android:layout_alignBaseline="@+id/temperature_value" android:layout_toEndOf="@+id/temperature_value" style="@style/StyleBatteryStatusUnit"/>
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_temperature_title" android:singleLine="true" style="@style/StyleBatteryStatusTitle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.miui.powercenter.view.BatteryStatusValueText android:ellipsize="end" android:id="@+id/capacity_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" style="@style/StyleBatteryStatusValue"/>
+            <TextView android:ellipsize="end" android:id="@+id/estimate_time_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_center_list_item_battery_status_capacity" android:singleLine="true" android:layout_alignBaseline="@+id/capacity_value" android:layout_toEndOf="@+id/capacity_value" style="@style/StyleBatteryStatusUnit"/>
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_capacity_title" android:singleLine="true" style="@style/StyleBatteryStatusTitle"/>
+    </LinearLayout>
+</LinearLayout>

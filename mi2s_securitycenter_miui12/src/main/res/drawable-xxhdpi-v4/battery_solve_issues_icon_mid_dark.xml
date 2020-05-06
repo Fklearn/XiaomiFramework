@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="43dp" android:width="30dp" android:autoMirrored="true" android:viewportWidth="90" android:viewportHeight="129">
+    <path android:fillColor="@drawable/$battery_solve_issues_icon_mid_dark__0" android:pathData="M0,30.319C0,22.035 6.716,15.319 15,15.319H75C83.284,15.319 90,22.035 90,30.319V113.297C90,121.582 83.284,128.297 75,128.297H15C6.716,128.297 0,121.582 0,113.297V30.319Z" android:strokeAlpha="0.9" android:fillAlpha="0.9"/>
+    <path android:fillColor="@drawable/$battery_solve_issues_icon_mid_dark__1" android:pathData="M26.757,7.684C27.83,3.179 31.855,0 36.485,0H53.515C58.145,0 62.17,3.179 63.243,7.684L63.563,9.026C63.862,10.283 62.909,11.489 61.617,11.489H28.383C27.091,11.489 26.138,10.283 26.438,9.026L26.757,7.684Z" android:strokeAlpha="0.9" android:fillAlpha="0.9"/>
+    <path android:fillColor="#353535" android:pathData="M26.519,73.289C25.76,74.536 26.549,76.15 27.999,76.316L43.181,78.061V96.925C43.181,97.939 44.516,98.31 45.038,97.44L63.499,66.71C64.25,65.459 63.454,63.852 62.004,63.692L46.074,61.933V44.736C46.074,43.725 44.745,43.353 44.22,44.216L26.519,73.289Z" android:strokeAlpha="0.9" android:fillAlpha="0.9"/>
+</vector>

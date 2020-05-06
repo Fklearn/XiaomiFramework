@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/first_aid_kit_bgcolor" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fl_top_content" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_main_top_height" android:layout_centerHorizontal="true">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@+id/ll_top_result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/result_img_content" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/firstaidkit_result_circle_margin_top">
+                <ImageView android:id="@+id/iv_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/result_top_icon" android:layout_centerHorizontal="true"/>
+                <ImageView android:id="@+id/result_score_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/firstaidkit_result_score_icon_margin_top" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/firstaidkit_box_summary_textsize" android:textStyle="bold" android:textColor="@color/first_aid_box_summary_textcolor" android:id="@+id/tv_summary_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/firstaidkit_circle_summary_margin_top" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/firstaidkit_circle_summary_margin_start" android:layout_marginEnd="@dimen/firstaidkit_circle_summary_margin_end"/>
+        </RelativeLayout>
+        <com.miui.firstaidkit.ui.FirstAidVideoView android:layout_gravity="center_horizontal" android:id="@+id/ll_top_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/firstaidkit_texture_view_margin_top">
+            <com.miui.common.ui.ExoTextureView android:id="@+id/texture_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.miui.firstaidkit.ui.FirstAidVideoView>
+    </FrameLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_actionbar_margin_top" layout="@layout/activity_main_actionbar_layout"/>
+    <com.miui.common.customview.AutoPasteListView android:orientation="vertical" android:id="@+id/auto_paste_listview" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/firstaidkit_result_list_margin_top" android:divider="@android:color/transparent" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/card_layout_auto_paste_list_view_margin_se" android:layout_marginEnd="@dimen/card_layout_auto_paste_list_view_margin_se"/>
+    <com.miui.firstaidkit.ui.ProgressLayout android:id="@+id/progressLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/firstaidkit_optimize_layout_margin_top" android:layout_alignParentTop="true">
+        <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp" android:layout_above="@+id/btn_stop" android:overScrollMode="never">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/item_1" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" layout="@layout/m_item_firstaidkit"/>
+                <include android:id="@+id/item_2" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" layout="@layout/m_item_firstaidkit"/>
+                <include android:id="@+id/item_3" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" layout="@layout/m_item_firstaidkit"/>
+                <include android:id="@+id/item_4" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" layout="@layout/m_item_firstaidkit"/>
+                <include android:id="@+id/item_5" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" layout="@layout/m_item_firstaidkit"/>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:textSize="@dimen/om_running_process_title_text_size" android:textColor="@color/optmizing_button_text" android:id="@+id/btn_stop" android:background="@drawable/scan_or_clean_button_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/om_big_button_margin_bottom" android:minHeight="@dimen/om_big_button_min_height" android:text="@string/first_aid_stop_scan" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/om_big_button_margin_lr" android:layout_marginEnd="@dimen/om_big_button_margin_lr" style="0x100d003b"/>
+    </com.miui.firstaidkit.ui.ProgressLayout>
+</RelativeLayout>

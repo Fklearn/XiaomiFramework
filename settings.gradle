@@ -1,0 +1,4 @@
+rootProject.name='miuiFramework'
+include ':app'
+include ':mi2s_10_miui12'
+include ':mi2s_securitycenter_miui12'

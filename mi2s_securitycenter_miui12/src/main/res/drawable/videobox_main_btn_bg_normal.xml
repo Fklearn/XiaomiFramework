@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/videobox_main_btn_bg_radius" android:topRightRadius="@dimen/videobox_main_btn_bg_radius" android:bottomLeftRadius="@dimen/videobox_main_btn_bg_radius" android:bottomRightRadius="@dimen/videobox_main_btn_bg_radius"/>
+            <solid android:color="@color/color_videobox_main_btn_bg_sold_n"/>
+            <stroke android:width="@dimen/videobox_main_btn_bg_border_w" android:color="@color/color_videobox_main_btn_bg_border_n"/>
+        </shape>
+    </item>
+</layer-list>

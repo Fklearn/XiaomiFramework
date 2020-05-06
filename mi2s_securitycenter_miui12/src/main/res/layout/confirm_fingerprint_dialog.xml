@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/confirm_fingerprint_view_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerprint_identify_msg" style="?android:attr/textAppearanceLarge"/>
+    <TextView android:textSize="@dimen/text_font_size_48" android:textColor="@color/account_info_text_color" android:layout_gravity="center_horizontal" android:id="@+id/confirm_fingerprint_view_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm_fingerprint_msg" style="?android:attr/textAppearanceMedium"/>
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:src="@drawable/confirm_fingerprint_img"/>
+</LinearLayout>

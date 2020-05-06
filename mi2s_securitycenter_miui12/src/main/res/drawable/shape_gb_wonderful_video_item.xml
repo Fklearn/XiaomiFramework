@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/gb_wonderful_video_top_bottom_radius"/>
+    <stroke android:width="@dimen/gb_wonderful_moment_page_outside" android:color="@color/gb_wonderful_video_shape_video_play"/>
+    <padding android:left="@dimen/gb_wonderful_moment_page_outside" android:top="@dimen/gb_wonderful_moment_page_outside" android:right="@dimen/gb_wonderful_moment_page_outside" android:bottom="@dimen/gb_wonderful_moment_page_outside"/>
+</shape>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/antivirus_choose_engine_settings" android:key="@string/preference_category_key_antivirus_setting">
+        <miuix.preference.DropDownPreference android:persistent="false" android:title="@string/antivirus_choose_engine_title" android:key="@string/preference_key_antivirus_choose_engine"/>
+        <CheckBoxPreference android:title="@string/menu_item_virus_cloud_scan_title" android:key="@string/preference_key_open_virus_cloud_scan" android:summary="@string/menu_item_virus_cloud_scan_summary"/>
+        <CheckBoxPreference android:title="@string/menu_item_virus_install_monitor_title" android:key="@string/preference_key_open_virus_install_monitor" android:summary="@string/menu_item_virus_install_monitor_summary"/>
+        <CheckBoxPreference android:title="@string/virus_auto_update_engine" android:key="@string/preference_key_virus_lib_auto_update" android:summary="@string/hints_virus_lib_update_default_summary"/>
+        <miuix.preference.TextPreference android:persistent="false" android:title="@string/pref_title_manual_check_virus_db_update" android:key="@string/preference_key_manual_update_virus_db" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/result_autoscan_header" android:key="@string/preference_key_category_monitor">
+        <CheckBoxPreference android:title="@string/result_autoscan_header" android:key="@string/preference_key_settings_monitor" android:summary="@string/sp_settings_info_monitor"/>
+        <CheckBoxPreference android:title="@string/sp_settings_title_input_method" android:key="@string/preference_key_settings_input_method" android:summary="@string/sp_settings_info_input_method" android:dependency="@string/preference_key_settings_monitor"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sp_settings_group_title_check_item" android:key="@string/preference_key_category_check_item">
+        <CheckBoxPreference android:title="@string/sp_settings_check_item_title_wifi" android:key="@string/preference_key_check_item_wifi"/>
+        <CheckBoxPreference android:title="@string/sp_settings_check_item_title_root" android:key="@string/preference_key_check_item_root"/>
+        <CheckBoxPreference android:title="@string/sp_settings_check_item_title_update" android:key="@string/preference_key_check_item_update"/>
+        <miuix.preference.TextPreference android:title="@string/sp_settings_check_item_title_virus_exception" android:key="@string/preference_key_virus_white_list" android:summary="@string/sp_settings_check_item_summary_virus_exception">
+            <intent android:action="miui.intent.action.ANTI_VIRUS_WHITELIST"/>
+        </miuix.preference.TextPreference>
+        <miuix.preference.TextPreference android:title="@string/sp_settings_check_item_title_sign_exception" android:key="@string/preference_key_sign_exception" android:summary="@string/sp_settings_check_item_summary_sign_exception">
+            <intent android:targetPackage="com.miui.securitycenter" android:targetClass="com.miui.antivirus.activity.SignExceptionActivity"/>
+        </miuix.preference.TextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

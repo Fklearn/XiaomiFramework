@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:top="@dimen/sliding_button_mask_vertical_padding" android:bottom="@dimen/sliding_button_mask_vertical_padding">
+        <shape android:shape="rectangle">
+            <stroke android:width="1px" android:color="@color/transparent"/>
+            <solid android:color="@color/black"/>
+            <corners android:radius="@dimen/sliding_button_frame_corner_radius"/>
+            <size android:height="@dimen/sliding_button_height" android:width="@dimen/sliding_button_width"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:interpolator/decelerate_cubic" android:fillAfter="true">
+    <alpha android:duration="100" android:fillAfter="true" android:fromAlpha="0" android:toAlpha="1"/>
+    <scale android:duration="1200" android:pivotX="320" android:pivotY="0" android:fillAfter="true" android:startOffset="100" android:fromXScale="1" android:toXScale="2.4" android:fromYScale="1" android:toYScale="4"/>
+    <alpha android:duration="1200" android:fillAfter="true" android:startOffset="100" android:fromAlpha="1" android:toAlpha="0"/>
+</set>

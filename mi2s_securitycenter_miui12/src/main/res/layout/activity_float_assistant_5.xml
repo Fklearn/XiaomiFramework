@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/float_activity_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dialog_container" android:background="@drawable/float_activity_5_bg" android:layout_width="299dp" android:layout_height="336dp" android:layout_marginLeft="40.33dp" android:layout_marginRight="40.33dp" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="234dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="-30dp">
+                    <TextView android:textSize="@dimen/lucky_float_text_size" android:textColor="@color/whiltealpha100" android:gravity="center" android:id="@+id/tv_news_lucky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lucky_alarm" android:drawableTop="@drawable/selector_lucky_alarm" android:drawablePadding="11dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="30dp">
+                    <TextView android:textSize="@dimen/lucky_float_text_size" android:textColor="@color/whiltealpha100" android:id="@+id/tv_random_expression" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/random_expression" android:drawableTop="@drawable/selector_random_expression" android:drawablePadding="11dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/layout_give_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:id="@+id/img_give_lucky_money" android:padding="2dp" android:layout_width="41dp" android:layout_height="41dp" android:src="@drawable/selector_cmd_lucky"/>
+                    <TextView android:textSize="@dimen/lucky_float_text_size" android:textColor="@color/whiltealpha100" android:gravity="center" android:id="@+id/tv_give_lucky_money" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/give_lucky_money"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="-30dp">
+                    <ImageView android:id="@+id/imgWechat" android:layout_width="39dp" android:layout_height="34dp" android:src="@drawable/selector_cmd_lucky" android:adjustViewBounds="true"/>
+                    <TextView android:textSize="@dimen/lucky_float_text_size" android:textColor="@color/whiltealpha100" android:gravity="center" android:id="@+id/tv_shake_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/cmd_lucky_float"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="30dp">
+                    <ImageView android:id="@+id/imgAlipay" android:layout_width="39dp" android:layout_height="34dp" android:src="@drawable/selector_shoop_again" android:adjustViewBounds="true"/>
+                    <TextView android:textSize="@dimen/lucky_float_text_size" android:textColor="@color/whiltealpha100" android:gravity="center" android:id="@+id/tv_shoop_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/shoop_again_float"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="12dp" android:textColor="#ffffff01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/luckymoney_floatassistant_txtmargin" android:layout_marginTop="294dp" android:text="@string/float_window_tips" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <Button android:id="@+id/btn_setting" android:background="@drawable/selector_float_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="287dp" android:layout_alignParentRight="true" android:contentDescription="@string/secondart_setting_title"/>
+    </RelativeLayout>
+</RelativeLayout>

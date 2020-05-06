@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6dp" style="@style/ResultBottomPartTestStyle"/>
+    <TextView android:id="@+id/download_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" style="@style/ResultBottomPartTestStyle"/>
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <FrameLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/adv_close_layout"/>
+    </FrameLayout>
+</LinearLayout>

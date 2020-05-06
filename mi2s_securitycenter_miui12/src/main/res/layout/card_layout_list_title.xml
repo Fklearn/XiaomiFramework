@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/card_bg_no_shadow_top" android:paddingTop="@dimen/result_card_list_padding_top" android:paddingBottom="@dimen/power_card_title_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+    <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/CardListTitleTextiViewStyle"/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/inner" android:background="@drawable/shape_result_card_border_whole" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/result_ad_item_padding_bottom" android:paddingBottom="@dimen/result_ad_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+            <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/result_button_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.miui.common.customview.AdImageView android:layout_gravity="top" android:id="@+id/icon" android:layout_width="@dimen/card_main_list_banner_iv_banner_size" android:layout_height="@dimen/card_main_list_banner_iv_banner_size" android:src="@drawable/card_icon_default" android:scaleType="centerInside" android:layout_marginEnd="@dimen/result_icon_padding_end"/>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/title" style="@style/ResultItemAdTitleStyle"/>
+                    <TextView android:id="@+id/summary" style="@style/ResultItemAdSummaryStyle"/>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:layout_gravity="end" android:id="@+id/button" android:text="@string/download" android:singleLine="true" style="@style/ResultBlueButtonStyle"/>
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:paddingTop="@dimen/adv_close_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/adv_close_padding_end">
+            <include layout="@layout/adv_close_layout"/>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

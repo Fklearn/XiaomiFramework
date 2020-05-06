@@ -1,0 +1,73 @@
+package com.miui.internal.vip;
+
+public class VipConstants {
+    public static final int ACCESS_DENIED = 1003;
+    public static final String ACCOUNT_AVATAR_FILE_NAME = "acc_avatar_file_name";
+    public static final String ACCOUNT_AVATAR_URL = "acc_avatar_url";
+    public static final String ACCOUNT_PACKAGE = "com.xiaomi.account";
+    public static final String ACCOUNT_USER_NAME = "acc_user_name";
+    public static final String ACTION_ACCOUNT_WELCOME = "com.xiaomi.account.action.XIAOMI_ACCOUNT_WELCOME";
+    public static final String ACTION_EVENT = "com.xiaomi.vip.action.VIP_EVENT_NOTIFY";
+    public static final String ACTION_USER_DETAIL = "com.xiaomi.account.action.USER_INFO_DETAIL";
+    public static final String ACTION_VIP_ACHIEVEMENTS = "com.xiaomi.vip.action.VIP_ACHIEVEMENT_LIST";
+    public static final String ACTION_VIP_AWARD = "com.xiaomi.vip.action.VIP_AWARD_LIST";
+    public static final String ACTION_VIP_LEVEL_LIST = "com.xiaomi.vip.action.VIP_LEVEL_LIST";
+    public static final String ACTION_VIP_TASK = "com.xiaomi.vip.action.VIP_TASK_LIST";
+    public static final String APP_ICON = "appicon://";
+    public static final int AUTH_FAILURE = 1005;
+    public static final int CIPHER_ERROR = 1002;
+    public static final int DATA_FAILURE = 1006;
+    public static final long DAY = 86400000;
+    public static final String EVENT_ERR_MSG = "VIP_EVENT_MSG";
+    public static final String EVENT_RESULT = "VIP_EVENT_RESULT";
+    public static final String EVENT_STATE = "VIP_EVENT_STATE";
+    public static final String EVENT_TYPE = "VIP_EVENT_TYPE";
+    public static final String EVENT_VALUE = "VIP_APP_EVENT_VALUE";
+    public static final String EXTRA_UPDATE_TYPE = "extra_update_type";
+    public static final long HOUR = 3600000;
+    public static final int INVALID_PARAMS = 10000;
+    public static final int INVALID_RESPONSE = 1004;
+    public static final int IO_ERROR = 1001;
+    public static final String LEVEL_IMG = "https://rs.vip.miui.com/h5/level_icons/icon_level_%d.webp";
+    public static final String LOGIN_ACCOUNTS_POST_CHANGED_ACTION = "android.accounts.LOGIN_ACCOUNTS_POST_CHANGED";
+    public static final int NOT_SUPPORT = 17777;
+    public static final String PACKAGE_NAME = "VIP_APP_PACKAGE_NAME";
+    public static final String PHONE_LEVEL = "VIP_PHON_LEVEL";
+    public static final String REQUEST_ID = "VIP_REQUEST_ID";
+    public static final String RES_ICON = "resicon://";
+    public static final int RETRY = 70000;
+    public static final int SERVER_ERROR = 80000;
+    public static final int SUCCESS = 0;
+    public static final String TASK_ID = "VIP_TASK_ID";
+    public static final String TASK_INFO = "VIP_TASK_INFO";
+    public static final int TYPE_ACHIEVEMENTS = 16;
+    public static final int TYPE_ADD = 2;
+    public static final int TYPE_BANNERS = 64;
+    public static final int TYPE_CONNECTED = 8;
+    public static final int TYPE_DISCONNECTED = 9;
+    public static final int TYPE_NOTIFY_EVENT = 2;
+    public static final int TYPE_PHONE_LEVEL = 4;
+    public static final int TYPE_REMOVE = 1;
+    public static final int TYPE_USER_INFO = 1;
+    public static final int TYPE_VIP_ICON = 32;
+    public static final int UNKNOWN = 90000;
+    public static final int USER_ERROR_BEGIN = 13333;
+    public static final int USER_ERROR_END = 13433;
+    public static final int USER_ERROR_TASK_ALREADY_FINISHED = 13337;
+    public static final int USER_ERROR_TASK_ALREADY_STARTED = 13334;
+    public static final int USER_ERROR_TASK_NOT_FINISHED = 13336;
+    public static final int USER_ERROR_TASK_NOT_STARTED = 13335;
+    public static final String USER_INFO = "VIP_USER_INFO";
+    public static final String VIP_EVENT_ACTION = "com.xiaomi.vip.action.VIP_EVENT";
+    public static final String VIP_MESSENGER_CLASS = "com.xiaomi.vip.service.VipMessengerService";
+    public static final String VIP_MESSENGER_SERVICE = "android.intent.action.BIND_XIAOMI_VIP_MESSENGER_SERVICE";
+    public static final String VIP_PACKAGE = "com.xiaomi.vip";
+    public static final String VIP_SERVICE = "android.intent.action.BIND_XIAOMI_VIP_SDK_SERVICE";
+    public static final String VIP_SERVICE_CLASS = "com.xiaomi.vip.service.XiaomiVipSdkService";
+    public static final int VIP_SERVICE_FAILURE = 1000;
+    public static final int WAIT = 1;
+
+    public static boolean isUserErrorOfTaskState(int code) {
+        return code > 13333 && code < 13433;
+    }
+}

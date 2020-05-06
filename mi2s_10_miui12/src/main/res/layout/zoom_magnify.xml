@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <ZoomControls android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/zoomControls" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ZoomControls"/>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/zoomMagnify" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_zoom_page" android:paddingEnd="2dp"/>
+</merge>

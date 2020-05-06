@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/card_bg_no_shadow_selector" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/result_card_margin_left" android:paddingBottom="@dimen/result_item_title_margin_top_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="match_parent" android:layout_height="@dimen/result_item_big_img_height" app:ratioXY="0.47" app:roundCornerRadius="@dimen/securityscan_big_banner_radius">
+            <ImageView android:id="@+id/image1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/result_item_img_margin_top_3" style="@style/CardTitleTextViewStyle"/>
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="51dp" style="@style/CardSummaryTextViewStyle"/>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:paddingBottom="@dimen/result_item_title_margin_top_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/adv_close_padding_end">
+        <include layout="@layout/adv_close_layout"/>
+    </FrameLayout>
+</FrameLayout>

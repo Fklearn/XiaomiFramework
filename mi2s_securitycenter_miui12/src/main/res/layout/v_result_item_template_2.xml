@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/result_title_text" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/adds_item_top_margin"/>
+        <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="match_parent" android:layout_height="100dp" android:layout_marginTop="@dimen/vartical_margin_pic_text" securitycenter:ratioXY="0.5">
+            <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.miui.antivirus.ui.ResizeFrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text" android:layout_marginBottom="@dimen/adds_item_bottom_margin">
+            <TextView android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" style="@style/ResultBottomText"/>
+            <Button android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_to" style="@style/ResultButton"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

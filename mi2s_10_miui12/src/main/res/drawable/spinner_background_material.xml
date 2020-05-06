@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="0dp" android:paddingRight="0dp" android:paddingStart="0dp" android:paddingEnd="48dp" android:paddingMode="stack">
+    <item android:gravity="top|bottom|right|center_vertical|fill_vertical|center_horizontal|center|end" android:width="48dp" android:drawable="@drawable/control_background_40dp_material"/>
+    <item android:gravity="right|center_vertical|center_horizontal|center|end" android:height="24dp" android:width="24dp" android:drawable="@drawable/ic_spinner_caret" android:end="12dp"/>
+</layer-list>

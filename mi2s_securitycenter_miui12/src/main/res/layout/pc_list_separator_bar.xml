@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/pc_battery_item_normal_color" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/pc_power_center_scan_result_spearatorbar" android:layout_width="match_parent" android:layout_height="@dimen/pc_optimize_time_flag_stroke_width" android:layout_marginTop="@dimen/pc_list_separator_bar_margin_top" android:layout_marginBottom="@dimen/pc_list_separator_bar_margin_top" android:layout_marginStart="@dimen/view_dimen_80" android:layout_marginEnd="@dimen/view_dimen_80"/>
+</FrameLayout>

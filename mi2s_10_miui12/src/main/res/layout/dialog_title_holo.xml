@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true">
+    <TextView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_dialog_title_height" android:paddingStart="16dp" android:paddingEnd="16dp" style="?attr/windowTitleStyle"/>
+    <View android:id="@+id/titleDivider" android:background="@color/holo_blue_light" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <FrameLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?attr/windowContentOverlay" android:layout_weight="1">
+        <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

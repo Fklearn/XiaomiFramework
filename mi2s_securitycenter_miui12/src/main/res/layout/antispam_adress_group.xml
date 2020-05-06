@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="0x100d004e">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/indicator_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x1002006a" android:tint="@color/drawable_tint"/>
+        <ImageView android:id="@+id/indicator_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x1002006b" android:tint="@color/drawable_tint"/>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="0x100d005f"/>
+        <TextView android:ellipsize="end" android:id="@+id/hint" android:layout_width="wrap_content" android:layout_height="wrap_content" style="0x100d0058"/>
+    </LinearLayout>
+    <CheckBox android:layout_gravity="center_vertical" android:id="@android:id/checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

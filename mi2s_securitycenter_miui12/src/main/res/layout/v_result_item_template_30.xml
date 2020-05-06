@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.miui.antivirus.ui.RoundCornerRelativeLayout android:id="@+id/inner_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:roundCornerRadius="@dimen/card_bg_no_shadow_radius">
+        <com.miui.antivirus.ui.ResizeFrameLayout android:layout_width="match_parent" android:layout_height="100dp" app:ratioXY="0.5">
+            <com.miui.common.customview.AdImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.miui.antivirus.ui.ResizeFrameLayout>
+        <TextView android:textSize="@dimen/result_title_text" android:textColor="@color/white" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/title" android:background="#99000000" android:paddingTop="@dimen/vartical_margin_pic_text" android:paddingBottom="@dimen/vartical_margin_pic_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/vartical_margin_pic_text" android:layout_alignParentEnd="true"/>
+        <TextView android:id="@+id/summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </com.miui.antivirus.ui.RoundCornerRelativeLayout>
+    <TextView android:id="@+id/close" android:visibility="invisible" android:layout_marginTop="6.67dp" android:layout_marginEnd="6.67dp" android:layout_alignParentEnd="true" style="@style/ResultItemAdxStyle"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@color/transparent" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/startIndicator" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_toStartOf="@+id/icon" android:layout_alignParentStart="true"/>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="0dp" android:layout_height="match_parent" android:src="@drawable/gb_def_icon" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+    <View android:id="@+id/endIndicator" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_toEndOf="@+id/icon" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

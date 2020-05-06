@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="36dp" android:textColor="#99ffffff" android:gravity="center_horizontal" android:background="#bb000000" android:padding="10dp" android:focusable="false" android:maxWidth="240dp" android:minWidth="240dp"/>

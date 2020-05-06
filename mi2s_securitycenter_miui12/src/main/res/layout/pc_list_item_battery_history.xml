@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/shape_pc_main_card_border_whole" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="center_vertical" android:text="@string/battery_history_activity_title" android:paddingStart="@dimen/list_item_view_side_padding" android:paddingEnd="@dimen/list_item_view_side_padding" style="@style/DeepResultTitleStyle"/>
+    <include layout="@layout/pc_include_horizontal_line"/>
+    <com.miui.powercenter.batteryhistory.BatteryLevelChart android:id="@+id/chart" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:minHeight="160dp" android:layout_marginStart="@dimen/list_item_view_side_padding" android:layout_marginEnd="@dimen/list_item_view_side_padding"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/circle" android:layout_width="10dp" android:layout_height="10dp" android:src="@drawable/storage_item_circle_icon"/>
+        <TextView android:textSize="12sp" android:textColor="#99000000" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:singleLine="true" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/circle"/>
+    </LinearLayout>
+    <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/title_container"/>
+    <ImageView android:id="@+id/arrow" android:layout_width="26.7dp" android:layout_height="26.7dp" android:layout_centerVertical="true" android:layout_marginEnd="50dp" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

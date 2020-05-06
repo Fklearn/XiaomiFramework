@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.earthquakewarning.view.EmptyView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/empty_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/empty_icon_low_version" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_402" android:src="@drawable/ew_list_empty"/>
+    <TextView android:textSize="@dimen/ew_main_text_summary_size" android:textColor="@color/ew_list_empty_text_color" android:id="@+id/empty_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ew_main_guide_icon_desc_margin_top" android:text="@string/ew_list_empty_text"/>
+</com.miui.earthquakewarning.view.EmptyView>

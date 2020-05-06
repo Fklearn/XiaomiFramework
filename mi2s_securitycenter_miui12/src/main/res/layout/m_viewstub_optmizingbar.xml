@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.securityscan.ui.main.OptimizingBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/optmizing_bar" android:paddingBottom="@dimen/optimizebar_button_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/second_paragraph_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/layout_system_item" layout="@layout/m_viewstub_optmizingbar_item"/>
+        <include android:id="@+id/layout_cache_item" layout="@layout/m_viewstub_optmizingbar_item"/>
+        <include android:id="@+id/layout_memory_item" layout="@layout/m_viewstub_optmizingbar_item"/>
+    </LinearLayout>
+    <Button android:textSize="@dimen/om_running_process_title_text_size" android:textColor="@color/optmizing_button_text" android:id="@+id/button_stop_optmize" android:background="@drawable/scan_or_clean_button_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/om_big_button_min_height" android:text="@string/optmizingbar_stop_optmize" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/optimizebar_button_margin" android:layout_marginEnd="@dimen/optimizebar_button_margin" style="0x100d003b"/>
+</com.miui.securityscan.ui.main.OptimizingBar>

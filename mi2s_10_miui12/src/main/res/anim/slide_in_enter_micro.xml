@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:zAdjustment="top">
+    <translate android:interpolator="@interpolator/launch_task_micro_ydelta" android:duration="417" android:fromYDelta="5%p" android:toYDelta="0"/>
+    <alpha android:interpolator="@interpolator/launch_task_micro_alpha" android:duration="150" android:fillBefore="true" android:fillAfter="true" android:fromAlpha="0" android:toAlpha="1" android:fillEnabled="true"/>
+</set>

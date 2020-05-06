@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/temp_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/search_view" layout="0x10030000"/>
+        <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/list_view">
+            <miuix.recyclerview.widget.RecyclerView android:id="@+id/list_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </miuix.springback.view.SpringBackLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="0x100d009d" android:layout_gravity="center" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_managere_not_have_app" android:drawableTop="@drawable/icon_list_empty"/>
+</FrameLayout>

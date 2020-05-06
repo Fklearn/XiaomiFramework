@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MamlAnimation frameRate="0" screenWidth="1080">
+  <VariableBinders>
+    <SensorBinder name="gravitySensor" rate="1" type="gravity">
+      <Variable index="0" name="gravity_x"/>
+      <Variable index="1" name="gravity_y"/>
+      <Variable index="2" name="gravity_z"/>
+    </SensorBinder>
+  </VariableBinders>
+  <!-- 图层数据 -->
+  <Var name="bg_x"                expression="191" const="true"/>
+  <Var name="bg_y"                expression="182" const="true"/>
+  <Var name="bgmask_x"            expression="159" const="true"/>
+  <Var name="bgmask_y"            expression="150" const="true"/>
+  <Var name="shape_x"             expression="221" const="true"/>
+  <Var name="shape_y"             expression="193" const="true"/>
+  <Var name="board_alpha_normal"  expression="0.25" const="true"/>
+  <Var name="board_alpha_actived" expression="0.35" const="true"/>
+<!-- 以下为模型 -->
+  <Var name="PI" expression="3.1415926" const="true"/>
+  <Var name="offset_src_x" expression="-20*sin(#gravity_x*#PI/20)"/>
+  <Var name="offset_src_y" expression=" 20*sin(#gravity_y*#PI/20)"/>
+  <Var name="offset_x" expression="#offset_amp*#offset_src_x"/>
+  <Var name="offset_y" expression="#offset_amp*#offset_src_y"/>
+  <Var name="angle_x" expression="-1.5*#offset_y"/>
+  <Var name="angle_y" expression=" 1.5*#offset_x"/>
+  <Var name="offset_amp">
+      <VariableAnimation initPause="true" loop="false">
+        <AniFrame value="0" time="0" />
+        <AniFrame value="#offset_amp" easeType="QuartEaseOut" time="1000" />
+        <AniFrame value="0" time="1500" />
+        <AniFrame value="#offset_amp" easeType="QuartEaseOut" time="2000" />
+        <AniFrame value="1" time="2500" />
+      </VariableAnimation>
+  </Var>
+  <Var name="board_alpha">
+      <VariableAnimation initPause="true" loop="false">
+        <AniFrame value="0" time="0" />
+        <AniFrame value="#offset_amp" time="1000" />
+        <AniFrame value="0" time="1200" />
+        <AniFrame value="#offset_amp" time="2000" />
+        <AniFrame value="1" time="2200" />
+      </VariableAnimation>
+  </Var>
+  
+  <Group>
+    <!-- 背景 -->
+    <Group x="0" y="0" w="480" h="480" pivotX="240" pivotY="240" layered="true" angleX="#angle_x" angleY="#angle_y">
+      <Image x="#bg_x-#offset_x" y="#bg_y-#offset_y" src="bg.png"/>
+      <Image x="#offset_x" y="#offset_y" src="board.png" xfermode="dst_out"/>
+    </Group>
+    <!-- 模糊层 -->
+    <Group x="0" y="0" w="480" h="480" pivotX="240" pivotY="240" layered="true" angleX="#angle_x" angleY="#angle_y">
+      <Image x="#bgmask_x-#offset_x" y="#bgmask_y-#offset_y" src="bgmask.png"/>
+      <Image x="#offset_x" y="#offset_y" src="board.png" xfermode="dst_in"/>
+    </Group>
+    <!-- 盖板 -->
+    <Image x="#offset_x" y="#offset_y" pivotX="240" pivotY="240" angleX="#angle_x" angleY="#angle_y" src="board.png" alpha="(#board_alpha_normal+(#board_alpha_actived-#board_alpha_normal)*#board_alpha)*255"/>
+    <!-- 前景 -->
+    <Group pivotX="240" pivotY="240" angleX="#angle_x" angleY="#angle_y">
+      <Image x="#shape_x+2*#offset_x" y="#shape_y+2*#offset_y" src="shape.png"/>
+    </Group>
+  </Group>
+  <!-- 激活/恢复判断 -->
+  <ExternalCommands>
+    <Trigger action="active" >
+      <MultiCommand>
+        <FrameRateCommand rate="60"/>
+        <SensorCommand target="gravitySensor" command="turnOn"/>
+        <AnimationCommand target="offset_amp" command="play(2000,2500)"/>
+        <AnimationCommand target="board_alpha" command="play(2000,2200)"/>
+          <FrameRateCommand rate="0" delay="500"/>
+      </MultiCommand>
+    </Trigger>
+
+    <Trigger action="deactive">
+      <MultiCommand>
+          <FrameRateCommand rate="60"/>
+          <AnimationCommand target="offset_amp" command="play(1000,1500)"/>
+          <AnimationCommand target="board_alpha" command="play(1000,1200)"/>
+          <FrameRateCommand rate="0" delay="500"/>
+          <SensorCommand target="gravitySensor" command="turnOff" delay="500"/>
+      </MultiCommand>
+    </Trigger>
+
+    <Trigger action="init">
+      <MultiCommand>
+          <SensorCommand target="gravitySensor" command="turnOff"/>
+      </MultiCommand>
+    </Trigger>
+</ExternalCommands>
+</MamlAnimation>
+

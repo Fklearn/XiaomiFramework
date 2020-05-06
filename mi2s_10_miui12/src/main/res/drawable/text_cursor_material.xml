@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:inset="2dp">
+    <shape android:tint="?attr/colorControlActivated" android:shape="rectangle">
+        <size android:height="2dp" android:width="2dp"/>
+        <solid android:color="@color/white"/>
+    </shape>
+</inset>

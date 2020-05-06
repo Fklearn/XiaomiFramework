@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/keyboard_letter" android:layout_width="match_parent" android:layout_height="@dimen/miui_keyboard_height">
+    <view android:tag="q" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="w" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="e" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="r" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="t" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="y" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="u" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="i" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="o" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="p" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="a" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="s" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="d" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="f" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="g" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="h" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="j" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="k" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="l" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:id="@+id/btn_caps_lock" android:background="@drawable/keyboard_caps_lock" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="z" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="x" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="c" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="v" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="b" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="n" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:tag="m" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:id="@+id/btn_letter_delete" android:background="@drawable/btn_keyboard_delete" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:textSize="@dimen/shift_key_text_size" android:id="@+id/btn_shift2symbol" android:tag="123" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:textSize="@dimen/shift_key_text_size" android:id="@+id/btn_letter_space" android:tag="@string/key_btn_space" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+    <view android:textSize="@dimen/shift_key_text_size" android:id="@+id/btn_letter_ok" android:tag="@string/key_btn_ok" class="miui.view.MiuiKeyBoardView$KeyButton" style="@style/KeyboardButtonNormal"/>
+</FrameLayout>

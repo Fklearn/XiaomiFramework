@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="applock_split_screen_height_full_screen">620</integer>
+    <integer name="applock_split_screen_height_half">305</integer>
+    <integer name="applock_split_screen_height_less_than_half">150</integer>
+    <integer name="applock_split_screen_height_more_than_half">407</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="gb_button_exit_fade_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+</resources>

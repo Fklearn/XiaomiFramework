@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_marginStart="20dp" android:layout_marginEnd="20dp">
+        <TextView android:textSize="11.33sp" android:id="@+id/network_diagnotics_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:scrollHorizontally="true"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+import "antispam.proto";
+
+package syncroot;
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "com.miui.antispam.service.backup";
+option java_outer_classname = "SyncRootProtos";
+
+message SyncRoot {
+  optional antispam.AntiSpam antispam = 8;
+}

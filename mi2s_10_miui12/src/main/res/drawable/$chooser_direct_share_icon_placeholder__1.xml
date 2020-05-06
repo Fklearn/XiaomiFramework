@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@drawable/$$chooser_direct_share_icon_placeholder__1__0" android:duration="1700" android:startOffset="0" android:repeatCount="infinite" android:repeatMode="restart" android:pathData="M -128,0 L 192,0" android:propertyXName="translateX"/>

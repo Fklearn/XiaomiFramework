@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/gamebooster_bgcolor" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/line" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="10dp">
+        <View android:clickable="false" android:layout_width="match_parent" android:layout_height="10dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/game_ad_card_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/line" android:layout_marginStart="@dimen/main_padding_28" android:layout_marginEnd="@dimen/main_padding_28">
+        <com.miui.gamebooster.customview.GameAdImageView android:id="@+id/big_image" android:layout_width="match_parent" android:layout_height="@dimen/gb_ad_big_image_height" android:layout_marginTop="@dimen/gb_ad_big_image_margintop" android:scaleType="fitXY" android:paddingStart="@dimen/gb_ad_big_image_padding" android:paddingEnd="@dimen/gb_ad_big_image_padding"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_ad_small_image_margintop" android:layout_marginBottom="@dimen/gb_ad_small_image_marginbottom" android:paddingStart="@dimen/gb_ad_big_image_padding" android:paddingEnd="@dimen/gb_ad_big_image_padding">
+            <com.miui.gamebooster.customview.GameAdImageView android:id="@+id/small_image" android:layout_width="@dimen/gb_ad_small_image_height" android:layout_height="@dimen/gb_ad_small_image_height" android:scaleType="fitXY" android:layout_alignParentStart="true"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/small_image" android:layout_centerVertical="true" android:layout_marginStart="@dimen/gb_ad_marginstart_small_image">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/text_game" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.33sp" android:textColor="#e6000000" android:id="@+id/game_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="11" android:singleLine="true"/>
+                    <TextView android:textSize="9.33sp" android:textColor="#4d000000" android:id="@+id/close" android:background="@drawable/virus_close_ad_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promotion" android:layout_marginStart="@dimen/gb_ad_marginstart_small_image"/>
+                </LinearLayout>
+                <TextView android:textSize="9.99sp" android:textColor="#66000000" android:id="@+id/game_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/text_game" android:layout_alignStart="@+id/text_game"/>
+                <TextView android:textSize="9.99sp" android:textColor="#66000000" android:id="@+id/cutoff_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb_cutoff" android:layout_toRightOf="@+id/game_size" android:layout_alignBaseline="@+id/game_size" android:layout_marginStart="6.67dp"/>
+                <TextView android:textSize="9.99sp" android:textColor="#66000000" android:id="@+id/game_sum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/cutoff_line" android:layout_alignBaseline="@+id/cutoff_line" android:layout_marginStart="6.67dp"/>
+            </RelativeLayout>
+            <Button android:textSize="12sp" android:textColor="#ffffff" android:id="@+id/ad_button" android:background="@drawable/gb_selector_btn_install_bg" android:layout_width="67.33dp" android:layout_height="24.67dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="0x100d003d"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

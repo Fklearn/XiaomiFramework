@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/na_nd_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.miui.networkassistant.ui.view.ScanningBar android:orientation="vertical" android:id="@+id/scanning_bar" android:background="@null" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ListView android:id="@+id/scanning_system_text" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.miui.networkassistant.ui.view.ScanningBar>
+    <Button android:textColor="@color/pc_activity_main_scan_pre" android:id="@+id/stop_diagnostic_btn" android:background="@drawable/pc_grey_button_selector" android:layout_width="match_parent" android:layout_height="50.8dp" android:layout_marginTop="10dp" android:layout_marginBottom="29dp" android:text="@string/btn_stop_diagnostic" android:layout_marginStart="29dp" android:layout_marginEnd="29dp"/>
+</LinearLayout>

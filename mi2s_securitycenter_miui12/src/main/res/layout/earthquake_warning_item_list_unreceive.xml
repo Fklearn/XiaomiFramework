@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_container" android:background="@drawable/ew_list_card_unreceive" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ew_list_card_margin_bottom" android:minHeight="@dimen/ew_list_unreceive_card_height" android:layout_marginStart="@dimen/ew_list_card_margin_start" android:layout_marginEnd="@dimen/ew_list_card_margin_start">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/container_alert_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ew_list_card_padding" android:layout_marginStart="@dimen/ew_alert_card_detail_margin_start" android:layout_marginEnd="@dimen/ew_alert_card_detail_margin_start">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/ew_list_card_text_gray" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_alert_earthquake_center_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+                <View android:background="@color/ew_alert_card_split_color" android:layout_width="@dimen/ew_alert_close_bg_stroke" android:layout_height="match_parent" android:layout_marginTop="@dimen/ew_help_detail_text_margin" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/ew_list_card_text_gray" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_alert_earthquake_level_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/ew_list_card_text_gray" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ew_list_receive_time_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+                <View android:background="@color/ew_alert_card_split_color" android:layout_width="@dimen/ew_alert_close_bg_stroke" android:layout_height="match_parent" android:layout_marginTop="@dimen/ew_help_detail_text_margin" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/container_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ew_list_unreceive_card_padding_bottom" android:layout_marginStart="@dimen/ew_alert_card_detail_margin_start" android:layout_marginEnd="@dimen/ew_alert_card_detail_margin_start">
+            <RelativeLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/ew_alert_card_detail_text_size" android:textColor="@color/ew_alert_white_color" android:gravity="center" android:id="@+id/alert_city_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+                <View android:background="@color/ew_alert_card_split_color" android:layout_width="@dimen/ew_alert_close_bg_stroke" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ew_help_detail_text_margin" android:layout_alignParentTop="true" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/ew_alert_card_level_text_size" android:textColor="@color/ew_alert_white_color" android:id="@+id/alert_level_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/ew_alert_white_color" android:gravity="center" android:id="@+id/alert_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+                <View android:background="@color/ew_alert_card_split_color" android:layout_width="@dimen/ew_alert_close_bg_stroke" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ew_help_detail_text_margin" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

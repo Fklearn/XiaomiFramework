@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/status_bar_latest_event_content" android:tag="base" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/notification_template_header"/>
+    <include layout="@layout/notification_template_right_icon"/>
+    <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_content_margin_top" android:layout_marginBottom="@dimen/notification_content_margin_bottom" android:layout_marginStart="@dimen/notification_content_margin_start" android:layout_marginEnd="@dimen/notification_content_margin_end">
+        <LinearLayout android:orientation="vertical" android:id="@+id/notification_main_column" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <include layout="@layout/notification_template_part_line1"/>
+            <include layout="@layout/notification_template_text"/>
+            <include layout="@layout/notification_template_progress"/>
+        </LinearLayout>
+        <Button android:textAppearance="@style/TextAppearance.StatusBar.EventContent" android:textSize="@dimen/notification_action_size" android:textStyle="bold" android:textColor="@color/notification_miui_action_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/action0" android:background="@drawable/notification_miui_action_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@null"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:title="@string/videobox_settings_switch_title" android:key="@string/preference_key_videobox_switch" android:summary="@string/videobox_settings_switch_desc" android:defaultValue="true"/>
+    <PreferenceCategory android:key="@string/preference_category_videobox_line_group">
+        <CheckBoxPreference android:title="@string/videobox_settings_line_location_title" android:key="@string/preference_key_videobox_line_status" android:summary="@string/videobox_settings_line_location_desc" android:defaultValue="true"/>
+        <miuix.preference.DropDownPreference android:title="@string/videobox_settings_line_location" android:key="@string/preference_key_videobox_line_location_in_new" app:adapter="com.miui.gamebooster.videobox.adapter.DropDownLocationAdapter"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="@string/preference_category_videobox_app_group">
+        <miuix.preference.TextPreference android:title="@string/videobox_settings_manager_apps" android:key="@string/preference_key_videobox_manager_apps"/>
+    </PreferenceCategory>
+</PreferenceScreen>

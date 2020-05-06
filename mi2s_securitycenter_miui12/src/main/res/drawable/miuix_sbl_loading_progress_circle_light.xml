@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/miuix_sbl_loading_progress_circle_light_svg" android:fromDegrees="270" android:toDegrees="629" android:pivotX="50%" android:pivotY="50%" android:repeatCount="infinite"/>

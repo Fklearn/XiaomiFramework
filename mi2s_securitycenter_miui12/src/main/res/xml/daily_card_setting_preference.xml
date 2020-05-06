@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/daily_card_setting_fragment_daily_card_setting" android:key="category_key_brand">
+        <miuix.preference.TextPreference android:title="@string/daily_card_setting_fragment_daily_card_brand" android:key="pref_key_brand_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/daily_card_setting_fragment_daily_card_brand" android:key="pref_key_brand" app:entries="@array/daily_brand" app:entryValues="@array/daily_brand"/>
+        <miuix.preference.TextPreference android:summary="@string/daily_card_setting_fragment_daily_card_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_avaible_traffic">
+        <miuix.preference.TextPreference android:title="@string/daily_card_setting_fragment_daily_package" android:key="pref_key_daily_package"/>
+        <miuix.preference.TextPreference android:title="@string/daily_card_setting_fragment_month_package" android:key="pref_key_month_package"/>
+        <miuix.preference.TextPreference android:summary="@string/daily_card_setting_fragment_package_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_key_direction_traffic">
+        <miuix.preference.TextPreference android:title="@string/pref_data_usage_ignore_settings" android:key="pref_key_ignore_apps" android:summary="@string/pref_data_usage_ignore_settings_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

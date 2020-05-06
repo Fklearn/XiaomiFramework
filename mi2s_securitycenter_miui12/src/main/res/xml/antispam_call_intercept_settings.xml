@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/st_call_stranger_group" android:key="call_stranger_group">
+        <CheckBoxPreference android:persistent="false" android:title="@string/st_call_intercept_stranger" android:key="key_call_stranger" android:disableDependentsState="true"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/st_call_intercept_forwarding" android:key="key_call_forwarding" android:dependency="key_call_stranger"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/st_call_intercept_oversea" android:key="key_call_oversea" android:dependency="key_call_stranger"/>
+        <miuix.preference.TextPreference android:title="@string/st_call_intercept_reported" android:key="key_call_reported" android:dependency="key_call_stranger"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/st_call_other_group" android:key="other_settings_group">
+        <CheckBoxPreference android:persistent="false" android:title="@string/st_call_intercept_contacts" android:key="key_call_contacts"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/st_call_intercept_unknown" android:key="key_call_unknown"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/st_call_backsound_group" android:key="backsound_group">
+        <miuix.preference.TextPreference android:title="@string/st_call_intercept_reported" android:key="backsound_1" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:title="@string/st_call_intercept_reported" android:key="backsound_2" app:isPreferenceVisible="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

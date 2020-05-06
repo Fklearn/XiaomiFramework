@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="?attr/selectableItemBackgroundBorderless" android:paddingLeft="12dp" android:paddingTop="24dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:focusable="true" android:layout_width="@dimen/chooser_target_width" android:layout_height="wrap_content" android:minHeight="100dp">
+    <ImageView android:id="@+id/icon" android:layout_width="@dimen/resolver_icon_size" android:layout_height="@dimen/resolver_icon_size" android:scaleType="fitCenter"/>
+    <Space android:layout_width="1dp" android:layout_height="7dp"/>
+    <TextView android:textAppearance="?attr/textAppearanceSmall" android:textSize="14sp" android:textColor="?attr/textColorPrimary" android:ellipsize="end" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+    <TextView android:textAppearance="?attr/textAppearanceSmall" android:textSize="12sp" android:textColor="?attr/textColorSecondary" android:ellipsize="end" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1"/>
+</LinearLayout>

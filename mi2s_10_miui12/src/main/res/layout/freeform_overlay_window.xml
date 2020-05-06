@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.server.wm.MiuiFreeFormOverlayView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.server.wm.MiuiFreeFormRoundRectView android:id="@+id/border" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/content" android:background="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/icon" android:background="@drawable/freeform_overlay_image_background" android:layout_width="200px" android:layout_height="200px" android:scaleType="fitCenter" android:rotation="-90"/>
+</com.android.server.wm.MiuiFreeFormOverlayView>

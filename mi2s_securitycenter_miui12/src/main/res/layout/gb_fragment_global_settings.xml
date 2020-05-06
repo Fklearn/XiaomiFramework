@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll_view">
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/view_dimen_120" android:paddingBottom="@dimen/view_dimen_60" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/globalSwitchSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiSubtitle="@string/gs_game_shortcut" app:gbsiTitle="@string/game_booster"/>
+            <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/gameboxSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiSubtitle="@string/gs_gamebox_detail" app:gbsiTitle="@string/gs_gamebox"/>
+            <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/slipSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiSubtitle="@string/gs_slip_gamebox_detail" app:gbsiTitle="@string/gs_gamebox"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/showWaySettingItem" android:background="@drawable/empty" android:layout_width="match_parent" style="@style/GBSettingItem">
+                <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/gs_show_way" android:layout_weight="1" android:layout_marginEnd="@dimen/view_dimen_24" style="@style/GBSettingItemTitle"/>
+                <ImageView android:id="@+id/showWayLandBtn" android:layout_width="wrap_content" android:layout_height="@dimen/view_dimen_120" android:src="@drawable/gb_show_way_land_selector" android:scaleType="centerInside" android:layout_marginEnd="@dimen/view_dimen_148"/>
+                <ImageView android:id="@+id/showWayPortraitBtn" android:layout_width="@dimen/view_dimen_120" android:layout_height="wrap_content" android:src="@drawable/gb_show_way_portrait_selector" android:scaleType="centerInside" android:layout_marginEnd="@dimen/view_dimen_23"/>
+            </LinearLayout>
+            <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/shortcutSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiTitle="@string/gb_shortcut_pref_title"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

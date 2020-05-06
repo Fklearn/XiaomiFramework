@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll_view">
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/wifi_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" style="0x100d004d">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/s_netpriority"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="15dp" android:layout_marginEnd="15dp">
+                        <TextView android:textAppearance="0x100d005f" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wlan_booster" android:layout_weight="1"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <miui.widget.SlidingButton android:layout_gravity="center_vertical" android:id="@+id/sliding_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/wifi_detail" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/wifi_checkbox">
+                <LinearLayout android:gravity="center_horizontal" android:background="@color/color_gtb_wlan_opt_detail_bg" android:layout_width="match_parent" android:layout_height="53dp">
+                    <ImageView android:layout_gravity="center_vertical" android:background="@drawable/gb_wifi_settings" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <View android:background="@color/color_gtb_wlan_opt_detail_line" android:layout_width="match_parent" android:layout_height="@dimen/divider"/>
+                <TextView android:textSize="12sp" android:textColor="@color/color_gtb_wlan_opt_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/wifi_optizition_tip" android:paddingStart="26.7dp" android:paddingEnd="26.7dp"/>
+            </LinearLayout>
+            <TextView android:textSize="13sp" android:textColor="@color/color_gtb_wlan_opt_detail" android:id="@+id/detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/function_gwsd_detail" android:layout_below="@+id/wifi_checkbox" android:paddingStart="35.7dp" android:paddingEnd="26.7dp"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

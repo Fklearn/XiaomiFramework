@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/lock_screen_message_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/lock_screen_hongbao_message_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:src="@drawable/lockscreen_message_bg" android:contentDescription="@string/open_right_now"/>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lock_screen_hongbao_message_top_margin">
+            <TextView android:textSize="@dimen/lock_screen_hongbao_message_size" android:textColor="@color/lock_screen_hongbao_message_color" android:gravity="center" android:id="@+id/description" android:layout_width="@dimen/lock_screen_hongbao_message_width" android:layout_height="wrap_content" android:singleLine="true"/>
+            <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/layoutAds" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <ImageView android:id="@+id/imgAdsLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lock_screen_message_logo" android:adjustViewBounds="true" android:maxWidth="36dp" android:maxHeight="12dp" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+                <TextView android:textSize="10dp" android:textColor="@color/lock_screen_hongbao_message_slogon_color" android:id="@+id/txvAdsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hongbao_message_slogon" android:layout_centerVertical="true" android:layout_marginStart="3dp" android:layout_toEndOf="@+id/imgAdsLogo"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/later" android:padding="@dimen/lock_screen_close_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:src="@drawable/lock_screen_close_button" android:contentDescription="@string/lucky_money_close"/>
+            <ImageView android:id="@+id/settings" android:padding="@dimen/lock_screen_close_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.33dp" android:src="@drawable/selector_lock_screen_setting" android:contentDescription="@string/secondart_setting_title"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

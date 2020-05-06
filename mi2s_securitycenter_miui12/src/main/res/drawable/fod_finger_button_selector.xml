@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fod_finger_button_pressed"/>
+            <corners android:radius="@dimen/applock_fod_finger_bg_corner"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/fod_finger_button_display"/>
+            <corners android:radius="@dimen/applock_fod_finger_bg_corner"/>
+        </shape>
+    </item>
+</selector>

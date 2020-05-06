@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/user_loading_avatar" android:layout_width="@dimen/car_fullscreen_user_pod_image_avatar_width" android:layout_height="@dimen/car_fullscreen_user_pod_image_avatar_height" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/car_body1_size" android:textColor="@color/car_body1_light" android:gravity="center" android:id="@+id/user_loading" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/car_padding_4" android:layout_below="@+id/user_loading_avatar"/>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pc_battery_statics_text_summary_margin_top" android:paddingStart="@dimen/pc_power_history_layout_padding_horizon" android:paddingEnd="@dimen/pc_power_history_layout_padding_horizon_button">
+        <TextSwitcher android:id="@+id/history_title" android:layout_width="0dp" android:layout_height="wrap_content" android:inAnimation="@anim/pc_textswitcher_appear" android:outAnimation="@anim/pc_textswitcher_disapper" android:layout_weight="1"/>
+        <com.miui.powercenter.view.HistoryCheckGroup android:id="@+id/history_check" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pc_battery_statics_text_info_margin_top" android:paddingStart="@dimen/pc_power_history_layout_padding_horizon" android:paddingEnd="@dimen/pc_power_history_layout_padding_horizon">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextSwitcher android:id="@+id/txt_batterytitle1" android:layout_width="match_parent" android:layout_height="wrap_content" android:inAnimation="@anim/pc_textswitcher_appear" android:outAnimation="@anim/pc_textswitcher_disapper"/>
+            <TextSwitcher android:id="@+id/txt_batteryvalue1" android:layout_width="match_parent" android:layout_height="120px" android:layout_marginTop="1.82dp" android:inAnimation="@anim/pc_textswitcher_appear" android:outAnimation="@anim/pc_textswitcher_disapper"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextSwitcher android:id="@+id/txt_batterytitle2" android:layout_width="match_parent" android:layout_height="wrap_content" android:inAnimation="@anim/pc_textswitcher_appear" android:outAnimation="@anim/pc_textswitcher_disapper"/>
+            <TextSwitcher android:id="@+id/txt_batteryvalue2" android:layout_width="match_parent" android:layout_height="120px" android:layout_marginTop="1.82dp" android:inAnimation="@anim/pc_textswitcher_appear" android:outAnimation="@anim/pc_textswitcher_disapper"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

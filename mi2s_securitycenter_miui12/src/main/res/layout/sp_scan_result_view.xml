@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.antivirus.ui.AppResultView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/top_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_30"/>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/view_dimen_30" android:paddingBottom="@dimen/view_dimen_30" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/antivirus_header_padding_top" android:paddingEnd="@dimen/antivirus_header_padding_top">
+            <ImageView android:id="@+id/icon" android:layout_width="@dimen/antivirus_pay_protection_icon_size" android:layout_height="@dimen/antivirus_pay_protection_icon_size"/>
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="13dp">
+                <TextView android:textAppearance="0x100d005f" android:textSize="@dimen/om_running_process_title_text_size" android:textColor="@color/result_process_title_color" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textAppearance="0x100d0058" android:textSize="@dimen/card_summary_text_size" android:textColor="@color/card_summary_text_color" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_below="@+id/title"/>
+            </RelativeLayout>
+            <CheckBox android:id="@+id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+            <Button android:layout_gravity="center_vertical" android:id="@+id/item_button" android:visibility="gone" style="@style/ResultBlueButtonStyle"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/button_layout" android:layout_width="match_parent" android:layout_height="@dimen/antivirus_view_height">
+            <Button android:id="@+id/button" android:layout_marginTop="@dimen/antivirus_header_padding_bottom" android:layout_marginEnd="@dimen/phone_manage_list_title_pad_lr" android:layout_alignParentEnd="true" style="@style/ResultBlueButtonStyle"/>
+        </RelativeLayout>
+        <View android:id="@+id/bottom_empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/antivirus_safepay_margin_top"/>
+    </LinearLayout>
+</com.miui.antivirus.ui.AppResultView>

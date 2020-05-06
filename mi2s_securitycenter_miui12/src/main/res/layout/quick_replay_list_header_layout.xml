@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qr_top_icon_margion_top" android:layout_marginBottom="@dimen/qr_top_icon_margion_bottom">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/qr_top_image"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/switch_layout" android:background="@drawable/am_card_bg_selector" android:nextFocusDown="@+id/all_check_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/qr_toggle_height" android:paddingStart="@dimen/qr_margin_left" android:paddingEnd="@dimen/qr_margin_right">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/replay_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_reply_title" style="@style/QuickReplyTitleStyle"/>
+            <TextView android:textSize="@dimen/qr_instrument_text_size" android:textColor="@color/app_manager_black_66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qucick_replay_instrument"/>
+        </LinearLayout>
+        <com.miui.gamebooster.view.QRSlidingButton android:layout_gravity="center_vertical" android:id="@+id/quick_replay_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include layout="@layout/app_manager_separation_layout"/>
+    <FrameLayout android:background="@color/app_manager_white" android:focusable="true" android:layout_width="match_parent" android:layout_height="@dimen/am_details_category_title_height" android:paddingStart="@dimen/qr_margin_left" android:paddingEnd="@dimen/qr_margin_right">
+        <TextView android:textSize="@dimen/am_details_top_version_text_size" android:textColor="@color/app_manager_category_title_color" android:layout_gravity="center_vertical" android:id="@+id/all_check_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/quick_replay_list_title" android:textAlignment="viewStart"/>
+    </FrameLayout>
+</LinearLayout>

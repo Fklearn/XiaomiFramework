@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/ic_media_route_connecting_light_material"/>
+    <item android:state_enabled="true" android:drawable="@drawable/ic_media_route_connected_light_material" android:state_activated="true"/>
+    <item android:state_enabled="true">
+        <bitmap android:src="@drawable/ic_media_route_off_light_mtrl"/>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/ic_media_route_off_light_mtrl" android:alpha="0.62"/>
+    </item>
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="applock_split_screen_height_full_screen">610</integer>
+    <integer name="pc_charging_icon_bottom">137</integer>
+    <integer name="pc_charging_icon_height">70</integer>
+    <integer name="pc_charging_icon_width">46</integer>
+    <integer name="pc_charging_icon_x">73</integer>
+</resources>

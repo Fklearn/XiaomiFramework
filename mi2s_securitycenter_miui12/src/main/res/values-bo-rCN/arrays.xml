@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alarm_repeat_type">
+        <item>ཐེངས་གཅིག</item>
+        <item>ཉིན་རེར།</item>
+        <item>ཁྲིམས་བཀོད་ལས་ཀའི་ཉིན་མོ།</item>
+        <item>གཟའ་ཟླ་བ་ནས་པ་སངས་བར།</item>
+        <item>རང་སྒྲུབ།</item>
+    </array>
+    <array name="alarm_repeat_type_no_workdays">
+        <item>ཐེངས་གཅིག</item>
+        <item>ཉིན་རེར།</item>
+        <item>གཟའ་ཟླ་བ་ནས་པ་སངས་བར།</item>
+        <item>རང་སྒྲུབ།</item>
+    </array>
+    <array name="app_behavior_type_menu">
+        <item>བྱ་བྱེད་ཡོངས།</item>
+        <item>རང་སྒུལ་སློང་།</item>
+        <item>སྦྲེལ་ལུགས་སྒོ་འབྱེད།</item>
+        <item>དབང་ཚད་བེད་སྤྱོད།</item>
+        <item>ཚོར་རེག་བྱེད་སྟངས།</item>
+    </array>
+    <array name="applock_password_types">
+        <item>འདྲ་རིས་གསང་ཨང་།</item>
+        <item>ཨང་ཀི4ཡི་གསང་ཨང་།</item>
+        <item>གསང་ཨང་འདྲེས་མ།</item>
+    </array>
+    <array name="daily_brand">
+        <item>རང་སྒྲུབ།</item>
+        <item>མཱི་དགའི་བྱང་བུ།</item>
+        <item>གནམ་ལྷ་ཆུང་ཆུང་གི་བྱང་བུ།</item>
+        <item>ཐེན་ཤུན་དྲ་བྱང་།</item>
+    </array>
+    <array name="date_of_app_all">
+        <item>ཁ་སང་གི་གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>ཉིན་དེའི་གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>ཟླ་གོང་མའི་གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>ཟླ་འདིའི་གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>ཁ་སའི་WLANབཞུར་ཚད།</item>
+        <item>ཉིན་འདིའི་WLANབཞུར་ཚད།</item>
+        <item>ཟླ་གོང་མའི་WLANབཞུར་ཚད།</item>
+        <item>ཟླ་འདིའིWLANབཞུར་ཚད།</item>
+    </array>
+    <array name="date_of_traffic">
+        <item>ཁ་སང་གི་བཞུར་ཚད།</item>
+        <item>ཉིན་དེའི་བཞུར་ཚད།</item>
+        <item>ཟླ་གོང་མའི་བཞུར་ཚད།</item>
+        <item>ཟླ་འདིའི་བཞུར་ཚད།</item>
+    </array>
+    <array name="date_of_traffic_cmcc">
+        <item>གཟའ་འདིའི་བཞུར་ཚད།</item>
+        <item>ཉིན་དེའི་བཞུར་ཚད།</item>
+        <item>ཟླ་འདིའི་བཞུར་ཚད།</item>
+    </array>
+    <array name="date_of_traffic_prefix">
+        <item>ཁ་སང་།</item>
+        <item>ཉིན་དེར།</item>
+        <item>ཟླ་བ་གོང་མ།</item>
+        <item>ཟླ་འདི།</item>
+    </array>
+    <array name="date_of_traffic_prefix_cmcc">
+        <item>གཟའ་འདིར།</item>
+        <item>ཉིན་དེར།</item>
+        <item>ཟླ་དེར།</item>
+    </array>
+    <array name="debug_open_intercept">
+        <item>གློག་ཀླད་བརྒྱུད་ནས་ཁྱེད་ཀྱི་སྒྲིག་ཆས་ལ་སྦྲེལ་རྗེས། སྒྲིག་ཆས་སུ་ཉར་བའི་འདྲ་པར་དང་ཡིག་ཆ་ཀློག་པའམ་བཟོ་བཅོས་བྱེད་ཐུབ།</item>
+        <item>ཁྱེད་ཀྱི་མོས་མཐུན་མ་ཐོབ་པའི་སྐབས་སུ། སྒྲིག་ཆས་ལ་ཉེར་སྤྱོད་སྒྲིག་འཇུག་བྱེད་པ།</item>
+        <item>ཁྱེད་ཀྱི་འཆར་ངོས་ལྟ་སྐུལ་དང་ཕབ་འཇུག</item>
+        <item>སྒྲིག་ཆས་ཀྱི་ཆ་འཕྲིན་གལ་ཆེན་མང་པོ་ཐོབ་པ།</item>
+    </array>
+    <array name="ew_emergency_blood_type_arrays">
+        <item>Aརིགས།</item>
+        <item>Bརིགས།</item>
+        <item>ABརིགས།</item>
+        <item>Oརིགས།</item>
+    </array>
+    <array name="ew_emergency_organ_donation_arrays">
+        <item>རེད།</item>
+        <item>མིན།</item>
+    </array>
+    <array name="lock_mode">
+        <item>བརྙན་ཤེལ་ཁ་བརྒྱབ་པའི་རྗེས།</item>
+        <item>བརྙན་ཤེལ་ཁ་བརྒྱབ་པའམ་ཉེར་སྤྱོད་ལས་ཕྱིར་འཐོན་རྗེས།</item>
+        <item>བརྙན་ཤེལ་ཁ་བརྒྱབ་པའམ་ཉེར་སྤྱོད་ལས་ཕྱིར་བཏོན་ནས་སྐར་མ1རྗེས།</item>
+    </array>
+    <array name="mi_service_traffic_type">
+        <item>གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>WLANབཞུར་ཚད།</item>
+    </array>
+    <array name="miui_optimization_close_intercept">
+        <item>(གཙོ་གནད)བརྒྱུད་ཁོངས་ཀྱི་ཉེར་སྤྱོད་མང་པོ་བེད་སྤྱོད་བྱེད་མི་ཐུབ།</item>
+        <item>ཡི་གེའི་སྒྲིག་གཞི། ཐོ་ཨང་། ཡིག་ཚགས་སོགས་རྣམ་པར་འགྱུར་ལྡོག་ཆེན་པོ་ཐེབས་སྲིད།</item>
+    </array>
+    <array name="over_limit_traffic_waring_style">
+        <item>དྲན་སྐུལ་ཁོ་ན།</item>
+        <item>དྲ་ཆད་ནས་དྲན་སྐུལ་བྱེད་པ།</item>
+    </array>
+    <array name="pc_settings_thermal_entries">
+        <item>སོར་འཇོག་དྲོད་འཛིན་དཔེ་ཚུལ།</item>
+        <item>གཤིས་ནུས་ལེགས་གཏོང་དཔེ་ཚུལ།</item>
+    </array>
+    <array name="pc_settings_thermal_summaries">
+        <item>མིག་སྔའི་སོར་འཇོག་དྲོད་འཛིན་དཔེ་ཚུལ།</item>
+        <item>མིག་སྔའི་གཤིས་ནུས་ལེགས་གཏོང་དཔེ་ཚུལ།</item>
+    </array>
+    <array name="perm_intercept_notification">
+        <item>ཁྱེད་ལ་འབྱོར་བའི་བརྡ་ཐོའི་ནང་དོན་ཀློག་པར། འཕྲིན་ཐུང་གི་ནང་དོན་དང་དེ་མིན་གྱི་མི་སྒེར་གྱི་གསང་བའི་ཆ་འཕྲིན་ཚུད་ཡོད།</item>
+        <item>ཉེར་སྤྱོད་ཁག་ཅིག་ཀྱི་བརྡ་ཐོའི་དབང་ཚད་ཁ་རྒྱག་པ།</item>
+        <item>འདྲ་བཟོའི་བརྡ་ཐོ་གནན་ནས་ཉེར་སྤྱོད་ཀྱི་རྣམ་པ་མངོན་ཐུབ།</item>
+        <item>སུན་འགོག་དཔེ་ཚུལ་བསད་སྤར་རྣམ་པ་ཚོད་འཛིན་བྱེད།</item>
+    </array>
+    <array name="perm_intercept_statitics">
+        <item>ཁྱེད་ཀྱིས་བེད་སྤྱོད་བྱས་པའི་ཉེར་སྤྱོད་རིགས་དང་ཟློས་ཕྱོད་ལྟ་བཤེར་བྱས་པ་བརྒྱུད་ནས། ཁྱེད་ཀྱི་མི་སྒེར་གྱི་དགའ་མོས་དང་བྱ་བྱེད་ཆ་འཕྲིན་ཐོབ་ཐུབ།</item>
+        <item>ཁྱེད་ཀྱི་འཁོར་སྐྱོད་ཚོང་པ་དང་། སྐད་བརྡའི་སྒྲིག་འགོད། ཆ་འཕྲིན་ཞིབ་ཕྲ་གཞན་བཅས་ཐོབ་པ།</item>
+    </array>
+    <array name="perm_intercept_unknown_source">
+        <item>ཞའོ་མཱི་ཉེར་སྤྱོད་ཚོང་ཁང་གིས་བརྟག་ཞིབ་མ་བྱས་པའི་ཕྱོགས་གསུམ་པའི་ཉེར་སྤྱོད་ཀྱིས་མཉེན་ཆས་གནད་དོན་བཟོས་ནས། བརྒྱུད་ཁོངས་ཀྱི་བརྟན་བརླིང་རང་བཞིན་ལ་ཤུགས་རྐྱེན་ཐེབས་སྲིད།</item>
+        <item>སུན་བཟོའི་ཕྱོགས་གསུམ་པའི་ཉེར་སྤྱོད་ཀྱིས་ཁྱེད་ཀྱི་སྒྲིག་ཆས་ལ་འཇབ་བརྡུངས་བྱས་ནས། བྱ་བྱེད་དང་གསང་དོན་གཞི་གྲངས་ཕྱིར་འགྱར་བྱེད་སྲིད།</item>
+    </array>
+    <array name="priority_storage_entries">
+        <item>ནང་སྒྲིག་གསོག་ས།</item>
+        <item>ཕྱི་སྒྲིག་SDབྱང་བུ།</item>
+    </array>
+    <array name="roaming_network_type">
+        <item>ཉེར་སྤྱོད་ཆ་ཚང་དྲ་སྦྲེལ་ཆོག</item>
+        <item>མིང་ཐོ་དཀར་བོའི་ཉེར་སྤྱོད་ཁོ་ན་དྲ་སྦྲེལ་ཆོག</item>
+        <item>ཉེར་སྤྱོད་ཡོད་ཚད་ཀྱིས་དྲ་སྦྲེལ་ལ་བཀག་འགོག</item>
+    </array>
+    <array name="sms_report_type">
+        <item>གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>བཤད་གླ་ལྷག་མ།</item>
+    </array>
+    <array name="sort_title">
+        <item>འཁོར་སྐྱོད་རྣམ་པར་དམིགས་ནས་རིམ་སྒྲིག</item>
+        <item>ཉེར་སྤྱོད་ཀྱི་མིང་ལ་དམིགས་ནས་རིམ་སྒྲིག</item>
+        <item>བེད་སྤྱོད་ཟློས་ཕྱོད་ལ་དམིགས་ནས་རིམ་སྒྲིག</item>
+        <item>ཉར་ཚགས་བཟུང་ཚད་ལ་དམིགས་ནས་རིམ་སྒྲིག</item>
+        <item>སྒྲིག་འཇུག་དུས་ཚོད་ལྟར་རིམ་སྒྲིག</item>
+    </array>
+    <array name="sort_type">
+        <item>འཁོར་སྐྱོད་རྣམ་པ།</item>
+        <item>ཉེར་སྤྱོད་ཀྱི་མིང་།</item>
+        <item>བེད་སྤྱོད་ཟློས་ཕྱོད།</item>
+        <item>ཉར་ཚགས་བཟུང་བ།</item>
+        <item>སྒྲིག་འཇུག་དུས་ཚོད།</item>
+    </array>
+    <array name="tether_limit_warn_type">
+        <item>ཚ་གནས་ཁ་བརྒྱབ་ནས་དྲན་བསྐུལ།</item>
+        <item>དྲན་སྐུལ་གཅིག་པུ།</item>
+    </array>
+    <array name="title_app_info">
+        <item>ཐོག་མར་སྒྲིག་འཇུག་ཡོངས་ཁུངས།</item>
+        <item>ཐོག་མར་སྒྲིག་འཇུག་དུས་ཚོད།</item>
+        <item>གསར་སྒྱུར་མཐའ་མའི་ཡོངས་ཁུངས།</item>
+        <item>གསར་སྒྱུར་མཐའ་མའི་དུས་ཚོད།</item>
+    </array>
+    <array name="traffic_package_type">
+        <item>ཟླ་གཡར་སྡེབ་ཟས།</item>
+        <item>ཉིན་གཡར་སྡེབ་ཟས།</item>
+        <item>བཞུར་ཚད་ཚད་མེད་སྡེབ་ཟས།</item>
+    </array>
+    <array name="traffic_type">
+        <item>གཞི་གྲངས་བཞུར་ཚད།</item>
+        <item>WLANབཞུར་ཚད།</item>
+    </array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/ic_signal_cellular_0_4_bar" android:minLevel="0" android:maxLevel="0"/>
+    <item android:drawable="@drawable/ic_signal_cellular_1_4_bar" android:minLevel="1" android:maxLevel="1"/>
+    <item android:drawable="@drawable/ic_signal_cellular_2_4_bar" android:minLevel="2" android:maxLevel="2"/>
+    <item android:drawable="@drawable/ic_signal_cellular_3_4_bar" android:minLevel="3" android:maxLevel="3"/>
+    <item android:drawable="@drawable/ic_signal_cellular_4_4_bar" android:minLevel="4" android:maxLevel="4"/>
+    <item android:drawable="@drawable/ic_signal_cellular_0_5_bar" android:minLevel="10" android:maxLevel="10"/>
+    <item android:drawable="@drawable/ic_signal_cellular_1_5_bar" android:minLevel="11" android:maxLevel="11"/>
+    <item android:drawable="@drawable/ic_signal_cellular_2_5_bar" android:minLevel="12" android:maxLevel="12"/>
+    <item android:drawable="@drawable/ic_signal_cellular_3_5_bar" android:minLevel="13" android:maxLevel="13"/>
+    <item android:drawable="@drawable/ic_signal_cellular_4_5_bar" android:minLevel="14" android:maxLevel="14"/>
+    <item android:drawable="@drawable/ic_signal_cellular_5_5_bar" android:minLevel="15" android:maxLevel="15"/>
+</level-list>

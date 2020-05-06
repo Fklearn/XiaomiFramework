@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/header_container" android:background="@drawable/lucky_alarm_header_bg" android:layout_width="match_parent" android:layout_height="@dimen/lucky_alarm_top_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/actionbar" android:layout_width="match_parent" android:layout_height="@dimen/lucky_alarm_appbar_height" android:layout_marginTop="@dimen/lucky_alarm_appbar_topmargin">
+            <ImageView android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="0x1002006e" android:contentDescription="@string/lucky_alarm_back"/>
+            <TextView android:textSize="@dimen/lucky_appbat_title_txtsize" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/txvBack" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/lucky_alarm" android:layout_weight="1" android:contentDescription="@string/lucky_alarm_back"/>
+            <Button android:id="@+id/settings" android:background="0x10020065" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:contentDescription="@string/alarm_setting_title"/>
+        </LinearLayout>
+        <TextView android:textSize="13.1sp" android:textColor="#ccffffff" android:id="@+id/txvLuckyAlarmApp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="94.9dp" android:text="@string/lucky_alarm_app_after" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="40sp" android:textColor="#ffffffff" android:id="@+id/txvLuckyAlarmCountDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.4dp" android:text="@string/lucky_alarm_count_down" android:layout_below="@+id/txvLuckyAlarmApp" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/content_container" android:background="@color/lucky_alarm_content_bkgcolor" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/lucky_alarm_top_height">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:src="@drawable/lucky_alarm_start_bg"/>
+        <TextView android:textSize="13.1dp" android:textColor="@color/lucky_alarm_tip_txtcolor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.2dp" android:text="@string/text_alarm_close"/>
+        <Button android:textSize="16.73dp" android:textColor="@color/lucky_alarm_btn_txtcolor" android:gravity="center" android:id="@+id/btnOpen" android:background="@drawable/lucky_alarm_btn_bg" android:layout_width="334.5469dp" android:layout_height="50.91dp" android:layout_marginTop="112.36dp" android:text="@string/open_alarm_right_now"/>
+    </LinearLayout>
+</FrameLayout>

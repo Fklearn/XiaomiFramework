@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/card_bg_no_shadow_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/ll1" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/firstaidkit_result_bottom_text_size" android:textStyle="bold" android:textColor="@color/result_process_title_color" android:id="@+id/tv_content1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_aid_item1_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@+id/iv_status1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_state_safe" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/ll2" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/firstaidkit_result_bottom_text_size" android:textStyle="bold" android:textColor="@color/result_process_title_color" android:id="@+id/tv_content2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_aid_item2_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@+id/iv_status2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_state_safe" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/ll3" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/firstaidkit_result_bottom_text_size" android:textStyle="bold" android:textColor="@color/result_process_title_color" android:id="@+id/tv_content3" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_aid_item3_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@+id/iv_status3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_state_safe" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/ll4" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/firstaidkit_result_bottom_text_size" android:textStyle="bold" android:textColor="@color/result_process_title_color" android:id="@+id/tv_content4" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_aid_item4_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@+id/iv_status4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_state_safe" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/ll5" android:layout_width="match_parent" android:layout_height="@dimen/firstaidkit_item_height" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/firstaidkit_result_bottom_text_size" android:textStyle="bold" android:textColor="@color/result_process_title_color" android:id="@+id/tv_content5" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/first_aid_item5_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:gravity="center" android:id="@+id/iv_status5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/scan_state_safe" android:scaleType="centerInside"/>
+    </LinearLayout>
+</LinearLayout>

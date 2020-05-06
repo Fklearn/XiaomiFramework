@@ -1,0 +1,12 @@
+package com.miui.gamebooster.n.c;
+
+public enum a {
+    SCREEN_RECORD,
+    SCREEN_CAPTURE,
+    MILINK_SCREENING,
+    HANGUP_LISTENING,
+    DISPLAY_STYLE,
+    SRS_PREMIUM_SOUND,
+    ADVANCED_SETTINGS,
+    RECOMMEND_APPS
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/gb_wonderful_moment_tab_page_bg" android:layout_width="@dimen/gb_wonderful_moment_tab_page_width" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gb_wonderful_moment_tab_page_title_margin_top" android:layout_marginStart="@dimen/gb_wonderful_moment_tab_page_title_margin_left">
+            <ImageView android:id="@+id/backBtn" android:layout_width="@dimen/gb_wonderful_moment_back_size" android:layout_height="@dimen/gb_wonderful_moment_back_size" android:src="@drawable/gb_wonderful_moment_back" android:layout_marginEnd="@dimen/gb_wonderful_moment_back_margin_right"/>
+            <TextView android:textSize="@dimen/gb_wonderful_tab_page_title_textsize" android:textColor="@color/gb_wonderful_moment_tab_page_item" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_manual_record_setting_title" android:singleLine="true"/>
+        </LinearLayout>
+        <fragment android:name="com.miui.gamebooster.ui.ManualRecordSettingsTabFragment" android:id="@+id/tabFragment" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/gb_wonderful_moment_tab_page_tab_margin_top"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/container" android:background="@color/gb_wonderful_moment_page" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.view.menu.ListMenuItemView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="196dp">
+    <ImageView android:id="@+id/group_divider" android:background="@drawable/list_divider_material" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+    <LinearLayout android:id="@+id/content" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="?^attr-private/dropdownListPreferredItemHeight" android:paddingEnd="16dp">
+        <RelativeLayout android:layout_gravity="center_vertical" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp">
+            <TextView android:textAppearance="?attr/textAppearanceLargePopupMenu" android:ellipsize="marquee" android:id="@+id/title" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:textAlignment="viewStart" android:layout_alignParentStart="true"/>
+            <TextView android:textAppearance="?attr/textAppearanceSmallPopupMenu" android:id="@+id/shortcut" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/title" android:textAlignment="viewStart" android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/submenuarrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginStart="8dp"/>
+    </LinearLayout>
+</com.android.internal.view.menu.ListMenuItemView>

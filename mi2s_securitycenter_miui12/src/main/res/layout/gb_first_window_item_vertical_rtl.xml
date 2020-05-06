@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/function_image" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="14.55sp" android:textColor="#ff000000" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@+id/function_image" android:layout_alignParentTop="true" android:layout_marginStart="24dp"/>
+    <TextView android:textSize="13.09sp" android:textColor="#cd000000" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@+id/function_image" android:layout_below="@+id/title" android:layout_marginStart="24dp"/>
+    <miui.widget.SlidingButton android:id="@+id/sliding_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_toLeftOf="@+id/function_image" android:layout_below="@+id/summary" android:layout_marginStart="24dp"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:insetLeft="@dimen/button_inset_horizontal_material" android:insetRight="@dimen/button_inset_horizontal_material" android:insetTop="@dimen/button_inset_vertical_material" android:insetBottom="@dimen/button_inset_vertical_material">
+    <ripple android:color="?attr/colorControlHighlight">
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="?attr/buttonCornerRadius"/>
+                <padding android:left="@dimen/button_padding_horizontal_material" android:top="@dimen/button_padding_vertical_material" android:right="@dimen/button_padding_horizontal_material" android:bottom="@dimen/button_padding_vertical_material"/>
+                <solid android:color="@color/white"/>
+                <stroke android:width="@dimen/emphasized_button_stroke_width" android:color="@color/material_grey_300"/>
+            </shape>
+        </item>
+    </ripple>
+</inset>

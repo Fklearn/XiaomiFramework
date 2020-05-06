@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:title="setting_preferences">
+    <PreferenceCategory android:title="@string/domestic_roaming_setting" android:key="category_domestic_roaming_setting">
+        <CheckBoxPreference android:title="@string/domestic_roaming_setting" android:key="pref_key_domestic_roaming"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_roaming_setting_gategory" android:key="category_roaming_setting">
+        <miuix.preference.TextPreference android:title="@string/pref_allow_connect_network_title" android:key="pref_allow_connect_network_switch_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_allow_connect_network_title" android:key="pref_allow_connect_network_switch" app:entries="@array/roaming_network_type" app:entryValues="@array/roaming_network_type"/>
+        <CheckBoxPreference android:title="@string/pref_allow_connect_network_title" android:key="pref_allow_connect_network_switch_default"/>
+        <miuix.preference.TextPreference android:enabled="true" android:title="@string/pref_whitelist_setting" android:key="pref_whitelist_setting"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_roaming_daily_limit_setting_cat_title" android:key="category_roaming_limit_setting">
+        <CheckBoxPreference android:title="@string/pref_roaming_daily_limit_setting" android:key="pref_key_roaming_daily_limit"/>
+        <miuix.preference.TextPreference android:title="@string/pref_title_traffic_limit_number" android:key="pref_key_roaming_daily_limit_value"/>
+        <miuix.preference.TextPreference android:title="@string/pref_title_over_traffic_limit_warning" android:key="pref_key_over_limit_opt_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_title_over_traffic_limit_warning" android:key="pref_key_over_limit_opt" app:entries="@array/over_limit_traffic_waring_style" app:entryValues="@array/over_limit_traffic_waring_style"/>
+    </PreferenceCategory>
+</PreferenceScreen>

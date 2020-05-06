@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.widget.WatchListDecorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/parentPanel" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/topPanel" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_list_padding_top_no_title">
+                <include android:id="@+id/title_template" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/alert_dialog_title_material"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/contentPanel" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.Material.Subhead" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/message" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?attr/dialogPreferredPadding" android:paddingEnd="?attr/dialogPreferredPadding"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/customPanel" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="64dp">
+                <FrameLayout android:id="@+id/custom" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </FrameLayout>
+            <FrameLayout android:id="@+id/buttonPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_list_padding_bottom_no_buttons" android:layout_weight="1">
+                <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingBottom="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content" android:measureWithLargestChild="true" style="?attr/buttonBarStyle">
+                    <Button android:layout_gravity="start" android:id="@+id/button1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="?attr/buttonBarButtonStyle"/>
+                    <Button android:layout_gravity="start" android:id="@+id/button3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="?attr/buttonBarButtonStyle"/>
+                    <Button android:layout_gravity="start" android:id="@+id/button2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="?attr/buttonBarButtonStyle"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.android.internal.widget.WatchListDecorLayout>

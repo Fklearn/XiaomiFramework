@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="@dimen/mishare_scanned_device_size" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@+id/rl_device_icon" android:background="@drawable/bg_scanned_device_xiaomi" android:layout_width="@dimen/mishare_scanned_device_size" android:layout_height="@dimen/mishare_scanned_device_size" android:importantForAccessibility="no">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_device_area" android:layout_width="wrap_content" android:layout_height="@dimen/scanned_device_phone_height" android:layout_marginTop="13.18dp" android:layout_centerHorizontal="true">
+            <View android:id="@+id/view_phone" android:background="@drawable/bg_scanned_device_xiaomi_phone" android:visibility="gone" android:layout_width="@dimen/scanned_device_phone_width" android:layout_height="@dimen/scanned_device_phone_height"/>
+            <ImageView android:id="@+id/iv_pc" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_device_pc" android:contentDescription="@string/device_type_pc"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/iv_device_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/file_sending"/>
+        <RelativeLayout android:id="@+id/rl_logo" android:background="@drawable/mishare_device_logo_bg" android:layout_width="wrap_content" android:layout_height="@dimen/mishare_device_logo_bg_height" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <ImageView android:id="@+id/iv_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_log_mi" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mishare_device_name_margin_top">
+        <TextView android:textSize="@dimen/scanned_device_name_textsize" android:textColor="@color/textcolor_status_default" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/tv_device_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/scanned_device_name_textsize" android:textColor="@color/textcolor_status_default" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tv_device_model_name" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+</LinearLayout>

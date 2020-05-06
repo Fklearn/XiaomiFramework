@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/second_space_switch_dialog_bg_color_dark" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="98dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+        <TextView android:textSize="28sp" android:textColor="@color/second_space_switch_dialog_text_color_dark" android:gravity="center" android:layout_gravity="center" android:id="@+id/switching_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switching_tv"/>
+        <ImageView android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/anim_iv" android:background="@drawable/switching_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96dp"/>
+        <TextView android:textSize="15sp" android:textColor="@color/second_space_switch_dialog_text_color_dark" android:gravity="center" android:layout_gravity="center" android:id="@+id/switch_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.3dp" android:text="@string/switch_desc_tv"/>
+    </LinearLayout>
+</RelativeLayout>

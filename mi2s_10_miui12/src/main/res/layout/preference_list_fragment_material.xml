@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_removeBorders="true">
+    <FrameLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="@integer/preference_fragment_scrollbarStyle" android:id="@+id/list" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" style="?^attr-private/preferenceFragmentListStyle"/>
+    </FrameLayout>
+    <TextView android:gravity="center" android:id="@+id/empty" android:padding="@dimen/preference_fragment_padding_side" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/button_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0">
+        <Button android:id="@+id/back_button" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/back_button_label" android:layout_alignParentStart="true"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <Button android:id="@+id/skip_button" android:visibility="gone" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/skip_button_label"/>
+            <Button android:id="@+id/next_button" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/next_button_label"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

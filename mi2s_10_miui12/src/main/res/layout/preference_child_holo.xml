@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeight" android:paddingStart="@dimen/preference_child_padding_side" android:paddingEnd="?attr/scrollbarSize">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/preference_icon_minWidth">
+        <ImageView android:layout_gravity="center" android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/preference_item_padding_inner"/>
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:paddingEnd="@dimen/preference_item_padding_inner">
+        <TextView android:textAppearance="?attr/textAppearanceMedium" android:ellipsize="marquee" android:id="@+id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textAppearance="?attr/textAppearanceSmall" android:textColor="?attr/textColorSecondary" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@+id/title" android:layout_alignStart="@+id/title"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/widget_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="@dimen/preference_widget_width"/>
+</LinearLayout>

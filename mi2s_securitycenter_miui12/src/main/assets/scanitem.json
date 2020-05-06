@@ -1,0 +1,519 @@
+{
+    "manual": [
+        [
+            {
+                "key": "DARK_MODEL",
+                "name": "com.miui.securityscan.model.manualitem.DarkModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "NETWORK_SWITCH",
+                "name": "com.miui.securityscan.model.manualitem.NetworkSwitchModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 5
+            },
+            {
+                "key": "VIRUS_CLOUDSCAN",
+                "name": "com.miui.securityscan.model.manualitem.VirusCloudScanModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            },
+            {
+                "key": "CLEANER_CLOUDSCAN",
+                "name": "com.miui.securityscan.model.manualitem.CleanerCloudScanModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            },
+            {
+                "key": "GARBAGE_LIB",
+                "name": "com.miui.securityscan.model.manualitem.CleanerDbUpdateModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            },
+            {
+                "key": "FLOW_NOTIFICATION",
+                "name": "com.miui.securityscan.model.manualitem.DataNotificationModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            },
+            {
+                "key": "TELECOM_OPERAOTR",
+                "name": "com.miui.securityscan.model.manualitem.TelecomOperatorModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            },
+            {
+                "key": "AUTO_UPDATE",
+                "name": "com.miui.securityscan.model.manualitem.AutoUpdateModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            }
+        ],
+        [
+            {
+                "key": "GARBAGE_CLEAN",
+                "name": "com.miui.securityscan.model.manualitem.GarbageCleanModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 3
+            }
+        ],
+        [
+            {
+                "key": "DEFAULT_LAUNCHER",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultLauncherModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_DIAL",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultDialModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_MESSAGING",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultMessagingModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_BROWSER",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultBrowserModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_CAMERA",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultCameraModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_GALLERY",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultGalleryModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_MUSIC",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultMusicModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            },
+            {
+                "key": "DEFAULT_EMAIL",
+                "name": "com.miui.securityscan.model.manualitem.defaultapp.DefaultEmailModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            }
+        ],
+        [
+            {
+                "key": "DATA_FLOW",
+                "name": "com.miui.securityscan.model.manualitem.DataPackageModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 3
+            }
+        ],
+        [
+            {
+                "key": "PAYMENT_RISK",
+                "name": "com.miui.securityscan.model.manualitem.PaymentRiskModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 3
+            }
+        ],
+        [
+            {
+                "key": "FIND_DEVICE",
+                "name": "com.miui.securityscan.model.manualitem.FindDeviceModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 3
+            }
+        ],
+        [
+            {
+                "key": "FLOW_VERIFY",
+                "name": "com.miui.securityscan.model.manualitem.PackageVerifyModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "FLOW_VERIFY_FAILED",
+                "name": "com.miui.securityscan.model.manualitem.PackageVerifyFailedModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "CLOUD_SERVICE",
+                "name": "com.miui.securityscan.model.manualitem.CloudServiceModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            }
+        ],
+        [
+            {
+                "key": "MIFI_INSURANCE",
+                "name": "com.miui.securityscan.model.manualitem.MifiInsuranceModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "MIUI_UPDATE",
+                "name": "com.miui.securityscan.model.manualitem.MiuiUpdaterModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 3
+            }
+        ],
+        [
+            {
+                "key": "FIRST_AID_KIT",
+                "name": "com.miui.securityscan.model.manualitem.FirstAidModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "PERMISSION_ROOT",
+                "name": "com.miui.securityscan.model.manualitem.PermissionRootModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "APP_UPDATE",
+                "name": "com.miui.securityscan.model.manualitem.AppUpdateModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "PERMANENT_NOTIFICATIONBAR",
+                "name": "com.miui.securityscan.model.manualitem.SecurityNotificationModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "FLOW_PURCHASE",
+                "name": "com.miui.securityscan.model.manualitem.DataPurchaseModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "CLOUD_SPACE",
+                "name": "com.miui.securityscan.model.manualitem.CloudSpaceModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "FLOW_RANK",
+                "name": "com.miui.securityscan.model.manualitem.FlowRankModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "CONSUME_POWER_RANK",
+                "name": "com.miui.securityscan.model.manualitem.ConsumePowerRankModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "APP_LOCK",
+                "name": "com.miui.securityscan.model.manualitem.AppLockModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ]
+    ],
+    "system": [
+        [
+            {
+                "key": "CMCC_CHECK",
+                "name": "com.miui.securityscan.model.system.CmccCheckModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 5
+            }
+        ],
+        [
+            {
+                "key": "VIRUS",
+                "name": "com.miui.securityscan.model.system.VirusScanModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 10
+            }
+        ],
+        [
+            {
+                "key": "VIRUS_LIB",
+                "name": "com.miui.securityscan.model.system.VirusDbModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 5
+            }
+        ],
+        [
+            {
+                "key": "SYSTEM_AUTO_DOWNLOAD",
+                "name": "com.miui.securityscan.model.system.AutoDownloadModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "PERMISSION",
+                "name": "com.miui.securityscan.model.system.PermissionModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 5
+            }
+        ],
+        [
+            {
+                "key": "INSTALL_MONITOR",
+                "name": "com.miui.securityscan.model.system.InstallMonitorModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 5
+            }
+        ],
+        [
+            {
+                "key": "DEV_MODE",
+                "name": "com.miui.securityscan.model.system.DevModeModel",
+                "version": [
+                    "development",
+                    "stable"
+                ],
+                "score": 2
+            }
+        ],
+        [
+            {
+                "key": "USB",
+                "name": "com.miui.securityscan.model.system.UsbModel",
+                "version": [
+                    "development",
+                    "stable"
+                ],
+                "score": 3
+            }
+        ],
+        [
+            {
+                "key": "MMS",
+                "name": "com.miui.securityscan.model.system.MmsModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 5
+            }
+        ],
+        [
+            {
+                "key": "CHAIN_START",
+                "name": "com.miui.securityscan.model.system.ChainStartModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ],
+        [
+            {
+                "key": "GMS_OFF",
+                "name": "com.miui.securityscan.model.system.GmsModel",
+                "version": [
+                    "alpha",
+                    "development",
+                    "stable"
+                ],
+                "score": 0
+            }
+        ]
+    ],
+    "version": 8
+}

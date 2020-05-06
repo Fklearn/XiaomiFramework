@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="center" android:id="@+id/text1" android:paddingTop="@dimen/list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/text2" style="0x100d0058"/>
+    <TextView android:gravity="center" android:id="@+id/text2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/st_filter_keywords_setting_summary2" android:layout_alignParentBottom="true" style="0x100d0058"/>
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/text1" app:scrollableView="@android:id/list">
+        <com.miui.antispam.ui.view.RecyclerViewExt android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:fastScrollEnabled="true"/>
+    </miuix.springback.view.SpringBackLayout>
+</RelativeLayout>

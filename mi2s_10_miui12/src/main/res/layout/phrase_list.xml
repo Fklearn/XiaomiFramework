@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@drawable/phrase_list_header_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/EditorTextAppearance" android:textColor="@color/text_edit_action_popup_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/frequent_phrases" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+        <ImageButton android:id="@+id/edit_phrase" android:background="@drawable/phrase_edit_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/phrase_list_edit_phrase_margin_end" android:layout_alignParentEnd="true"/>
+        <ImageButton android:id="@+id/add_phrase" android:background="@drawable/phrase_add_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/edit_phrase"/>
+    </RelativeLayout>
+    <ListView android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical_light" android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+</LinearLayout>

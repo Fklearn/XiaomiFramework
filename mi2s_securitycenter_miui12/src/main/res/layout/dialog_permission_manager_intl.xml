@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/dialog_custom_parent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/perm_manager_perm_text" android:textColor="@color/app_behavior_record_normal_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dialog_permission_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="miui-bold"/>
+    <TextView android:textSize="@dimen/app_behavior_privacy_text" android:textColor="@color/app_behavior_record_dialog_desc_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dialog_package_name" android:paddingBottom="@dimen/perm_dialog_pkg_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/perm_dialog_pkg_top"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/perm_manager_perm_desc" android:textColor="@color/app_behavior_record_dialog_desc_color" android:id="@+id/dialog_permission_desc_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/perm_manager_desc_top" android:text="@string/app_behavior_perm_change_dialog_desc_title"/>
+        <TextView android:textSize="@dimen/app_behavior_perm_desc_text" android:textColor="@color/app_behavior_record_dialog_aim_color" android:id="@+id/dialog_permission_desc_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.miui.permcenter.widget.ChoiceItemView android:id="@+id/select_allow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/perm_selected_item_normal_h"/>
+            <com.miui.permcenter.widget.ChoiceItemView android:id="@+id/select_foreground" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/perm_selected_item_normal_h"/>
+            <com.miui.permcenter.widget.ChoiceItemView android:id="@+id/select_virtual" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/perm_selected_item_tip_h"/>
+            <com.miui.permcenter.widget.ChoiceItemView android:id="@+id/select_ask" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/perm_selected_item_normal_h"/>
+            <com.miui.permcenter.widget.ChoiceItemView android:id="@+id/select_deny" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/perm_selected_item_normal_h"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

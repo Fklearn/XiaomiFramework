@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <solid android:color="@color/bg_device_phone_fill"/>
+    <corners android:radius="3dp"/>
+    <stroke android:width="@dimen/stroke_device_inner" android:color="#ffffff"/>
+</shape>

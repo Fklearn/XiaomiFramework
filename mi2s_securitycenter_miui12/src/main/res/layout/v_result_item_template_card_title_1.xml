@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_up" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="center_vertical" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="47dp" android:layout_marginStart="@dimen/result_page_padding" style="@style/NewsTitleStyle"/>
+            <TextView android:textSize="8sp" android:textColor="@color/white" android:id="@+id/cornerTip" android:background="@drawable/result_tag_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7dp"/>
+            <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:id="@+id/change" android:background="@drawable/normal_clickable_view_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/news_change" android:paddingStart="15dp" android:paddingEnd="15dp" style="@style/NewsSecondStyle"/>
+        </LinearLayout>
+        <View android:id="@+id/bar" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</LinearLayout>

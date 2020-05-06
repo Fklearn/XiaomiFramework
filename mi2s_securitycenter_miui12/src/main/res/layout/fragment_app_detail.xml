@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll_view">
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?android:attr/listPreferredItemPaddingLeft">
+                <ImageView android:id="@+id/imageview_icon" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="9.3dp" android:layout_centerVertical="true" android:layout_marginEnd="11.6dp" android:layout_alignParentStart="true"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@+id/imageview_icon">
+                    <TextView android:textAppearance="0x100d005f" android:id="@+id/textview_appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textAppearance="0x100d0058" android:id="@+id/textview_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/layout_show" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:minHeight="39.67dp" android:layout_marginStart="?android:attr/listPreferredItemPaddingLeft" android:layout_marginEnd="?android:attr/listPreferredItemPaddingLeft">
+                <TextView android:textAppearance="0x100d0058" android:textColor="@color/applock_list_header_text" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/list_spinner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/imageview_arrow_open" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/am_sort_drop_icon" android:layout_marginStart="8dp"/>
+            </LinearLayout>
+            <com.miui.networkassistant.ui.view.AppDetailTrafficView android:id="@+id/detail_view" android:layout_width="match_parent" android:layout_height="310dp" android:layout_marginTop="20dp" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/network_traffic_warning_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginStart="29.1dp" android:layout_marginEnd="29.1dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="#343434" android:id="@+id/network_traffic_warning_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_traffic_warning_title" android:layout_centerVertical="true" android:layout_marginEnd="4.67dp" android:layout_alignParentStart="true"/>
+                    <ImageView android:id="@+id/imageview_traffic_statistic_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_traffic_statistic_warning" android:layout_centerVertical="true" android:layout_toEndOf="@+id/network_traffic_warning_title"/>
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="#777777" android:id="@+id/network_traffic_warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.33dp" android:layout_marginBottom="24dp" android:text="@string/network_traffic_warning_text" android:lineSpacingExtra="8.67dp"/>
+            </LinearLayout>
+            <com.miui.networkassistant.ui.view.ToolbarItemView android:id="@+id/mi_service_app_detail" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <RelativeLayout android:background="0x10020027" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="0x100d0058" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_control" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <com.miui.networkassistant.ui.view.SlideButtonToolbarItemView android:id="@+id/layout_mobile_setting1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.miui.networkassistant.ui.view.SlideButtonToolbarItemView android:id="@+id/layout_mobile_setting2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.miui.networkassistant.ui.view.SlideButtonToolbarItemView android:id="@+id/layout_wifi_setting" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.miui.networkassistant.ui.view.SlideButtonToolbarItemView android:id="@+id/layout_network_setting" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

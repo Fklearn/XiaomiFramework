@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_expanded="true">
+        <nine-patch android:src="@drawable/expander_close_mtrl_alpha" android:tint="?attr/colorControlNormal"/>
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/expander_open_mtrl_alpha" android:tint="?attr/colorControlNormal"/>
+    </item>
+</selector>

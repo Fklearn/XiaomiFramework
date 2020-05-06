@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="@color/voice_input_dark_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/voice_input_dialog_bg" android:layout_width="wrap_content" android:layout_height="@dimen/voice_input_dialog_height" android:layout_marginBottom="@dimen/voice_input_dialog_margin_bottom">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/voice_input_dialog_ballview_margin_left">
+            <android.inputmethodservice.RecodingStateAnimatorView android:id="@+id/ball_view" android:layout_width="@dimen/voice_input_dialog_ballview_width" android:layout_height="@dimen/voice_input_dialog_ballview_height"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/voice_input_dialog_text_margin_left" android:layout_marginRight="@dimen/voice_input_dialog_text_margin_right">
+            <TextView android:id="@+id/dynamic_voice_input" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/voice_begin"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

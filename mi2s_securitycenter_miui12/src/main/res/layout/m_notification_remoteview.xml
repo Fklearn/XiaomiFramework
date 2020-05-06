@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/ll_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="@dimen/notification_large_icon_size" android:layout_height="@dimen/notification_large_icon_size" android:src="@drawable/app_icon_securitycenter" android:contentDescription="@string/app_name_securitycenter"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="18dp">
+        <ImageView android:layout_gravity="center_vertical" android:background="@color/notification_title_divide_color" android:layout_width="1px" android:layout_height="40dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_barbage" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/iv_garbage" android:layout_width="@dimen/notification_imageview_width" android:layout_height="@dimen/notification_imageview_height" android:src="@drawable/icon_garbage_notification"/>
+            <TextView android:textSize="11sp" android:textColor="@color/notification_title_text_color" android:gravity="center" android:id="@+id/iv_garbage_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/menu_item_notification_garbage_text" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:background="@color/notification_title_divide_color" android:layout_width="1px" android:layout_height="40dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_power" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/iv_power" android:layout_width="@dimen/notification_imageview_width" android:layout_height="@dimen/notification_imageview_height" android:src="@drawable/icon_power_normal"/>
+            <TextView android:textSize="11sp" android:textColor="@color/notification_title_text_color" android:gravity="center" android:id="@+id/iv_power_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/menu_item_notification_power_text" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:background="@color/notification_title_divide_color" android:layout_width="1px" android:layout_height="40dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_antispam" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:id="@+id/iv_antispam" android:layout_width="@dimen/notification_imageview_width" android:layout_height="@dimen/notification_imageview_height" android:src="@drawable/icon_antispam_notification_normal"/>
+            <TextView android:textSize="11sp" android:textColor="@color/notification_title_text_color" android:gravity="center" android:id="@+id/iv_antispam_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/menu_item_notification_antispam_text_normal" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

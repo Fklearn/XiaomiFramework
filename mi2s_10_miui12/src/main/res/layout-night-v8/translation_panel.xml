@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/text_action_background_view" android:background="@drawable/text_select_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@+id/scroll_view" android:paddingTop="18dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/text_container" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="17.3sp" android:textColor="@color/text_edit_action_popup_title_dark" android:id="@android:id/text1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:singleLine="true"/>
+                <TextView android:textSize="12sp" android:textColor="@color/text_edit_action_popup_summary_dark" android:id="@android:id/text2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="3dp"/>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:layout_gravity="bottom" android:id="@+id/extra_info" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48.3dp" android:paddingStart="20dp" android:paddingEnd="20dp">
+            <TextView android:textSize="10.7sp" android:textColor="@color/text_edit_action_popup_info_dark" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/text_copyright" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+            <TextView android:textSize="12sp" android:textColor="@color/text_edit_action_popup_more_dark" android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/text_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/translation_more" android:singleLine="true" android:layout_weight="1"/>
+        </LinearLayout>
+        <miui.widget.ProgressBar android:layout_gravity="center" android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="10000" style="?android:attr/progressBarStyle"/>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@+id/view_pager" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+    <com.miui.privacyapps.view.ViewPagerIndicator android:layout_gravity="center" android:id="@+id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp"/>
+    <Button android:textSize="@dimen/applock_main_info_title_size" android:layout_gravity="bottom" android:id="@+id/use_privacy_apps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_marginBottom="16.5dp" android:text="@string/privacy_apps_go_to_use" android:layout_marginStart="27dp" android:layout_marginEnd="27dp" style="0x100d0037"/>
+</LinearLayout>

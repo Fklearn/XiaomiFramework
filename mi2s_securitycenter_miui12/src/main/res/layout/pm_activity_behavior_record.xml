@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/header_view" layout="0x10030000"/>
+    <miuix.springback.view.SpringBackLayout android:id="@+id/springbacklayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/view_dimen_37" android:layout_below="@+id/header_view" app:scrollOrientation="6" app:scrollableView="@+id/all_behavior_record_list">
+        <com.miui.common.stickydecoration.PineRecyclerView android:id="@+id/all_behavior_record_list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </miuix.springback.view.SpringBackLayout>
+    <View android:id="@+id/delegate_app_status_select_menu" android:layout_width="@dimen/view_dimen_360" android:layout_height="@dimen/view_dimen_100" android:layout_below="@+id/header_view" android:layout_alignParentEnd="true"/>
+    <miui.widget.ProgressBar android:id="@+id/behavior_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="0x100d002a"/>
+    <TextView android:textSize="@dimen/app_behavior_perm_desc_text" android:textColor="@color/app_behavior_empty_text_color" android:gravity="center" android:id="@+id/behavior_empty_view" android:paddingBottom="@dimen/app_behavior_empty_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_behavior_no_recorder" android:drawableTop="@drawable/pm_behavior_empty" android:drawablePadding="@dimen/view_dimen_52" android:layout_centerInParent="true"/>
+</RelativeLayout>

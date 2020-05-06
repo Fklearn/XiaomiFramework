@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/gb_activity_main_text" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/listView" android:background="@android:color/transparent" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@android:color/transparent" android:layout_below="@+id/top"/>
+    <RelativeLayout android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/top" android:layout_centerInParent="true">
+        <ProgressBar android:id="@+id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/loading_large_anim" android:indeterminateDuration="500" android:indeterminateBehavior="repeat" android:layout_centerInParent="true"/>
+        <TextView android:textAppearance="@style/game_booster_title_show" android:gravity="center" android:id="@+id/loading_txt" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/loading" android:layout_below="@+id/progress"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/result" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/top" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/result_icon" android:background="@drawable/top_load_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <TextView android:textAppearance="@style/game_booster_title_show" android:gravity="center" android:id="@+id/result_detail" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/top_load_fail_detail" android:layout_below="@+id/result_icon"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,162 @@
+{
+    "Performance": [
+        {
+            "key": "FIRSTAID_AUXILIARYFUNCTIONMODEL",
+            "name": "com.miui.firstaidkit.model.performance.AuxiliaryFunctionModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_DEVICEMANAGERMODEL",
+            "name": "com.miui.firstaidkit.model.performance.DeviceManagerModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_INSUFFICIENTMEMORYMODEL",
+            "name": "com.miui.firstaidkit.model.performance.InsufficientMemoryModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        }
+    ],
+    "Internet": [
+        {
+            "key": "FIRSTAID_WIFIORFLOWSWITCHOFFMODEL",
+            "name": "com.miui.firstaidkit.model.internet.WifiOrFlowSwitchOffModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_BACKGROUNDCONNECTIONMODEL",
+            "name": "com.miui.firstaidkit.model.internet.BackgroundConnectionModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_RESTRICTDATAUSAGEMODEL",
+            "name": "com.miui.firstaidkit.model.internet.RestrictDataUsageModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        }
+    ],
+    "Operation": [
+        {
+            "key": "FIRSTAID_AIRPLANEMODEL",
+            "name": "com.miui.firstaidkit.model.operation.AirplaneModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_BLOCKCALLSFROMCONTACTSMODEL",
+            "name": "com.miui.firstaidkit.model.operation.BlockCallsFromContactsModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_BLOCKCALLSFROMSTRANGERSMODEL",
+            "name": "com.miui.firstaidkit.model.operation.BlockCallsFromStrangersModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_DONOTDISTURBMODEL",
+            "name": "com.miui.firstaidkit.model.operation.DoNotDisturbModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_EYESHIELDMODEL",
+            "name": "com.miui.firstaidkit.model.operation.EyeshieldModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        }
+    ],
+    "ConsumePower": [
+        {
+            "key": "FIRSTAID_AUTOSTARTAPPLICATIONMODEL",
+            "name": "com.miui.firstaidkit.model.consumePower.AutoStartApplicationModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_HOTSPOTMODEL",
+            "name": "com.miui.firstaidkit.model.consumePower.HotspotModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        }
+    ],
+    "Other": [
+        {
+            "key": "FIRSTAID_SYSTEMROOTMODEL",
+            "name": "com.miui.firstaidkit.model.other.SystemRootModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        },
+        {
+            "key": "FIRSTAID_UNABLEINSTALLAPPLICATIONMODEL",
+            "name": "com.miui.firstaidkit.model.other.UnableInstallApplicationModel",
+            "version": [
+                "alpha",
+                "development",
+                "stable"
+            ],
+            "score": 0
+        }
+    ]
+}

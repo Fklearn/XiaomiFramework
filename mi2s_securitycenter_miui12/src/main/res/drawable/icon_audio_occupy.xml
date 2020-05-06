@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="17.45dp" android:width="15.6323dp" android:viewportWidth="43" android:viewportHeight="48">
+    <path android:fillColor="#ffffff" android:pathData="M42.9865,27.4289C42.582,38.8579 33.1169,48 21.5,48C9.883,48 0.4179,38.8579 0.0134,27.4289L6.1617,27.4294C6.5622,35.4908 13.2762,41.9048 21.5,41.9048C29.7237,41.9048 36.4377,35.4908 36.8382,27.4294L42.9865,27.4289Z" android:fillType="1"/>
+    <path android:fillColor="#ffffff" android:pathData="M3.0714,30.4762C4.7677,30.4762 6.1429,29.1118 6.1429,27.4286C6.1429,25.7454 4.7677,24.381 3.0714,24.381C1.3751,24.381 0,25.7454 0,27.4286C0,29.1118 1.3751,30.4762 3.0714,30.4762Z"/>
+    <path android:fillColor="#ffffff" android:pathData="M39.9286,30.4762C41.6249,30.4762 43,29.1118 43,27.4286C43,25.7454 41.6249,24.381 39.9286,24.381C38.2323,24.381 36.8572,25.7454 36.8572,27.4286C36.8572,29.1118 38.2323,30.4762 39.9286,30.4762Z"/>
+    <path android:fillColor="#ffffff" android:pathData="M33.7857,12.1905C33.7857,5.4579 28.2852,0 21.4999,0C14.7147,0 9.2142,5.4579 9.2142,12.1905V26.6667C9.2142,33.3993 14.7147,38.8571 21.4999,38.8571C28.2852,38.8571 33.7857,33.3993 33.7857,26.6667V12.1905Z"/>
+</vector>

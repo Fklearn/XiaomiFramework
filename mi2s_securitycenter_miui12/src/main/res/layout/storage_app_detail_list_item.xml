@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/storage_app_detail_item_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/storage_app_details_item_min_h" android:paddingStart="@dimen/storage_app_details_item_ps_pe" android:paddingEnd="@dimen/storage_app_details_item_ps_pe">
+    <TextView android:ellipsize="end" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:textAlignment="viewStart" style="@style/StorageDetailNameLabel"/>
+    <TextView android:id="@+id/summary" android:textAlignment="viewEnd" android:layout_marginStart="@dimen/storage_app_details_item_title_me" style="@style/StorageDetailSizeLabel"/>
+    <LinearLayout android:id="@+id/status_panel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x10020068"/>
+        <ProgressBar android:id="@+id/progress" android:visibility="gone" android:layout_width="@dimen/storage_app_details_progress_w_h" android:layout_height="@dimen/storage_app_details_progress_w_h" style="@style/progress_circle_v10"/>
+    </LinearLayout>
+</LinearLayout>

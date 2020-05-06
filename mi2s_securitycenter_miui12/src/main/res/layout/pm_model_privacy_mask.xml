@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:id="@+id/rl_root_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_64" android:layout_marginBottom="@dimen/view_dimen_72" android:layout_marginStart="@dimen/view_dimen_54" android:layout_marginEnd="@dimen/view_dimen_152">
+        <TextView android:textSize="@dimen/text_font_size_60" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_mask_title" style="@style/privacy_main_title"/>
+        <TextView android:textSize="@dimen/text_font_size_36" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_14" android:text="@string/privacy_mask_summary" style="@style/privacy_main_summary"/>
+    </LinearLayout>
+</RelativeLayout>

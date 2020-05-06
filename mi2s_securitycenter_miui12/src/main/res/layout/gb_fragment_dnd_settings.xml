@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<miuix.springback.view.SpringBackLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/scroll_view">
+    <androidx.core.widget.NestedScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/view_dimen_120" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/handsFreeSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiTitle="@string/gs_call_handsfree"/>
+            <com.miui.gamebooster.widget.ValueSettingItemView android:id="@+id/gwsdSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiTitle="@string/function_gwsd_title"/>
+            <com.miui.gamebooster.widget.ValueSettingItemView android:id="@+id/experienceSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiSubtitle="@string/function_shield_summary" app:gbsiTitle="@string/function_shield_title"/>
+            <com.miui.gamebooster.widget.CheckBoxSettingItemView android:id="@+id/keyboardShieldSettingItem" android:layout_width="match_parent" android:layout_height="wrap_content" app:gbsiSubtitle="@string/shield_keyboard_summary" app:gbsiTitle="@string/shield_keyboard_title"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</miuix.springback.view.SpringBackLayout>

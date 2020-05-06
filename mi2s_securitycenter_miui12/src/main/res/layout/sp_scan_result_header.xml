@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_result_card_border_up" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_font_size_36" android:id="@+id/header_title" android:paddingTop="@dimen/antivirus_header_padding_top" android:paddingBottom="@dimen/antivirus_header_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/antivirus_header_padding_top"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:title="@string/pref_new_installed_preconfig_title">
+    <CheckBoxPreference android:title="@string/firewall_mobile" android:key="pref_key_new_installed_app_firewall_mobile1"/>
+    <CheckBoxPreference android:title="@string/firewall_mobile" android:key="pref_key_new_installed_app_firewall_mobile2"/>
+    <CheckBoxPreference android:title="@string/firewall_wifi" android:key="pref_key_new_installed_app_firewall_wifi"/>
+</PreferenceScreen>

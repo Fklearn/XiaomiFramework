@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?attr/textAppearanceMediumInverse" android:textColor="@color/black" android:gravity="center" android:id="@+id/title" android:background="@drawable/text_edit_side_paste_window" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="@string/paste" android:drawablePadding="8dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+</LinearLayout>

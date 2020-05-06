@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/card_bg_no_shadow_selector" android:paddingTop="@dimen/result_func_item_padding_top" android:paddingBottom="@dimen/result_func_item_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@drawable/om_lock_icon_bg" android:padding="@dimen/om_lock_icon_padding" android:layout_width="@dimen/om_result_icon_size" android:layout_height="@dimen/om_result_icon_size">
+                <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/icon_item1" android:visibility="gone" android:layout_width="@dimen/om_lock_icon_size" android:layout_height="@dimen/om_lock_icon_size" android:scaleType="centerCrop"/>
+                <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/icon_item2" android:visibility="gone" android:layout_width="@dimen/om_lock_icon_size" android:layout_height="@dimen/om_lock_icon_size" android:scaleType="centerCrop"/>
+                <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center|start" android:id="@+id/icon_item3" android:visibility="gone" android:layout_width="@dimen/om_lock_icon_size" android:layout_height="@dimen/om_lock_icon_size" android:scaleType="centerCrop"/>
+                <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/icon_item4" android:visibility="gone" android:layout_width="@dimen/om_lock_icon_size" android:layout_height="@dimen/om_lock_icon_size" android:scaleType="centerCrop"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/result_icon_padding_end">
+                <TextView android:ellipsize="marquee" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ResultItemAdTitleStyle"/>
+                <TextView android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/ResultItemAdSummaryStyle"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end" android:paddingTop="@dimen/result_button_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:gravity="center" android:id="@+id/button" android:text="@string/btn_text_goto_setup" android:singleLine="true" style="@style/ResultBlueButtonStyle"/>
+    </FrameLayout>
+</LinearLayout>

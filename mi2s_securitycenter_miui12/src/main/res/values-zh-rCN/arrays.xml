@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alarm_repeat_type">
+        <item>仅一次</item>
+        <item>每天</item>
+        <item>法定工作日</item>
+        <item>周一至周五</item>
+        <item>自定义</item>
+    </array>
+    <array name="alarm_repeat_type_no_workdays">
+        <item>仅一次</item>
+        <item>每天</item>
+        <item>周一至周五</item>
+        <item>自定义</item>
+    </array>
+    <array name="app_behavior_type_menu">
+        <item>全部行为</item>
+        <item>自启动</item>
+        <item>链式启动</item>
+        <item>权限使用</item>
+        <item>敏感行为</item>
+    </array>
+    <array name="applock_password_types">
+        <item>图案密码</item>
+        <item>4位数字密码</item>
+        <item>混合密码</item>
+    </array>
+    <array name="daily_brand">
+        <item>自定义</item>
+        <item>米粉卡</item>
+        <item>小天神卡</item>
+        <item>腾讯王卡</item>
+    </array>
+    <array name="date_of_app_all">
+        <item>昨天数据流量</item>
+        <item>当天数据流量</item>
+        <item>上月数据流量</item>
+        <item>当月数据流量</item>
+        <item>昨天WLAN流量</item>
+        <item>当天WLAN流量</item>
+        <item>上月WLAN流量</item>
+        <item>当月WLAN流量</item>
+    </array>
+    <array name="date_of_traffic">
+        <item>昨天流量</item>
+        <item>当天流量</item>
+        <item>上月流量</item>
+        <item>当月流量</item>
+    </array>
+    <array name="date_of_traffic_cmcc">
+        <item>本周流量</item>
+        <item>当天流量</item>
+        <item>当月流量</item>
+    </array>
+    <array name="date_of_traffic_prefix">
+        <item>昨天</item>
+        <item>当天</item>
+        <item>上月</item>
+        <item>当月</item>
+    </array>
+    <array name="date_of_traffic_prefix_cmcc">
+        <item>本周</item>
+        <item>当天</item>
+        <item>当月</item>
+    </array>
+    <array name="debug_open_intercept">
+        <item>可通过计算机连接您的设备,读取或修改设备中的存储照片及文件</item>
+        <item>在未经您同意的情况下，在设备中安装应用</item>
+        <item>监控并录制您的屏幕</item>
+        <item>获取设备的多种重要信息</item>
+    </array>
+    <array name="ew_emergency_blood_type_arrays">
+        <item>A型</item>
+        <item>B型</item>
+        <item>AB型</item>
+        <item>O型</item>
+    </array>
+    <array name="ew_emergency_organ_donation_arrays">
+        <item>是</item>
+        <item>否</item>
+    </array>
+    <array name="lock_mode">
+        <item>锁屏后</item>
+        <item>锁屏或退出应用后</item>
+        <item>锁屏或退出应用1分钟后</item>
+    </array>
+    <array name="mi_service_traffic_type">
+        <item>数据流量</item>
+        <item>WLAN流量</item>
+    </array>
+    <array name="miui_optimization_close_intercept">
+        <item>(重要)多项系统应用可能无法使用</item>
+        <item>文字排版、账号、文档等界面会发生极大变化</item>
+    </array>
+    <array name="over_limit_traffic_waring_style">
+        <item>仅提醒</item>
+        <item>断网并提醒</item>
+    </array>
+    <array name="pc_settings_thermal_entries">
+        <item>默认温控模式</item>
+        <item>性能优先模式</item>
+    </array>
+    <array name="pc_settings_thermal_summaries">
+        <item>当前默认温控模式</item>
+        <item>当前性能优先模式</item>
+    </array>
+    <array name="perm_intercept_notification">
+        <item>读取您所收到的通知内容，包含短信正文及其他个人隐私信息</item>
+        <item>关闭部分应用的通知权限</item>
+        <item>模拟点击通知并弹出应用界面</item>
+        <item>控制勿扰模式开关状态</item>
+    </array>
+    <array name="perm_intercept_statitics">
+        <item>通过查看您使用的应用类型及频率,获取您的个人爱好及行为信息</item>
+        <item>获取您的运营商、语言设置及其他详细信息</item>
+    </array>
+    <array name="perm_intercept_unknown_source">
+        <item>未经小米应用商店检测的第三方应用可能会造成多种软件问题，影响系统稳定性</item>
+        <item>部分恶意第三方应用可能会攻击您的设备,造成行为及隐私数据泄露</item>
+    </array>
+    <array name="priority_storage_entries">
+        <item>内置存储</item>
+        <item>外置SD卡</item>
+    </array>
+    <array name="roaming_network_type">
+        <item>全部应用可联网</item>
+        <item>仅白名单应用可联网</item>
+        <item>禁止任何应用联网</item>
+    </array>
+    <array name="sms_report_type">
+        <item>数据流量</item>
+        <item>话费余额</item>
+    </array>
+    <array name="sort_title">
+        <item>按运行状态排序</item>
+        <item>按应用名称排序</item>
+        <item>按使用频率排序</item>
+        <item>按存储占用排序</item>
+        <item>按安装时间排序</item>
+    </array>
+    <array name="sort_type">
+        <item>运行状态</item>
+        <item>应用名称</item>
+        <item>使用频率</item>
+        <item>存储占用</item>
+        <item>安装时间</item>
+    </array>
+    <array name="tether_limit_warn_type">
+        <item>关闭热点并提醒</item>
+        <item>仅提醒</item>
+    </array>
+    <array name="title_app_info">
+        <item>首次安装来源</item>
+        <item>首次安装时间</item>
+        <item>最后更新来源</item>
+        <item>最后更新时间</item>
+    </array>
+    <array name="traffic_package_type">
+        <item>月租套餐</item>
+        <item>日租套餐</item>
+        <item>无限流量套餐</item>
+    </array>
+    <array name="traffic_type">
+        <item>数据流量</item>
+        <item>WLAN流量</item>
+    </array>
+</resources>

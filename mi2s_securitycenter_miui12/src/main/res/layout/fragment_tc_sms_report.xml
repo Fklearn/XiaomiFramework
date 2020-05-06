@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.miui.networkassistant.ui.view.ToolbarItemView android:id="@+id/layout_upload_type" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.miui.networkassistant.ui.view.ToolbarItemView android:id="@+id/layout_sms_direction" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.miui.networkassistant.ui.view.ToolbarItemView android:id="@+id/layout_sms_number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.miui.networkassistant.ui.view.ToolbarItemView android:id="@+id/layout_sms_receive_num" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/layout_buttons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10sp" android:textColor="@color/tips_text_color" android:layout_gravity="center_horizontal" android:id="@+id/tips_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_sms_report_get_default" android:layout_marginStart="23dp" android:layout_marginEnd="23dp" style="0x100d0058"/>
+                <Button android:id="@+id/button_get_sms" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="18.33dp" android:text="@string/tc_sms_report_get_sms" android:layout_marginStart="23dp" android:layout_marginEnd="23dp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/layout_buttons_again_and_report" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+                <Button android:id="@+id/button_get_sms_again" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tc_sms_report_get_sms_again" android:layout_weight="1"/>
+                <Button android:id="@+id/button_report_sms" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/tc_sms_report_do_report" android:layout_weight="1"/>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/layout_buttons" android:layout_alignParentTop="true">
+            <FrameLayout android:background="0x10020027" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="23.3dp" android:paddingEnd="23.3dp">
+                <TextView android:textAppearance="0x100d0058" android:layout_gravity="bottom" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tc_sms_report_receive_content"/>
+            </FrameLayout>
+            <ScrollView android:background="0x10020027" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="0x100d0058" android:id="@+id/textview_sms_receive_content" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tc_sms_report_receive_content_null" android:singleLine="false" android:textIsSelectable="true"/>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

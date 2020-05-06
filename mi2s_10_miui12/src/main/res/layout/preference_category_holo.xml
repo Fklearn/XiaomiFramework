@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/title" android:paddingStart="@dimen/preference_item_padding_side" android:paddingEnd="@dimen/preference_item_padding_side" style="?attr/listSeparatorTextViewStyle"/>

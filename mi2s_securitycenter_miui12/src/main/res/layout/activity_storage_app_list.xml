@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/storage_app_list_pt" app:scrollableView="@+id/apps">
+        <miuix.recyclerview.widget.RecyclerView android:id="@+id/apps" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/storage_app_list_margin_top"/>
+    </miuix.springback.view.SpringBackLayout>
+    <include android:layout_gravity="center" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/empty_view_maml"/>
+</LinearLayout>

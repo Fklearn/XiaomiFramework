@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/view_root" android:background="@color/na_nd_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"/>
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/footer_layout" android:layout_below="@+id/header_layout" app:scrollableView="@+id/list_view">
+        <miuix.recyclerview.widget.RecyclerView android:id="@+id/list_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </miuix.springback.view.SpringBackLayout>
+    <FrameLayout android:id="@+id/footer_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <TextView android:textAppearance="0x100d009d" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="260dp" android:text="@string/list_empty_text" android:drawableTop="@drawable/icon_list_empty" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

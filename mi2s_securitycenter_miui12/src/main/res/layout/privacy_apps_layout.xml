@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="#b3000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="16sp" android:textColor="#ffffff" android:layout_gravity="center" android:id="@+id/privay_apps_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_apps"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/dialog_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.33dp" android:layout_marginTop="33.3dp" android:layout_marginRight="40.33dp">
+            <GridView android:id="@+id/privacy_apps_gridview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="268dp" android:numColumns="3"/>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@drawable/pa_manage_apps_button_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="37dp">
+                <TextView android:textSize="12sp" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/close" android:layout_width="0dp" android:layout_height="42.6dp" android:text="@string/privacy_apps_close" android:singleLine="true" android:layout_weight="1"/>
+                <View android:layout_gravity="center" android:background="#1affffff" android:layout_width="0.6dp" android:layout_height="22.6dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+                <TextView android:textSize="12sp" android:textColor="#ccffffff" android:gravity="center" android:id="@+id/manage" android:layout_width="0dp" android:layout_height="42.6dp" android:text="@string/privacy_apps_manage" android:singleLine="true" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

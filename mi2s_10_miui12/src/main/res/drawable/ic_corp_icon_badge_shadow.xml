@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <group android:scaleX="0.24" android:scaleY="0.24" android:translateX="38" android:translateY="39.25">
+        <path android:fillColor="#000000" android:pathData="@string/config_icon_mask" android:strokeWidth="1" android:strokeAlpha="0.06" android:fillAlpha="0.06"/>
+    </group>
+    <group android:scaleX="0.24" android:scaleY="0.24" android:translateX="38" android:translateY="39.75">
+        <path android:fillColor="#000000" android:pathData="@string/config_icon_mask" android:strokeWidth="1" android:strokeAlpha="0.06" android:fillAlpha="0.06"/>
+    </group>
+    <group android:scaleX="0.24" android:scaleY="0.24" android:translateX="38" android:translateY="38.75">
+        <path android:fillColor="#000000" android:pathData="@string/config_icon_mask" android:strokeWidth="1" android:strokeAlpha="0.06" android:fillAlpha="0.06"/>
+    </group>
+    <group android:scaleX="0.24" android:scaleY="0.24" android:translateX="38" android:translateY="38.25">
+        <path android:fillColor="#000000" android:pathData="@string/config_icon_mask" android:strokeWidth="1" android:strokeAlpha="0.06" android:fillAlpha="0.06"/>
+    </group>
+</vector>

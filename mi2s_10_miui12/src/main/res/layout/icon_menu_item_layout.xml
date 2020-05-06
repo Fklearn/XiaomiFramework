@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.internal.view.menu.IconMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ellipsize="marquee" android:id="@+id/title" android:paddingBottom="1dp" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:paddingStart="3dp" android:paddingEnd="3dp"/>

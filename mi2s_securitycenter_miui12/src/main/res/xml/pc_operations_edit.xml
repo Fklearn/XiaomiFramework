@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:key="screen">
+    <miuix.preference.TextPreference android:icon="@drawable/ic_airplane" android:title="@string/auto_task_operation_airplane_mode" android:key="aireplane_mode"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_mute" android:title="@string/auto_task_operation_mute" android:key="mute"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_gps_task" android:title="@string/auto_task_operation_gps" android:key="gps"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_mobile_data" android:title="@string/auto_task_operation_mobile_data" android:key="mobile_data"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_wifi" android:title="@string/auto_task_operation_wifi" android:key="wifi"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_sync" android:title="@string/auto_task_operation_sync" android:key="sync"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_vibration" android:title="@string/auto_task_operation_vibration" android:key="vibration"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_bluetooth" android:title="@string/auto_task_operation_bluetooth" android:key="bluetooth"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_auto_brightness" android:title="@string/auto_task_operation_auto_brightness" android:key="auto_brightness"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_brightness" android:title="@string/auto_task_operation_brightness" android:key="brightness"/>
+    <miuix.preference.TextPreference android:icon="@drawable/ic_memory_clean" android:title="@string/auto_task_operation_memory_clean_lockscreen" android:key="memory_clean"/>
+</PreferenceScreen>

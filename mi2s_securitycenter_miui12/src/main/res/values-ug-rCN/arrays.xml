@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alarm_repeat_type">
+        <item>بىر قېتىملا</item>
+        <item>ھەر كۈنى</item>
+        <item>خىزمەت كۈنلىرى</item>
+        <item>دۈشەنبىدىن جۈمەگىچە</item>
+        <item>ئىختىيارى</item>
+    </array>
+    <array name="alarm_repeat_type_no_workdays">
+        <item>بىر قېتىملا</item>
+        <item>ھەر كۈنى</item>
+        <item>دۈشەنبىدىن جۈمەگىچە</item>
+        <item>ئىختىيارى</item>
+    </array>
+    <array name="app_behavior_type_menu">
+        <item>بارلىق قىلمىش</item>
+        <item>ئۆزلۈكىدىن قوزغىلىش</item>
+        <item>ئۇلانما قوزغىتىش</item>
+        <item>ھوقۇق ئىشلىتىش</item>
+        <item>سەزگۈر قىلمىش</item>
+    </array>
+    <array name="applock_password_types">
+        <item>رەسىملىك پارول</item>
+        <item>4خانىلىق رەقەملىك پارول</item>
+        <item>ئارىلاش پارول</item>
+    </array>
+    <array name="daily_brand">
+        <item>ئىختىيارىي</item>
+        <item>مىفېن كارتىسى</item>
+        <item>شياۋتيەن كارتىسى</item>
+        <item>تېڭشۈن كارتىسى</item>
+    </array>
+    <array name="date_of_app_all">
+        <item>تۈنۈگۈنكى كۆچمە تور ئېقىمى</item>
+        <item>بۈگۈنكى كۆچمە تور ئېقىمى</item>
+        <item>ئالدىنقى ئايلىق كۆچمە تور ئېقىمى</item>
+        <item>بۇ ئايدىكى كۆچمە تور ئېقىمى</item>
+        <item>تۈنۈگۈنكىWLAN ئېقىمى</item>
+        <item>بۈگۈنكى WLAN ئېقىمى</item>
+        <item>ئالدىنقى ئايلىق WLAN ئېقىمى</item>
+        <item>بۇ ئايدىكى WLAN ئېقىمى</item>
+    </array>
+    <array name="date_of_traffic">
+        <item>تۈنۈگۈنكى ئېقىم</item>
+        <item>بۈگۈنكى ئېقىم</item>
+        <item>ئالدىنقى ئايلىق ئېقىم</item>
+        <item>بۇ ئايدىكى ئېقىم</item>
+    </array>
+    <array name="date_of_traffic_cmcc">
+        <item>بۇ ھەپتىكى ئېقىم</item>
+        <item>بۈگۈنكى ئېقىم</item>
+        <item>شۇ ئايدىكى ئېقىم</item>
+    </array>
+    <array name="date_of_traffic_prefix">
+        <item>تۈنۈگۈن</item>
+        <item>بۈگۈن</item>
+        <item>ئالدىنقى ئاي</item>
+        <item>بۇ ئاي</item>
+    </array>
+    <array name="date_of_traffic_prefix_cmcc">
+        <item>بۇ ھەپتە</item>
+        <item>بۈگۈن</item>
+        <item>بۇ ئاي</item>
+    </array>
+    <array name="debug_open_intercept">
+        <item>كومپىيۇتېر ئارقىلىق سىزنىڭ ئۈسكۈنىڭىزگە ئۇلاپ، ئۈسكۈنىدىكى ساقلانغان رەسىم ۋە ھۆججەتلەرنى ئوقۇيدۇ ياكى ئۆزگەرتىدۇ</item>
+        <item>سىزنىڭ قوشۇلىشىڭىزنى ئالماي تۇرۇپ، ئۈسكۈنىدە ئەپ قاچىلىغان</item>
+        <item>ئېكرانىڭىزنى نازارەت قىلىش ۋە سىنلاش</item>
+        <item>ئۈسكۈنىنىڭ كۆپ خىل مۇھىم ئۇچۇرلىرىغا ئېرىشىدۇ</item>
+    </array>
+    <array name="ew_emergency_blood_type_arrays">
+        <item>A تىپ</item>
+        <item>Bتىپ</item>
+        <item>AB تىپ</item>
+        <item>O تىپ</item>
+    </array>
+    <array name="ew_emergency_organ_donation_arrays">
+        <item>ھەئە</item>
+        <item>ياق</item>
+    </array>
+    <array name="lock_mode">
+        <item>ئېكران قولۇپلانغاندىن كېيىن</item>
+        <item>ئېكران قۇلۇپلانغان ياكى ئەپتىن چېكىنگەندىن كېيىن</item>
+        <item>ئېكران قۇلۇپلانغان ياكى ئەپتىن چېكىنىپ 1 مىنۇت كېيىن</item>
+    </array>
+    <array name="mi_service_traffic_type">
+        <item>كۆچمە تور ئېقىمى</item>
+        <item>WLAN ئېقىمى</item>
+    </array>
+    <array name="miui_optimization_close_intercept">
+        <item>(مۇھىم) كۆپ ساندىكى سىستېما ئەپلىرى ئىشلىتەلمەسلىكى مۇمكىن</item>
+        <item>تېكىست ئورۇنلاشتۇرۇش، ھېسابات، ھۆججەت قاتارلىق كۆرۈنمە يۈزلەردە چوڭ ئۆزگىرىش بولىدۇ</item>
+    </array>
+    <array name="over_limit_traffic_waring_style">
+        <item>ئەسكەرتسۇن</item>
+        <item>توردىن ئۈزۈش ۋە ئەسكەرتىش</item>
+    </array>
+    <array name="pc_settings_thermal_entries">
+        <item>سۈكۈتتىكى تېمپىراتۇرا كونتروللاش ھالىتى</item>
+        <item>ئەلا ئىقتىدار ھالىتى</item>
+    </array>
+    <array name="pc_settings_thermal_summaries">
+        <item>نۆۋەتتىكى ئىسسىقلىق كونتروللاش ھالىتى</item>
+        <item>نۆۋەتتىكى ئىقتىدار ئەلالاشتۇرۇش ھالىتى</item>
+    </array>
+    <array name="perm_intercept_notification">
+        <item>قوبۇل قىلغان ئۇقتۇرۇش مەزمۇنىنى ئوقۇيدۇ،قىسقا ئۇچۇر ۋە باشقا شەخسىي ئۇچۇرلارنى ئۆز ئىچىگە ئالىدۇ</item>
+        <item>قىسمەن ئەپلەرنىڭ ئۇقتۇرۇش ھوقۇقىنى تاقاش</item>
+        <item>ئۇقتۇرۇشنى چېكىش ۋە ئەپ كۆرۈنمە يۈزىنى چىقىرىش تەقلىدلاش</item>
+        <item>دەخلىسىز ھالەت ئۈزچاتىنى كونتروللاش</item>
+    </array>
+    <array name="perm_intercept_statitics">
+        <item>سىز ئىشلەتكەن ئەپ تۈرى ۋە قېتىم سانىنى تەكشۈرۈش ئارقىلىق، سىزنىڭ شەخسىي قىزىقىشىڭىز ۋە ھەرىكەت ئۇچۇرلىرىڭىزغا ئېرىشكىلى بولىدۇ.</item>
+        <item>سىزنىڭ يۈرۈتكۈچى سودىگەر، تىل تەڭشىكى ۋە باشقا تەپسىلىي ئۇچۇرلىرىڭىزغا ئېرىشىدۇ</item>
+    </array>
+    <array name="perm_intercept_unknown_source">
+        <item>شىياۋمى ئەپ دۇكانلىرىدا تەكشۈرۈلمىگەن ئۈچىنچى تەرەپ ئەپلىرى كۆپ خىل يۇمشاق دېتال مەسىلىلىرىنى كەلتۈرۈپ چىقىرىپ، سىستېمىنىڭ مۇقىملىقىغا تەسىر كۆرسىتىشى مۇمكىن.</item>
+        <item>قىسمەن يامان غەرەزلىك ئۈچىنچى تەرەپنىڭ ئەپلىرى سىزنىڭ ئۈسكۈنىڭىزگە ھۇجۇم قىلىپ، ھەرىكەت ۋە مەخپىي سانلىق مەلۇماتلارنىڭ ئاشكارىلىنىپ كېتىشىنى كەلتۈرۈپ چىقىرىشى مۇمكىن</item>
+    </array>
+    <array name="priority_storage_entries">
+        <item>ئىچىدىكى ساقلىغۇچ</item>
+        <item>سىرتقى SD كارتا</item>
+    </array>
+    <array name="roaming_network_type">
+        <item>ھەممە ئەپ تورغا ئۇلىندۇ</item>
+        <item>ئاق تىزىملىكتىكى ئەپلەرلا تورغا ئۇلىندۇ</item>
+        <item>ھەممە ئەپنىڭ تورغا ئۇلىنىشنى چەكلەش</item>
+    </array>
+    <array name="sms_report_type">
+        <item>كۆچمە تور ئېقىمى</item>
+        <item>سۆزلىشىش ھەققى قالدۇقى</item>
+    </array>
+    <array name="sort_title">
+        <item>ئىجرا ھالىتى بويىچە تىزىش</item>
+        <item>نامى بويىچە تىزىش</item>
+        <item>ئىشلىتىش چاستوتىسى بويىچە</item>
+        <item>ئىگىلىگەن بوشلۇق بويىچە</item>
+        <item>ئورناتقان ۋاقتى بويىچە تىزىش</item>
+    </array>
+    <array name="sort_type">
+        <item>ئىجرا ھالىتى</item>
+        <item>ئەپ نامى</item>
+        <item>ئىشلىتىش چاستوتىسى</item>
+        <item>ساقلاش بوشلۇقى</item>
+        <item>ئورناتقان ۋاقتى</item>
+    </array>
+    <array name="tether_limit_warn_type">
+        <item>قىزىق نۇقتا ۋە ئەسكەرتىشنى تاقاش</item>
+        <item>پەقەت ئەسكەرتسۇن</item>
+    </array>
+    <array name="title_app_info">
+        <item>تۈنجى ئورنىتىش مەنبەسى</item>
+        <item>تۇنجى ئورناتقان ۋاقتى</item>
+        <item>ئەڭ ئاخىرقى يېڭىلاش مەنبەسى</item>
+        <item>ئاخىرقى يېڭىلانغان ۋاقىت</item>
+    </array>
+    <array name="traffic_package_type">
+        <item>ئايلىق يۈرۈشلۈك</item>
+        <item>كۈلۈك يۈرۈشلۈك</item>
+        <item>چەكسىز ئېقىم يۈرۈشلۈكى</item>
+    </array>
+    <array name="traffic_type">
+        <item>كۆچمە تور ئېقىمى</item>
+        <item>WLAN ئېقىمى</item>
+    </array>
+</resources>

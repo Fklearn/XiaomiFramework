@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <miuix.preference.RadioButtonPreferenceCategory android:title="@string/st_title_back_sound_choose" android:key="category">
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/auto_task_condition_choose_ontime" android:key="ontime"/>
+            <miuix.preference.TextPreference android:title="时间" android:key="ontime_time" android:dependency="ontime"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/auto_task_condition_choose_battery_level_down" android:key="battery_level_down"/>
+            <miuix.preference.TextPreference android:title="电量" android:key="battery_level" android:dependency="battery_level_down"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+        <miuix.preference.RadioSetPreferenceCategory>
+            <miuix.preference.RadioButtonPreference android:title="@string/auto_task_condition_choose_time_duration" android:key="time_duration"/>
+            <miuix.preference.TextPreference android:title="@string/auto_task_condition_choose_start_time" android:key="time_start" android:dependency="time_duration"/>
+            <miuix.preference.TextPreference android:title="@string/auto_task_condition_choose_end_time" android:key="time_end" android:dependency="time_duration"/>
+        </miuix.preference.RadioSetPreferenceCategory>
+    </miuix.preference.RadioButtonPreferenceCategory>
+</PreferenceScreen>

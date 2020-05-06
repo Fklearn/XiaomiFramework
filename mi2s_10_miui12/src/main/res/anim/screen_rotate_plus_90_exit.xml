@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:shareInterpolator="false">
+    <scale android:interpolator="@interpolator/decelerate_cubic" android:duration="@integer/config_miuiScreenRotAnimTime" android:pivotX="50%" android:pivotY="50%" android:fillBefore="true" android:fillAfter="true" android:fromXScale="100%" android:toXScale="100%p" android:fromYScale="100%" android:toYScale="100%p" android:fillEnabled="true"/>
+    <rotate android:interpolator="@interpolator/decelerate_cubic" android:duration="@integer/config_miuiScreenRotAnimTime" android:fromDegrees="0" android:toDegrees="-90" android:pivotX="50%" android:pivotY="50%" android:fillBefore="true" android:fillAfter="true" android:fillEnabled="true"/>
+    <alpha android:interpolator="@interpolator/decelerate_cubic" android:duration="@integer/config_miuiScreenRotAnimTime" android:fillBefore="true" android:fillAfter="true" android:fromAlpha="1" android:toAlpha="0" android:fillEnabled="true"/>
+</set>

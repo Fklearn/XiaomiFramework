@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16.36dp" android:paddingBottom="16.36dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/miuix_preference_item_padding_start" android:paddingEnd="@dimen/miuix_preference_item_padding_end">
+    <TextView android:id="@+id/txt_descriptiontitle" android:text="@string/superpower_savemode_description_title" style="@style/PowerSaveDescriptionTitle"/>
+    <TextView android:id="@+id/txt_description1" android:layout_marginTop="3.64dp" android:text="@string/superpower_savemode_limit1" style="@style/PowerSaveDescription"/>
+    <TextView android:id="@+id/txt_description2" android:text="@string/superpower_savemode_limit2" style="@style/PowerSaveDescription"/>
+    <TextView android:id="@+id/txt_description3" android:text="@string/superpower_savemode_limit3" style="@style/PowerSaveDescription"/>
+    <TextView android:id="@+id/txt_description4" android:text="@string/superpower_savemode_limit4" style="@style/PowerSaveDescription"/>
+</LinearLayout>

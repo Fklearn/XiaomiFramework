@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/shape_pc_main_card_border_whole" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@android:id/icon" android:layout_width="@dimen/pc_main_one_key_save_button_height" android:layout_height="@dimen/pc_main_one_key_save_button_height" android:layout_marginTop="@dimen/pc_list_item_goto_view_image_margin_top" android:layout_marginBottom="@dimen/pc_list_item_goto_view_image_margin_bottom" android:scaleType="centerInside" android:layout_marginStart="@dimen/list_item_view_side_padding" android:layout_marginEnd="@dimen/pc_item_goto_view_linearlayout_startmargin"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pc_list_item_goto_view_image_margin_top" android:layout_weight="1" android:layout_marginEnd="@dimen/list_item_view_side_padding">
+            <TextView android:textSize="@dimen/text_font_size_48" android:textStyle="bold" android:textColor="@color/pc_textview_color" android:ellipsize="marquee" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/StyleListItemTitle"/>
+            <TextView android:textColor="@color/pc_battery_card_subtitle_color" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_5" style="@style/StyleListItemSubTitle"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/pc_deep_saving_setting_text_size" android:textColor="#ff0097ff" android:id="@android:id/button1" android:background="@drawable/pc_scanresult_button_blue" android:layout_width="@dimen/pc_deep_saving_setting_textview_width" android:layout_height="@dimen/pc_deep_saving_setting_textview_height" android:layout_marginBottom="@dimen/pc_list_item_goto_view_image_margin_top" android:singleLine="true" android:layout_marginEnd="@dimen/list_item_view_side_padding" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

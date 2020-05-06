@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:bottom="18dp">
+        <shape android:shape="rectangle">
+            <size android:height="18dp" android:width="@dimen/chooser_direct_share_label_placeholder_max_width"/>
+            <corners android:topLeftRadius="100dp" android:topRightRadius="100dp" android:bottomLeftRadius="100dp" android:bottomRightRadius="100dp"/>
+            <solid android:color="@color/chooser_gradient_background"/>
+        </shape>
+    </item>
+</layer-list>

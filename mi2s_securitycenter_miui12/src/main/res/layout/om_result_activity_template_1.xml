@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/card_bg_no_shadow_selector" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:paddingTop="@dimen/adv_close_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/adv_close_padding_end">
+        <include layout="@layout/adv_close_layout"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/om_activity_title_margin_top_1" android:paddingBottom="@dimen/result_ad_item_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+        <TextView android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginEnd="51dp" style="@style/CardTitleTextViewStyle"/>
+        <TextView android:textSize="@dimen/om_activity_summary_size_1" android:textColor="@color/card_summary_text_color" android:layout_gravity="center_vertical" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/firstaidkit_result_summary_margin_top"/>
+        <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="match_parent" android:layout_height="@dimen/result_item_big_img_height" android:layout_marginTop="@dimen/result_item_img_margin_top_3" android:layout_marginBottom="@dimen/result_item_img_margin_top_3" app:ratioXY="0.47" app:roundCornerRadius="@dimen/securityscan_big_banner_radius">
+            <ImageView android:id="@+id/image1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="end" android:id="@+id/button" android:singleLine="true" style="@style/ResultBlueButtonStyle"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

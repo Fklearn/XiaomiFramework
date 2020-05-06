@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="android_btn_keyboard_key_fulltrans">@android:drawable/btn_group_focused_holo_light</drawable>
+    <drawable name="android_code_lock_top">@android:drawable/btn_zoom_up</drawable>
+    <drawable name="android_expander_ic_maximized">@android:drawable/emo_im_tongue_sticking_out</drawable>
+    <drawable name="android_expander_ic_minimized">@android:drawable/emo_im_undecided</drawable>
+    <drawable name="android_ic_action_assist_generic">@android:drawable/ic_account_circle</drawable>
+    <drawable name="android_ic_lockscreen_glowdot">@android:drawable/ic_menu_emoticons</drawable>
+    <drawable name="android_ic_menu_archive">@android:drawable/list_divider_mtrl_alpha</drawable>
+    <drawable name="android_ic_menu_cc">@android:drawable/list_longpressed_holo_dark</drawable>
+    <drawable name="android_ic_menu_goto">@android:drawable/list_selector_background_focused_light</drawable>
+    <drawable name="android_ic_print">@android:drawable/numberpicker_up_btn</drawable>
+    <drawable name="android_ic_print_error">@android:drawable/numberpicker_up_disabled</drawable>
+    <drawable name="android_ic_text_dot">@android:drawable/perm_group_wallpaper</drawable>
+    <drawable name="android_list_selector_disabled_holo_dark">@android:drawable/scrubber_control_to_pressed_mtrl_004</drawable>
+    <drawable name="android_list_selector_pressed_holo_dark">@android:drawable/scrubber_track_holo_dark</drawable>
+    <drawable name="android_notification_item_background_color">@android:drawable/spinner_ab_holo_light</drawable>
+    <drawable name="android_notification_item_background_color_pressed">@android:drawable/spinner_ab_pressed_holo_dark</drawable>
+    <drawable name="android_notification_template_icon_bg">@android:drawable/spinner_black_20</drawable>
+    <drawable name="android_stat_sys_gps_on">?unknown_ref: 108083b</drawable>
+    <drawable name="android_sym_app_on_sd_unavailable_icon">?unknown_ref: 108087f</drawable>
+    <drawable name="android_usb_android">?unknown_ref: 108090e</drawable>
+    <drawable name="android_usb_android_connected">?unknown_ref: 108090f</drawable>
+    <drawable name="ic_contact_picture">@android:drawable/ic_find_next_holo_light</drawable>
+</resources>

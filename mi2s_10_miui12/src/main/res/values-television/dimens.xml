@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ambient_shadow_alpha">0.15</dimen>
+    <dimen name="config_pictureInPictureDefaultSizePercent">0.14</dimen>
+    <dimen name="light_y">-400dp</dimen>
+    <dimen name="spot_shadow_alpha">0.3</dimen>
+</resources>

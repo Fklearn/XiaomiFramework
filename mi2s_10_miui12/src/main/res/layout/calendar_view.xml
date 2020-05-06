@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/month_name" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/textAppearanceMedium"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/day_names" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp" android:layout_marginStart="2dp" android:layout_marginEnd="2dp">
+        <TextView android:gravity="center" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <ImageView android:gravity="fill_horizontal" android:layout_width="match_parent" android:layout_height="1dp" android:src="?attr/dividerHorizontal" android:scaleType="fitXY"/>
+    <ListView android:id="@+id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:fastScrollEnabled="false" android:overScrollMode="never"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.miui.powercenter.autotask.TextEditPreference android:layout="@layout/pc_auto_task_title_edit_view" android:key="name"/>
+    <PreferenceCategory android:title="@string/auto_task_edit_choose_condition_title" android:key="conditions_category">
+        <miuix.preference.TextPreference android:icon="@drawable/ic_button_add" android:title="@string/auto_task_edit_condition_title" android:key="add_new_condition" android:summary="@string/auto_task_edit_condition_summary"/>
+        <miuix.preference.TextPreference android:key="condition_custom" app:isPreferenceVisible="false"/>
+        <com.miui.powercenter.bootshutdown.RepeatPreference android:key="condition_custom_repeat" app:isPreferenceVisible="false"/>
+        <CheckBoxPreference android:key="key_restore_when_charged" app:isPreferenceVisible="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/auto_task_edit_choose_operation_title" android:key="operations_category">
+        <miuix.preference.TextPreference android:key="operation_custom_view" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="airplane_mode" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="mute" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="gps" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="internet" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="wifi" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="synchronization" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="vibration" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="bluetooth" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="auto_brightness" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="brightness" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:key="auto_clean_memory" app:isPreferenceVisible="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>

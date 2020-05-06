@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="64dp" android:width="64dp" android:viewportWidth="64" android:viewportHeight="64">
+    <group android:scaleX="0.24" android:scaleY="0.24" android:translateX="38" android:translateY="38">
+        <path android:fillColor="#fcfcfc" android:pathData="@string/config_icon_mask" android:strokeColor="#e8eaed" android:strokeWidth="0.25"/>
+    </group>
+</vector>

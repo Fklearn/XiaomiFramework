@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/gb_wonderful_moment_back_size" android:width="@dimen/gb_wonderful_moment_back_size" android:viewportWidth="73" android:viewportHeight="73">
+    <path android:fillColor="#00000000" android:pathData="M42.8492,51.6985l-14.8492,-14.8492l14.8492,-14.8492l0,0" android:strokeColor="#b0fff4" android:strokeWidth="4" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="1"/>
+</vector>

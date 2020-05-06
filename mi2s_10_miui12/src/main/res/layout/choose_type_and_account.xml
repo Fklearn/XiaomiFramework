@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/description" android:paddingTop="@dimen/dialog_padding_top_material" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="?attr/dialogPreferredPadding" android:paddingEnd="?attr/dialogPreferredPadding" style="@style/TextAppearance.Material.Subhead"/>
+    <FrameLayout android:id="@+id/contentPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_weight="1">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:choiceMode="singleChoice" android:layout_weight="1"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/buttonPanel" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="12dp" android:paddingEnd="12dp" style="?attr/buttonBarStyle">
+        <Space android:visibility="invisible" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+        <Button android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no" android:onClick="onCancelButtonClicked" style="?attr/buttonBarNegativeButtonStyle"/>
+        <Button android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" android:onClick="onOkButtonClicked" style="?attr/buttonBarPositiveButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

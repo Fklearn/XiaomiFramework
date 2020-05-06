@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_margin_top">0dp</dimen>
+    <dimen name="applock_icon_margin_top">0dp</dimen>
+    <dimen name="applock_icon_margin_top_sc">0dp</dimen>
+    <dimen name="applock_password_notification">0dp</dimen>
+    <dimen name="first_use_back_button_alight_top">110dp</dimen>
+    <dimen name="list_preferred_item_height">?unknown_ref: 100a0009</dimen>
+    <dimen name="main_indicator_padding">5dp</dimen>
+    <dimen name="password_number_header_marginTop_percent">0.021</dimen>
+    <dimen name="pattern_header_marginTop_percent">0.086</dimen>
+    <dimen name="six_pices_card_item_height">131.94dp</dimen>
+</resources>

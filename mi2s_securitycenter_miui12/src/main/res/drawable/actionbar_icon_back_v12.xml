@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/activity_actionbar_icon_size" android:width="@dimen/activity_actionbar_icon_size" android:viewportWidth="100" android:viewportHeight="100">
+    <path android:fillColor="#000000" android:pathData="M22.69,48.65C22.23,49.11 22,49.72 22,50.32C21.99,50.93 22.22,51.55 22.69,52.01L39.65,68.98C40.57,69.9 42.06,69.9 42.98,68.98C43.9,68.06 43.9,66.57 42.98,65.65L30.35,53.03H76.53C77.91,53.03 79.03,51.91 79.03,50.53C79.03,49.14 77.91,48.03 76.53,48.03H29.97L42.98,35.01C43.9,34.09 43.9,32.61 42.98,31.69C42.06,30.77 40.57,30.77 39.65,31.69L22.69,48.65Z" android:fillAlpha="0.8" android:fillType="1"/>
+</vector>

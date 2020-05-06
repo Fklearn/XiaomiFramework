@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/am_drop_item_height" android:layout_marginStart="@dimen/am_line_margin_lr" android:layout_marginEnd="@dimen/am_line_margin_lr">
+        <ImageView android:id="@+id/am_drop_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+        <TextView android:textSize="@dimen/am_drop_item_text_size" android:textStyle="bold" android:textColor="@color/app_manager_list_title_color" android:id="@+id/am_drop_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="@dimen/am_drop_choice_title_padding_start" android:paddingEnd="@dimen/am_drop_choice_title_padding_start" android:layout_toEndOf="@+id/am_drop_icon"/>
+        <ImageView android:id="@+id/am_drop_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drop_choice_indicator_checked" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</LinearLayout>

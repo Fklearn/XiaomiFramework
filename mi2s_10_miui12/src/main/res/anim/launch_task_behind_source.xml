@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:background="#ff000000" android:shareInterpolator="false" android:zAdjustment="normal">
+    <alpha android:interpolator="@interpolator/linear_out_slow_in" android:duration="417" android:fillBefore="true" android:fillAfter="true" android:fromAlpha="1" android:toAlpha="0.6" android:fillEnabled="true"/>
+    <scale android:interpolator="@interpolator/launch_task_behind_source_scale_1" android:duration="417" android:pivotX="50%p" android:pivotY="50%p" android:fillBefore="true" android:fillAfter="true" android:fromXScale="1" android:toXScale="0.918" android:fromYScale="1" android:toYScale="0.918" android:fillEnabled="true"/>
+    <alpha android:interpolator="@interpolator/linear" android:duration="167" android:fillBefore="false" android:fillAfter="true" android:startOffset="500" android:fromAlpha="1" android:toAlpha="1.6667" android:fillEnabled="true"/>
+    <scale android:interpolator="@interpolator/launch_task_behind_source_scale_2" android:duration="317" android:pivotX="50%p" android:pivotY="50%p" android:fillBefore="false" android:fillAfter="true" android:startOffset="500" android:fromXScale="1" android:toXScale="1.0893" android:fromYScale="1" android:toYScale="1.0893" android:fillEnabled="true"/>
+</set>

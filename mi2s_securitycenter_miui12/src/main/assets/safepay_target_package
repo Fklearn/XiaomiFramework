@@ -1,0 +1,846 @@
+[
+  {
+    "package": "com.eg.android.AlipayGphone",
+    "state": 1
+  },
+  {
+    "package": "com.hexin.plat.android",
+    "state": 0
+  },
+  {
+    "package": "com.chinamworld.main",
+    "state": 1
+  },
+  {
+    "package": "com.android.dazhihui",
+    "state": 0
+  },
+  {
+    "package": "com.icbc",
+    "state": 1
+  },
+  {
+    "package": "com.eastmoney.android.berlin",
+    "state": 0
+  },
+  {
+    "package": "cmb.pb",
+    "state": 1
+  },
+  {
+    "package": "com.android.bankabc",
+    "state": 1
+  },
+  {
+    "package": "com.pingan.lifeinsurance",
+    "state": 0
+  },
+  {
+    "package": "com.antfortune.wealth",
+    "state": 0
+  },
+  {
+    "package": "com.lphtsccft",
+    "state": 0
+  },
+  {
+    "package": "com.rytong.bankps",
+    "state": 1
+  },
+  {
+    "package": "com.icbc.im",
+    "state": 1
+  },
+  {
+    "package": "com.chinamworld.bocmbci",
+    "state": 1
+  },
+  {
+    "package": "com.zcdog.smartlocker.android",
+    "state": 0
+  },
+  {
+    "package": "gf.king.app",
+    "state": 0
+  },
+  {
+    "package": "com.eastmoney.android.fund",
+    "state": 0
+  },
+  {
+    "package": "com.android.haitong",
+    "state": 0
+  },
+  {
+    "package": "com.guosen.android",
+    "state": 0
+  },
+  {
+    "package": "com.jd.jrapp",
+    "state": 0
+  },
+  {
+    "package": "com.galaxy.stock",
+    "state": 0
+  },
+  {
+    "package": "com.bankcomm",
+    "state": 1
+  },
+  {
+    "package": "com.guotai.dazhihui",
+    "state": 0
+  },
+  {
+    "package": "com.hundsun.stockwinner.zxzq",
+    "state": 0
+  },
+  {
+    "package": "com.lufax.android",
+    "state": 0
+  },
+  {
+    "package": "com.gf.client",
+    "state": 0
+  },
+  {
+    "package": "com.rrh.jdb",
+    "state": 0
+  },
+  {
+    "package": "com.wangyin.payment",
+    "state": 1
+  },
+  {
+    "package": "gaotimeforax.viewActivity",
+    "state": 0
+  },
+  {
+    "package": "com.zhangdan.app",
+    "state": 0
+  },
+  {
+    "package": "com.hundsun.winner.pazq",
+    "state": 0
+  },
+  {
+    "package": "com.eno.android.cj.page",
+    "state": 0
+  },
+  {
+    "package": "cn.com.cmbc.newmbank",
+    "state": 1
+  },
+  {
+    "package": "zhongxinjiantou.szkingdom.android.phone",
+    "state": 0
+  },
+  {
+    "package": "com.wacai365",
+    "state": 0
+  },
+  {
+    "package": "com.niuguwang.stock",
+    "state": 0
+  },
+  {
+    "package": "com.cmschina",
+    "state": 0
+  },
+  {
+    "package": "com.pingan.wetalk",
+    "state": 0
+  },
+  {
+    "package": "com.wenhua.bamboo",
+    "state": 0
+  },
+  {
+    "package": "com.cib.cibmb",
+    "state": 1
+  },
+  {
+    "package": "cn.com.spdb.mobilebank.per",
+    "state": 1
+  },
+  {
+    "package": "com.cmschina.stock",
+    "state": 0
+  },
+  {
+    "package": "com.pingan.pabank.activity",
+    "state": 1
+  },
+  {
+    "package": "com.sywg.stock",
+    "state": 0
+  },
+  {
+    "package": "com.cgbchina.xpt",
+    "state": 1
+  },
+  {
+    "package": "com.ecitic.bank.mobile",
+    "state": 1
+  },
+  {
+    "package": "com.hundsun.stockwinner.fzzq",
+    "state": 0
+  },
+  {
+    "package": "cn.com.cmbc.mbank",
+    "state": 1
+  },
+  {
+    "package": "com.cebbank.bankebb",
+    "state": 1
+  },
+  {
+    "package": "com.hebao.app",
+    "state": 0
+  },
+  {
+    "package": "com.qlscupgrade",
+    "state": 0
+  },
+  {
+    "package": "com.paic.zhifu.wallet.activity",
+    "state": 0
+  },
+  {
+    "package": "com.tongbanjie.android",
+    "state": 0
+  },
+  {
+    "package": "cn.emoney.hy.main",
+    "state": 0
+  },
+  {
+    "package": "com.hangzhoucaimi.financial",
+    "state": 0
+  },
+  {
+    "package": "com.unionpay",
+    "state": 1
+  },
+  {
+    "package": "cn.com.gjzq.yjb2",
+    "state": 0
+  },
+  {
+    "package": "howbuy.android.piggy",
+    "state": 0
+  },
+  {
+    "package": "com.pingan.yzt",
+    "state": 0
+  },
+  {
+    "package": "com.eno.xyzq.page",
+    "state": 0
+  },
+  {
+    "package": "net.metaquotes.metatrader4",
+    "state": 0
+  },
+  {
+    "package": "com.youqian.activity",
+    "state": 0
+  },
+  {
+    "package": "cn.emoney.pf",
+    "state": 0
+  },
+  {
+    "package": "com.gtja.dzh",
+    "state": 0
+  },
+  {
+    "package": "cgtz.com.cgtz",
+    "state": 0
+  },
+  {
+    "package": "com.mymoney.sms",
+    "state": 0
+  },
+  {
+    "package": "howbuy.android.palmfund",
+    "state": 0
+  },
+  {
+    "package": "com.iboxpay.minicashbox",
+    "state": 0
+  },
+  {
+    "package": "com.baidu.fb",
+    "state": 0
+  },
+  {
+    "package": "com.qeeniao.mobile.kdjz",
+    "state": 0
+  },
+  {
+    "package": "com.citiccard.mobilebank",
+    "state": 0
+  },
+  {
+    "package": "cn.cisc",
+    "state": 0
+  },
+  {
+    "package": "com.rong360.app",
+    "state": 0
+  },
+  {
+    "package": "com.nxy.nxybank.guangxisaoma",
+    "state": 1
+  },
+  {
+    "package": "com.suning.mobile.epa",
+    "state": 1
+  },
+  {
+    "package": "wind.android",
+    "state": 0
+  },
+  {
+    "package": "com.eastmoney.android.washington",
+    "state": 0
+  },
+  {
+    "package": "com.foundersc.app.xf",
+    "state": 0
+  },
+  {
+    "package": "com.webank.wemoney",
+    "state": 0
+  },
+  {
+    "package": "com.syqy.wecash",
+    "state": 0
+  },
+  {
+    "package": "com.chinaideal.bkclient.tabmain",
+    "state": 0
+  },
+  {
+    "package": "com.netease.epay",
+    "state": 0
+  },
+  {
+    "package": "com.nxy.hb",
+    "state": 1
+  },
+  {
+    "package": "com.hexin.android.bank",
+    "state": 0
+  },
+  {
+    "package": "com.hundsun.stockwinner.hazq",
+    "state": 0
+  },
+  {
+    "package": "com.cib.qdzg",
+    "state": 0
+  },
+  {
+    "package": "com.jhss.youguu",
+    "state": 0
+  },
+  {
+    "package": "com.netease.ntespm",
+    "state": 0
+  },
+  {
+    "package": "com.aastocks.dzh",
+    "state": 0
+  },
+  {
+    "package": "com.hundsun.stockwinner.xsdzq1",
+    "state": 0
+  },
+  {
+    "package": "com.android.tongyi.zhangguibao.ruiyinxin",
+    "state": 0
+  },
+  {
+    "package": "com.hexin.plat.android.HengtaiSecurity",
+    "state": 0
+  },
+  {
+    "package": "com.glsc2",
+    "state": 0
+  },
+  {
+    "package": "com.pmp.ppmoney",
+    "state": 0
+  },
+  {
+    "package": "com.paem",
+    "state": 0
+  },
+  {
+    "package": "com.thinkive.mobile.account_fz",
+    "state": 0
+  },
+  {
+    "package": "com.huaanzq.dzh",
+    "state": 0
+  },
+  {
+    "package": "com.epay.impay.ui.jfpal",
+    "state": 1
+  },
+  {
+    "package": "com.ncf.firstp2p",
+    "state": 0
+  },
+  {
+    "package": "com.xiaoniu.finance",
+    "state": 0
+  },
+  {
+    "package": "cn.jsb.china",
+    "state": 1
+  },
+  {
+    "package": "com.financial360.nicaifu",
+    "state": 0
+  },
+  {
+    "package": "com.hundsun.stockwinner.sxzq",
+    "state": 0
+  },
+  {
+    "package": "com.hundsun.stockwinner.dhzq",
+    "state": 0
+  },
+  {
+    "package": "com.jindan.p2p",
+    "state": 0
+  },
+  {
+    "package": "com.eastmoney.android.gubaproj",
+    "state": 0
+  },
+  {
+    "package": "com.creditwealth.client",
+    "state": 0
+  },
+  {
+    "package": "com.nanjingzq.dzh",
+    "state": 0
+  },
+  {
+    "package": "com.yitong.mbank",
+    "state": 1
+  },
+  {
+    "package": "qianlong.qlmobile.datong",
+    "state": 0
+  },
+  {
+    "package": "com.jucaicat.market",
+    "state": 0
+  },
+  {
+    "package": "com.licai",
+    "state": 0
+  },
+  {
+    "package": "com.PingAn.CaiFuBao",
+    "state": 0
+  },
+  {
+    "package": "com.hexin.plat.android.GuoJinTYSecurity",
+    "state": 0
+  },
+  {
+    "package": "com.kdkj.koudailicai",
+    "state": 0
+  },
+  {
+    "package": "com.sfpay.mobile",
+    "state": 0
+  },
+  {
+    "package": "com.kuark.xjlc",
+    "state": 0
+  },
+  {
+    "package": "com.creditease.zhiwang",
+    "state": 0
+  },
+  {
+    "package": "com.yooli",
+    "state": 0
+  },
+  {
+    "package": "com.laijin.simplefinance",
+    "state": 0
+  },
+  {
+    "package": "com.jinr.core",
+    "state": 0
+  },
+  {
+    "package": "com.baidu.finance",
+    "state": 0
+  },
+  {
+    "package": "com.qsq.qianshengqian",
+    "state": 0
+  },
+  {
+    "package": "com.xcsc",
+    "state": 0
+  },
+  {
+    "package": "com.lottery.client",
+    "state": 0
+  },
+  {
+    "package": "com.csii.sns.ui",
+    "state": 1
+  },
+  {
+    "package": "com.hexun.mobile",
+    "state": 0
+  },
+  {
+    "package": "dianrong.com",
+    "state": 0
+  },
+  {
+    "package": "com.renrun.aphone.app",
+    "state": 0
+  },
+  {
+    "package": "com.zrb",
+    "state": 0
+  },
+  {
+    "package": "com.rytong.app.bankhx",
+    "state": 1
+  },
+  {
+    "package": "com.htffund.mobile.ec.ui",
+    "state": 0
+  },
+  {
+    "package": "com.baidao.ytxmobile",
+    "state": 0
+  },
+  {
+    "package": "com.spdbccc.app",
+    "state": 1
+  },
+  {
+    "package": "com.zxjt",
+    "state": 0
+  },
+  {
+    "package": "com.hexin.plat.android.CaiFuSecurity",
+    "state": 0
+  },
+  {
+    "package": "com.imfclub.stock",
+    "state": 0
+  },
+  {
+    "package": "com.my089",
+    "state": 0
+  },
+  {
+    "package": "com.bank9f.weilicai",
+    "state": 0
+  },
+  {
+    "package": "com.jrd.loan",
+    "state": 0
+  },
+  {
+    "package": "com.dgsc",
+    "state": 0
+  },
+  {
+    "package": "com.lakala.android",
+    "state": 0
+  },
+  {
+    "package": "com.upchina",
+    "state": 0
+  },
+  {
+    "package": "com.xe.currency",
+    "state": 0
+  },
+  {
+    "package": "com.thinkive.mobile.account_pa",
+    "state": 0
+  },
+  {
+    "package": "com.wefax.wallete",
+    "state": 0
+  },
+  {
+    "package": "com.yirendai",
+    "state": 0
+  },
+  {
+    "package": "com.ckjr.context",
+    "state": 0
+  },
+  {
+    "package": "com.eloancn.mclient",
+    "state": 0
+  },
+  {
+    "package": "com.iqianjin.client",
+    "state": 0
+  },
+  {
+    "package": "com.ppdai.lender",
+    "state": 0
+  },
+  {
+    "package": "com.lingyue.YqgAndroid",
+    "state": 0
+  },
+  {
+    "package": "cn.touna.touna",
+    "state": 0
+  },
+  {
+    "package": "com.csii.jsbank.zxyh",
+    "state": 0
+  },
+  {
+    "package": "com.hyron.b2b2p",
+    "state": 0
+  },
+  {
+    "package": "com.harvestfund2",
+    "state": 0
+  },
+  {
+    "package": "com.renrendai.finance",
+    "state": 0
+  },
+  {
+    "package": "com.yjyc.zycp",
+    "state": 0
+  },
+  {
+    "package": "cn.com.shbank.mper",
+    "state": 0
+  },
+  {
+    "package": "com.tengniu.p2p.tnp2p",
+    "state": 0
+  },
+  {
+    "package": "com.guagua.finance",
+    "state": 0
+  },
+  {
+    "package": "com.mobilex.ynrcbmobilebank",
+    "state": 1
+  },
+  {
+    "package": "com.fx678.finace",
+    "state": 0
+  },
+  {
+    "package": "com.lr.jimuboxmobile",
+    "state": 0
+  },
+  {
+    "package": "com.shcc.microcredit",
+    "state": 0
+  },
+  {
+    "package": "co.welab.wolaidai",
+    "state": 0
+  },
+  {
+    "package": "com.boc.bocop.container",
+    "state": 0
+  },
+  {
+    "package": "com.rytong.bankbj",
+    "state": 1
+  },
+  {
+    "package": "com.lancai.main",
+    "state": 0
+  },
+  {
+    "package": "com.yrz.atourong",
+    "state": 0
+  },
+  {
+    "package": "com.ebank.creditcard",
+    "state": 1
+  },
+  {
+    "package": "com.souyidai.investment.android",
+    "state": 0
+  },
+  {
+    "package": "com.taojin",
+    "state": 0
+  },
+  {
+    "package": "com.alipay.android.app",
+    "state": 1
+  },
+  {
+    "package": "com.bill99.kuaiqian",
+    "state": 0
+  },
+  {
+    "package": "com.financial.quantgroup",
+    "state": 0
+  },
+  {
+    "package": "cn.com.bsb.mbank",
+    "state": 1
+  },
+  {
+    "package": "fund123.com.client2",
+    "state": 0
+  },
+  {
+    "package": "com.antourong.itouzi",
+    "state": 0
+  },
+  {
+    "package": "com.nbbank",
+    "state": 1
+  },
+  {
+    "package": "com.tdx.AndroidNew",
+    "state": 0
+  },
+  {
+    "package": "com.hsbank.mobilebank",
+    "state": 1
+  },
+  {
+    "package": "com.stateunion.p2p.etongdai",
+    "state": 0
+  },
+  {
+    "package": "com.csii.hkb",
+    "state": 1
+  },
+  {
+    "package": "com.kuake.kklicai",
+    "state": 0
+  },
+  {
+    "package": "com.chinaamc.MainActivityAMC",
+    "state": 0
+  },
+  {
+    "package": "com.caimi.kuaidai",
+    "state": 0
+  },
+  {
+    "package": "com.chinaamc.mfbh.amcActivity",
+    "state": 1
+  },
+  {
+    "package": "com.ygline.frbao",
+    "state": 0
+  },
+  {
+    "package": "com.yitong.cd.mbank.android",
+    "state": 1
+  },
+  {
+    "package": "com.longj.android.ljbank",
+    "state": 1
+  },
+  {
+    "package": "com.thfund.client",
+    "state": 0
+  },
+  {
+    "package": "com.yt.sz.szbank",
+    "state": 1
+  },
+  {
+    "package": "cn.com.bhbc.mobilebank.per",
+    "state": 1
+  },
+  {
+    "package": "cn.com.gf.zzkh",
+    "state": 0
+  },
+  {
+    "package": "cn.com.lzb.mobilebank.per",
+    "state": 1
+  },
+  {
+    "package": "cn.com.cmbc.mbank.cc",
+    "state": 1
+  },
+  {
+    "package": "cn.com.njcb.android.mobilebank",
+    "state": 1
+  },
+  {
+    "package": "com.ezubao.application",
+    "state": 0
+  },
+  {
+    "package": "com.paypal.android.p2pmobile",
+    "state": 1
+  },
+  {
+    "package": "com.cib.bankcib",
+    "state": 1
+  },
+  {
+    "package": "com.icbc.android",
+    "state": 1
+  },
+  {
+    "package": "com.polyvi.cupmp",
+    "state": 1
+  },
+  {
+    "package": "com.icbc.sms",
+    "state": 1
+  },
+  {
+    "package": "com.xiaomi.jr",
+    "state": 1
+  },
+  {
+    "package": "com.cmbchina.ccd.pluto.cmbActivity",
+    "state": 0
+  },
+  {
+    "package": "com.baidu.wallet",
+    "state": 1
+  },
+  {
+    "package": "com.mipay.wallet",
+    "state": 1
+  },
+  {
+    "package": "com.jingdong.app.mall",
+    "state": 1
+  },
+  {
+    "package": "com.tencent.mobileqq",
+    "state": 1
+  },
+  {
+    "package": "com.tencent.mm",
+    "state": 1
+  }
+]

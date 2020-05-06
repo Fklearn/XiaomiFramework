@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="?^attr-private/findOnPagePreviousDrawable" android:id="@+id/find_prev" android:title="@string/find_previous" android:showAsAction="always"/>
+    <item android:icon="?^attr-private/findOnPageNextDrawable" android:id="@+id/find_next" android:title="@string/find_next" android:showAsAction="always"/>
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/battery_meter_progress_height" android:width="@dimen/battery_meter_progress_width" android:viewportWidth="@dimen/battery_meter_progress_viewport_width" android:viewportHeight="@dimen/battery_meter_progress_viewport_height">
+    <path android:fillColor="#f5a623" android:pathData="M9 0l38 0c4.986 0 9 4.014 9 9 0 4.986 -4.014 9 -9 9L9 18C4.014 18 0 13.986 0 9 0 4.014 4.014 0 9 0Z"/>
+</vector>

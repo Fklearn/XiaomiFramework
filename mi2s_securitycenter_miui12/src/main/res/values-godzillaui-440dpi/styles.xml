@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StylePowerCenterMainItem">
+        <item name="android:background">?unknown_ref: 10020027</item>
+        <item name="android:paddingTop">?unknown_ref: 100a000c</item>
+        <item name="android:paddingBottom">?unknown_ref: 100a000c</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?unknown_ref: 100a0009</item>
+    </style>
+</resources>

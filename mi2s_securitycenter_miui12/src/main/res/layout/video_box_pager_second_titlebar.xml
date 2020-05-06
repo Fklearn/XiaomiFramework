@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/vb_second_titlebar_h">
+    <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/iv_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vtb_action_bar_back_dark" android:scaleType="centerCrop"/>
+    <TextView android:textSize="@dimen/vb_second_titlebar_txt_size" android:textColor="@color/color_vb_second_titlebar_txt" android:layout_gravity="center" android:id="@+id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/iv_desc" android:background="@drawable/ic_vtb_settings_desc_icon" android:layout_width="@dimen/vtb_settings_desc_icon_size" android:layout_height="@dimen/vtb_settings_desc_icon_size" android:layout_marginEnd="@dimen/vtb_settings_desc_icon_me"/>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/card_bg_no_shadow_selector" android:paddingTop="@dimen/result_func_item_padding_top" android:paddingBottom="@dimen/result_func_item_padding_bottom" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/result_button_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top" android:id="@+id/icon" android:layout_width="@dimen/card_main_list_banner_iv_banner_size" android:layout_height="@dimen/card_main_list_banner_iv_banner_size" android:src="@drawable/card_icon_default" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/result_icon_padding_end"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardTitleTextViewStyle"/>
+            <TextView android:layout_gravity="center_vertical" android:id="@+id/summary" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CardSummaryTextViewStyle"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:layout_gravity="end" android:id="@+id/button" android:singleLine="true" style="@style/ResultBlueButtonStyle"/>
+</LinearLayout>

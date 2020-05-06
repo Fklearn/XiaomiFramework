@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="@dimen/pc_battery_statics_chart_height" android:layout_marginBottom="3dp"/>
+    <View android:background="@color/pc_main_card_border_whole_color" android:layout_width="match_parent" android:layout_height="@dimen/pc_battery_statics_split_height" android:layout_marginTop="@dimen/view_dimen_60" android:layout_marginBottom="@dimen/view_dimen_60" android:layout_marginStart="@dimen/pc_power_history_layout_padding_horizon" android:layout_marginEnd="@dimen/pc_power_history_layout_padding_horizon"/>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/gb_settings_tab_bg" android:layout_width="@dimen/gb_setting_tab_width" android:layout_height="match_parent">
+        <View android:id="@+id/divider" android:background="@drawable/gb_settings_divider_vertical" android:layout_width="1px" android:layout_height="match_parent" android:layout_alignParentEnd="true"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/actionBar" android:layout_width="match_parent" android:layout_height="@dimen/gb_action_bar_height_land" android:paddingStart="@dimen/view_dimen_30" android:paddingEnd="@dimen/view_dimen_30" android:layout_toStartOf="@+id/divider">
+            <com.miui.gamebooster.videobox.view.MarqueeTextView android:textSize="@dimen/text_font_size_46" android:textColor="@color/text_color_aqua" android:ellipsize="marquee" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/game_bootser_tab_settings" android:singleLine="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="2" android:textDirection="locale" android:layout_marginStart="@dimen/view_dimen_106"/>
+            <ImageView android:id="@+id/backBtn" android:layout_width="@dimen/view_dimen_120" android:layout_height="@dimen/view_dimen_120" android:src="@drawable/gb_action_bar_back_land_selector" android:scaleType="center" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <fragment android:name="com.miui.gamebooster.ui.SettingsTabFragment" android:id="@+id/tabFragment" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/actionBar"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/container" android:background="@drawable/gb_settings_detail_bg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

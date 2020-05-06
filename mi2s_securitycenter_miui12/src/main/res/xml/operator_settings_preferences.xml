@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/traffic_setting_fragment_operator_setting" android:key="category_key_operator_setting">
+        <miuix.preference.TextPreference android:title="@string/traffic_setting_fragment_province" android:key="pref_key_province_old"/>
+        <miuix.preference.TextPreference android:title="@string/traffic_setting_fragment_city" android:key="pref_key_city_old"/>
+        <miuix.preference.TextPreference android:title="@string/traffic_setting_fragment_operator" android:key="pref_key_operator_old"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/traffic_setting_fragment_packege_type" android:key="category_key_package_type">
+        <miuix.preference.RadioButtonPreferenceCategory android:key="radio_group">
+            <miuix.preference.RadioButtonPreference android:title="@string/traffic_setting_fragment_month_title" android:key="pref_normal_card" android:summary="@string/traffic_setting_fragment_month_summary"/>
+            <miuix.preference.RadioButtonPreference android:title="@string/traffic_setting_fragment_daily_title" android:key="pref_daily_card" android:summary="@string/traffic_setting_fragment_daily_summary"/>
+            <miuix.preference.RadioButtonPreference android:title="@string/traffic_setting_fragment_not_limited_title" android:key="pref_no_limit_card" android:summary="@string/traffic_setting_fragment_not_limited_summary"/>
+        </miuix.preference.RadioButtonPreferenceCategory>
+    </PreferenceCategory>
+    <PreferenceCategory android:key="category_key_tip_text">
+        <miuix.preference.TextPreference android:summary="@string/privacy_prompt_traffic_adjust_message"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_automatic_adjust" android:key="category_key_adjust_traffic">
+        <CheckBoxPreference android:title="@string/pref_auto_adjust_traffic" android:key="pref_auto_adjust_traffic"/>
+        <miuix.preference.TextPreference android:title="@string/pref_adjust_data_usage" android:key="pref_adjust_data_usage" android:summary="@string/pref_adjust_data_usage_summary"/>
+        <miuix.preference.TextPreference android:title="@string/tc_sms_report_title" android:key="pref_tc_sms_report" android:summary="@string/tc_sms_report_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

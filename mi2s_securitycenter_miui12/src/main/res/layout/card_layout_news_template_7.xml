@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/result_card_margin_left" android:paddingEnd="@dimen/result_card_margin_left">
+    <LinearLayout android:id="@+id/news_item_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/consume_power_rank_item_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon" android:layout_width="@dimen/result_list_icon_size" android:layout_height="@dimen/result_list_icon_size" android:src="@drawable/card_icon_default" android:scaleType="centerCrop"/>
+        <TextView android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" android:drawablePadding="10dp" android:drawableEnd="0x10020068" android:layout_marginStart="@dimen/result_icon_padding_end" style="@style/CardTitleTextViewStyle"/>
+    </LinearLayout>
+</FrameLayout>

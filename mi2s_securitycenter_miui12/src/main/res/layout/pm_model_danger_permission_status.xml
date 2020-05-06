@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/text_font_size_60" android:textStyle="bold" android:textColor="@color/pm_setting_title_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_50" android:text="@string/privacy_danger_permission_status_title" android:layout_marginStart="@dimen/view_dimen_50" android:layout_marginEnd="@dimen/view_dimen_50"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_4" android:layout_marginBottom="@dimen/view_dimen_39" android:text="@string/privacy_danger_permission_status_summary" android:layout_marginStart="@dimen/view_dimen_50" android:layout_marginEnd="@dimen/view_dimen_50" style="@style/privacy_main_summary"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/container_location" android:background="@color/pm_setting_chart_bg" android:paddingTop="@dimen/view_dimen_45" android:paddingBottom="@dimen/view_dimen_45" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="1dp" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50">
+        <ImageView android:id="@+id/icon_location" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_110" android:src="@drawable/pm_setting_selector_location_n" style="@style/privacy_main_icon"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_30">
+            <TextView android:id="@+id/title_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_permission_location" style="@style/privacy_main_title"/>
+            <TextView android:id="@+id/summary_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_5" style="@style/privacy_main_summary"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_preference_arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/container_contacts" android:background="@color/pm_setting_chart_bg" android:paddingTop="@dimen/view_dimen_45" android:paddingBottom="@dimen/view_dimen_45" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="1dp" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50">
+        <ImageView android:id="@+id/icon_contacts" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_110" android:src="@drawable/pm_setting_selector_contacts_n" style="@style/privacy_main_icon"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_30">
+            <TextView android:id="@+id/title_contacts" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_permission_contacts" style="@style/privacy_main_title"/>
+            <TextView android:id="@+id/summary_contacts" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/privacy_main_summary"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_preference_arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/container_call" android:background="@color/pm_setting_chart_bg" android:paddingTop="@dimen/view_dimen_45" android:paddingBottom="@dimen/view_dimen_45" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="1dp" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50">
+        <ImageView android:id="@+id/icon_call" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_110" android:src="@drawable/pm_setting_selector_call_n" style="@style/privacy_main_icon"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_30">
+            <TextView android:id="@+id/title_call" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_permission_call" style="@style/privacy_main_title"/>
+            <TextView android:id="@+id/summary_call" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/privacy_main_summary"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_preference_arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/container_record" android:background="@color/pm_setting_chart_bg" android:paddingTop="@dimen/view_dimen_45" android:paddingBottom="@dimen/view_dimen_45" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="1dp" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50">
+        <ImageView android:id="@+id/icon_record" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_110" android:src="@drawable/pm_setting_selector_record_n" style="@style/privacy_main_icon"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_30">
+            <TextView android:id="@+id/title_record" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_permission_record" style="@style/privacy_main_title"/>
+            <TextView android:id="@+id/summary_record" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/privacy_main_summary"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_preference_arrow_right"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/container_storage" android:background="@color/pm_setting_chart_bg" android:paddingTop="@dimen/view_dimen_45" android:paddingBottom="@dimen/view_dimen_45" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="1dp" android:paddingStart="@dimen/view_dimen_50" android:paddingEnd="@dimen/view_dimen_50">
+        <ImageView android:id="@+id/icon_storage" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_110" android:src="@drawable/pm_setting_selector_storage_n" style="@style/privacy_main_icon"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_30">
+            <TextView android:id="@+id/title_storage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/privacy_permission_storage" style="@style/privacy_main_title"/>
+            <TextView android:id="@+id/summary_storage" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/privacy_main_summary"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/miuix_preference_arrow_right"/>
+    </LinearLayout>
+    <Button android:textSize="@dimen/text_font_size_46" android:textColor="@color/pm_setting_chart_blue" android:id="@+id/look_all" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_30" android:layout_marginBottom="@dimen/view_dimen_64" android:text="@string/privacy_look_all_permission_status" android:layout_marginStart="@dimen/view_dimen_50" android:layout_marginEnd="@dimen/view_dimen_50"/>
+</LinearLayout>

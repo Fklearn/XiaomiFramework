@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginStart="2dp" android:layout_marginEnd="2dp">
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/one" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/two" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/three" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginStart="2dp" android:layout_marginEnd="2dp">
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/four" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/five" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/six" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginStart="2dp" android:layout_marginEnd="2dp">
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/seven" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/eight" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/nine" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginStart="2dp" android:layout_marginEnd="2dp">
+        <Button android:textAppearance="?attr/textAppearanceMedium" android:textStyle="bold" android:id="@+id/cancel" android:layout_width="0sp" android:layout_height="match_parent" android:text="@string/cancel" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceLarge" android:textStyle="bold" android:id="@+id/zero" android:layout_width="0sp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+        <Button android:textAppearance="?attr/textAppearanceMedium" android:textStyle="bold" android:id="@+id/ok" android:layout_width="0sp" android:layout_height="match_parent" android:text="@string/ok" android:layout_weight="1" android:layout_marginStart="2dp" android:layout_marginEnd="2dp"/>
+    </LinearLayout>
+</LinearLayout>

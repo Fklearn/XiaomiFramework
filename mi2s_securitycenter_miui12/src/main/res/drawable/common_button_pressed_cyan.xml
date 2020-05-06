@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <corners android:radius="@dimen/big_result_blue_button_corner_radius"/>
+    <solid android:color="#059391"/>
+    <size android:height="28dp"/>
+    <padding android:left="12dp" android:top="5dp" android:right="12dp" android:bottom="5dp"/>
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/gb_wonderful_moment_big_download_height" android:width="@dimen/gb_wonderful_moment_big_download_width" android:viewportWidth="68" android:viewportHeight="83">
+    <path android:fillColor="#ffffff" android:pathData="M20,0.1225h28v34h-28z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="#ffffff" android:pathData="M0,73.1225h68v9h-68z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+    <path android:fillColor="#ffffff" android:pathData="M67.8051,29.1225L67.9411,29.2585L34,63.1997L0.0589,29.2585L0.1949,29.1225L67.8051,29.1225Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="1"/>
+</vector>

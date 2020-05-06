@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/font_size_36" android:textColor="@color/pc_result_card_title_color" android:gravity="center_vertical" android:id="@+id/header_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/view_dimen_96" android:text="@string/auto_task_manager_group_title" android:paddingStart="@dimen/view_dimen_80" android:paddingEnd="@dimen/view_dimen_80"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@+id/list">
+            <com.miui.antispam.ui.view.RecyclerViewExt android:id="@+id/list" android:paddingBottom="62dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </miuix.springback.view.SpringBackLayout>
+        <com.miui.powercenter.autotask.FloatActionButtonView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/action_btn" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/view_dimen_64" android:contentDescription="@string/auto_task_manage_new_task" android:layout_marginStart="@dimen/view_dimen_64" android:layout_marginEnd="@dimen/view_dimen_64"/>
+    </FrameLayout>
+</LinearLayout>

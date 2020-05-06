@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="volume_dialog_width">389dp</dimen>
+</resources>

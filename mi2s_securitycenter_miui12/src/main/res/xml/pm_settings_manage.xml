@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.miui.permcenter.settings.model.DangerPermissionPreference android:key="key_pm_setting_danger_permission" app:layout="@layout/pm_model_danger_permission_status"/>
+    <com.miui.permcenter.settings.model.LayoutButtonPreference android:title="@string/privacy_location_info_title" android:key="key_pm_setting_location_info" android:summary="@string/privacy_location_info_summary" app:layout="@layout/pm_model_layout_button"/>
+    <com.miui.permcenter.settings.model.LayoutButtonPreference android:title="@string/privacy_special_permission_title" android:key="key_pm_setting_special_permission" android:summary="@string/privacy_special_permission_summary" app:layout="@layout/pm_model_layout_button"/>
+    <PreferenceCategory android:key="key_pm_setting_camera_phone">
+        <com.miui.permcenter.settings.model.MaskIdPreference android:enabled="false" android:key="key_pm_mask" app:isPreferenceVisible="false" app:layout="@layout/pm_model_privacy_mask"/>
+        <com.miui.permcenter.settings.model.TitleValuePreference android:title="@string/privacy_permission_camera_title" android:key="key_pm_setting_permission_camera" android:summary="@string/privacy_type_open" app:layout="@layout/pm_model_title_value"/>
+    </PreferenceCategory>
+    <com.miui.permcenter.settings.model.LayoutButtonPreference android:title="@string/privacy_other_permission_manage_title" android:key="key_pm_setting_other_permission" android:summary="@string/privacy_other_permission_manage_summary" app:isPreferenceVisible="false" app:layout="@layout/pm_model_layout_button"/>
+</PreferenceScreen>

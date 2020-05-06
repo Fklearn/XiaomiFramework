@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="0dp" android:layout_height="@dimen/result_item_img_height_ad_4" android:layout_weight="1" app:ratioXY="0.69" app:roundCornerRadius="@dimen/result_item_img_radius_4_5">
+        <com.miui.common.customview.AdImageView android:id="@+id/image1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+    <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="0dp" android:layout_height="@dimen/result_item_img_height_ad_4" android:layout_weight="1" android:layout_marginStart="@dimen/result_ad_part_image_margin_start" app:ratioXY="0.69" app:roundCornerRadius="@dimen/result_item_img_radius_4_5">
+        <ImageView android:id="@+id/image2" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null"/>
+    </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+    <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="0dp" android:layout_height="@dimen/result_item_img_height_ad_4" android:layout_weight="1" android:layout_marginStart="@dimen/result_ad_part_image_margin_start" app:ratioXY="0.69" app:roundCornerRadius="@dimen/result_item_img_radius_4_5">
+        <ImageView android:id="@+id/image3" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@null"/>
+    </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+</LinearLayout>

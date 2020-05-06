@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/pm_app_behavior_privacy_corners" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/view_dimen_210">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/app_behavior_icon" android:layout_width="@dimen/view_dimen_80" android:layout_height="@dimen/view_dimen_80" android:layout_marginStart="@dimen/view_dimen_45"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/view_dimen_45">
+        <TextView android:textSize="@dimen/text_font_size_48" android:textColor="@color/app_behavior_privacy_perm_color" android:id="@+id/app_behavior_perm_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:fontFamily="miui-bold"/>
+        <TextView android:textSize="@dimen/text_font_size_38" android:textColor="@color/app_behavior_privacy_desc_color" android:id="@+id/app_behavior_event_name" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/app_behavior_item_content_desc_top"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/am_arrow_right" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x10020068" android:layout_marginEnd="@dimen/am_details_title_margin_left"/>
+</LinearLayout>

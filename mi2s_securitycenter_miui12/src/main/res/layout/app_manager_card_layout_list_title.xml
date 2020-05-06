@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/app_manager_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/am_details_category_title_height" android:paddingStart="@dimen/am_line_margin_lr" android:paddingEnd="@dimen/am_line_margin_lr">
+    <TextView android:textSize="@dimen/am_sort_title_text_size" android:textColor="@color/app_manager_category_title_color" android:gravity="center_vertical" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:textAlignment="viewStart"/>
+</LinearLayout>

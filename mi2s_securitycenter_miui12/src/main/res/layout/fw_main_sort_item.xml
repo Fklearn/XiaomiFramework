@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="@dimen/tab_sort_item_height">
+    <View android:id="@+id/item_select_bg" android:background="#190d84ff" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="@dimen/view_dimen_44" android:textColor="@color/tab_sort_item_text" android:gravity="center_vertical" android:id="@+id/item_title" android:layout_width="match_parent" android:layout_height="match_parent" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/tab_sort_item_padding" android:layout_toStartOf="@+id/item_check"/>
+    <ImageView android:id="@+id/item_check" android:layout_width="56px" android:layout_height="56px" android:src="@drawable/fw_check" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/tab_sort_item_padding" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

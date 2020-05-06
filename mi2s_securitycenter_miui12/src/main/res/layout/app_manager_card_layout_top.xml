@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/am_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/am_details_top_height">
+    <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_details_top_icon_margin_top" android:layout_marginStart="@dimen/am_line_margin_lr" android:layout_marginEnd="@dimen/am_line_margin_lr">
+        <ImageView android:layout_gravity="center" android:id="@+id/app_manager_details_appicon" android:layout_width="@dimen/am_details_top_icon_size" android:layout_height="@dimen/am_details_top_icon_size" android:layout_marginEnd="@dimen/am_details_top_icon_margin_end"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/am_details_top_label_text_size" android:textStyle="bold" android:textColor="@color/app_manager_detail_title_color" android:id="@+id/app_manager_details_applabel" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/am_details_top_version_text_size" android:textColor="@color/app_manager_black_99" android:id="@+id/app_manager_details_appversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/am_details_top_version_margin_top" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

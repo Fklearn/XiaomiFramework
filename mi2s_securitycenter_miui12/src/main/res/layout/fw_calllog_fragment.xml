@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" app:scrollableView="@android:id/list">
+        <com.miui.antispam.ui.view.RecyclerViewExt android:id="@android:id/list" android:paddingTop="@dimen/view_dimen_40" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </miuix.springback.view.SpringBackLayout>
+    <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/no_block" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/view_dimen_79" android:layout_marginTop="@dimen/view_dimen_79" android:layout_marginRight="@dimen/view_dimen_79" android:layout_marginBottom="@dimen/view_dimen_79" android:text="@string/dlg_no_block_ok"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:enabled="false" android:title="@string/ew_setting_strong_push_title" android:key="slide_normal" android:summary="@string/ew_setting_strong_push_message"/>
+    <Preference app:layout="@layout/ew_preference_strong"/>
+    <CheckBoxPreference android:title="@string/ew_setting_normal_push_title" android:key="slide_push" android:summary="@string/ew_setting_normal_push_message"/>
+    <Preference app:layout="@layout/ew_preference_small"/>
+    <PreferenceCategory android:title="@string/ew_setting_desc_title">
+        <Preference app:layout="@layout/ew_preference_setting_text"/>
+    </PreferenceCategory>
+</PreferenceScreen>

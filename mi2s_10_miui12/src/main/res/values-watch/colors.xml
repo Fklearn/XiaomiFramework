@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_device_default_50">#93b7f5</color>
+    <color name="accent_device_default_700">#5385db</color>
+    <color name="accent_device_default_dark">#5e97f6</color>
+    <color name="accent_device_default_dark_60_percent_opacity">#995e97f6</color>
+    <color name="accent_device_default_light">#75a4f5</color>
+    <color name="background_device_default_dark">#000000</color>
+    <color name="background_floating_device_default_dark">#1d2e4d</color>
+    <color name="button_normal_device_default_dark">@color/btn_watch_default_dark</color>
+    <color name="error_color_device_default_dark">#f4511e</color>
+    <color name="foreground_device_default_dark">@color/white</color>
+    <color name="primary_dark_device_default_dark">#333333</color>
+    <color name="primary_device_default_dark">#808080</color>
+</resources>

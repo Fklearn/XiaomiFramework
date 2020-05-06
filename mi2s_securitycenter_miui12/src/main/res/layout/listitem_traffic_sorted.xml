@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:background="@drawable/na_bg_selector" android:layout_width="match_parent" android:layout_height="76dp" android:paddingStart="@dimen/am_line_margin_lr" android:paddingEnd="@dimen/am_line_margin_lr" style="0x100d004e">
+    <ImageView android:id="@+id/imageview_icon" android:layout_width="@dimen/icon_width" android:layout_height="@dimen/icon_width" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    <ImageView android:id="@+id/imageview_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x10020068" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/imageview_icon">
+        <TextView android:textAppearance="0x100d005f" android:id="@+id/textview_appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textAppearance="0x100d0058" android:id="@+id/text_traffic" android:visibility="gone" android:layout_width="50dp" android:layout_height="wrap_content" android:singleLine="true"/>
+            <ImageView android:id="@+id/image_traffic" android:background="@drawable/traffic_mobile" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4dp"/>
+            <TextView android:textAppearance="0x100d0058" android:id="@+id/text_traffic_values" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <ImageView android:id="@+id/image_netoff" android:background="@drawable/net_off" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

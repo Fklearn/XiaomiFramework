@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/power_setting_features" android:key="preference_key_category_features">
+        <CheckBoxPreference android:title="@string/power_setting_wireless_reverse_charging_title" android:key="preference_key_wireless_reverse_charging" android:summary="@string/power_setting_wireless_reverse_charging_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_settings_lock_screen_saver_title">
+        <miuix.preference.DropDownPreference android:title="@string/deep_clean_disconnect_data_title" android:key="preference_key_deep_save_disconnect_in_lockscreen"/>
+        <miuix.preference.DropDownPreference android:title="@string/deep_clean_memory_clean_title" android:key="preference_key_deep_save_memory_clean_in_lockscreen"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_save_title_text" android:key="preference_key_settings_power_save_category">
+        <CheckBoxPreference android:title="@string/power_center_5g_save_title_text" android:key="preference_key_settings_5g_save" android:summary="@string/power_center_5g_save_summary_text"/>
+        <miuix.preference.TextPreference android:title="@string/power_save_title_text" android:key="preference_key_settings_power_save" android:summary="@string/power_setting_power_save_summary_text"/>
+        <miuix.preference.TextPreference android:title="@string/power_center_super_save_title_text" android:key="preference_key_settings_super_save" android:summary="@string/power_setting_super_save_summary_text"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/power_setting_category_other" android:key="preference_key_other_category">
+        <CheckBoxPreference android:title="@string/settings_battery_consume_abnormal_title" android:key="preference_key_battery_consume_abnormal" android:summary="@string/settings_battery_consume_abnormal_summary"/>
+        <miuix.preference.TextPreference android:title="@string/power_center_auto_shutdown" android:key="preference_key_boot_shutdown_ontime"/>
+        <miuix.preference.TextPreference android:title="@string/hide_mode_app_background_setting_text" android:key="preference_key_background_app_save" android:summary="@string/power_setting_background_app_save_summary"/>
+        <miuix.preference.TextPreference android:title="@string/power_settings_category_title" android:key="preference_key_battery_style"/>
+        <miuix.preference.TextPreference android:title="@string/power_setting_config_scenario_policies_title" android:key="preference_key_config_scenario_policies" android:summary="@string/power_setting_scenario_policies_summary"/>
+        <ListPreference android:persistent="false" android:entries="@array/pc_settings_thermal_entries" android:title="@string/power_setting_warm_configure" android:key="preference_key_thermal_configure"/>
+    </PreferenceCategory>
+</PreferenceScreen>

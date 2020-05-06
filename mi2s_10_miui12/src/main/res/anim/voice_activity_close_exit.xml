@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:shareInterpolator="false">
+    <translate android:interpolator="@interpolator/accelerate_quint" android:duration="@integer/config_shortAnimTime" android:fromYDelta="0" android:toYDelta="-20%"/>
+    <alpha android:interpolator="@interpolator/accelerate_cubic" android:duration="@integer/config_shortAnimTime" android:fromAlpha="1" android:toAlpha="0"/>
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/lucky_settingitem_appline_height">
+    <ImageView android:id="@+id/imgItemAlarmSetting" android:layout_width="@dimen/lucky_settingitem_appicon_size" android:layout_height="@dimen/lucky_settingitem_appicon_size" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+    <TextView android:textSize="@dimen/lucky_settingitem_app_titlesize" android:textColor="@color/lucky_settings_item_title_color" android:id="@+id/txvItemAlarmSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/lucky_settingitem_appicon_marginleft" android:layout_toEndOf="@+id/imgItemAlarmSetting"/>
+    <miui.widget.SlidingButton android:id="@+id/sliding_button_item_alarm_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

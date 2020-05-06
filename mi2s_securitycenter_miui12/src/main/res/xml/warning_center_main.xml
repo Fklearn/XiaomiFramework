@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory>
+        <Preference android:icon="@drawable/warningcenter_icon_ew_new" android:title="@string/ew_app_name" android:key="preference_key_title_ew" android:summary="@string/warningcenter_earthquake_info"/>
+        <com.miui.warningcenter.widget.WarningcenterImagePreference android:enabled="false" android:key="preference_key_ew" app:layout="@layout/warning_center_preference_image"/>
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference android:icon="@drawable/warningcenter_icon_mijia" android:title="@string/warningcenter_mijia_title" android:key="preference_key_title_mijia" android:summary="@string/warningcenter_mijia_info"/>
+        <com.miui.warningcenter.widget.WarningcenterImagePreference android:enabled="false" android:key="preference_key_mijia" app:layout="@layout/warning_center_preference_image"/>
+    </PreferenceCategory>
+</PreferenceScreen>

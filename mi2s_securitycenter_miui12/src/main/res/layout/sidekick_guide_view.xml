@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:id="@+id/sidekick_view_content" android:background="@drawable/sidekick_guide_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/sidekick_group_height" android:layout_alignBottom="@+id/content_frame" android:backgroundTint="@color/card_bg_color">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/sidekick_click_area" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/sidekick_group_margin_top">
+        <ImageView android:id="@+id/sidekick_icon" android:layout_width="@dimen/sidekick_icon_width" android:layout_height="@dimen/sidekick_icon_height" android:src="@drawable/icon_def" android:layout_marginStart="20dp" android:layout_marginEnd="10dp"/>
+        <TextView android:id="@+id/sidekick_title" android:layout_weight="1" android:layout_marginEnd="10dp" style="@style/SideKickTextStyle"/>
+        <View android:background="@color/v_sidekick_divider_color" android:layout_width="1dp" android:layout_height="14dp" android:layout_marginEnd="10dp"/>
+        <TextView android:id="@+id/sidekick_ok" android:minWidth="28dp" android:layout_marginEnd="35.33dp" style="@style/SideKickTextStyle"/>
+    </LinearLayout>
+</FrameLayout>

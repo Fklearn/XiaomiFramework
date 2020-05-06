@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.miui.gamebooster.customview.GameAdImageView android:id="@+id/ad_item_image" android:layout_width="@dimen/gb_tab1_icon_size" android:layout_height="@dimen/gb_tab1_icon_size" android:layout_marginTop="4.5dp" android:scaleType="fitCenter" android:layout_centerHorizontal="true"/>
+    <TextView android:textAppearance="@style/game_booster_title_show" android:ellipsize="end" android:id="@+id/ad_item_text" android:paddingTop="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="6" android:singleLine="true" android:layout_below="@+id/ad_item_image" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:layout_gravity="center" android:id="@+id/button_layout" android:focusable="true" android:clickable="true" android:layout_width="72dp" android:layout_height="46.7dp" android:layout_marginBottom="7dp" android:layout_below="@+id/ad_item_text" android:layout_centerHorizontal="true">
+        <Button android:textSize="12sp" android:textColor="#cc000000" android:layout_gravity="center_vertical" android:id="@+id/ad_button" android:background="@drawable/gb_selector_btn_install_bg" android:layout_width="52dp" android:layout_height="26.7dp" android:layout_marginStart="10dp" style="0x100d003d"/>
+    </LinearLayout>
+</merge>

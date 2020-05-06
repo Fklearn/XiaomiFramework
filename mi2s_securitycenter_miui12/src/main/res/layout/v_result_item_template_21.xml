@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/card_layout_line_height_half" android:paddingBottom="@dimen/card_layout_line_height_half" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/inner_layout" android:background="@drawable/shape_result_card_border_whole" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.miui.optimizemanage.view.OMRoundResizeFrameLayout android:layout_width="match_parent" android:layout_height="@dimen/antivirus_card_21_img_height" android:layout_marginTop="@dimen/phone_manage_list_title_pad_lr" android:layout_marginStart="@dimen/phone_manage_list_title_pad_lr" android:layout_marginEnd="@dimen/phone_manage_list_title_pad_lr" securitycenter:ratioXY="0.5" securitycenter:roundCornerRadius="6.5dp">
+            <ImageView android:id="@+id/img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        </com.miui.optimizemanage.view.OMRoundResizeFrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/antivirus_card_21_text_margin" android:layout_marginBottom="@dimen/phone_manage_list_title_pad_lr" android:layout_marginStart="@dimen/phone_manage_list_title_pad_lr" android:layout_marginEnd="@dimen/phone_manage_list_title_pad_lr">
+            <TextView android:textColor="@color/v_title_color" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ResultItemAdTitleStyle"/>
+            <TextView android:textColor="@color/v_summary_color" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" style="@style/ResultItemAdSummaryStyle"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vartical_margin_pic_text" android:layout_marginBottom="@dimen/adds_item_bottom_margin">
+            <TextView android:id="@+id/market" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recommended" style="@style/MarketText"/>
+            <Button android:id="@+id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_to" style="@style/ResultButton"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/close" android:visibility="invisible" android:layout_marginBottom="6.67dp" android:layout_alignParentBottom="true" android:layout_marginEnd="6.67dp" android:layout_alignParentEnd="true" style="@style/ResultItemAdxStyle"/>
+</RelativeLayout>

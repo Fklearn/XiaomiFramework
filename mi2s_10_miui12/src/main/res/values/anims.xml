@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <anim name="android_grow_fade_in_from_bottom">?unknown_ref: 10a00d6</anim>
+    <anim name="android_push_down_in">?unknown_ref: 10a0104</anim>
+    <anim name="android_push_down_out">?unknown_ref: 10a0106</anim>
+    <anim name="android_push_up_in">?unknown_ref: 10a0108</anim>
+    <anim name="android_push_up_out">?unknown_ref: 10a0109</anim>
+    <anim name="android_shrink_fade_out_from_bottom">?unknown_ref: 10a012d</anim>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">--&gt; 
+    <size android:height="@dimen/miuix_sbl_tracking_progress_bg_height" android:width="@dimen/miuix_sbl_tracking_progress_bg_width"/>
+    <solid android:color="@android:color/transparent"/>
+    <stroke android:width="@dimen/miuix_sbl_tracking_progress_bg_stroke_width" android:color="@color/miuix_sbl_locked_text_gray" android:dashWidth="0dp"/>
+    <corners android:topLeftRadius="20dp" android:topRightRadius="20dp" android:bottomLeftRadius="20dp" android:bottomRightRadius="20dp"/>
+</shape>

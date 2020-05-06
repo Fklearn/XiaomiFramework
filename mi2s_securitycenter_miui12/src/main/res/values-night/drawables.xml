@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="app_manager_back_icon">?unknown_ref: 1002006e</drawable>
+    <drawable name="app_manager_delete_icon">?unknown_ref: 10020006</drawable>
+    <drawable name="app_manager_finish_icon">?unknown_ref: 10020008</drawable>
+    <drawable name="app_manager_info_icon">?unknown_ref: 1002007e</drawable>
+    <drawable name="applock_settings">?unknown_ref: 10020065</drawable>
+    <drawable name="expander_close">?unknown_ref: 1002009d</drawable>
+    <drawable name="expander_open">?unknown_ref: 1002009c</drawable>
+    <drawable name="icon_main_back">?unknown_ref: 1002006e</drawable>
+    <drawable name="pc_battery_risk_icon">@drawable/battery_risk_icon_dark</drawable>
+    <drawable name="pc_battery_risk_icon_mid">@drawable/ic_battery_risk_icon_mid_dark</drawable>
+    <drawable name="pc_battery_risk_icon_shadow">@drawable/battery_risk_icon_shadow_dark</drawable>
+    <drawable name="pc_battery_solve_issues_icon">@drawable/battery_solve_issues_icon_dark</drawable>
+    <drawable name="pc_battery_solve_issues_icon_mid">@drawable/battery_solve_issues_icon_mid_dark</drawable>
+    <drawable name="pc_battery_solve_issues_icon_shadow">@drawable/battery_solve_issues_icon_shadow_dark</drawable>
+    <drawable name="v_back_icon">?unknown_ref: 1002006e</drawable>
+    <drawable name="v_setting_icon">?unknown_ref: 10020065</drawable>
+</resources>

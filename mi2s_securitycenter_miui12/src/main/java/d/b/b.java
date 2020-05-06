@@ -1,0 +1,45 @@
+package d.b;
+
+public final class b {
+    public static final int compat_button_inset_horizontal_material = 2131165606;
+    public static final int compat_button_inset_vertical_material = 2131165607;
+    public static final int compat_button_padding_horizontal_material = 2131165608;
+    public static final int compat_button_padding_vertical_material = 2131165609;
+    public static final int compat_control_corner_material = 2131165610;
+    public static final int compat_notification_large_icon_max_height = 2131165611;
+    public static final int compat_notification_large_icon_max_width = 2131165612;
+    public static final int miuix_compat_arrow_right_widget_height = 2131166282;
+    public static final int miuix_compat_arrow_right_widget_width = 2131166283;
+    public static final int miuix_compat_button_right_widget_height = 2131166284;
+    public static final int miuix_compat_button_right_widget_width = 2131166285;
+    public static final int miuix_compat_drop_down_item_text_size = 2131166286;
+    public static final int miuix_compat_drop_down_menu_padding_large = 2131166287;
+    public static final int miuix_compat_drop_down_menu_padding_small = 2131166288;
+    public static final int miuix_compat_immersion_menu_background_radius = 2131166289;
+    public static final int miuix_compat_list_menu_dialog_minimum_width = 2131166290;
+    public static final int miuix_compat_list_preferred_item_height_small = 2131166291;
+    public static final int miuix_compat_normal_text_size = 2131166292;
+    public static final int miuix_compat_secondary_text_size = 2131166293;
+    public static final int miuix_compat_spinner_dropdown_item_icon_margin = 2131166294;
+    public static final int miuix_compat_spinner_dropdown_item_text_margin = 2131166295;
+    public static final int miuix_compat_spinner_icon_padding = 2131166296;
+    public static final int miuix_compat_spinner_icon_padding_integrated = 2131166297;
+    public static final int miuix_compat_spinner_text_max_width_integrated = 2131166298;
+    public static final int miuix_compat_spinner_text_size = 2131166299;
+    public static final int miuix_compat_spinner_text_size_integrated = 2131166300;
+    public static final int notification_action_icon_size = 2131166417;
+    public static final int notification_action_text_size = 2131166418;
+    public static final int notification_big_circle_margin = 2131166419;
+    public static final int notification_content_margin_start = 2131166420;
+    public static final int notification_large_icon_height = 2131166423;
+    public static final int notification_large_icon_width = 2131166425;
+    public static final int notification_main_column_padding_top = 2131166426;
+    public static final int notification_media_narrow_margin = 2131166427;
+    public static final int notification_right_icon_size = 2131166428;
+    public static final int notification_right_side_padding_top = 2131166429;
+    public static final int notification_small_icon_background_padding = 2131166430;
+    public static final int notification_small_icon_size_as_large = 2131166431;
+    public static final int notification_subtext_size = 2131166432;
+    public static final int notification_top_pad = 2131166433;
+    public static final int notification_top_pad_large_text = 2131166434;
+}

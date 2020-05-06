@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="16.36dp" android:paddingBottom="16.36dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/miuix_preference_item_padding_start" android:paddingEnd="@dimen/miuix_preference_item_padding_end">
+    <TextView android:id="@+id/txt_descriptiontitle" android:text="@string/power_save_ps_description_title" style="@style/PowerSaveDescriptionTitle"/>
+    <TextView android:id="@+id/txt_description1" android:layout_marginTop="3.64dp" android:text="@string/power_save_ps_limit" style="@style/PowerSaveDescription"/>
+    <TextView android:id="@+id/txt_description2" android:text="@string/power_save_ps_freeze" style="@style/PowerSaveDescription"/>
+    <TextView android:id="@+id/txt_description3" android:text="@string/power_save_ps_clean" style="@style/PowerSaveDescription"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:src="@drawable/pc_description_itemnumber"/>
+        <TextView android:textSize="13.82dp" android:textColor="@color/pc_preference_settings_description_text_color" android:id="@+id/txt_description4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="7.27dp"/>
+    </LinearLayout>
+</LinearLayout>

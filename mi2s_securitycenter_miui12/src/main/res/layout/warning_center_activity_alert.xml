@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/view_dimen_36" android:paddingEnd="@dimen/view_dimen_36">
+    <View android:layout_width="match_parent" android:layout_height="@dimen/ew_alert_margin_top"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_font_size_36" android:textColor="@color/ew_alert_white_color" android:id="@+id/warning_close" android:background="@drawable/ew_alert_close_bg" android:paddingLeft="@dimen/ew_alert_close_padding_left" android:paddingTop="@dimen/ew_alert_close_padding_top" android:paddingRight="@dimen/ew_alert_close_padding_left" android:paddingBottom="@dimen/ew_alert_close_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/warningcenter_mijia_alert_close" android:singleLine="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <androidxc.recyclerview.widget.RecyclerView android:id="@+id/list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/view_dimen_40"/>
+</LinearLayout>

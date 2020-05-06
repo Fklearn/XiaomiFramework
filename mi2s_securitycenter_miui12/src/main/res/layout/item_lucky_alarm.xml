@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@color/lucky_bkg_color" android:layout_width="match_parent" android:layout_height="65.45dp">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:orientation="vertical" android:layout_width="62.91dp" android:layout_height="wrap_content">
+        <TextView android:textSize="20.36dp" android:textColor="@color/lucky_alarm_list_day_txtcolor" android:gravity="center" android:id="@+id/txvDayItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lucky_alarm_item_date"/>
+        <TextView android:textSize="13.09dp" android:textColor="@color/lucky_alarm_list_month_txtcolor" android:gravity="center" android:id="@+id/txvMonthItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lucky_alarm_item_month"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/imgTimeLineItem" android:layout_width="13.8dp" android:layout_height="match_parent" android:src="@drawable/express_icon_middle"/>
+    <ImageView android:id="@+id/imgIconItem" android:layout_width="29.09dp" android:layout_height="29.09dp" android:src="@drawable/hongbao_launcher" android:layout_marginStart="15.64dp"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="10.91dp">
+        <TextView android:textSize="16dp" android:textColor="@color/lucky_alarm_list_finish_txtcolor" android:id="@+id/txvTimeLineItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <View android:id="@+id/item_divider_view" android:background="@color/lucky_alarm_list_line_color" android:visibility="gone" android:layout_width="0.36dp" android:layout_height="12dp" android:layout_centerVertical="true" android:layout_marginStart="6.73dp"/>
+            <TextView android:textSize="16dp" android:textColor="@color/lucky_alarm_list_finish_txtcolor" android:id="@+id/item_txv_has_been_closed" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/item_lucky_alarm_has_been_closed" android:layout_centerVertical="true" android:layout_marginStart="6.73dp" android:layout_toEndOf="@+id/item_divider_view"/>
+            <Button android:textSize="12dp" android:textColor="@color/lucky_alarm_list_finish_txtcolor" android:id="@+id/btnEnter" android:background="@drawable/selector_enter_button" android:layout_width="54.55dp" android:layout_height="24dp" android:text="@string/enter" android:layout_centerVertical="true" android:layout_marginStart="17.45dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

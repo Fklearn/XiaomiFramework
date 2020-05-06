@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingStart="?attr/listPreferredItemPaddingStart" android:paddingEnd="?attr/listPreferredItemPaddingEnd">
+    <ImageView android:id="@+id/account_row_icon" android:layout_width="?attr/listPreferredItemHeight" android:layout_height="?attr/listPreferredItemHeight" android:paddingEnd="8dp"/>
+    <TextView android:textAppearance="?attr/textAppearanceListItem" android:gravity="center_vertical" android:id="@+id/account_row_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/listPreferredItemHeight"/>
+</LinearLayout>

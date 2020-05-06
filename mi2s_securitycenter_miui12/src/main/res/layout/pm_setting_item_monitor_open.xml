@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/container_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_dimen_25" android:layout_marginBottom="@dimen/view_dimen_39">
+        <ImageView android:id="@+id/icon_type" android:layout_width="@dimen/view_dimen_28" android:layout_height="@dimen/view_dimen_36" android:src="@drawable/pm_setting_ic_location"/>
+        <TextView android:textSize="@dimen/text_font_size_36" android:textStyle="bold" android:textColor="@color/bg_location_occupy" android:id="@+id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_dimen_12"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/container_app" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/icon_app" android:layout_width="@dimen/view_dimen_110" android:layout_height="@dimen/view_dimen_110" android:layout_marginTop="@dimen/view_dimen_36" android:layout_marginBottom="@dimen/view_dimen_36"/>
+            <TextView android:textSize="@dimen/text_font_size_48" android:textStyle="bold" android:textColor="@color/pm_setting_title_color" android:id="@+id/app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/view_dimen_32" android:layout_marginEnd="@dimen/view_dimen_32"/>
+        </LinearLayout>
+        <Button android:textSize="@dimen/text_font_size_40" android:textStyle="bold" android:textColor="@color/bg_audio_occupy" android:id="@+id/close_app" android:background="@drawable/pm_monitor_close_bg" android:paddingTop="@dimen/view_dimen_23" android:paddingBottom="@dimen/view_dimen_23" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_apps_close" android:paddingStart="@dimen/view_dimen_60" android:paddingEnd="@dimen/view_dimen_60"/>
+    </LinearLayout>
+    <View android:id="@+id/hr_line" android:background="@color/app_manager_line_bg_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/view_dimen_2" android:layout_marginTop="@dimen/view_dimen_60" android:layout_marginBottom="@dimen/view_dimen_60" android:layout_marginStart="@dimen/view_dimen_80" android:layout_marginEnd="@dimen/view_dimen_80"/>
+</LinearLayout>

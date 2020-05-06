@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="?attr/dialogPreferredPadding" android:paddingTop="?attr/dialogPreferredPadding" android:paddingRight="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:layout_gravity="start" android:id="@+id/ask_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unsupported_display_size_show"/>
+</FrameLayout>

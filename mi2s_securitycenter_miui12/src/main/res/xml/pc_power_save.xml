@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:persistent="false" android:title="@string/power_save_mode_enable" android:key="enable_power_save_mode" android:summary="@string/power_save_mode_summary" android:defaultValue="false"/>
+    <com.miui.powercenter.savemode.DetailPreference android:key="power_save_description"/>
+    <PreferenceCategory android:title="@string/power_save_mode_other_optimization" android:key="key_other_optimization">
+        <CheckBoxPreference android:title="@string/power_save_mode_close_notification_screenon_title" android:key="close_notification_wakeup" android:summary="@string/power_save_mode_close_notification_screenon_summary" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/power_save_mode_close_xiaoai_wakeup_title" android:key="close_xiaoai_voice_wakeup" android:summary="@string/power_save_mode_close_xiaoai_wakeup_summary" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/power_save_mode_close_aod_display_title" android:key="close_aod_display" android:summary="@string/power_save_mode_close_aod_display_summary" android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/other" android:key="key_schedule_category">
+        <CheckBoxPreference android:persistent="false" android:title="@string/power_save_mode_auto_exit_title" android:key="auto_exit_power_save_mode" android:summary="@string/power_save_mode_auto_exit_summary" android:defaultValue="true"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/power_save_mode_ontime_enabled" android:key="key_ontime_enabled"/>
+        <miuix.preference.TextPreference android:title="@string/power_save_mode_start_time" android:key="key_ontime_open_time" android:dependency="key_ontime_enabled"/>
+        <miuix.preference.TextPreference android:title="@string/power_save_mode_end_time" android:key="key_ontime_close_time" android:dependency="key_ontime_enabled"/>
+    </PreferenceCategory>
+</PreferenceScreen>

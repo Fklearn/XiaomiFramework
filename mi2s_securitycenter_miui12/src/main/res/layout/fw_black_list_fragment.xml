@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" app:scrollableView="@android:id/list">
+        <com.miui.antispam.ui.view.RecyclerViewExt android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:fastScrollEnabled="true"/>
+    </miuix.springback.view.SpringBackLayout>
+    <include android:id="@android:id/empty" android:visibility="gone" android:layout_centerInParent="true" layout="@layout/fw_log_list_empty"/>
+</RelativeLayout>

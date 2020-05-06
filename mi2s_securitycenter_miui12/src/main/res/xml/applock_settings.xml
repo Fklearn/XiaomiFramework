@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/applock_function_base_settings" android:key="base_function_settings">
+        <CheckBoxPreference android:persistent="false" android:title="@string/app_name" android:key="ac_enable" android:defaultValue="false" android:summaryOn="@string/ac_summaryOn" android:summaryOff="@string/ac_summaryOff"/>
+        <miuix.preference.DropDownPreference android:title="@string/lock_mode_title" android:key="lock_mode" app:adapter="com.miui.applicationlock.DropDownPreferenceAdapter" app:entries="@array/lock_mode"/>
+        <miuix.preference.TextPreference android:title="@string/lock_mode_title" android:key="preference_key_lock_mode_old" app:isPreferenceVisible="false"/>
+        <miuix.preference.TextPreference android:title="@string/notification_mask_title" android:key="notification_mask" android:summary="@string/notification_mask_summary" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/convenient_mode" android:key="convenient_mode" android:summary="@string/convenient_summary" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/lock_all_title" android:key="lock_all_apps" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/recommend_news" android:key="receive_recommendation" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/applock_function_pwd_settings" android:key="pwd_settings_category">
+        <Preference android:title="@string/modifypassword" android:key="modify_password"/>
+        <CheckBoxPreference android:title="@string/showpattern" android:key="show_pattern" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/fingerprint_to_lock" android:key="fingerprint_lock" android:summary="@string/fingerprint_to_lock_summary"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/applock_face_unlock_title" android:key="face_unlock" android:summary="@string/applock_face_unlock_summary" android:defaultValue="false"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/bind_xiaomi_account_title" android:key="bind_xiaomi_account" android:summary="@string/bind_xiaomi_account_summary" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/privacy_apps_category_title" android:key="privacy_apps_category">
+        <CheckBoxPreference android:title="@string/privacy_apps_shield_message_title" android:key="privacy_apps_shield_message" android:summary="@string/privacy_apps_shield_message_summary"/>
+        <Preference android:title="@string/privacy_apps_tutorial" android:key="privacy_apps_tutorial"/>
+    </PreferenceCategory>
+</PreferenceScreen>

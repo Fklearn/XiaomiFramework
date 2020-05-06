@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.widget.DayPickerViewPager android:id="@+id/day_picker_view_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageButton android:id="@+id/prev" android:background="?attr/selectableItemBackgroundBorderless" android:visibility="invisible" android:nextFocusDown="@+id/month_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_start" android:minWidth="48dp" android:minHeight="48dp" android:contentDescription="@string/date_picker_prev_month_button" android:nextFocusForward="@+id/next"/>
+    <ImageButton android:id="@+id/next" android:background="?attr/selectableItemBackgroundBorderless" android:visibility="invisible" android:nextFocusDown="@+id/month_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_end" android:minWidth="48dp" android:minHeight="48dp" android:contentDescription="@string/date_picker_next_month_button" android:nextFocusForward="@+id/month_view"/>
+</FrameLayout>

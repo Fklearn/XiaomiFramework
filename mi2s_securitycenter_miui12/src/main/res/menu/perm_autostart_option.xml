@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/show_system" android:visible="false" android:title="@string/show_system_app"/>
+    <item android:id="@+id/hide_system" android:visible="false" android:title="@string/hide_system_app"/>
+    <item android:id="@+id/about" android:title="@string/about_autostart"/>
+</menu>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="expanded_status_bar_toggles_brightness_panel_height">117dp</dimen>
+</resources>

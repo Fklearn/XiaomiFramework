@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:theme="?attr/actionBarTheme" android:id="@+id/action_mode_bar_stub" android:layout="@layout/action_mode_bar" android:inflatedId="@+id/action_mode_bar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="?attr/windowContentOverlay" android:foregroundGravity="top|left|right|center_vertical|center_horizontal|fill_horizontal|center" android:foregroundInsidePadding="false"/>
+</LinearLayout>

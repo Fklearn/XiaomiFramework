@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/white_list_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/cleanup_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="23dp" android:layout_alignParentBottom="true"/>
+    <miuix.springback.view.SpringBackLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/cleanup_btn" android:layout_below="@+id/header_title" app:scrollableView="@+id/app_list">
+        <miuix.recyclerview.widget.RecyclerView android:id="@+id/app_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </miuix.springback.view.SpringBackLayout>
+    <TextView android:textAppearance="0x100d0058" android:gravity="bottom" android:id="@+id/header_title" android:background="@drawable/list_item_bg_light" android:paddingBottom="7dp" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/view_dimen_80" android:paddingEnd="@dimen/view_dimen_80" android:backgroundTint="@color/v_list_header_background_tint" style="0x100d004d"/>
+    <TextView android:textAppearance="0x100d009d" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/icon_list_empty" android:layout_centerInParent="true"/>
+</RelativeLayout>

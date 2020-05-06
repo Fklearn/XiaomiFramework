@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:title="@string/game_booster" android:key="pref_game_shortcut" android:summary="@string/gs_game_shortcut"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/gs_gamebox" android:key="pref_game_box" android:summary="@string/gs_gamebox_detail" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@string/gs_gamebox" android:key="pref_slip" android:summary="@string/gs_slip_gamebox_detail"/>
+    <miuix.preference.TextPreference android:title="@string/gs_show_way" android:key="pref_gamebooster_show_way"/>
+    <miuix.preference.DropDownPreference android:title="@string/gs_show_way" android:key="pref_gamebooster_show_way_in_new" app:adapter="com.miui.gamebooster.DropDownShowWayAdapter"/>
+    <CheckBoxPreference android:title="@string/gb_shortcut_pref_title" android:key="pref_shortcut" android:defaultValue="false"/>
+    <PreferenceCategory android:title="@string/gs_performance_mode" android:key="preference_category_key_performance_booster">
+        <miuix.preference.TextPreference android:title="@string/gs_performance_mode" android:key="pref_value_performance_booster"/>
+        <CheckBoxPreference android:title="@string/perfermance_optimization_title" android:key="pref_performance_booster" android:summary="@string/perfermance_optimization_summary"/>
+        <CheckBoxPreference android:title="@string/forground_network_optimization_title" android:key="pref_game_net_priority" android:summary="@string/forground_network_optimization_summary"/>
+        <miuix.preference.TextPreference android:persistent="false" android:title="@string/gs_anto_clean_memory_whitelist" android:key="pref_setting_detail" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/xunyou_net_booster" android:key="pref_net_booster" android:summary="@string/xunyou_net_booster_detail"/>
+        <miuix.preference.TextPreference android:persistent="false" android:key="pref_net_booster_wifi" android:summary="@string/wlan_booster" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/game_anti_disturb_msg" android:key="preference_category_key_anti_disturb_msg">
+        <CheckBoxPreference android:title="@string/gs_call_handsfree" android:key="pref_call_handsfree"/>
+        <miuix.preference.TextPreference android:title="@string/function_gwsd_title" android:key="pref_function_gwsd"/>
+        <miuix.preference.TextPreference android:title="@string/function_shield_title" android:key="pref_function_shield" android:summary="@string/function_shield_summary"/>
+        <CheckBoxPreference android:title="@string/shield_keyboard_title" android:key="pref_shield_keyboard" android:summary="@string/shield_keyboard_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/game_else_function" android:key="preference_category_key_else_function">
+        <miuix.preference.TextPreference android:title="@string/gs_advanced_setting_title" android:key="pref_advanced_setting" android:summary="@string/gs_advanced_setting_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

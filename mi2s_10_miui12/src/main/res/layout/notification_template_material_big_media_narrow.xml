@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/status_bar_latest_event_content" android:tag="bigMediaNarrow" android:background="#00000000" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/notification_template_header"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/notification_main_column" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/media_notification_content_vertical_margin">
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/big_media_notification_content_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/media_notification_content_margin_start" android:layout_marginEnd="@dimen/notification_content_margin_end">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/right_icon" android:layout_width="@dimen/media_notification_icon_size" android:layout_height="@dimen/media_notification_icon_size" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/media_notification_icon_margin_end"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/notification_content_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/media_notification_app_name_text_size" android:textStyle="bold" android:textColor="@color/media_notification_app_name_text_color" android:ellipsize="marquee" android:id="@+id/media_app_name" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/media_notification_app_name_margin_bottom" android:singleLine="true" android:fontFamily="@null"/>
+                <include layout="@layout/notification_template_part_line1"/>
+                <include layout="@layout/notification_template_text"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/media_actions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"/>
+    </LinearLayout>
+</FrameLayout>

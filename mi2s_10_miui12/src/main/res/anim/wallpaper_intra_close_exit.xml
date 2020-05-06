@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:shareInterpolator="false" android:zAdjustment="top" android:detachWallpaper="true">
+    <alpha android:interpolator="@interpolator/accelerate_cubic" android:duration="280" android:fillBefore="true" android:fillAfter="true" android:fromAlpha="1" android:toAlpha="0" android:fillEnabled="true"/>
+</set>

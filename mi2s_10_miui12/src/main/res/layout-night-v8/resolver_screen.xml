@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="1px" android:paddingRight="1px" android:paddingBottom="17.3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/profile_button" android:paddingTop="4dp" android:paddingBottom="4dp" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginTop="4dp" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_marginEnd="4dp" style="?android:attr/borderlessButtonStyle">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:scaleType="fitCenter" android:layout_marginStart="4dp" android:layout_marginEnd="16dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceButton" android:textColor="@color/resolver_text_dark" android:ellipsize="marquee" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:minLines="1" android:layout_marginEnd="16dp"/>
+    </LinearLayout>
+    <com.miui.mishare.app.view.MiShareTransmissionView android:id="@+id/mishare_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp"/>
+    <include android:id="@+id/resolver_recommend_offical_layout" android:visibility="gone" layout="@layout/resolver_offical_item"/>
+    <miui.widget.ScreenView android:id="@+id/screen_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <CheckBox android:id="@+id/always_option" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alwaysUsePrompt" android:layout_marginStart="18dp" style="0x100d00c0"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/android_button_bar" android:layout_width="wrap_content" android:layout_height="1px">
+        <View android:id="@+id/android_button_once" android:layout_width="1px" android:layout_height="1px"/>
+        <View android:id="@+id/android_button_always" android:layout_width="1px" android:layout_height="1px"/>
+    </LinearLayout>
+</LinearLayout>

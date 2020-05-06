@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/wifi_item">
+    <TextView android:id="@+id/name" style="@style/wifi_item_label"/>
+    <TextView android:textStyle="bold" android:id="@+id/value" android:textAlignment="viewStart" style="@style/wifi_item_content"/>
+</LinearLayout>

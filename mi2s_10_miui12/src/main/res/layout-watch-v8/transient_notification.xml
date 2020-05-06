@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/screen_percentage_05">
+    <TextView android:textAppearance="@style/TextAppearance.Toast" android:gravity="center" android:id="@+id/message" android:background="?^attr-private/toastFrameBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_weight="1" android:paddingHorizontal="16dp" android:paddingVertical="8dp"/>
+</LinearLayout>

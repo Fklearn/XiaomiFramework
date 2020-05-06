@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="?attr/dialogPreferredPadding" android:paddingBottom="?attr/dialogPreferredPadding" android:layout_width="match_parent" android:layout_height="match_parent"/>

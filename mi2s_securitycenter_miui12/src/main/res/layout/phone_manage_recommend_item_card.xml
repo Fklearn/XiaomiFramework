@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/card_layout_auto_paste_list_view_margin_se" android:paddingEnd="@dimen/card_layout_auto_paste_list_view_margin_se">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/item_container" android:background="@drawable/card_bg_no_shadow_middle" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:id="@+id/column1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include layout="@layout/phone_manage_recommend_item_colume_layout"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/column2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include layout="@layout/phone_manage_recommend_item_colume_layout"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/column3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include layout="@layout/phone_manage_recommend_item_colume_layout"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/column4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include layout="@layout/phone_manage_recommend_item_colume_layout"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

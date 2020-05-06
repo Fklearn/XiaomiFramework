@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_action_popup_padding">12.67dp</dimen>
+    <dimen name="text_action_popup_padding_small">9.3dp</dimen>
+    <dimen name="text_edit_action_popup_text_size">11sp</dimen>
+</resources>

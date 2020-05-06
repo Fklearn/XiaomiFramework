@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/select_all" android:title="@string/selectAll" android:showAsAction="never|ifRoom|withText"/>
+    <item android:icon="?attr/actionModeCutDrawable" android:id="@+id/cut" android:title="@string/cut" android:showAsAction="never|ifRoom|withText"/>
+    <item android:icon="?attr/actionModeCopyDrawable" android:id="@+id/copy" android:title="@string/copy" android:showAsAction="never|ifRoom|withText"/>
+    <item android:icon="?attr/actionModePasteDrawable" android:id="@+id/paste" android:title="@string/paste" android:showAsAction="never|ifRoom|withText"/>
+    <item android:icon="?attr/actionModeShareDrawable" android:id="@+id/share" android:title="@string/share" android:showAsAction="never|ifRoom|withText"/>
+    <item android:icon="?attr/actionModeFindDrawable" android:id="@+id/find" android:title="@string/find" android:showAsAction="never|ifRoom|withText"/>
+    <item android:icon="?attr/actionModeWebSearchDrawable" android:id="@+id/websearch" android:title="@string/websearch" android:showAsAction="never|ifRoom|withText"/>
+</menu>

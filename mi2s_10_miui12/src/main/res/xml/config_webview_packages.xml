@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webviewproviders xmlns:internal="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <webviewprovider availableByDefault="true" description="Google WebView" packageName="com.google.android.webview"/>
+</webviewproviders>

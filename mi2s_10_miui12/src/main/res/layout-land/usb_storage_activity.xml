@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:id="@+id/main" android:padding="18dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/icon" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/usb_android" android:layout_weight="1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="24sp" android:gravity="center" android:id="@+id/banner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/usb_storage_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="14sp" android:gravity="center" android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/usb_storage_message" android:layout_below="@+id/banner"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:id="@+id/mount_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_storage_button_mount" android:paddingStart="18dp" android:paddingEnd="18dp"/>
+            <Button android:id="@+id/unmount_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_storage_stop_button_mount" android:paddingStart="18dp" android:paddingEnd="18dp"/>
+            <ProgressBar android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?attr/progressBarStyle"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

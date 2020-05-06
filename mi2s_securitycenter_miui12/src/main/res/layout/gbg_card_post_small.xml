@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:background="@color/itemBaseBg" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/FramePadding">
+    <com.miui.gamebooster.globalgame.view.RoundedImageView android:id="@+id/cover" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@color/baseImageBg" android:scaleType="fitXY"/>
+    <com.miui.gamebooster.globalgame.view.GameItemView android:layout_gravity="bottom" android:id="@+id/gameItemView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/cover" app:type="sweep"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/cover">
+        <TextView android:textSize="@dimen/sp_15sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="start" android:id="@+id/title" android:paddingBottom="@dimen/dp_25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_13dp" android:lines="1" android:shadowColor="#50000000" android:fontFamily="sans-serif-condensed-medium" android:layout_marginEnd="@dimen/dp_5dp"/>
+    </RelativeLayout>
+</RelativeLayout>

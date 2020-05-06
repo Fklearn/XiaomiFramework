@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="true" android:drawable="@drawable/ic_gb_wonderful_video_del_n"/>
+    <item android:state_enabled="false" android:drawable="@drawable/ic_gb_wonderful_video_del_p"/>
+    <item android:state_pressed="true" android:drawable="@drawable/ic_gb_wonderful_video_del_p"/>
+    <item android:drawable="@drawable/ic_gb_wonderful_video_del_n"/>
+</selector>

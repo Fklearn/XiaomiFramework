@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/ew_main_text_title_size" android:textColor="@color/ew_guide_text_title_color" android:autoLink="web" android:id="@+id/statement_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ew_guide_law_text" android:lineSpacingExtra="10dp"/>
+</LinearLayout>

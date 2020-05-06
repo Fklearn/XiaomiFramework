@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <CheckBoxPreference android:persistent="false" android:title="@string/st_share_settings" android:key="key_share_settings"/>
+    <CheckBoxPreference android:persistent="false" android:title="@string/st_title_open_antispam" android:key="key_antispam_enable"/>
+    <miuix.preference.TextPreference android:title="@string/st_msg_settings" android:key="key_msg_intercept"/>
+    <miuix.preference.TextPreference android:title="@string/st_call_settings" android:key="key_call_intercept"/>
+    <PreferenceCategory android:title="@string/st_group_list_management" android:key="black_white_group" android:dependency="key_antispam_enable">
+        <miuix.preference.TextPreference android:title="@string/st_title_blacklist_numbers" android:key="key_number_blacklist" android:summary="@string/st_summary_blacklist_numbers"/>
+        <miuix.preference.TextPreference android:title="@string/st_title_whitelist_numbers" android:key="key_number_whitelist" android:summary="@string/st_summary_whitelist_numbers"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/st_title_settings_other_group" android:key="other_settings_group" android:dependency="key_antispam_enable">
+        <miuix.preference.TextPreference android:title="@string/st_title_show_antispam_notification" android:key="key_show_antispam_notification"/>
+        <CheckBoxPreference android:persistent="false" android:title="@string/sms_smart_engine_update" android:key="key_sms_engine_auto_update"/>
+        <miuix.preference.TextPreference android:title="@string/sms_smart_engine_update_now" android:key="key_sms_engine_manual_update"/>
+    </PreferenceCategory>
+</PreferenceScreen>

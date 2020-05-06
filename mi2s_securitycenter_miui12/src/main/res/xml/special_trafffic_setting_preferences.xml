@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceCategory android:title="@string/free_time_traffic_settings" android:key="category_key_leisure_traffic">
+        <CheckBoxPreference android:title="@string/free_traffic_settings" android:key="pref_key_leisure_traffic_setting_switch"/>
+        <miuix.preference.TextPreference android:title="@string/free_time_traffic" android:key="pref_key_leisure_traffic"/>
+        <miuix.preference.TextPreference android:title="@string/power_save_on_time_start_time_summary_na" android:key="pref_key_start_time"/>
+        <miuix.preference.TextPreference android:title="@string/power_save_on_time_end_time_summary_na" android:key="pref_key_end_time"/>
+        <miuix.preference.TextPreference android:title="@string/pref_over_traffic_limit" android:key="pref_leisure_traffic_limit_old"/>
+        <miuix.preference.DropDownPreference android:title="@string/pref_over_traffic_limit" android:key="pref_leisure_traffic_limit" app:adapter="com.miui.applicationlock.DropDownPreferenceAdapter" app:entries="@array/over_limit_traffic_waring_style"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_extra_package_tile">
+        <miuix.preference.TextPreference android:title="@string/pref_key_extra_package_value" android:key="pref_key_extra_traffic"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_half_year_package_tile" android:key="category_half_year_package">
+        <CheckBoxPreference android:title="@string/pref_key_half_year_package_switch" android:key="pref_key_half_year_traffic_setting_switch"/>
+        <miuix.preference.TextPreference android:title="@string/pref_key_half_year_package_value" android:key="pref_key_half_year_traffic"/>
+        <miuix.preference.TextPreference android:title="@string/pref_key_half_year_package_start" android:key="pref_key_half_year_start"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_key_direction_traffic">
+        <miuix.preference.TextPreference android:title="@string/pref_data_usage_ignore_settings" android:key="pref_data_usage_ignore_settings" android:summary="@string/pref_data_usage_ignore_settings_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

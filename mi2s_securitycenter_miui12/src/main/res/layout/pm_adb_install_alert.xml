@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:securitycenter="http://schemas.android.com/apk/res/com.miui.securitycenter" xmlns:miui="http://schemas.android.com/apk/res/miui" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dialog_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="-1dp"/>
+        <TextView android:textSize="14sp" android:layout_gravity="center_horizontal" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp"/>
+        <TextView android:textSize="14sp" android:textColor="#9e9e9e" android:id="@+id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/usb_install_desc" android:layout_marginStart="6dp"/>
+        <CheckBox android:textColor="#707070" android:id="@+id/do_not_ask_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/pm_remember_choice" style="?android:attr/textAppearanceSmall"/>
+    </LinearLayout>
+</FrameLayout>
